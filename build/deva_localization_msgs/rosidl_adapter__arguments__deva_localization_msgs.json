@@ -1,0 +1,12 @@
+{
+  "package_name": "deva_localization_msgs",
+  "non_idl_tuples": [
+    "/home/linjiawei/load_mcap/src/deva_localization_msgs:msg/CorrectedImu.msg",
+    "/home/linjiawei/load_mcap/src/deva_localization_msgs:msg/GnssBestPose.msg",
+    "/home/linjiawei/load_mcap/src/deva_localization_msgs:msg/Ins.msg",
+    "/home/linjiawei/load_mcap/src/deva_localization_msgs:msg/LocalizationEstimate.msg",
+    "/home/linjiawei/load_mcap/src/deva_localization_msgs:msg/LocalizationRevise.msg",
+    "/home/linjiawei/load_mcap/src/deva_localization_msgs:msg/Pose.msg",
+    "/home/linjiawei/load_mcap/src/deva_localization_msgs:msg/RawImu.msg"
+  ]
+}

@@ -1,0 +1,283 @@
+[0.049s] Invoking command in '/home/linjiawei/load_mcap/build/fault_diagnosis': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /home/linjiawei/load_mcap/src/fault_diagnosis -DCMAKE_INSTALL_PREFIX=/home/linjiawei/load_mcap/install/fault_diagnosis
+[0.194s] -- The C compiler identification is GNU 11.3.0
+[0.276s] -- The CXX compiler identification is GNU 11.3.0
+[0.285s] -- Detecting C compiler ABI info
+[0.479s] -- Detecting C compiler ABI info - done
+[0.487s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.487s] -- Detecting C compile features
+[0.487s] -- Detecting C compile features - done
+[0.490s] -- Detecting CXX compiler ABI info
+[0.631s] -- Detecting CXX compiler ABI info - done
+[0.639s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.639s] -- Detecting CXX compile features
+[0.640s] -- Detecting CXX compile features - done
+[0.642s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.839s] -- Found Python3: /usr/bin/python3 (found version "3.10.6") found components: Interpreter 
+[0.926s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.935s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.940s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.974s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.005s] -- Found deva_common_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/cmake)
+[1.371s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.707s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.085s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.110s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[2.111s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.138s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[2.139s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.139s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.139s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.162s] -- Found PythonExtra: .so  
+[2.271s] -- Configuring done
+[2.345s] -- Generating done
+[2.363s] -- Build files have been written to: /home/linjiawei/load_mcap/build/fault_diagnosis
+[2.373s] Invoked command in '/home/linjiawei/load_mcap/build/fault_diagnosis' returned '0': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake /home/linjiawei/load_mcap/src/fault_diagnosis -DCMAKE_INSTALL_PREFIX=/home/linjiawei/load_mcap/install/fault_diagnosis
+[2.375s] Invoking command in '/home/linjiawei/load_mcap/build/fault_diagnosis': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/linjiawei/load_mcap/build/fault_diagnosis -- -j17 -l17
+[2.415s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.437s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.440s] [  4%] Built target ament_cmake_python_copy_fault_diagnosis
+[2.702s] running egg_info
+[2.702s] creating fault_diagnosis.egg-info
+[2.703s] writing fault_diagnosis.egg-info/PKG-INFO
+[2.703s] writing dependency_links to fault_diagnosis.egg-info/dependency_links.txt
+[2.703s] writing top-level names to fault_diagnosis.egg-info/top_level.txt
+[2.703s] writing manifest file 'fault_diagnosis.egg-info/SOURCES.txt'
+[2.706s] reading manifest file 'fault_diagnosis.egg-info/SOURCES.txt'
+[2.706s] writing manifest file 'fault_diagnosis.egg-info/SOURCES.txt'
+[2.734s] [  4%] Built target ament_cmake_python_build_fault_diagnosis_egg
+[2.930s] [  6%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_generator_c.dir/rosidl_generator_c/fault_diagnosis/msg/detail/odd_status_array__functions.c.o[0m
+[2.931s] [  8%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_generator_c.dir/rosidl_generator_c/fault_diagnosis/msg/detail/diag_state__functions.c.o[0m
+[2.931s] [ 10%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_generator_c.dir/rosidl_generator_c/fault_diagnosis/msg/detail/odd_status__functions.c.o[0m
+[2.940s] [ 10%] Built target fault_diagnosis__cpp
+[2.951s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.952s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.952s] [ 17%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.995s] [ 19%] [32m[1mLinking C shared library libfault_diagnosis__rosidl_generator_c.so[0m
+[3.062s] [ 19%] Built target fault_diagnosis__rosidl_generator_c
+[3.074s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.074s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.074s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.367s] [ 27%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fault_diagnosis/msg/diag_state__type_support.cpp.o[0m
+[3.368s] [ 31%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fault_diagnosis/msg/odd_status_array__type_support.cpp.o[0m
+[3.368s] [ 31%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fault_diagnosis/msg/odd_status__type_support.cpp.o[0m
+[3.419s] [ 34%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fault_diagnosis/msg/detail/diag_state__type_support.cpp.o[0m
+[3.421s] [ 36%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fault_diagnosis/msg/detail/odd_status_array__type_support.cpp.o[0m
+[3.428s] [ 38%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fault_diagnosis/msg/detail/odd_status__type_support.cpp.o[0m
+[3.483s] [ 40%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fault_diagnosis/msg/detail/dds_fastrtps/diag_state__type_support.cpp.o[0m
+[3.485s] [ 42%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fault_diagnosis/msg/detail/dds_fastrtps/odd_status__type_support.cpp.o[0m
+[3.495s] [ 44%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fault_diagnosis/msg/detail/dds_fastrtps/odd_status_array__type_support.cpp.o[0m
+[3.549s] [ 46%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_c.dir/rosidl_typesupport_c/fault_diagnosis/msg/diag_state__type_support.cpp.o[0m
+[3.588s] [ 48%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_c.dir/rosidl_typesupport_c/fault_diagnosis/msg/odd_status_array__type_support.cpp.o[0m
+[3.602s] [ 51%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_c.dir/rosidl_typesupport_c/fault_diagnosis/msg/odd_status__type_support.cpp.o[0m
+[3.620s] [ 53%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fault_diagnosis/msg/detail/diag_state__type_support_c.cpp.o[0m
+[3.639s] [ 55%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/diag_state__type_support.c.o[0m
+[3.657s] [ 57%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fault_diagnosis/msg/detail/odd_status_array__type_support_c.cpp.o[0m
+[3.658s] [ 59%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/odd_status_array__type_support.c.o[0m
+[3.661s] [ 61%] [32mBuilding CXX object CMakeFiles/fault_diagnosis__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fault_diagnosis/msg/detail/odd_status__type_support_c.cpp.o[0m
+[3.677s] [ 63%] [32m[1mLinking CXX shared library libfault_diagnosis__rosidl_typesupport_cpp.so[0m
+[3.684s] [ 65%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/odd_status__type_support.c.o[0m
+[3.716s] [ 68%] [32m[1mLinking CXX shared library libfault_diagnosis__rosidl_typesupport_c.so[0m
+[3.801s] [ 70%] [32m[1mLinking C shared library libfault_diagnosis__rosidl_typesupport_introspection_c.so[0m
+[3.820s] [ 70%] Built target fault_diagnosis__rosidl_typesupport_cpp
+[3.871s] [ 70%] Built target fault_diagnosis__rosidl_typesupport_c
+[3.941s] [ 70%] Built target fault_diagnosis__rosidl_typesupport_introspection_c
+[4.112s] [ 72%] [32m[1mLinking CXX shared library libfault_diagnosis__rosidl_typesupport_fastrtps_c.so[0m
+[4.170s] [ 74%] [32m[1mLinking CXX shared library libfault_diagnosis__rosidl_typesupport_introspection_cpp.so[0m
+[4.198s] [ 74%] Built target fault_diagnosis__rosidl_typesupport_fastrtps_c
+[4.236s] [ 76%] [32m[1mLinking CXX shared library libfault_diagnosis__rosidl_typesupport_fastrtps_cpp.so[0m
+[4.265s] [ 76%] Built target fault_diagnosis__rosidl_typesupport_introspection_cpp
+[4.321s] [ 76%] Built target fault_diagnosis__rosidl_typesupport_fastrtps_cpp
+[4.341s] [ 76%] Built target fault_diagnosis
+[4.365s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.216s] [ 78%] Built target fault_diagnosis__py
+[5.306s] [ 80%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_generator_py.dir/rosidl_generator_py/fault_diagnosis/msg/_diag_state_s.c.o[0m
+[5.337s] [ 82%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_generator_py.dir/rosidl_generator_py/fault_diagnosis/msg/_odd_status_array_s.c.o[0m
+[5.344s] [ 85%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_generator_py.dir/rosidl_generator_py/fault_diagnosis/msg/_odd_status_s.c.o[0m
+[5.623s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/fault_diagnosis/libfault_diagnosis__rosidl_generator_py.so[0m
+[5.734s] [ 87%] Built target fault_diagnosis__rosidl_generator_py
+[5.784s] [ 89%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fault_diagnosis/_fault_diagnosis_s.ep.rosidl_typesupport_c.c.o[0m
+[5.805s] [ 91%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fault_diagnosis/_fault_diagnosis_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[5.817s] [ 93%] [32mBuilding C object CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fault_diagnosis/_fault_diagnosis_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.933s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[5.962s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.026s] [ 97%] Built target fault_diagnosis__rosidl_typesupport_fastrtps_c__pyext
+[6.037s] [ 97%] Built target fault_diagnosis__rosidl_typesupport_c__pyext
+[6.041s] [100%] [32m[1mLinking C shared library rosidl_generator_py/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[6.135s] [100%] Built target fault_diagnosis__rosidl_typesupport_introspection_c__pyext
+[6.184s] Invoked command in '/home/linjiawei/load_mcap/build/fault_diagnosis' returned '0': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/linjiawei/load_mcap/build/fault_diagnosis -- -j17 -l17
+[6.198s] Invoking command in '/home/linjiawei/load_mcap/build/fault_diagnosis': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/linjiawei/load_mcap/build/fault_diagnosis
+[6.206s] -- Install configuration: ""
+[6.206s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/ament_index/resource_index/rosidl_interfaces/fault_diagnosis
+[6.206s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis
+[6.206s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg
+[6.206s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/rosidl_generator_c__visibility_control.h
+[6.207s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/diag_state.h
+[6.207s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail
+[6.207s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__functions.c
+[6.207s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__functions.h
+[6.207s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__struct.h
+[6.207s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__type_support.h
+[6.207s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__functions.c
+[6.207s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__functions.h
+[6.207s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__struct.h
+[6.207s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__type_support.h
+[6.208s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__functions.c
+[6.208s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__functions.h
+[6.294s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__struct.h
+[6.294s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__type_support.h
+[6.294s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/odd_status_array.h
+[6.294s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/odd_status.h
+[6.295s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/environment/library_path.sh
+[6.295s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/environment/library_path.dsv
+[6.295s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_generator_c.so
+[6.295s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_generator_c.so" to ""
+[6.295s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis
+[6.295s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg
+[6.295s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.295s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail
+[6.295s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__rosidl_typesupport_fastrtps_c.h
+[6.296s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__rosidl_typesupport_fastrtps_c.h
+[6.296s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__rosidl_typesupport_fastrtps_c.h
+[6.296s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_fastrtps_c.so
+[6.296s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_fastrtps_c.so" to ""
+[6.296s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis
+[6.296s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg
+[6.296s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.296s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail
+[6.296s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__rosidl_typesupport_introspection_c.h
+[6.296s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__type_support.c
+[6.296s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__rosidl_typesupport_introspection_c.h
+[6.297s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__type_support.c
+[6.297s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__rosidl_typesupport_introspection_c.h
+[6.297s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__type_support.c
+[6.297s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_introspection_c.so
+[6.297s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_introspection_c.so" to ""
+[6.297s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_c.so
+[6.297s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_c.so" to ""
+[6.297s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis
+[6.297s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg
+[6.297s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.298s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/diag_state.hpp
+[6.298s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail
+[6.298s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__builder.hpp
+[6.298s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__struct.hpp
+[6.298s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__traits.hpp
+[6.298s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__type_support.hpp
+[6.298s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__builder.hpp
+[6.298s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__struct.hpp
+[6.298s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__traits.hpp
+[6.298s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__type_support.hpp
+[6.298s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__builder.hpp
+[6.299s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__struct.hpp
+[6.299s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__traits.hpp
+[6.299s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__type_support.hpp
+[6.299s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/odd_status_array.hpp
+[6.330s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/odd_status.hpp
+[6.331s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis
+[6.331s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg
+[6.331s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.331s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail
+[6.331s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__rosidl_typesupport_fastrtps_cpp.hpp
+[6.331s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/dds_fastrtps
+[6.331s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__rosidl_typesupport_fastrtps_cpp.hpp
+[6.331s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__rosidl_typesupport_fastrtps_cpp.hpp
+[6.331s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_fastrtps_cpp.so
+[6.331s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.331s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis
+[6.332s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg
+[6.332s] -- Up-to-date: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail
+[6.332s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__rosidl_typesupport_introspection_cpp.hpp
+[6.332s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/diag_state__type_support.cpp
+[6.332s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__rosidl_typesupport_introspection_cpp.hpp
+[6.332s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status_array__type_support.cpp
+[6.332s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__rosidl_typesupport_introspection_cpp.hpp
+[6.332s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/include/fault_diagnosis/fault_diagnosis/msg/detail/odd_status__type_support.cpp
+[6.332s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_introspection_cpp.so
+[6.345s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_introspection_cpp.so" to ""
+[6.345s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_cpp.so
+[6.345s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_typesupport_cpp.so" to ""
+[6.346s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/environment/pythonpath.sh
+[6.346s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/environment/pythonpath.dsv
+[6.346s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis-0.0.0-py3.10.egg-info
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis-0.0.0-py3.10.egg-info/PKG-INFO
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis-0.0.0-py3.10.egg-info/dependency_links.txt
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis-0.0.0-py3.10.egg-info/top_level.txt
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis-0.0.0-py3.10.egg-info/SOURCES.txt
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/__init__.py
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/_diag_state.py
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/_diag_state_s.c
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/_odd_status_array.py
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/_odd_status_array_s.c
+[6.347s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/_odd_status.py
+[6.348s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/_odd_status_s.c
+[6.348s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/__init__.py
+[6.348s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/_fault_diagnosis_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.348s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/_fault_diagnosis_s.ep.rosidl_typesupport_introspection_c.c
+[6.348s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/_fault_diagnosis_s.ep.rosidl_typesupport_c.c
+[6.348s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/libfault_diagnosis__rosidl_generator_py.so
+[6.348s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.357s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.357s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.400s] Listing '/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis'...
+[6.401s] Compiling '/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/__init__.py'...
+[6.401s] Listing '/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg'...
+[6.401s] Compiling '/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/__init__.py'...
+[6.401s] Compiling '/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/_diag_state.py'...
+[6.401s] Compiling '/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/_odd_status.py'...
+[6.401s] Compiling '/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/msg/_odd_status_array.py'...
+[6.406s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[6.407s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.407s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[6.407s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.407s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[6.407s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages/fault_diagnosis/fault_diagnosis_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[6.408s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_generator_py.so
+[6.408s] -- Set runtime path of "/home/linjiawei/load_mcap/install/fault_diagnosis/lib/libfault_diagnosis__rosidl_generator_py.so" to ""
+[6.408s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/msg/DiagState.idl
+[6.408s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/msg/ODDStatusArray.idl
+[6.408s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/msg/OddStatus.idl
+[6.408s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/msg/DiagState.msg
+[6.409s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/msg/ODDStatusArray.msg
+[6.409s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/msg/OddStatus.msg
+[6.409s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/ament_index/resource_index/package_run_dependencies/fault_diagnosis
+[6.409s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/ament_index/resource_index/parent_prefix_path/fault_diagnosis
+[6.409s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/environment/ament_prefix_path.sh
+[6.409s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/environment/ament_prefix_path.dsv
+[6.409s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/environment/path.sh
+[6.409s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/environment/path.dsv
+[6.409s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/local_setup.bash
+[6.409s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/local_setup.sh
+[6.410s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/local_setup.zsh
+[6.410s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/local_setup.dsv
+[6.410s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/package.dsv
+[6.410s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/ament_index/resource_index/packages/fault_diagnosis
+[6.410s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/export_fault_diagnosis__rosidl_generator_cExport.cmake
+[6.410s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/export_fault_diagnosis__rosidl_generator_cExport-noconfig.cmake
+[6.410s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/export_fault_diagnosis__rosidl_typesupport_fastrtps_cExport.cmake
+[6.410s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/export_fault_diagnosis__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[6.410s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/fault_diagnosis__rosidl_typesupport_introspection_cExport.cmake
+[6.423s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/fault_diagnosis__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[6.423s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/fault_diagnosis__rosidl_typesupport_cExport.cmake
+[6.423s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/fault_diagnosis__rosidl_typesupport_cExport-noconfig.cmake
+[6.423s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/export_fault_diagnosis__rosidl_generator_cppExport.cmake
+[6.423s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/export_fault_diagnosis__rosidl_typesupport_fastrtps_cppExport.cmake
+[6.423s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/export_fault_diagnosis__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[6.423s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/fault_diagnosis__rosidl_typesupport_introspection_cppExport.cmake
+[6.423s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/fault_diagnosis__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[6.430s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/fault_diagnosis__rosidl_typesupport_cppExport.cmake
+[6.430s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/fault_diagnosis__rosidl_typesupport_cppExport-noconfig.cmake
+[6.430s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/export_fault_diagnosis__rosidl_generator_pyExport.cmake
+[6.430s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/export_fault_diagnosis__rosidl_generator_pyExport-noconfig.cmake
+[6.430s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/rosidl_cmake-extras.cmake
+[6.430s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.431s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/ament_cmake_export_include_directories-extras.cmake
+[6.431s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/ament_cmake_export_libraries-extras.cmake
+[6.431s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/ament_cmake_export_targets-extras.cmake
+[6.431s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[6.431s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[6.431s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/fault_diagnosisConfig.cmake
+[6.431s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake/fault_diagnosisConfig-version.cmake
+[6.431s] -- Installing: /home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/package.xml
+[6.434s] Invoked command in '/home/linjiawei/load_mcap/build/fault_diagnosis' returned '0': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --install /home/linjiawei/load_mcap/build/fault_diagnosis

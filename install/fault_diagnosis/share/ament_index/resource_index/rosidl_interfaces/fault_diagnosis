@@ -1,0 +1,6 @@
+msg/DiagState.idl
+msg/DiagState.msg
+msg/ODDStatusArray.idl
+msg/ODDStatusArray.msg
+msg/OddStatus.idl
+msg/OddStatus.msg

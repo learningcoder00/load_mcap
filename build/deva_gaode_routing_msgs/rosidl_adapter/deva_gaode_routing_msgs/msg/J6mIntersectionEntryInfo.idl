@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/J6mIntersectionEntryInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/Coordinate.idl"
+#include "deva_gaode_routing_msgs/msg/LinkIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct J6mIntersectionEntryInfo {
+      @verbatim (language="comment", text=
+        "路口进入点所在的 crowd sourcing link id")
+      deva_gaode_routing_msgs::msg::LinkIDType crowd_sourcing_link_id;
+
+      @verbatim (language="comment", text=
+        "当前 link 起点到路口进入点的 offset，单位：厘米")
+      uint32 offset;
+
+      @verbatim (language="comment", text=
+        "路口进入点坐标")
+      deva_gaode_routing_msgs::msg::Coordinate position;
+    };
+  };
+};

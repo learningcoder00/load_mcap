@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/ObstacleArray.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/Obstacle.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct ObstacleArray {
+      std_msgs::msg::Header header;
+
+      sequence<deva_perception_msgs::msg::Obstacle> obstacle_array;
+
+      @verbatim (language="comment", text=
+        "ego transform information")
+      geometry_msgs::msg::Point position;
+
+      geometry_msgs::msg::Quaternion orientation;
+
+      @verbatim (language="comment", text=
+        "GOOD: Safe to use. The INS has fully converged;")
+      string state_message;
+    };
+  };
+};

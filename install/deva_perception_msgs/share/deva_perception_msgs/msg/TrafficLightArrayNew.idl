@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/TrafficLightArrayNew.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_perception_msgs/msg/TrafficLightNew.idl"
+
+module deva_perception_msgs {
+  module msg {
+    typedef deva_perception_msgs::msg::TrafficLightNew deva_perception_msgs__msg__TrafficLightNew;
+    typedef deva_perception_msgs__msg__TrafficLightNew deva_perception_msgs__msg__TrafficLightNew__12[12];
+    struct TrafficLightArrayNew {
+      deva_common_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "circle" "\n"
+        "turn_left" "\n"
+        "turn_right" "\n"
+        "gostraight" "\n"
+        "turn_round" "\n"
+        "turnleft_turnaround" "\n"
+        "turnleft_gostraight" "\n"
+        "turnright_gostraight" "\n"
+        "slow_down" "\n"
+        "turn_left_waiting_zone" "\n"
+        "turn_right_waiting_zone" "\n"
+        "others")
+      deva_perception_msgs__msg__TrafficLightNew__12 traffic_lights;
+    };
+  };
+};

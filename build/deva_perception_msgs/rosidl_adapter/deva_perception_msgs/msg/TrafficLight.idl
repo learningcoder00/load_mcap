@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/TrafficLight.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/ObstacleCommon.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module TrafficLight_Constants {
+      const uint8 RED = 0;
+      const uint8 YELLOW = 1;
+      const uint8 GREEN = 2;
+      const uint8 UNKNOW = 3;
+      const uint8 CIRCLE = 0;
+      const uint8 TURNLEFT = 1;
+      const uint8 TURNRIGHT = 2;
+      const uint8 GOSTRAIGHT = 3;
+      const uint8 TURNAROUND = 4;
+      const uint8 TURNLEFTANDAROUND = 5;
+      const uint8 BICYCLE = 6;
+      const uint8 SIDEWALK = 7;
+      const uint8 COUNDDOWN = 8;
+      const uint8 OTHERS = 9;
+    };
+    struct TrafficLight {
+      deva_perception_msgs::msg::ObstacleCommon perception_obstacle;
+
+      @verbatim (language="comment", text=
+        "红绿灯状态")
+      uint8 color_type;
+
+      @verbatim (language="comment", text=
+        "红绿灯形状")
+      uint8 shape_type;
+
+      @verbatim (language="comment", text=
+        "是否闪烁")
+      boolean blink;
+
+      double remaining_time;
+
+      string bind_id;
+    };
+  };
+};

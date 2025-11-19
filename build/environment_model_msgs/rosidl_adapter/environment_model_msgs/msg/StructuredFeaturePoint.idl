@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/StructuredFeaturePoint.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/FeatureIDType.idl"
+#include "environment_model_msgs/msg/Vec3d.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct StructuredFeaturePoint {
+      deva_gaode_routing_msgs::msg::FeatureIDType id;
+
+      uint64 link_id;
+
+      sequence<uint8> types;
+
+      uint8 direction;
+
+      environment_model_msgs::msg::Vec3d position;
+
+      float project_percent;
+
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> prev_ids;
+
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> next_ids;
+
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> lane_ids;
+    };
+  };
+};

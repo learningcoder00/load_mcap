@@ -1,0 +1,3 @@
+FeatureIDType[] feature_point_id_s
+FeatureIDType[] feature_point_id_s_by_link_id
+FeaturePointById feature_point_id_by_id 

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/LaneLine2dArray.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/LaneLine2d.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module LaneLine2dArray_Constants {
+      @verbatim (language="comment", text=
+        "数据源")
+      const uint8 FOV120 = 0;
+      const uint8 FOV30 = 1;
+      const uint8 BACK = 2;
+    };
+    @verbatim (language="comment", text=
+      "2D车道线序列")
+    struct LaneLine2dArray {
+      sequence<deva_perception_msgs::msg::LaneLine2d> laneline_2ds;
+
+      uint8 source;
+    };
+  };
+};

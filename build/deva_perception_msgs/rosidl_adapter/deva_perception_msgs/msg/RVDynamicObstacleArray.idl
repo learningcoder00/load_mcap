@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RVDynamicObstacleArray.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_perception_msgs/msg/RVDynamicObstacle.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct RVDynamicObstacleArray {
+      deva_common_msgs::msg::Header header;
+
+      int32 cipv_id;
+
+      int32 num_obstacles;
+
+      sequence<deva_perception_msgs::msg::RVDynamicObstacle> obstacles;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+uint32 sub_path_id
+float64 turn_angle
+uint32 right_of_way

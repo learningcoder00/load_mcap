@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rviz_plug_msg/msg/ExceptionMonitor.msg
+// generated code does not contain a copyright notice
+
+
+module rviz_plug_msg {
+  module msg {
+    struct ExceptionMonitor {
+      @verbatim (language="comment", text=
+        "异常事件")
+      sequence<string> exception_content;
+    };
+  };
+};

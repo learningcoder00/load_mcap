@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_function_msgs/msg/FsmStateMsg.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_function_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "FSM sends out the current state and the state of the sub-state machine." "\n"
+      "Driving and Parking state machine and sub-state machine state")
+    struct FsmStateMsg {
+      deva_common_msgs::msg::Header header;
+
+      double publish_timestamp;
+
+      string fsm_state;
+
+      uint8 top_state;
+
+      uint8 acc_state;
+
+      uint8 icc_state;
+
+      uint8 noa_state;
+
+      uint8 d2d_state;
+
+      uint8 calibra_state;
+
+      uint8 mapping_state;
+
+      uint8 parking_state;
+    };
+  };
+};

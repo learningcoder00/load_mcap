@@ -1,0 +1,9 @@
+FeatureIDType id
+uint8[] types
+uint8 direction
+Coordinate coordinate
+LinkIDType link_id
+float32 project_percent
+FeatureIDType[] lane_id_s
+FeatureIDType[] previous_id_s
+FeatureIDType[] next_id_s

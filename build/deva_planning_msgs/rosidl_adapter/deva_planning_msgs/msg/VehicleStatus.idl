@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/VehicleStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module deva_planning_msgs {
+  module msg {
+    module VehicleStatus_Constants {
+      const uint8 STARTING = 0;
+      const uint8 READY = 1;
+      const uint8 STOPPING = 2;
+      const uint8 FATAL = 3;
+      const uint8 PILOT = 4;
+      const uint8 AVP = 5;
+      const uint8 APA = 6;
+      const uint8 EMERGENCY_STOP = 7;
+    };
+    struct VehicleStatus {
+      std_msgs::msg::Header header;
+
+      uint8 status;
+    };
+  };
+};

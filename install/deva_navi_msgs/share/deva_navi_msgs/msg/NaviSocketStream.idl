@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/NaviSocketStream.msg
+// generated code does not contain a copyright notice
+
+
+module deva_navi_msgs {
+  module msg {
+    struct NaviSocketStream {
+      int32 id;
+
+      int64 timestamp;
+
+      string topic;
+
+      @verbatim (language="comment", text=
+        "array of data")
+      sequence<octet> payload;
+    };
+  };
+};

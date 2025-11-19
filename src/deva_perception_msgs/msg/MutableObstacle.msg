@@ -1,0 +1,2 @@
+StaticObstacle static_obstacle
+bool is_blocked

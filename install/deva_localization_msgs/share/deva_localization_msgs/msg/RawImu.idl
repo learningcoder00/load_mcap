@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_localization_msgs/msg/RawImu.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_localization_msgs {
+  module msg {
+    struct RawImu {
+      deva_common_msgs::msg::Header header;
+
+      float measurement_span;
+
+      geometry_msgs::msg::Point linear_acceleration;
+
+      geometry_msgs::msg::Point angular_velocity;
+    };
+  };
+};

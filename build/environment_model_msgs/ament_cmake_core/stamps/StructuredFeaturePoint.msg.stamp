@@ -1,0 +1,9 @@
+deva_gaode_routing_msgs/FeatureIDType id
+uint64 link_id 
+uint8[] types
+uint8 direction
+Vec3d position
+float32 project_percent
+deva_gaode_routing_msgs/FeatureIDType[] prev_ids
+deva_gaode_routing_msgs/FeatureIDType[] next_ids
+deva_gaode_routing_msgs/FeatureIDType[] lane_ids

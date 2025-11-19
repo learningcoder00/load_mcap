@@ -1,0 +1,10 @@
+std_msgs/Header header
+float64 eh_obj_for_adb_abs_dist
+uint8 veh_obj_for_adb_classn
+float64 veh_obj_for_adb_hozl_ag_le
+float64 veh_obj_for_adb_hozl_ag_ri
+uint8 veh_obj_for_adb_obj_dir
+float64 veh_obj_for_adb_obj_hozl_ag_spd_le
+float64 veh_obj_for_adb_obj_hozl_ag_spd_ri
+uint8 veh_obj_for_adb_trk_info
+float64 veh_obj_for_adb_vert_ag

@@ -1,0 +1,4 @@
+float64 publish_timestamp
+uint8 apa_switch_setting_result
+uint8 rpa_switch_setting_result
+uint8 summon_switch_setting_result

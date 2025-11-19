@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rviz_plug_msg/msg/BywireDiag.msg
+// generated code does not contain a copyright notice
+
+#include "rviz_plug_msg/msg/BywireMsgType.idl"
+#include "std_msgs/msg/Header.idl"
+
+module rviz_plug_msg {
+  module msg {
+    struct BywireDiag {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "定值\"bywire_node\"")
+      string node_name;
+
+      @verbatim (language="comment", text=
+        "当前三种类型msg 分别为 [\"STATUS\", \"INFO\", \"ERROR\"] 同种类型覆盖显示最新消息,不同类型消息同时展示使用颜色区分")
+      rviz_plug_msg::msg::BywireMsgType type;
+
+      @verbatim (language="comment", text=
+        "消息信息的数字编码根据 上方字段取值不同解释含义不同，具体含义对照[\"StatusEnum.msg\", \"InfoEnum.msg\", \"ErrorEnum.msg\"],无特殊需求可以不关注")
+      @unit (value="type")
+      uint8 code;
+
+      @verbatim (language="comment", text=
+        "utf-8编码中文，消息详细信息用于展示")
+      string detail;
+    };
+  };
+};

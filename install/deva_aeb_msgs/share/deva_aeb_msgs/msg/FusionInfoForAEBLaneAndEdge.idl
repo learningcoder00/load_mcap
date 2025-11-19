@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/FusionInfoForAEBLaneAndEdge.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFFusionLaneMkrList.idl"
+#include "deva_aeb_msgs/msg/SFFusionRoadEdge.idl"
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct FusionInfoForAEBLaneAndEdge {
+      deva_common_msgs::msg::Header header;
+
+      deva_aeb_msgs::msg::SFFusionLaneMkrList fusionlanemkrlist;
+
+      deva_aeb_msgs::msg::SFFusionRoadEdge fusionroadedge;
+    };
+  };
+};

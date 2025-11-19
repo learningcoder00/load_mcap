@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/FixedObstacleList.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/FixedObstacle.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module FixedObstacleList_Constants {
+      @verbatim (language="comment", text=
+        "数据源")
+      const uint8 FOV120 = 0;
+      const uint8 FOV30 = 1;
+      const uint8 TRANS = 2;
+      const uint8 FUSION = 3;
+    };
+    @verbatim (language="comment", text=
+      "静态障碍物序列")
+    struct FixedObstacleList {
+      sequence<deva_perception_msgs::msg::FixedObstacle> fixed_obstacles;
+
+      uint8 source;
+    };
+  };
+};

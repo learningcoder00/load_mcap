@@ -1,0 +1,48 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/EhpStub.msg
+// generated code does not contain a copyright notice
+
+
+module deva_gaode_routing_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "EHP_STUB.msg")
+    struct EhpStub {
+      uint16 stub_offset;
+
+      uint8 stub_msg_type;
+
+      uint8 stub_path_idx;
+
+      uint8 stub_cyc_cnt;
+
+      uint8 stub_update;
+
+      uint8 stub_retr;
+
+      uint8 stub_stub_path_idx;
+
+      uint8 stub_func_road_class;
+
+      float stub_rel_probb;
+
+      uint8 stub_form_of_way;
+
+      uint8 stub_cmplx_insct;
+
+      uint8 stub_part_of_calc_route;
+
+      float stub_turn_angl;
+
+      uint8 stub_num_of_lane_drv_dir;
+
+      uint8 stub_num_of_lane_opp_dir;
+
+      uint8 stub_rt_of_way;
+
+      uint8 stub_last_stub;
+
+      int32 stub_relative_offset;
+    };
+  };
+};

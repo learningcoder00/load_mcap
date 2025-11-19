@@ -1,0 +1,14 @@
+int32 idx
+int32 directory
+float64 center_n
+float64 center_point_x
+float64 center_point_y
+float64 center_point_z
+float64 left_n
+float64 right_n
+float64 left_x
+float64 left_y
+float64 left_z
+float64 right_x
+float64 right_y
+float64 right_z

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/EnergyConsumeProto.msg
+// generated code does not contain a copyright notice
+
+#include "deva_navi_msgs/msg/EnergyEndPointProto.idl"
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "EnergyConsumeProto.msg")
+    struct EnergyConsumeProto {
+      boolean energy_end_flag;
+
+      deva_navi_msgs::msg::EnergyEndPointProto energy_end_point;
+
+      sequence<int32> vehiclechargeleft;
+    };
+  };
+};

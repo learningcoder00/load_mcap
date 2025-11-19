@@ -1,0 +1,1 @@
+uint32[] parkable_ids  # 可泊的车位ID数组

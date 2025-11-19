@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/EhpProfileShort.msg
+// generated code does not contain a copyright notice
+
+
+module deva_gaode_routing_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "EHP_PROFILE_SHORT.msg")
+    struct EhpProfileShort {
+      uint16 prof_short_offset;
+
+      uint8 prof_short_msg_type;
+
+      uint8 prof_short_path_idx;
+
+      uint8 prof_short_cyc_cnt;
+
+      uint8 prof_short_update;
+
+      uint8 prof_short_retr;
+
+      uint8 prof_short_ctrl_point;
+
+      uint8 prof_short_prof_type;
+
+      uint16 prof_short_dist1;
+
+      uint8 prof_short_accur_class;
+
+      uint16 prof_short_value0;
+
+      uint16 prof_short_value1;
+
+      int32 prof_short_relative_offset;
+
+      uint8 prof_short_curve_road;
+    };
+  };
+};

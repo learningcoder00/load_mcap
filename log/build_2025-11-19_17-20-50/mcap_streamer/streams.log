@@ -1,0 +1,103 @@
+[0.012s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.038s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.186s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.210s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.212s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.218s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.228s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.241s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.275s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.361s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.410s] -- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.429s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.516s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.516s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linjiawei/load_mcap/src/mcap_streamer/include>
+[0.516s] -- Configured cppcheck exclude dirs and/or files: 
+[0.516s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.517s] -- Added test 'lint_cmake' to check CMake code style
+[0.517s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.518s] -- Added test 'uncrustify' to check C / C++ code style
+[0.518s] -- Configured uncrustify additional arguments: 
+[0.518s] -- Added test 'xmllint' to check XML markup files
+[0.519s] -- Configuring done
+[0.533s] -- Generating done
+[0.538s] -- Build files have been written to: /home/linjiawei/load_mcap/build/mcap_streamer
+[0.567s] Consolidate compiler generated dependencies of target s3_downloader_lib
+[0.569s] Consolidate compiler generated dependencies of target mcap_reader_node
+[0.580s] [ 33%] Built target s3_downloader_lib
+[0.584s] [ 50%] Building CXX object CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o
+[0.595s] Consolidate compiler generated dependencies of target mcap_streamer_node
+[0.609s] [ 83%] Built target mcap_streamer_node
+[3.087s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function ‘std::string McapReaderNode::formatValue(const MessageMember*, const uint8_t*, size_t&, int)’:
+[3.087s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:487:68: error: ‘const rosidl_message_type_support_t’ {aka ‘const struct rosidl_message_type_support_t’} has no member named ‘size_’
+[3.087s]   487 |           oss << formatMessage(member->members_, member->members_->size_, data, offset, indent + 2);
+[3.087s]       |                                                                    ^~~~~
+[3.088s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:509:64: error: ‘const rosidl_message_type_support_t’ {aka ‘const struct rosidl_message_type_support_t’} has no member named ‘size_’
+[3.088s]   509 |       oss << formatMessage(member->members_, member->members_->size_, data, offset, indent + 1);
+[3.088s]       |                                                                ^~~~~
+[3.092s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function ‘std::string McapReaderNode::deserializeMessage(const string&, std::shared_ptr<rclcpp::SerializedMessage>)’:
+[3.092s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:606:82: error: no matching function for call to ‘get_message_type_support_handle(const string&, const char [37])’
+[3.092s]   606 |       auto type_support = rosidl_typesupport_cpp::get_message_type_support_handle(
+[3.092s]       |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[3.092s]   607 |         topic_type, "rosidl_typesupport_introspection_cpp");
+[3.092s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                       
+[3.092s] In file included from /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:12,
+[3.092s]                  from /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:10,
+[3.092s]                  from /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20,
+[3.092s]                  from /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20,
+[3.092s]                  from /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32,
+[3.092s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42,
+[3.092s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[3.093s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[3.093s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[3.093s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[3.093s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[3.093s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[3.093s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[3.093s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[3.093s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[3.093s]                  from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:
+[3.093s] /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39: note: candidate: ‘template<class T> const rosidl_message_type_support_t* rosidl_typesupport_cpp::get_message_type_support_handle()’
+[3.093s]    25 | const rosidl_message_type_support_t * get_message_type_support_handle();
+[3.093s]       |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.093s] /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39: note:   template argument deduction/substitution failed:
+[3.093s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:606:82: note:   candidate expects 0 arguments, 2 provided
+[3.093s]   606 |       auto type_support = rosidl_typesupport_cpp::get_message_type_support_handle(
+[3.093s]       |                           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[3.093s]   607 |         topic_type, "rosidl_typesupport_introspection_cpp");
+[3.093s]       |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                       
+[3.093s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:612:79: error: no matching function for call to ‘get_message_type_support_handle(const string&, const char [23])’
+[3.093s]   612 |         type_support = rosidl_typesupport_cpp::get_message_type_support_handle(
+[3.094s]       |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[3.094s]   613 |           topic_type, "rosidl_typesupport_cpp");
+[3.094s]       |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                
+[3.094s] In file included from /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:12,
+[3.094s]                  from /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:10,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[3.094s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[3.094s]                  from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:
+[3.094s] /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39: note: candidate: ‘template<class T> const rosidl_message_type_support_t* rosidl_typesupport_cpp::get_message_type_support_handle()’
+[3.095s]    25 | const rosidl_message_type_support_t * get_message_type_support_handle();
+[3.095s]       |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.095s] /opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39: note:   template argument deduction/substitution failed:
+[3.095s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:612:79: note:   candidate expects 0 arguments, 2 provided
+[3.095s]   612 |         type_support = rosidl_typesupport_cpp::get_message_type_support_handle(
+[3.095s]       |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+[3.095s]   613 |           topic_type, "rosidl_typesupport_cpp");
+[3.095s]       |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                                
+[4.026s] gmake[2]: *** [CMakeFiles/mcap_reader_node.dir/build.make:76: CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o] Error 1
+[4.026s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_reader_node.dir/all] Error 2
+[4.026s] gmake: *** [Makefile:146: all] Error 2
+[4.028s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17

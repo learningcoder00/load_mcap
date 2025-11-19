@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/SDCross.msg
+// generated code does not contain a copyright notice
+
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct SDCross {
+      uint64 id;
+
+      int32 type;
+
+      uint64 main_node;
+
+      sequence<uint64> sub_node;
+
+      sequence<uint64> inner_roads;
+
+      sequence<uint64> in_roads;
+
+      sequence<uint64> out_roads;
+    };
+  };
+};

@@ -1,0 +1,2 @@
+uint8 UNEMPTY=0
+uint8 EMPTY=1

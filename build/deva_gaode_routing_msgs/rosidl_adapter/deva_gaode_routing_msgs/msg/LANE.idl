@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/LANE.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/FeatureIDType.idl"
+#include "deva_gaode_routing_msgs/msg/LaneGroupIDType.idl"
+#include "deva_gaode_routing_msgs/msg/LaneRestriction.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct LANE {
+      deva_gaode_routing_msgs::msg::FeatureIDType id;
+
+      deva_gaode_routing_msgs::msg::LaneGroupIDType lane_group_id_type;
+
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> feature_point_id_s;
+
+      uint8 direction;
+
+      sequence<uint8> lane_type;
+
+      sequence<uint8> left_border_types;
+
+      sequence<uint8> right_border_types;
+
+      sequence<uint8> left_border_colors;
+
+      sequence<uint8> right_border_colors;
+
+      uint8 change_type;
+
+      float lane_width;
+
+      float lane_start_width;
+
+      float lane_end_width;
+
+      uint8 seq_num;
+
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> previous_id_s;
+
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> next_id_s;
+
+      uint8 lsl_type;
+
+      sequence<uint8> arrows;
+
+      sequence<deva_gaode_routing_msgs::msg::LaneRestriction> lane_restricts;
+    };
+  };
+};

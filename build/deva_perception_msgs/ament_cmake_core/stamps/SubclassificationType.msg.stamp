@@ -1,0 +1,31 @@
+# RV二阶段细分类
+uint8 CAR = 0
+uint8 SUV = 1
+uint8 VAN = 2
+uint8 PICKUP = 3
+uint8 POLICE_CAR = 4
+uint8 AMBULANCE = 5
+uint8 WRECKING_CAR = 6
+uint8 FORKLIFT = 7
+uint8 TRAILER = 8
+uint8 BOX_TRUCK = 9
+uint8 FLATBED_TRUCK = 10
+uint8 BUS = 11
+uint8 OTHER_TRUCK = 12
+uint8 TANK_TRUCK = 13
+uint8 FIRE_ENGINE = 14
+uint8 CLEAN_TRUCK = 15
+uint8 PEDESTRIAN = 16
+uint8 CHILD = 17
+uint8 BICYCLE_WITH_HUMAN = 18
+uint8 MOTORBIKE_WITH_HUMAN = 19
+uint8 ANIMAL_SMALL = 20
+uint8 OTHER_ANIMAL = 21
+uint8 BICYCLE = 22
+uint8 MOTORBIKE = 23
+uint8 TRICYCLE = 24
+uint8 FAKE_PED = 25
+uint8 FAKE_CYCLIST = 26
+uint8 FAKE_CAR = 27
+
+uint8 type

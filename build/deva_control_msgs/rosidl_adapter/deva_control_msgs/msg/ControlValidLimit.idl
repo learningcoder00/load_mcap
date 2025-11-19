@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_control_msgs/msg/ControlValidLimit.msg
+// generated code does not contain a copyright notice
+
+
+module deva_control_msgs {
+  module msg {
+    struct ControlValidLimit {
+      @verbatim (language="comment", text=
+        "限制值有效性, 默认值false, 值为false时下面的限制值无效")
+      @default (value=FALSE)
+      boolean limit_valid;
+
+      @verbatim (language="comment", text=
+        "上限限制值（或者正值最大限制值）")
+      double upper_limit;
+
+      @verbatim (language="comment", text=
+        "下限限制值（或者负值最低限制值）")
+      double lower_limit;
+    };
+  };
+};

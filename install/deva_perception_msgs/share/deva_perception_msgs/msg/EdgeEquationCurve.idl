@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/EdgeEquationCurve.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/EquationCurve.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct EdgeEquationCurve {
+      deva_common_msgs::msg::EquationCurve segment;
+
+      boolean is_blocked;
+
+      float confidence;
+
+      float blocked_confidence;
+    };
+  };
+};

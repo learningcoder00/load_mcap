@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/ReferenceLines.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs/msg/ReferenceLine.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_planning_msgs {
+  module msg {
+    struct ReferenceLines {
+      std_msgs::msg::Header header;
+
+      sequence<deva_planning_msgs::msg::ReferenceLine> reference_lines;
+
+      int32 curr_id;
+
+      int32 tar_id;
+
+      boolean curr_line_virtual;
+
+      int32 curr_left_nums;
+
+      int32 curr_right_nums;
+    };
+  };
+};

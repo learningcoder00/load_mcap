@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/CenterLine.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/EquationCurve.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct CenterLine {
+      int32 center_line_id;
+
+      int32 left_lane_id;
+
+      int32 right_lane_id;
+
+      sequence<deva_common_msgs::msg::EquationCurve> lane_equalization;
+
+      boolean is_current_lane;
+
+      boolean is_virtual_lane;
+    };
+  };
+};

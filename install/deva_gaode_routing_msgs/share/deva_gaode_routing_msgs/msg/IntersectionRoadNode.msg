@@ -1,0 +1,4 @@
+FeatureIDType id
+Coordinate position
+FeatureIDType[] enter_intersection_road_ids
+FeatureIDType[] out_intersection_roads_ids

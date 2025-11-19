@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/J6mRoadObject.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/Coordinate.idl"
+#include "deva_gaode_routing_msgs/msg/LinkIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct J6mRoadObject {
+      @verbatim (language="comment", text=
+        "道路对象Id")
+      deva_gaode_routing_msgs::msg::LinkIDType road_object_id;
+
+      @verbatim (language="comment", text=
+        "对象类型")
+      uint8 road_object_type;
+
+      @verbatim (language="comment", text=
+        "对象子类型")
+      uint8 road_object_subtype;
+
+      @verbatim (language="comment", text=
+        "对象中心点")
+      deva_gaode_routing_msgs::msg::Coordinate road_object_center_point;
+
+      @verbatim (language="comment", text=
+        "对象朝向，单位为度，与正北方向的夹角，顺时针为正 [0, 360]")
+      uint16 road_object_heading;
+
+      @verbatim (language="comment", text=
+        "对象属性")
+      string road_attributes;
+
+      @verbatim (language="comment", text=
+        "对象置信度，单位为百分之（返回 5 表示 5%）")
+      uint32 confidence;
+
+      @verbatim (language="comment", text=
+        "基于link_geometry起点的偏移距离")
+      uint32 offset;
+
+      @verbatim (language="comment", text=
+        "对象几何形状")
+      sequence<deva_gaode_routing_msgs::msg::Coordinate> coordinates;
+
+      @verbatim (language="comment", text=
+        "道路对象关联laneId列表")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> referenced_lane_ids;
+    };
+  };
+};

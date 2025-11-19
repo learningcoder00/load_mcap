@@ -1,0 +1,69 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/UltrasonicRadar.msg
+// generated code does not contain a copyright notice
+
+
+module deva_perception_msgs {
+  module msg {
+    module UltrasonicRadar_Constants {
+      const uint16 MAX_RADAR_DISTANCE = 510;
+    };
+    @verbatim (language="comment", text=
+      "the message which will be used by ultrasonic radar")
+    struct UltrasonicRadar {
+      @verbatim (language="comment", text=
+        "radar的序列号，用于标识当前使用的radar")
+      uint8 radar_identify_id;
+
+      @verbatim (language="comment", text=
+        "当前radar的名字")
+      string radar_name;
+
+      @verbatim (language="comment", text=
+        "当前radar的型号，与该雷达的性能进行映射")
+      string radar_type;
+
+      @verbatim (language="comment", text=
+        "当前radar的状态")
+      boolean radar_state;
+
+      @verbatim (language="comment", text=
+        "当前radar是否正在发声")
+      boolean radar_tx_status;
+
+      @verbatim (language="comment", text=
+        "当前radar是否正在收声")
+      boolean radar_rx_status;
+
+      @verbatim (language="comment", text=
+        "障碍物相对于radar的角度" "\n"
+        "" "\n"
+        "              x axis" "\n"
+        "        ^" "\n"
+        "                    |" "\n"
+        "                 *  |  *" "\n"
+        "              *     |     *" "\n"
+        "       \    *       |       *    /" "\n"
+        "         \ *     range(i)    * /" "\n"
+        "           \        |        /" "\n"
+        "             \      |      /" "\n"
+        "               \    |    /" "\n"
+        "      y axis     \  |  /" "\n"
+        "     <---------------" "\n"
+        "       ooooooooooooo   #ultrasonic radar front surface")
+      float range;
+
+      @verbatim (language="comment", text=
+        "雷达可以探测的最大距离")
+      uint16 max_radar_distance;
+
+      @verbatim (language="comment", text=
+        "radar探测到的障碍物的距离")
+      double radar_distance;
+
+      @verbatim (language="comment", text=
+        "radar探测到的障碍物的距离是否有效")
+      boolean radar_distance_vaild;
+    };
+  };
+};

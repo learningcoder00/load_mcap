@@ -1,0 +1,23 @@
+[0.027s] Invoking command in '/home/linjiawei/load_mcap/build/deva_control_msgs': AMENT_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_common_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_common_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_common_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/linjiawei/load_mcap/install/deva_planning_msgs2/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_map_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_perception_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_localization_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_common_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_control_msgs -- -j17 -l17
+[0.080s] [  0%] Built target deva_control_msgs__cpp
+[0.086s] [ 12%] Built target deva_control_msgs__rosidl_generator_c
+[0.090s] [ 12%] Built target ament_cmake_python_copy_deva_control_msgs
+[0.108s] [ 24%] Built target deva_control_msgs__rosidl_typesupport_cpp
+[0.345s] running egg_info
+[0.346s] writing deva_control_msgs.egg-info/PKG-INFO
+[0.346s] writing dependency_links to deva_control_msgs.egg-info/dependency_links.txt
+[0.346s] writing top-level names to deva_control_msgs.egg-info/top_level.txt
+[0.350s] reading manifest file 'deva_control_msgs.egg-info/SOURCES.txt'
+[0.350s] writing manifest file 'deva_control_msgs.egg-info/SOURCES.txt'
+[0.559s] [ 34%] Built target ament_cmake_python_build_deva_control_msgs_egg
+[0.560s] [ 75%] Built target deva_control_msgs__rosidl_typesupport_fastrtps_c
+[0.560s] [ 44%] Built target deva_control_msgs__rosidl_typesupport_introspection_cpp
+[0.560s] [ 77%] Built target deva_control_msgs__rosidl_typesupport_introspection_c
+[0.560s] [ 77%] Built target deva_control_msgs__rosidl_typesupport_fastrtps_cpp
+[0.560s] [ 84%] Built target deva_control_msgs__rosidl_typesupport_c
+[0.581s] [ 84%] Built target deva_control_msgs
+[0.602s] [ 85%] Built target deva_control_msgs__py
+[0.628s] [ 96%] Built target deva_control_msgs__rosidl_generator_py
+[0.649s] [ 97%] Built target deva_control_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.650s] [ 99%] Built target deva_control_msgs__rosidl_typesupport_introspection_c__pyext
+[0.650s] [100%] Built target deva_control_msgs__rosidl_typesupport_c__pyext

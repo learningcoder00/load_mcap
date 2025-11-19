@@ -1,0 +1,10 @@
+uint16 lane_arrow
+uint16 lane_flag
+uint16 bus_flag
+LinkIDType[] out_link_ids
+LaneCond[] lane_conds
+uint16 laneinfo_cond
+uint8 direction
+string date
+uint8 vehicles
+uint8 special_times

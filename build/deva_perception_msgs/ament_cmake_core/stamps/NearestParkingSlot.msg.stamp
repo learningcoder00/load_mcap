@@ -1,0 +1,1 @@
+uint64 nearest_parking_slot_id

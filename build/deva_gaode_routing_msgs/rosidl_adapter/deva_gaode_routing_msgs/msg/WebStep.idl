@@ -1,0 +1,47 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/WebStep.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/WebRoad.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "step index, 阶段更新")
+    struct WebStep {
+      int32 id;
+
+      @verbatim (language="comment", text=
+        "当前路段所有的road集合，对于hwa模式，也将只填写该字段，并且road只写当前搜索的road就行, 阶段更新")
+      sequence<deva_gaode_routing_msgs::msg::WebRoad> roads;
+
+      @verbatim (language="comment", text=
+        "当前路段经过的红绿灯数目, 阶段更新")
+      int32 traffic_light_count;
+
+      @verbatim (language="comment", text=
+        "当前路段行驶距离, 阶段更新")
+      float distance;
+
+      @verbatim (language="comment", text=
+        "当前路段行驶时间, 阶段更新")
+      float time;
+
+      @verbatim (language="comment", text=
+        "当前路段前方行驶方向, 阶段更新")
+      uint32 forward_direction;
+
+      @verbatim (language="comment", text=
+        "当前路段前方road类型（隧道环岛等）, 阶段更新")
+      uint32 forward_type;
+
+      @verbatim (language="comment", text=
+        "引导动作")
+      uint32 main_action;
+
+      @verbatim (language="comment", text=
+        "辅助引导动作")
+      uint32 assistant_action;
+    };
+  };
+};

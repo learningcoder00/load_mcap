@@ -1,0 +1,19 @@
+{
+  "package_name": "deva_mdriver_msgs",
+  "non_idl_tuples": [
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/AccHeadingSteeringStats.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/CenterLine.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/CenterLinePoint.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/CenterLines.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/DebugInfo.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/MPredictionObstacle.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/MWorld.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/MdriverMetaAction.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/MdriverRefLine.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/MdriverRefLines.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/MdriverResult.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/MeanVariance.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/NudgeBuffer.msg",
+    "/home/linjiawei/load_mcap/src/deva_mdriver_msgs:msg/ObstacleNudgeBuffer.msg"
+  ]
+}

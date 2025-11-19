@@ -1,0 +1,84 @@
+-- The C compiler identification is GNU 11.3.0
+-- The CXX compiler identification is GNU 11.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.6") found components: Interpreter 
+-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linjiawei/load_mcap/src/mcap_streamer/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/linjiawei/load_mcap/build/mcap_streamer
+[ 16%] [32mBuilding CXX object CMakeFiles/s3_downloader_lib.dir/src/s3_downloader.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o[0m
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/s3_downloader.cpp:[m[K In member function ‘[01m[Kbool mcap_streamer::S3Downloader::downloadFromS3(const string&, const string&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/s3_downloader.cpp:97:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kregion[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   97 |   [01;35m[Kconst std::string & region[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[ 50%] [32m[1mLinking CXX static library libs3_downloader_lib.a[0m
+[ 50%] Built target s3_downloader_lib
+[ 66%] [32mBuilding CXX object CMakeFiles/mcap_streamer_node.dir/src/mcap_streamer_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable mcap_reader_node[0m
+[100%] [32m[1mLinking CXX executable mcap_streamer_node[0m
+[100%] Built target mcap_reader_node
+[100%] Built target mcap_streamer_node
+-- Install configuration: ""
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_streamer_node
+-- Set runtime path of "/home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_streamer_node" to ""
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_reader_node
+-- Set runtime path of "/home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_reader_node" to ""
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config/mcap_streamer_params.yaml
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config/mcap_reader_params.yaml
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_streamer.launch.py
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_reader.launch.py
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_streamer_with_reader.launch.py
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/package_run_dependencies/mcap_streamer
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/parent_prefix_path/mcap_streamer
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/ament_prefix_path.sh
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/ament_prefix_path.dsv
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/path.sh
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/path.dsv
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.bash
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.sh
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.zsh
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.dsv
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.dsv
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/packages/mcap_streamer
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/cmake/mcap_streamerConfig.cmake
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/cmake/mcap_streamerConfig-version.cmake
+-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.xml

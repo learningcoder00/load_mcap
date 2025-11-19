@@ -1,0 +1,43 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFObjInfoNOA.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    typedef uint8 uint8__2[2];
+    struct SFObjInfoNOA {
+      float length;
+
+      float width;
+
+      float hei;
+
+      float dstlatfrommidoflaneself;
+
+      uint8 typ;
+
+      uint8 sidenear;
+
+      uint8 indcrturn;
+
+      uint8 indcrbrkli;
+
+      uint8 indcrhzrdli;
+
+      uint8 mtnpat;
+
+      uint8 mtnpathist;
+
+      uint8 fusnsrcraw;
+
+      uint8 clisnsideradarctrlwarnqly;
+
+      uint8 clisnsideradarctrlbrkqly;
+
+      uint8__2 reserved;
+
+      uint8 lan_assignment;
+    };
+  };
+};

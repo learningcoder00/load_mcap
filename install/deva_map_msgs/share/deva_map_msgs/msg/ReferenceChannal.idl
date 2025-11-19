@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_map_msgs/msg/ReferenceChannal.msg
+// generated code does not contain a copyright notice
+
+#include "deva_map_msgs/msg/ChannelLaneLine.idl"
+#include "deva_map_msgs/msg/ChannelLaneMarking.idl"
+#include "deva_map_msgs/msg/ChannelObjectInfo.idl"
+
+module deva_map_msgs {
+  module msg {
+    struct ReferenceChannal {
+      boolean available;
+
+      double confidence_coefficient;
+
+      int16 channel_idx;
+
+      deva_map_msgs::msg::ChannelLaneLine middle_line;
+
+      deva_map_msgs::msg::ChannelLaneMarking left_marking;
+
+      deva_map_msgs::msg::ChannelLaneMarking right_marking;
+
+      sequence<deva_map_msgs::msg::ChannelObjectInfo> object_infos;
+    };
+  };
+};

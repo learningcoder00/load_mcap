@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/Entrance.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct Entrance {
+      uint32 id;
+
+      uint8 type;
+
+      double confidence;
+
+      sequence<geometry_msgs::msg::Point> points;
+
+      sequence<geometry_msgs::msg::Point> direction;
+    };
+  };
+};

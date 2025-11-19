@@ -1,0 +1,10 @@
+float32 posnlgt
+float32 posnlat
+float32 spd
+float32 vlgt
+float32 vlat
+float32 a
+float32 algt
+float32 alat
+float32 agdir
+float32 crvt

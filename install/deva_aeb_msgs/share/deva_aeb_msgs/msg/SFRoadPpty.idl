@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFRoadPpty.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    typedef float float__3[3];
+    typedef uint8 uint8__2[2];
+    typedef float float__32[32];
+    typedef uint8 uint8__32[32];
+    struct SFRoadPpty {
+      uint64 timestamp;
+
+      uint32 framenum;
+
+      float lanewidth;
+
+      float offslat;
+
+      float agdir;
+
+      float crvt;
+
+      float__3 crvtrate;
+
+      uint8 crvtratevalidsize;
+
+      float__3 seglen;
+
+      uint8 seglenvalidsize;
+
+      uint8 strtd;
+
+      uint8 vld;
+
+      uint8__2 reserved;
+
+      float__32 titohiqly;
+
+      uint8 titohiqlyvalidsize;
+
+      uint8__32 objidtitohiqly;
+
+      uint8 objidtitohiqlyvalidsize;
+
+      float distancewithlowconfidence;
+
+      float distancewithhiahconfidence;
+    };
+  };
+};

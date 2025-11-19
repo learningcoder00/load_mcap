@@ -1,0 +1,14 @@
+# NaviCameraProto.msg
+Coord3DDoubleProto coord_3d
+int32 type
+int32 distance
+int32[] speed
+int32 road_class
+int32 segment_index
+int32 link_index
+int32 distance_to_end
+NaviSubCameraProto[] sub_cameras
+int32 penalty
+int64 id
+bool is_new
+bool is_hidden

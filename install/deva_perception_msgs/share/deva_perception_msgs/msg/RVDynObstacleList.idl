@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RVDynObstacleList.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/RVDynObstacle.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module RVDynObstacleList_Constants {
+      @verbatim (language="comment", text=
+        "数据源")
+      const uint8 FOV120_3D = 0;
+      const uint8 FOV120_2D = 1;
+      const uint8 FOV30_3D = 2;
+      const uint8 FOV30_2D = 3;
+    };
+    @verbatim (language="comment", text=
+      "动态障碍物序列")
+    struct RVDynObstacleList {
+      sequence<deva_perception_msgs::msg::RVDynObstacle> dynamic_obstacles;
+
+      uint8 source;
+    };
+  };
+};

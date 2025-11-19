@@ -1,0 +1,12 @@
+float64 x
+float64 y
+float64 heading
+float64 s
+float64 kappa
+BoundPoint left_lan_bound
+BoundPoint right_lane_bound
+BoundPoint left_road_bound
+BoundPoint right_road_bound
+float64 speed_limit
+uint8 enum_lane_type
+uint8 enum_road_type

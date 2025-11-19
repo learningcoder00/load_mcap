@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/TrafficChannel.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/BoundingBox2d.idl"
+#include "deva_perception_msgs/msg/ExtraInfo.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module TrafficChannel_Constants {
+      const uint32 ETC = 1;
+      const uint32 MANUAL = 2;
+      const uint32 ETCORMANUAL = 3;
+      const uint32 CLOSE = 4;
+      const uint32 REVERSE = 5;
+    };
+    @verbatim (language="comment", text=
+      "This message defines meta information for traffic channel status")
+    struct TrafficChannel {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "id. 区别不同实体")
+      uint32 id;
+
+      @verbatim (language="comment", text=
+        "单位都是标准单位. m" "\n"
+        "位置 朝向")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "尺寸. 即长宽高")
+      geometry_msgs::msg::Vector3 dimensions;
+
+      @verbatim (language="comment", text=
+        "置信度")
+      double score;
+
+      @verbatim (language="comment", text=
+        "交通通道属性")
+      uint32 type;
+
+      @verbatim (language="comment", text=
+        "2d 框. 如果需要的话")
+      deva_common_msgs::msg::BoundingBox2d bbox2d;
+
+      sequence<deva_perception_msgs::msg::ExtraInfo> extra_info;
+    };
+  };
+};

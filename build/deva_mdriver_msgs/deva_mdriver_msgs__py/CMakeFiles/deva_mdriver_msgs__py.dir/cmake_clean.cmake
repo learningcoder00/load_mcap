@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "../rosidl_generator_py/deva_mdriver_msgs/_deva_mdriver_msgs_s.ep.rosidl_typesupport_c.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/_deva_mdriver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/_deva_mdriver_msgs_s.ep.rosidl_typesupport_introspection_c.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/__init__.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_acc_heading_steering_stats.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_acc_heading_steering_stats_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_center_line.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_center_line_point.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_center_line_point_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_center_line_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_center_lines.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_center_lines_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_debug_info.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_debug_info_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_m_prediction_obstacle.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_m_prediction_obstacle_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_m_world.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_m_world_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_mdriver_meta_action.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_mdriver_meta_action_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_mdriver_ref_line.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_mdriver_ref_line_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_mdriver_ref_lines.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_mdriver_ref_lines_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_mdriver_result.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_mdriver_result_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_mean_variance.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_mean_variance_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_nudge_buffer.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_nudge_buffer_s.c"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_obstacle_nudge_buffer.py"
+  "../rosidl_generator_py/deva_mdriver_msgs/msg/_obstacle_nudge_buffer_s.c"
+  "CMakeFiles/deva_mdriver_msgs__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/deva_mdriver_msgs__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

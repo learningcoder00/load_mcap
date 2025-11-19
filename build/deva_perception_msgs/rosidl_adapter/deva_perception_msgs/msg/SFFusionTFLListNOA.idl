@@ -1,0 +1,60 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/SFFusionTFLListNOA.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_perception_msgs/msg/E2eTrafficDetPair.idl"
+#include "deva_perception_msgs/msg/PoPFusionTFLNOA.idl"
+#include "deva_perception_msgs/msg/PoPTFLNOA.idl"
+#include "deva_perception_msgs/msg/SFFusionTFLNOA.idl"
+#include "deva_perception_msgs/msg/TrafficE2eStablePair.idl"
+#include "deva_perception_msgs/msg/TrafficRount.idl"
+
+module deva_perception_msgs {
+  module msg {
+    typedef uint8 uint8__2[2];
+    typedef deva_perception_msgs::msg::SFFusionTFLNOA deva_perception_msgs__msg__SFFusionTFLNOA;
+    typedef deva_perception_msgs__msg__SFFusionTFLNOA deva_perception_msgs__msg__SFFusionTFLNOA__8[8];
+    typedef deva_perception_msgs::msg::PoPTFLNOA deva_perception_msgs__msg__PoPTFLNOA;
+    typedef deva_perception_msgs__msg__PoPTFLNOA deva_perception_msgs__msg__PoPTFLNOA__8[8];
+    typedef deva_perception_msgs::msg::PoPFusionTFLNOA deva_perception_msgs__msg__PoPFusionTFLNOA;
+    typedef deva_perception_msgs__msg__PoPFusionTFLNOA deva_perception_msgs__msg__PoPFusionTFLNOA__8[8];
+    struct SFFusionTFLListNOA {
+      deva_common_msgs::msg::Header header;
+
+      uint64 timestamp;
+
+      uint32 framenum;
+
+      uint8 tflcount;
+
+      uint8__2 reserved;
+
+      deva_perception_msgs__msg__SFFusionTFLNOA__8 tfllist;
+
+      uint8 validsize;
+
+      sequence<deva_perception_msgs::msg::SFFusionTFLNOA> tfllist_all;
+
+      uint8 all_validsize;
+
+      deva_perception_msgs__msg__PoPTFLNOA__8 pop_tfllist;
+
+      uint8 pop_lightnum;
+
+      deva_perception_msgs__msg__PoPFusionTFLNOA__8 pop_fs_tfllist;
+
+      uint8 pop_fs_lightnum;
+
+      sequence<deva_perception_msgs::msg::E2eTrafficDetPair> e2e_traffic_det_maps;
+
+      sequence<deva_perception_msgs::msg::TrafficE2eStablePair> tracked_traffic_e2e_stable_maps;
+
+      uint8 tracked_traffic_e2ebc;
+
+      boolean tracked_traffic_e2ebc_stable;
+
+      deva_perception_msgs::msg::TrafficRount rount_info;
+    };
+  };
+};

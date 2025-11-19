@@ -1,0 +1,7 @@
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_streamer_node.cpp: In member function ‘bool McapStreamerNode::setupBagReader(const string&)’:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_streamer_node.cpp:440:14: warning: unused variable ‘success_count’ [-Wunused-variable]
+  440 |       size_t success_count = available_topics.size();
+      |              ^~~~~~~~~~~~~
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_streamer_node.cpp:441:14: warning: unused variable ‘fail_count’ [-Wunused-variable]
+  441 |       size_t fail_count = unavailable_topics.size();
+      |              ^~~~~~~~~~

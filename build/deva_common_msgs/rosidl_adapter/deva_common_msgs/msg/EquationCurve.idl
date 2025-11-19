@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_common_msgs/msg/EquationCurve.msg
+// generated code does not contain a copyright notice
+
+
+module deva_common_msgs {
+  module msg {
+    struct EquationCurve {
+      uint8 type;
+
+      double a3;
+
+      double a2;
+
+      double a1;
+
+      double a0;
+
+      double b3;
+
+      double b2;
+
+      double b1;
+
+      double b0;
+
+      double c3;
+
+      double c2;
+
+      double c1;
+
+      double c0;
+
+      double s_start;
+
+      double s_end;
+    };
+  };
+};

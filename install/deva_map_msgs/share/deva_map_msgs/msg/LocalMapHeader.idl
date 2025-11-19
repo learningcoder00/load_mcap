@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_map_msgs/msg/LocalMapHeader.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_map_msgs {
+  module msg {
+    struct LocalMapHeader {
+      deva_common_msgs::msg::Header send_localmap_header;
+
+      deva_common_msgs::msg::Header received_preseptionmap_header;
+
+      deva_common_msgs::msg::Header preseptionmap_header;
+    };
+  };
+};

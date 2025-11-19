@@ -1,0 +1,65 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/PlanningTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/EquationCurve.idl"
+#include "deva_planning_msgs2/msg/TrajectoryPoint.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    module PlanningTrajectory_Constants {
+      const uint8 NO_TURN = 0;
+      const uint8 TURN_LEFT = 1;
+      const uint8 TURN_RIGHT = 2;
+      const uint8 EMERGENCY_FLASHERS = 3;
+    };
+    struct PlanningTrajectory {
+      int8 path_type;
+
+      sequence<deva_planning_msgs2::msg::TrajectoryPoint> trajectory_points;
+
+      deva_common_msgs::msg::EquationCurve curve;
+
+      double total_path_length;
+
+      double total_path_time;
+
+      @verbatim (language="comment", text=
+        "int8 UNKNOWN_GEAR = -1" "\n"
+        "int8 NEUTRAL_GEAR = 0" "\n"
+        "int8 PARKING_GEAR = 1" "\n"
+        "int8 REVERSE_GEAR = 2" "\n"
+        "int8 DRIVE_GEAR = 3" "\n"
+        "int8 SPORT_MODE_GEAR = 4" "\n"
+        "int8 LOW_GEAR = 5" "\n"
+        "int8 MANUAL_MODE_GEAR = 6" "\n"
+        "int8 BRAKE_REGEN_GEAR = 7")
+      int8 gear;
+
+      boolean is_estop;
+
+      string estop_reason;
+
+      boolean is_stop;
+
+      string stop_reason;
+
+      geometry_msgs::msg::Point stop_pose;
+
+      boolean is_replan;
+
+      string replan_reason;
+
+      boolean high_beam;
+
+      boolean low_beam;
+
+      boolean horn;
+
+      uint8 turn_light;
+
+      uint32 id;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+float64 s_start
+float64 s_end
+uint8 min_speed_limitation
+uint8 max_speed_limitation

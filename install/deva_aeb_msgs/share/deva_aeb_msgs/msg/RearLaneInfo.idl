@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/RearLaneInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFLaneEstimn.idl"
+#include "deva_aeb_msgs/msg/SFLaneMkrInfo.idl"
+#include "deva_aeb_msgs/msg/SFRearLinePpty.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct RearLaneInfo {
+      deva_aeb_msgs::msg::SFLaneEstimn estimn;
+
+      deva_aeb_msgs::msg::SFLaneMkrInfo info;
+
+      deva_aeb_msgs::msg::SFRearLinePpty ppty;
+    };
+  };
+};

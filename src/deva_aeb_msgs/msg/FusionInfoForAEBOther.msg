@@ -1,0 +1,6 @@
+SFRoadPpty roadppty
+SFVehSelf vehself
+SFFusionTSList fusiontslist
+SFFusionTFLList fusiontfllist
+SFFusionRoadSignList fusionroadsignlist
+SFDiagList fusiondiaglist

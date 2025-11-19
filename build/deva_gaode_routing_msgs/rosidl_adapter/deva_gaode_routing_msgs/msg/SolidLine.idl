@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/SolidLine.msg
+// generated code does not contain a copyright notice
+
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct SolidLine {
+      uint64 id;
+
+      uint64 in_road;
+
+      sequence<uint64> pass_list;
+
+      uint64 out_road;
+
+      int32 lane_num;
+
+      int32 seq_num;
+
+      sequence<int32> lane_list;
+
+      @verbatim (language="comment", text=
+        "长实线类型：1 单实线，2 左虚右实，3 左实右虚")
+      int32 type;
+    };
+  };
+};

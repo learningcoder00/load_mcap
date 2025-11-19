@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFFusionObstacle.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFFusionObstacle {
+      uint32 id;
+
+      uint8 type;
+
+      uint8 confi;
+
+      uint8 laneassignment;
+
+      uint8 overrideflag;
+
+      uint32 lifetime;
+
+      float poslgt;
+
+      float poslat;
+
+      float length;
+
+      float width;
+
+      float height;
+
+      float headingangle;
+    };
+  };
+};

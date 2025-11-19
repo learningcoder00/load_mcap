@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/OddSegInfoProto.msg
+// generated code does not contain a copyright notice
+
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "OddSegInfoProto.msg")
+    struct OddSegInfoProto {
+      int64 m_odd_len;
+
+      int64 m_start_seg_idx;
+
+      int64 m_start_link_idx;
+
+      float m_start_off_set;
+
+      int64 m_end_seg_idx;
+
+      int64 m_end_link_idx;
+
+      float m_end_off_set;
+    };
+  };
+};

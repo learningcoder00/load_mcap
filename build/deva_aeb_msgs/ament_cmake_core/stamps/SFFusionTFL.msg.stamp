@@ -1,0 +1,13 @@
+uint32 id
+uint32 lifetime
+float32 height
+uint8 relevancy
+uint8 type
+uint8 color
+uint8 number
+uint8 confi
+uint8 flashstatus
+uint8 background
+uint8 reserved
+float32 poslgt
+float32 poslat

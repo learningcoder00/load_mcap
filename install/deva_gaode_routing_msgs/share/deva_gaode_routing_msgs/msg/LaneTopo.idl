@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/LaneTopo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/LaneCond.idl"
+#include "deva_gaode_routing_msgs/msg/LinkIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct LaneTopo {
+      uint16 lane_arrow;
+
+      uint16 lane_flag;
+
+      uint16 bus_flag;
+
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> out_link_ids;
+
+      sequence<deva_gaode_routing_msgs::msg::LaneCond> lane_conds;
+
+      uint16 laneinfo_cond;
+
+      uint8 direction;
+
+      string date;
+
+      uint8 vehicles;
+
+      uint8 special_times;
+    };
+  };
+};

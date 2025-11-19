@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/AvpRefLine.msg
+// generated code does not contain a copyright notice
+
+
+module deva_planning_msgs2 {
+  module msg {
+    struct AvpRefLine {
+      double s;
+
+      double x;
+
+      double y;
+
+      double z;
+
+      double heading;
+
+      double left_boundary_x;
+
+      double left_boundary_y;
+
+      double left_boundary_z;
+
+      double right_boundary_x;
+
+      double right_boundary_y;
+
+      double right_boundary_z;
+
+      double left_boundary_n;
+
+      double right_boundary_n;
+
+      double is_junction;
+    };
+  };
+};

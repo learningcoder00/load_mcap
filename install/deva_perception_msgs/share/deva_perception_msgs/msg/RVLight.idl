@@ -1,0 +1,55 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RVLight.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/ExtraInfo.idl"
+#include "deva_perception_msgs/msg/ObstacleCommon.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module RVLight_Constants {
+      @verbatim (language="comment", text=
+        "车灯类型")
+      const uint8 UNKNOWN = 0;
+      const uint8 CAR_LIGHT = 1;
+      const uint8 VAN_LIGHT = 2;
+      const uint8 MOTOR_LIGHT = 3;
+      const uint8 TRAFFIC_SIGN = 4;
+      @verbatim (language="comment", text=
+        "车灯朝向")
+      const uint8 HEAD = 100;
+      const uint8 TAIL = 101;
+      @verbatim (language="comment", text=
+        "traffic sign")
+      const uint8 NO_OCC = 151;
+      const uint8 MINOR_OCC = 152;
+      const uint8 PARTIAL_OCC = 153;
+      const uint8 SEVERE_OCC = 154;
+      const uint8 NO_TRUN = 201;
+      const uint8 MINOR_TRUN = 202;
+      const uint8 PARTIAL_TRUN = 203;
+      const uint8 SEVERE_TRUN = 204;
+    };
+    @verbatim (language="comment", text=
+      "通用障碍物")
+    struct RVLight {
+      deva_perception_msgs::msg::ObstacleCommon obstacle;
+
+      uint8 light_type;
+
+      uint8 heading_type;
+
+      @verbatim (language="comment", text=
+        "深度")
+      float depth;
+
+      uint8 sign_occ_type;
+
+      uint8 sign_trun_type;
+
+      @verbatim (language="comment", text=
+        "补充信息")
+      sequence<deva_perception_msgs::msg::ExtraInfo> extra_infos;
+    };
+  };
+};

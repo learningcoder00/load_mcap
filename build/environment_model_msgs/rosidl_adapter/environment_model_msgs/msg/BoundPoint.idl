@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/BoundPoint.msg
+// generated code does not contain a copyright notice
+
+
+module environment_model_msgs {
+  module msg {
+    struct BoundPoint {
+      double x;
+
+      double y;
+
+      uint8 enum_marking_type;
+
+      uint8 enum_color;
+
+      double width;
+    };
+  };
+};

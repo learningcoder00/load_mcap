@@ -1,0 +1,86 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/EnvLine.msg
+// generated code does not contain a copyright notice
+
+#include "environment_model_msgs/msg/EnvPoint.idl"
+#include "environment_model_msgs/msg/MapIds.idl"
+#include "environment_model_msgs/msg/NaviScore.idl"
+#include "environment_model_msgs/msg/PairDoubleInt.idl"
+#include "environment_model_msgs/msg/PairInt.idl"
+#include "environment_model_msgs/msg/PairString.idl"
+#include "environment_model_msgs/msg/PairStringDouble.idl"
+#include "environment_model_msgs/msg/RoadStructType.idl"
+#include "environment_model_msgs/msg/Vec2d.idl"
+#include "environment_model_msgs/msg/VirtualLineInfo.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct EnvLine {
+      sequence<environment_model_msgs::msg::EnvPoint> env_points;
+
+      int32 id;
+
+      sequence<environment_model_msgs::msg::PairInt> last_ids;
+
+      environment_model_msgs::msg::PairInt perception_ids;
+
+      double ego_s;
+
+      double ego_l;
+
+      boolean is_on_road;
+
+      uint8 routing_status;
+
+      boolean is_reverse;
+
+      uint8 enum_turn_scenario;
+
+      sequence<int32> merge_lines;
+
+      sequence<int32> split_lines;
+
+      sequence<environment_model_msgs::msg::PairDoubleInt> merge_pos;
+
+      sequence<int32> lk_lines;
+
+      sequence<environment_model_msgs::msg::MapIds> left_ids_map;
+
+      sequence<environment_model_msgs::msg::MapIds> right_ids_map;
+
+      uint8 enum_road_struct_type;
+
+      environment_model_msgs::msg::RoadStructType road_struct_type;
+
+      sequence<environment_model_msgs::msg::PairString> signal_infos;
+
+      sequence<environment_model_msgs::msg::PairStringDouble> object_infos;
+
+      environment_model_msgs::msg::NaviScore navi_score;
+
+      sequence<environment_model_msgs::msg::VirtualLineInfo> virtual_line_infos;
+
+      sequence<environment_model_msgs::msg::Vec2d> left_road_bound_line;
+
+      sequence<environment_model_msgs::msg::Vec2d> right_road_bound_line;
+
+      double lane_offset;
+
+      string lane_id;
+
+      sequence<string> lane_sequence;
+
+      int32 lane_seq_id;
+
+      environment_model_msgs::msg::PairInt channel_id;
+
+      boolean virtual_line_to;
+
+      int32 midd_line_id;
+
+      sequence<environment_model_msgs::msg::MapIds> overwide_pairs;
+
+      boolean usemdriver;
+    };
+  };
+};

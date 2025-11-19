@@ -1,0 +1,66 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/SdProRoad.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/CenterPoint.idl"
+#include "deva_gaode_routing_msgs/msg/CrossPoint.idl"
+#include "deva_gaode_routing_msgs/msg/Restriction.idl"
+#include "deva_gaode_routing_msgs/msg/SdProLane.idl"
+#include "deva_gaode_routing_msgs/msg/SdProLaneConnect.idl"
+#include "deva_gaode_routing_msgs/msg/TrfcSign.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct SdProRoad {
+      uint64 id;
+
+      @verbatim (language="comment", text=
+        "道路等级")
+      uint32 road_kind;
+
+      uint32 direction;
+
+      @verbatim (language="comment", text=
+        "道路类型")
+      sequence<uint32> forms;
+
+      uint32 lane_count;
+
+      double length;
+
+      uint32 speed_limit_min;
+
+      uint32 speed_limit_max;
+
+      double start_angle;
+
+      double end_angle;
+
+      sequence<deva_gaode_routing_msgs::msg::CenterPoint> geo;
+
+      sequence<deva_gaode_routing_msgs::msg::SdProLane> lanes;
+
+      sequence<uint64> next_ids;
+
+      sequence<uint64> pre_ids;
+
+      uint32 product_type;
+
+      sequence<deva_gaode_routing_msgs::msg::SdProLaneConnect> lane_connect;
+
+      sequence<deva_gaode_routing_msgs::msg::TrfcSign> trfc_signs;
+
+      uint64 s_node_id;
+
+      uint64 e_node_id;
+
+      uint32 joint_type;
+
+      string road_name;
+
+      sequence<deva_gaode_routing_msgs::msg::Restriction> restriction;
+
+      sequence<deva_gaode_routing_msgs::msg::CrossPoint> cross_point;
+    };
+  };
+};

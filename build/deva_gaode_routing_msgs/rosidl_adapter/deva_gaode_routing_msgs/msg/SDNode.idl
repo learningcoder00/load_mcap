@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/SDNode.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/SDCross.idl"
+#include "deva_gaode_routing_msgs/msg/SolidLine.idl"
+#include "deva_gaode_routing_msgs/msg/WebPoint.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct SDNode {
+      uint64 id;
+
+      deva_gaode_routing_msgs::msg::WebPoint geo;
+
+      sequence<uint64> in_linklist;
+
+      sequence<uint64> out_linklist;
+
+      @verbatim (language="comment", text=
+        "是否是车道数变化点，0 否，1 是；")
+      uint32 change_point;
+
+      deva_gaode_routing_msgs::msg::SDCross sd_cross;
+
+      @verbatim (language="comment", text=
+        "长实线")
+      sequence<deva_gaode_routing_msgs::msg::SolidLine> solid_line;
+    };
+  };
+};

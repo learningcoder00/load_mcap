@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/AEBObstacle.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/BoundingBox2d.idl"
+#include "deva_common_msgs/msg/GroundPoint.idl"
+#include "deva_perception_msgs/msg/ObstacleCommon.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module AEBObstacle_Constants {
+      const uint8 CAR = 0;
+      const uint8 TRUCK = 1;
+      const uint8 CONSTRUCTION_VEHICLE = 2;
+      const uint8 BUS = 3;
+      const uint8 MOTORCYCLE = 4;
+      const uint8 BICYCLE = 5;
+      const uint8 TRICYCLE = 6;
+      const uint8 CYCLIST = 7;
+      const uint8 PEDESTRIAN = 8;
+      const uint8 UNKNOWN = 9;
+    };
+    struct AEBObstacle {
+      deva_perception_msgs::msg::ObstacleCommon obstacle;
+
+      uint8 obstacle_type;
+
+      @verbatim (language="comment", text=
+        "bbox")
+      deva_common_msgs::msg::BoundingBox2d head_bbox;
+
+      deva_common_msgs::msg::BoundingBox2d tail_bbox;
+
+      @verbatim (language="comment", text=
+        "ground point")
+      sequence<deva_common_msgs::msg::GroundPoint> ground_points;
+
+      @verbatim (language="comment", text=
+        "遮挡/截段")
+      float full_occ_score;
+
+      float head_occ_score;
+
+      float tail_occ_score;
+
+      float full_trunc_score;
+
+      float head_trunc_score;
+
+      float tail_trunc_score;
+    };
+  };
+};

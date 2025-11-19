@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/RouteGuideResponse.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/RouteGuide.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct RouteGuideResponse {
+      sequence<deva_gaode_routing_msgs::msg::RouteGuide> route_guides;
+    };
+  };
+};

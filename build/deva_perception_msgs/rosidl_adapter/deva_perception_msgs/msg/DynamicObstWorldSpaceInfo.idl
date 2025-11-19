@@ -1,0 +1,73 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/DynamicObstWorldSpaceInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/Polygon.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module DynamicObstWorldSpaceInfo_Constants {
+      const uint8 INVALID = 0;
+      const uint8 UNKNOWN = 1;
+      const uint8 MOVING = 2;
+      const uint8 STATIONARY = 3;
+      const uint8 STOPPED = 4;
+      const uint8 MOVING_SLOWLY = 5;
+      const uint8 ENUM_SIZE = 6;
+      const int8 LEFT_NEXT_NEXT = -2;
+      const int8 LEFT_NEXT = -1;
+      const int8 EGOLANE = 0;
+      const int8 RIGHT_NEXT = 1;
+      const int8 RIGHT_NEXT_NEXT = 2;
+      const int8 LANE_UNKNOWN = 3;
+    };
+    struct DynamicObstWorldSpaceInfo {
+      float yaw;
+
+      float length;
+
+      float width;
+
+      float height;
+
+      deva_perception_msgs::msg::Polygon poly;
+
+      deva_perception_msgs::msg::Polygon poly_vcs;
+
+      geometry_msgs::msg::Point position;
+
+      float ttc;
+
+      geometry_msgs::msg::Point vel;
+
+      geometry_msgs::msg::Point vel_abs_world;
+
+      geometry_msgs::msg::Point acc;
+
+      geometry_msgs::msg::Point acc_abs_world;
+
+      uint8 motion_status;
+
+      float yaw_rate;
+
+      sequence<float> sigma_vel;
+
+      float sigma_yaw;
+
+      float sigma_width;
+
+      float sigma_height;
+
+      float sigma_length;
+
+      sequence<float> sigma_position;
+
+      float sigma_yaw_rate;
+
+      int8 lane_assignment;
+
+      int8 cipv;
+    };
+  };
+};

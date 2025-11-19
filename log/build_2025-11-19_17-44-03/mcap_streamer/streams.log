@@ -1,0 +1,13 @@
+[0.012s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.060s] Consolidate compiler generated dependencies of target mcap_reader_node
+[0.067s] [ 33%] Built target s3_downloader_lib
+[0.074s] [ 50%] Building CXX object CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o
+[0.094s] [ 83%] Built target mcap_streamer_node
+[0.264s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:7:10: fatal error: rclcpp/get_typesupport_handle.hpp: No such file or directory
+[0.264s]     7 | #include <rclcpp/get_typesupport_handle.hpp>
+[0.264s]       |          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.264s] compilation terminated.
+[0.266s] gmake[2]: *** [CMakeFiles/mcap_reader_node.dir/build.make:76: CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o] Error 1
+[0.266s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_reader_node.dir/all] Error 2
+[0.267s] gmake: *** [Makefile:146: all] Error 2
+[0.269s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17

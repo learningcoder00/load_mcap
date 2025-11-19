@@ -1,0 +1,19 @@
+{
+  "package_name": "deva_control_msgs",
+  "non_idl_tuples": [
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/ControlDebugSignal.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/ControlMonitorMsg.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/ControlResult.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/ControlStatus.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/ControlValidLimit.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/ParkingStatus.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/VehicleControlCommand.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/VehicleEnableCommand.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/VehicleLimitValue.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/VehicleReportBelt.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/VehicleReportCommon.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/VehicleReportPedal.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/VehicleStatusCommand.msg",
+    "/home/linjiawei/load_mcap/src/deva_control_msgs:msg/WheelSpeed.msg"
+  ]
+}

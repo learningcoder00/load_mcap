@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFLaneEstimn.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFLaneEstimn {
+      float constcoeff;
+
+      float firstordercoeff;
+
+      float secondordercoeff;
+
+      float thirdordercoeff;
+
+      float startpointposx;
+
+      float startpointposy;
+
+      float endpointposx;
+
+      float endpointposy;
+
+      float dstlgttoend;
+    };
+  };
+};

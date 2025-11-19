@@ -1,0 +1,9 @@
+int32 id
+CenterLinePoint[] pts 
+int32[] pre_ids 
+int32[] suc_ids
+int32 left_line_attr
+int32 right_line_attr
+float32 left_line_dist
+float32 right_line_dist
+int32[] traffic_elem_ids

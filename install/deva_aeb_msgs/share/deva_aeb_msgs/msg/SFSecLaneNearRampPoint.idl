@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFSecLaneNearRampPoint.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    typedef uint8 uint8__3[3];
+    struct SFSecLaneNearRampPoint {
+      float posx;
+
+      float posy;
+
+      uint8 type;
+
+      uint8__3 reserved;
+    };
+  };
+};

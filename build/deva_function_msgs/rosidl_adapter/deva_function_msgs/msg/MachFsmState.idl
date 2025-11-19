@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_function_msgs/msg/MachFsmState.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_function_msgs {
+  module msg {
+    struct MachFsmState {
+      deva_common_msgs::msg::Header header;
+
+      uint32 acc_state;
+
+      uint32 icc_state;
+
+      uint32 noa_state;
+
+      uint32 d2d_state;
+
+      uint32 aes_state;
+
+      uint32 magic_carpet_state;
+
+      uint32 calibration_state;
+    };
+  };
+};

@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/VirtualCamInfo.msg
+// generated code does not contain a copyright notice
+
+
+module deva_perception_msgs {
+  module msg {
+    struct VirtualCamInfo {
+      string cam_name;
+
+      sequence<int32> resolution;
+
+      string distort_model;
+
+      sequence<float> ori_intrinsic;
+
+      sequence<float> vir_intrinsic;
+
+      sequence<float> ori_extrinsic;
+
+      sequence<float> vir_extrinsic;
+
+      sequence<float> mapx;
+
+      sequence<float> mapy;
+
+      sequence<float> pinhole_intrinsic;
+
+      sequence<int32> crops;
+
+      sequence<int32> input_size;
+    };
+  };
+};

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_mdriver_msgs/msg/MeanVariance.msg
+// generated code does not contain a copyright notice
+
+
+module deva_mdriver_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "MeanVariance.msg")
+    struct MeanVariance {
+      @verbatim (language="comment", text=
+        "均值")
+      double mean;
+
+      @verbatim (language="comment", text=
+        "方差")
+      double variance;
+    };
+  };
+};

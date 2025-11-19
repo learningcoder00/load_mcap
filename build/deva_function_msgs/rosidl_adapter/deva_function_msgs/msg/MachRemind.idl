@@ -1,0 +1,109 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_function_msgs/msg/MachRemind.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_function_msgs {
+  module msg {
+    struct MachRemind {
+      deva_common_msgs::msg::Header header;
+
+      uint8 asy_cnoa_crs_actv_faild_voice;
+
+      uint8 asy_cnoa_crs_cross_intsec_voice;
+
+      uint8 asy_cnoa_crs_actv_voice;
+
+      uint8 asy_cnoa_crs_deactvd_voice;
+
+      uint8 asy_cnoa_crs_finshd_voice;
+
+      uint8 asy_cnoa_crs_offs_voice;
+
+      uint8 asy_cnoa_crs_rmn_voice;
+
+      uint8 asy_cnoa_hands_off_voice;
+
+      uint8 asy_cnoa_lrng_abort_voice;
+
+      uint8 asy_noa_avl_rmn_sound;
+
+      uint8 asy_cnoa_takeover_warn_voice;
+
+      uint8 asy_dece_remind_sound;
+
+      uint8 asy_drvr_sod_cfirm_cnoa_main_page;
+
+      uint8 asy_undertak_rmind_sound;
+
+      uint8 asy_warn_sod_for_aut_drv;
+
+      uint8 avl_sts_for_long_aut_drv;
+
+      uint8 too_many_cars;
+
+      uint8 drv_off_warn;
+
+      uint8 ad4_horn_warn;
+
+      uint8 hmi_auto_lane_chg_sts_for_asy_ai_asist_audio;
+
+      uint8 drv_off_mod;
+
+      uint8 asy_horn_warn_rqrd;
+
+      uint8 asy_cnoa_crs_avl_prompt;
+
+      uint8 asy_crs_sts_swil_indcr;
+
+      uint8 asy_d2d_avl_rmn_sod;
+
+      uint8 asy_d2d_deactvd_reasn_sod;
+
+      uint8 asy_d2d_etc_distan_sod;
+
+      uint8 asy_d2d_distan_sod;
+
+      uint8 asy_d2d_strt_to_end_sod;
+
+      uint8 asy_d2d_remind_sod;
+
+      uint8 asy_lane_chg_fail_type;
+
+      uint8 asy_req_lane_chg;
+
+      uint8 asy_noa_deactvd_reasn_sod;
+
+      uint8 asy_noa_remind_sod;
+
+      uint8 ad4_drvr_belt_warn;
+
+      uint8 asy_noa_takeover_sod;
+
+      uint8 ad4_drvr_belt_warn_for_bkp;
+
+      uint8 asy_lan_chg_sod_sec;
+
+      uint8 ad4_camera_heating_req;
+
+      uint8 ad_takeover_req_group_ad_takeover_msg;
+
+      uint8 ad_takeover_req_group_ad_takeover_audio;
+
+      uint8 ad_wipr_ctrl_req;
+
+      uint8 asy_noa_blt_fastn;
+
+      uint8 turn_indic_req_by_alca;
+
+      uint8 asy_lane_chg_assist_sts;
+
+      uint8 ad4_camera_heating_req_zcu;
+
+      uint8 asy_fct_lrng_mesg;
+
+      uint8 trfc_jam_warn;
+    };
+  };
+};

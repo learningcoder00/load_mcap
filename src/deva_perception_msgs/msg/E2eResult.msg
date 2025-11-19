@@ -1,0 +1,5 @@
+E2eDecodeBroadResult broadcategory
+E2eDecodeResult turn_around
+E2eDecodeResult left
+E2eDecodeResult straight
+E2eDecodeResult right

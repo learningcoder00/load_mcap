@@ -1,0 +1,2 @@
+uint8 pred_category
+float32 pred_score

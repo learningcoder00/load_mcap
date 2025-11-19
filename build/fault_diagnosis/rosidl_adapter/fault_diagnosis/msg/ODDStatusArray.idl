@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fault_diagnosis/msg/ODDStatusArray.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "fault_diagnosis/msg/OddStatus.idl"
+
+module fault_diagnosis {
+  module msg {
+    @verbatim (language="comment", text=
+      "ODDStatusArray.msg")
+    struct ODDStatusArray {
+      deva_common_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "功能模块状态列表")
+      sequence<fault_diagnosis::msg::OddStatus> functions;
+
+      @verbatim (language="comment", text=
+        "全局故障列表（非功能专属）")
+      sequence<string> global_faults;
+    };
+  };
+};

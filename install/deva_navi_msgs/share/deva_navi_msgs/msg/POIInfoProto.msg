@@ -1,0 +1,26 @@
+# POIInfoProto.msg
+Coord3DDoubleProto real_pos
+Coord3DDoubleProto navi_pos
+float32 sigshelter
+int32 type
+int64 road_id
+string poi_id
+string name
+string floor_name
+string parent_name
+string parent_simple_name
+string angel
+int32[] points
+string parent_id
+string parent_rel
+string type_code
+int32 from_jump
+int32 overhead
+int32 point_cnt
+int64 check_point_link_id
+float32 overhead_back_alt_diff
+int32 floor
+string extend_info_flag
+string src_app
+ChargingArgumentsInfoProto charge_info
+

@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/SemanticTreeNode.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs2/msg/String2Double.idl"
+#include "deva_planning_msgs2/msg/String2String.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    struct SemanticTreeNode {
+      int32 node_id;
+
+      double rollout_start_time;
+
+      double total_score;
+
+      double game_score;
+
+      double rollout_score;
+
+      sequence<deva_planning_msgs2::msg::String2Double> game_cost;
+
+      sequence<deva_planning_msgs2::msg::String2Double> rollout_cost;
+
+      @verbatim (language="comment", text=
+        "可扩展的标志位")
+      sequence<uint8> scalable_flags;
+
+      @verbatim (language="comment", text=
+        "可扩展的键值对")
+      sequence<deva_planning_msgs2::msg::String2String> scalable_multimap;
+    };
+  };
+};

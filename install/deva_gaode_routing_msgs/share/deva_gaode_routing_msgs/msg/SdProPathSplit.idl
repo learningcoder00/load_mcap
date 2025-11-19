@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/SdProPathSplit.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/SdProSplitList.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct SdProPathSplit {
+      uint32 path_id;
+
+      uint32 split_node_id;
+
+      double offset;
+
+      sequence<deva_gaode_routing_msgs::msg::SdProSplitList> split_list;
+    };
+  };
+};

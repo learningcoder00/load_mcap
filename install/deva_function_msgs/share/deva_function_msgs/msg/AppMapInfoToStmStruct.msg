@@ -1,0 +1,6 @@
+uint8	route_id
+uint8	aut_valt_prkg_map_upload_use_map_type2
+uint32	aut_valt_prkg_map_upload_use_map_list1
+uint32	aut_valt_prkg_map_upload_use_map_list2
+uint32	aut_valt_prkg_map_upload_use_map_list3
+uint32	aut_valt_prkg_map_upload_use_map_list4

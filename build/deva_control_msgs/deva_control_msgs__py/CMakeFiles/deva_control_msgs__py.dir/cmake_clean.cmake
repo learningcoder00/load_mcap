@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "../rosidl_generator_py/deva_control_msgs/_deva_control_msgs_s.ep.rosidl_typesupport_c.c"
+  "../rosidl_generator_py/deva_control_msgs/_deva_control_msgs_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "../rosidl_generator_py/deva_control_msgs/_deva_control_msgs_s.ep.rosidl_typesupport_introspection_c.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/__init__.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_control_debug_signal.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_control_debug_signal_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_control_monitor_msg.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_control_monitor_msg_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_control_result.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_control_result_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_control_status.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_control_status_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_control_valid_limit.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_control_valid_limit_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_parking_status.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_parking_status_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_control_command.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_control_command_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_enable_command.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_enable_command_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_limit_value.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_limit_value_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_report_belt.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_report_belt_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_report_common.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_report_common_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_report_pedal.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_report_pedal_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_status_command.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_vehicle_status_command_s.c"
+  "../rosidl_generator_py/deva_control_msgs/msg/_wheel_speed.py"
+  "../rosidl_generator_py/deva_control_msgs/msg/_wheel_speed_s.c"
+  "CMakeFiles/deva_control_msgs__py"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/deva_control_msgs__py.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

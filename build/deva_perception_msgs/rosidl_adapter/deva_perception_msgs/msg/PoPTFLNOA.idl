@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/PoPTFLNOA.msg
+// generated code does not contain a copyright notice
+
+
+module deva_perception_msgs {
+  module msg {
+    struct PoPTFLNOA {
+      uint8 color;
+
+      uint8 type;
+
+      uint8 flashstatus;
+    };
+  };
+};

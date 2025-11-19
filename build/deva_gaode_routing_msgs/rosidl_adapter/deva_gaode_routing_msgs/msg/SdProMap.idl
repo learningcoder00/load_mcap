@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/SdProMap.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/NavRoute.idl"
+#include "deva_gaode_routing_msgs/msg/SDNode.idl"
+#include "deva_gaode_routing_msgs/msg/SdProLink.idl"
+#include "deva_gaode_routing_msgs/msg/SdProPath.idl"
+#include "deva_gaode_routing_msgs/msg/SdProPathMerge.idl"
+#include "deva_gaode_routing_msgs/msg/SdProPathSplit.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct SdProMap {
+      uint32 version;
+
+      uint32 city_code;
+
+      deva_gaode_routing_msgs::msg::NavRoute navi_route;
+
+      sequence<deva_gaode_routing_msgs::msg::SdProPath> paths;
+
+      sequence<deva_gaode_routing_msgs::msg::SdProLink> links;
+
+      sequence<deva_gaode_routing_msgs::msg::SdProPathSplit> path_splits;
+
+      sequence<deva_gaode_routing_msgs::msg::SdProPathMerge> path_merges;
+
+      sequence<deva_gaode_routing_msgs::msg::SDNode> sd_nodes;
+    };
+  };
+};

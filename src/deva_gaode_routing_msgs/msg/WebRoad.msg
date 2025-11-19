@@ -1,0 +1,12 @@
+bool has_traffic_light
+float32 distance
+float32 time
+uint32 road_type
+uint32 road_class
+uint32 specific_type
+uint32 road_direction
+uint32 link_direction
+WebPoint[] coord_list
+uint32 traffic_status
+WebIntersection[] intersection_msg
+uint32 lane_num      

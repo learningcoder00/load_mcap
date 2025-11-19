@@ -1,0 +1,100 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_localization_msgs/msg/GnssBestPose.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_localization_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Parsed Best Position or Omnistar XP or HP pos data from Novatel OEM6 receiver")
+    struct GnssBestPose {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "结算状态")
+      string solution_status;
+
+      @verbatim (language="comment", text=
+        "位置类型")
+      string position_type;
+
+      @verbatim (language="comment", text=
+        "纬度")
+      double lat;
+
+      @verbatim (language="comment", text=
+        "经度")
+      double lon;
+
+      @verbatim (language="comment", text=
+        "海平面高度")
+      double height_msl;
+
+      @verbatim (language="comment", text=
+        "高程异常值")
+      float undulation;
+
+      @verbatim (language="comment", text=
+        "坐标系 id")
+      string datum_id;
+
+      @verbatim (language="comment", text=
+        "纬度标准差")
+      float lat_sigma;
+
+      @verbatim (language="comment", text=
+        "经度标准差")
+      float lon_sigma;
+
+      @verbatim (language="comment", text=
+        "高度标准差")
+      float height_sigma;
+
+      @verbatim (language="comment", text=
+        "差分延迟时间 (s)")
+      float diff_age;
+
+      @verbatim (language="comment", text=
+        "计算延迟时间 (s)")
+      float solution_age;
+
+      @verbatim (language="comment", text=
+        "跟踪卫星数目")
+      uint8 num_satellites_tracked;
+
+      @verbatim (language="comment", text=
+        "解算卫星数目")
+      uint8 num_satellites_used_in_solution;
+
+      @verbatim (language="comment", text=
+        "l1/b1/b1 解算卫星数目")
+      uint8 num_gps_and_glonass_l1_used_in_solution;
+
+      @verbatim (language="comment", text=
+        "多频计算卫星数目")
+      uint8 num_gps_and_glonass_l1_and_l2_used_in_solution;
+
+      @verbatim (language="comment", text=
+        "扩展结算状态")
+      uint32 extended_solution_status;
+
+      @verbatim (language="comment", text=
+        "GPS和Glonass信号使用标志")
+      uint32 gps_glonass_used_mask;
+
+      @verbatim (language="comment", text=
+        "galileo 和北斗信号使用标志")
+      uint32 galileo_beidou_used_mask;
+
+      @verbatim (language="comment", text=
+        "东北天速度")
+      geometry_msgs::msg::Point linear_velocity;
+
+      @verbatim (language="comment", text=
+        "速度延迟")
+      float velocity_latency;
+    };
+  };
+};

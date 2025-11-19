@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/TrajectoryPoint.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs/msg/PathPoint.idl"
+
+module deva_planning_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "path point")
+    struct TrajectoryPoint {
+      deva_planning_msgs::msg::PathPoint path_point;
+
+      @verbatim (language="comment", text=
+        "linear velocity" "\n"
+        "in")
+      @unit (value="m/s")
+      double v;
+
+      @verbatim (language="comment", text=
+        "linear acceleration")
+      double a;
+
+      @verbatim (language="comment", text=
+        "relative time from beginning of the trajectory")
+      double relative_time;
+
+      @verbatim (language="comment", text=
+        "longitudinal jerk")
+      double da;
+
+      @verbatim (language="comment", text=
+        "The angle between vehicle front wheel and vehicle longitudinal axis")
+      double steer;
+    };
+  };
+};

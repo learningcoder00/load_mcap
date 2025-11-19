@@ -1,0 +1,20 @@
+deva_common_msgs/Header header
+
+uint16 trip_reset_sync_req_msg_asdm
+uint8 cam_sts_cam_cam_heatr_actv
+uint8 cam_sts_cam_frnt_blkd1
+uint8 cam_sts_cam_frnt_blkd2
+uint8 cam_sts_cam_frnt_blkd3
+uint8 cam_sts_cam_frnt_blkd4
+uint8 cam_sts_cam_frnt_blkd5
+uint8 cam_sts_cam_frnt_blkd6
+uint8 cam_sts_cam_frnt_blkd7
+uint8 cam_sts_cam_frnt_blkd8
+uint8 cam_sts_cam_frnt_cal_not_strtd
+uint8 cam_sts_cam_miss_com
+uint8 cam_status0
+uint8 hmi_re_cam_sts0
+uint8 frnt_side_cam_le_sts0
+uint8 frnt_side_cam_ri_sts0
+uint8 re_side_cam_le_sts0
+uint8 re_side_cam_ri_sts0

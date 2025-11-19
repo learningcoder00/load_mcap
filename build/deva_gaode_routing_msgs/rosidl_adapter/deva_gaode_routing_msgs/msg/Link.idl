@@ -1,0 +1,66 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/Link.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/Coordinate.idl"
+#include "deva_gaode_routing_msgs/msg/FeatureIDType.idl"
+#include "deva_gaode_routing_msgs/msg/FeaturePoint.idl"
+#include "deva_gaode_routing_msgs/msg/Guidance.idl"
+#include "deva_gaode_routing_msgs/msg/J6mIntersectionEntryInfo.idl"
+#include "deva_gaode_routing_msgs/msg/LaneById.idl"
+#include "deva_gaode_routing_msgs/msg/LinkAttribute.idl"
+#include "deva_gaode_routing_msgs/msg/LinkCurvature.idl"
+#include "deva_gaode_routing_msgs/msg/LinkIDType.idl"
+#include "deva_gaode_routing_msgs/msg/Node.idl"
+#include "deva_gaode_routing_msgs/msg/NodeIDType.idl"
+#include "deva_gaode_routing_msgs/msg/Topology.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct Link {
+      deva_gaode_routing_msgs::msg::LinkAttribute link_attribute;
+
+      sequence<deva_gaode_routing_msgs::msg::Coordinate> coordinate;
+
+      uint64 raw_id;
+
+      deva_gaode_routing_msgs::msg::Topology topology;
+
+      deva_gaode_routing_msgs::msg::LinkCurvature link_curvature;
+
+      sequence<deva_gaode_routing_msgs::msg::Guidance> guidance;
+
+      deva_gaode_routing_msgs::msg::NodeIDType start_id;
+
+      deva_gaode_routing_msgs::msg::NodeIDType end_id;
+
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> feature_point_ids;
+
+      @verbatim (language="comment", text=
+        "兼容   v2 删除")
+      deva_gaode_routing_msgs::msg::Node start;
+
+      @verbatim (language="comment", text=
+        "兼容   v2 删除")
+      deva_gaode_routing_msgs::msg::Node end;
+
+      @verbatim (language="comment", text=
+        "兼容   v2 删除")
+      sequence<deva_gaode_routing_msgs::msg::FeaturePoint> feature_points;
+
+      @verbatim (language="comment", text=
+        "兼容   v2 删除")
+      sequence<deva_gaode_routing_msgs::msg::LaneById> lanes;
+
+      sequence<deva_gaode_routing_msgs::msg::J6mIntersectionEntryInfo> j6m_intersection_entry_infos;
+
+      @verbatim (language="comment", text=
+        "j6m lanes")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> j6m_lane_ids;
+
+      @verbatim (language="comment", text=
+        "j6m links")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> j6m_link_ids;
+    };
+  };
+};

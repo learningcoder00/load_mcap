@@ -1,0 +1,11 @@
+# EHP_PROFILE_LONG.msg
+uint16 prof_long_offset
+uint8 prof_long_msg_type
+uint8 prof_long_path_idx
+uint8 prof_long_cyc_cnt
+uint8 prof_long_update
+uint8 prof_long_retr
+uint8 prof_long_ctrl_point
+uint8 prof_long_prof_type
+uint32 prof_long_value
+int32 prof_long_relative_offset

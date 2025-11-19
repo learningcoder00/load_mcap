@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFFusionObjNOA.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFObjEstimnNOA.idl"
+#include "deva_aeb_msgs/msg/SFObjInfoNOA.idl"
+#include "deva_aeb_msgs/msg/SFObjPpty.idl"
+#include "deva_aeb_msgs/msg/SFVisionInfo.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFFusionObjNOA {
+      deva_aeb_msgs::msg::SFObjEstimnNOA estimn;
+
+      deva_aeb_msgs::msg::SFObjInfoNOA info;
+
+      deva_aeb_msgs::msg::SFObjPpty ppty;
+
+      deva_aeb_msgs::msg::SFVisionInfo visinfo;
+    };
+  };
+};

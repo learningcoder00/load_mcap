@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_control_msgs/msg/VehicleEnableCommand.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module deva_control_msgs {
+  module msg {
+    struct VehicleEnableCommand {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "消息协议版本号，更改消息后需要增加版本号，保持默认值方式")
+      @default (value="2.10")
+      string protocol_version;
+
+      @verbatim (language="comment", text=
+        "激活和退出线控命令：" "\n"
+        "0: 不激活线控功能" "\n"
+        "1：上游正常功能，不激活线控状态（预留）" "\n"
+        "2：允许单独激活横向" "\n"
+        "3：允许单独激活纵向" "\n"
+        "4：允许同时激活横向和纵向" "\n"
+        "5：单独退出横向" "\n"
+        "6：单独退出纵向" "\n"
+        "7：同时退出横向和纵向" "\n"
+        "8：强制退出线控（预留）")
+      uint8 enable_bywire;
+    };
+  };
+};

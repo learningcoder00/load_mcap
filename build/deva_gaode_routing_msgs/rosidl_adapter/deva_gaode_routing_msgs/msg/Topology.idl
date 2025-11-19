@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/Topology.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/LinkIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct Topology {
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> next_id_s;
+
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> previous_id_s;
+
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> next_within_intersection;
+
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> previous_within_intersection;
+    };
+  };
+};

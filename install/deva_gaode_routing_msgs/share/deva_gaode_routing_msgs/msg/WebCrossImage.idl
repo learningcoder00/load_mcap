@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/WebCrossImage.msg
+// generated code does not contain a copyright notice
+
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct WebCrossImage {
+      @verbatim (language="comment", text=
+        "update id")
+      int32 id;
+
+      @verbatim (language="comment", text=
+        "// 枚举: CrossImageTyp  // 路口图类型：// 0：reserved // 1：格栅图 // 2：矢量图")
+      uint32 cross_image_type;
+
+      @verbatim (language="comment", text=
+        "// 枚举: CrossImage // 图片尺寸：500*320 // 图片格式：TBD  // Description: event（有路口图就给出")
+      sequence<uint8> cross_image_data;
+    };
+  };
+};

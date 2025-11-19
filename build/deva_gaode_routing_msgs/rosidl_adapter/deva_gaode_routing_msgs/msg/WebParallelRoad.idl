@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/WebParallelRoad.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/WebLocParallelRoad.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct WebParallelRoad {
+      int32 count;
+
+      int32 flag;
+
+      int32 hw_flag;
+
+      int32 status;
+
+      sequence<deva_gaode_routing_msgs::msg::WebLocParallelRoad> parallel_road_list;
+    };
+  };
+};

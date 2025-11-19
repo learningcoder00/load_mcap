@@ -1,0 +1,144 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RadarObjectInfo.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Accel.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module RadarObjectInfo_Constants {
+      @verbatim (language="comment", text=
+        "目标动态特性")
+      const uint8 MNTPAT_UNKNOWN = 0;
+      const uint8 MNTPAT_STATIONARY = 1;
+      const uint8 MNTPAT_STATIONARY_FROM_MOVING = 2;
+      const uint8 MNTPAT_MOVING = 3;
+      const uint8 MNTPAT_RECEDING = 4;
+      const uint8 MNTPAT_ONCOMING = 5;
+      const uint8 MNTPAT_CROSSINGN_FROM_LE = 6;
+      const uint8 MNTPAT_CROSSINGN_FROM_RI = 7;
+      const uint8 MNTPAT_CROSSINGN_STATIONARY = 8;
+      const uint8 MNTPAT_STOPED = 9;
+      @verbatim (language="comment", text=
+        "目标类别")
+      const uint8 UNKNOWN = 0;
+      const uint8 POINT = 1;
+      const uint8 CAR = 2;
+      const uint8 TRUCK = 3;
+      const uint8 PEDESTRIAN = 4;
+      const uint8 BICYCLE = 5;
+      const uint8 WIDE = 6;
+      const uint8 MOTORCYCLE = 7;
+      const uint8 VEHICLE_UNKNOWN_CLASS = 8;
+      const uint8 ANIMAL = 9;
+      @verbatim (language="comment", text=
+        "目标的跟踪状态")
+      const uint8 TRACK_STATUS_INVALID = 0;
+      const uint8 TRACK_STATUS_UPDATED = 1;
+      const uint8 TRACK_STATUS_NEW = 2;
+      const uint8 TRACK_STATUS_COASTED = 3;
+    };
+    @verbatim (language="comment", text=
+      "目标id")
+    struct RadarObjectInfo {
+      uint32 id;
+
+      @verbatim (language="comment", text=
+        "目标框中心点位置，单位m")
+      geometry_msgs::msg::Pose position;
+
+      @verbatim (language="comment", text=
+        "目标框中心点位置的标准差")
+      geometry_msgs::msg::Pose position_std;
+
+      @verbatim (language="comment", text=
+        "目标最近点位置，单位m")
+      geometry_msgs::msg::Pose nearest_point;
+
+      @verbatim (language="comment", text=
+        "目标最近点位置的标准差")
+      geometry_msgs::msg::Pose nearest_point_std;
+
+      @verbatim (language="comment", text=
+        "目标相对速度，单位m/s")
+      geometry_msgs::msg::Twist velocity_rel;
+
+      @verbatim (language="comment", text=
+        "目标相对速度的标准差")
+      geometry_msgs::msg::Twist velocity_rel_std;
+
+      @verbatim (language="comment", text=
+        "目标绝对速度，单位m/s")
+      geometry_msgs::msg::Twist velocity_abs;
+
+      @verbatim (language="comment", text=
+        "目标绝对速度的标准差")
+      geometry_msgs::msg::Twist velocity_abs_std;
+
+      @verbatim (language="comment", text=
+        "目标相对加速度，单位m/s^2")
+      geometry_msgs::msg::Accel acceleration_rel;
+
+      @verbatim (language="comment", text=
+        "目标绝对加速度，单位m/s^2")
+      geometry_msgs::msg::Accel acceleration_abs;
+
+      uint32 dynamic_property;
+
+      @verbatim (language="comment", text=
+        "目标朝向，单位degree")
+      double heading_angle;
+
+      @verbatim (language="comment", text=
+        "目标存活周期")
+      uint32 life_cycles;
+
+      @verbatim (language="comment", text=
+        "目标的长宽高，单位m")
+      geometry_msgs::msg::Point box_lwh;
+
+      @verbatim (language="comment", text=
+        "目标框的中心点相对于最近点的横向距离")
+      double box_center_lat;
+
+      @verbatim (language="comment", text=
+        "目标框的中心点相对于最近点的纵向距离")
+      double box_center_lgt;
+
+      @verbatim (language="comment", text=
+        "信噪比")
+      double snr;
+
+      uint32 classification;
+
+      @verbatim (language="comment", text=
+        "目标是障碍物的可能性，单位%")
+      double obstacle_probability;
+
+      @verbatim (language="comment", text=
+        "目标置信度，单位%")
+      double probability_of_existence;
+
+      @verbatim (language="comment", text=
+        "目标是镜像目标可能性，单位%")
+      double mirror_probability;
+
+      @verbatim (language="comment", text=
+        "目标是鬼点可能性，单位%")
+      double not_real_probability;
+
+      @verbatim (language="comment", text=
+        "雷达散射截面")
+      double rcs;
+
+      @verbatim (language="comment", text=
+        "目标类别的置信度，单位%")
+      double target_classification_confidence;
+
+      uint32 track_status;
+    };
+  };
+};

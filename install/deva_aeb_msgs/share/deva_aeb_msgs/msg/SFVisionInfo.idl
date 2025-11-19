@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFVisionInfo.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    typedef uint8 uint8__3[3];
+    struct SFVisionInfo {
+      float cornerx;
+
+      float cornery;
+
+      float distinlane;
+
+      uint8 objcutinflag;
+
+      uint8 objcutinlanetype;
+
+      uint8__3 reserved;
+
+      float visionposx;
+
+      float visionposy;
+
+      uint8 laneassignment;
+
+      uint8 iscipv;
+
+      uint8 mtncatergory;
+
+      uint8 mtnstatus;
+
+      uint8 distconvergence;
+
+      uint8 coverdproperty;
+
+      uint8 unstable;
+    };
+  };
+};

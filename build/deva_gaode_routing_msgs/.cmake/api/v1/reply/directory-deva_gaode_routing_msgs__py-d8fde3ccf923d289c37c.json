@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "deva_gaode_routing_msgs__py",
+		"source" : "/home/linjiawei/load_mcap/build/deva_gaode_routing_msgs/deva_gaode_routing_msgs__py"
+	}
+}

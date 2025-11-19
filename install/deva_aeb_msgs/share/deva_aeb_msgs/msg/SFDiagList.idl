@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFDiagList.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFDiagInfo.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFDiagList {
+      uint64 timestamp;
+
+      uint32 framenum;
+
+      deva_aeb_msgs::msg::SFDiagInfo weather;
+
+      deva_aeb_msgs::msg::SFDiagInfo scene;
+
+      deva_aeb_msgs::msg::SFDiagInfo rdsuf;
+
+      deva_aeb_msgs::msg::SFDiagInfo light;
+
+      deva_aeb_msgs::msg::SFDiagInfo time;
+    };
+  };
+};

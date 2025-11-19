@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fault_diagnosis__py",
+		"source" : "/home/linjiawei/load_mcap/build/fault_diagnosis/fault_diagnosis__py"
+	}
+}

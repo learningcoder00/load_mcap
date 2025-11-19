@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_mdriver_msgs/msg/AccHeadingSteeringStats.msg
+// generated code does not contain a copyright notice
+
+#include "deva_mdriver_msgs/msg/MeanVariance.idl"
+
+module deva_mdriver_msgs {
+  module msg {
+    struct AccHeadingSteeringStats {
+      @verbatim (language="comment", text=
+        "每次预测有多少个波峰")
+      sequence<deva_mdriver_msgs::msg::MeanVariance> acc_steering_stats;
+
+      sequence<deva_mdriver_msgs::msg::MeanVariance> heading_steering_stats;
+    };
+  };
+};

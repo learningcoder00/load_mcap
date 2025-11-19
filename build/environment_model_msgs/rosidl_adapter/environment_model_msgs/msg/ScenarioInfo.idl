@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/ScenarioInfo.msg
+// generated code does not contain a copyright notice
+
+
+module environment_model_msgs {
+  module msg {
+    struct ScenarioInfo {
+      uint32 scenario;
+
+      double distance;
+    };
+  };
+};

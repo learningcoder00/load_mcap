@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_map_msgs/msg/Channel.msg
+// generated code does not contain a copyright notice
+
+#include "deva_map_msgs/msg/ChannelLaneInfo.idl"
+#include "deva_map_msgs/msg/ChannelLaneLine.idl"
+#include "deva_map_msgs/msg/ChannelLaneMarking.idl"
+#include "deva_map_msgs/msg/ChannelObjectInfo.idl"
+#include "deva_map_msgs/msg/ChannelSignalInfo.idl"
+
+module deva_map_msgs {
+  module msg {
+    struct Channel {
+      boolean available;
+
+      boolean is_on_route;
+
+      uint8 errcode;
+
+      string current_lane_id;
+
+      int16 channel_idx;
+
+      double lane_offset;
+
+      deva_map_msgs::msg::ChannelLaneInfo laneinfo;
+
+      deva_map_msgs::msg::ChannelLaneLine middle_line;
+
+      sequence<deva_map_msgs::msg::ChannelLaneLine> reference_line_vec;
+
+      deva_map_msgs::msg::ChannelLaneMarking left_marking;
+
+      deva_map_msgs::msg::ChannelLaneMarking right_marking;
+
+      int16 left_channel_idx;
+
+      int16 right_channel_idx;
+
+      sequence<deva_map_msgs::msg::ChannelObjectInfo> object_info;
+
+      sequence<deva_map_msgs::msg::ChannelSignalInfo> signal_info;
+    };
+  };
+};

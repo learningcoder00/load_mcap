@@ -1,0 +1,57 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_function_msgs/msg/MachButtonControl.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_function_msgs {
+  module msg {
+    struct MachButtonControl {
+      deva_common_msgs::msg::Header header;
+
+      uint8 asy_a_lgt_sts_asy_a_lgt_sts;
+
+      uint8 asy_cnoa_crs_lat_offs_anima_sts;
+
+      uint8 drv_off_req_for_lgt_ctrl;
+
+      uint8 asy_eyes_off_warn_rqrd;
+
+      uint8 asy_eyes_off_warn_rqrd_sound;
+
+      uint8 asy_first_ti_actvn;
+
+      uint8 asy_noa_actv_suggest_sound;
+
+      uint8 asy_inform_for_drvr;
+
+      uint8 asy_lat_deg_sts;
+
+      uint8 asy_inform_for_drvr_sound;
+
+      uint8 asy_noa_actv_suggest;
+
+      uint8 asy_noa_distan_msg;
+
+      uint8 asy_noa_distan_msg_sound;
+
+      uint8 asy_noa_sts;
+
+      uint8 asy_steer_apply_rqrd_sound;
+
+      uint8 asy_aut_drvg_avl_sound;
+
+      uint8 asy_lan_chg_color_dsp;
+
+      uint8 asy_lan_chg_mesg;
+
+      uint8 asy_lan_chg_sod;
+
+      uint8 asy_aut_emgy_steer_actv;
+
+      uint8 brk_hptc_warn_req_for_aut_drv_brk_hptc_warn_req_for_aut_drv;
+
+      uint8 cllsn_threat;
+    };
+  };
+};

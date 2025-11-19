@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/CrossPoint.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/WebPoint.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct CrossPoint {
+      uint64 id;
+
+      deva_gaode_routing_msgs::msg::WebPoint geom;
+
+      @verbatim (language="comment", text=
+        "路口属性点类型: 1 进入路口点；2 退出路口点； 3 待转区停止线；4 停止线；5 红绿灯")
+      int32 type;
+
+      @verbatim (language="comment", text=
+        "关联路口id，与SDCrossMsg中id对应")
+      uint64 cross_id;
+    };
+  };
+};

@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/PathPoint.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_planning_msgs {
+  module msg {
+    struct PathPoint {
+      geometry_msgs::msg::Point pos;
+
+      double heading;
+
+      double speed;
+
+      @verbatim (language="comment", text=
+        "direction on the x-y plane")
+      double theta;
+
+      @verbatim (language="comment", text=
+        "curvature on the x-y planning")
+      double kappa;
+
+      @verbatim (language="comment", text=
+        "accumulated distance from beginning of the path")
+      double s;
+
+      @verbatim (language="comment", text=
+        "derivative of kappa w.r.t s.")
+      double dkappa;
+
+      @verbatim (language="comment", text=
+        "derivative of derivative of kappa w.r.t s.")
+      double ddkappa;
+
+      @verbatim (language="comment", text=
+        "The lane ID where the path point is on")
+      string lane_id;
+
+      @verbatim (language="comment", text=
+        "derivative of x and y w.r.t parametric parameter t in CosThetareferenceline")
+      double x_derivative;
+
+      double y_derivative;
+
+      double lane_width;
+
+      boolean is_junction;
+
+      double distance2obs;
+    };
+  };
+};

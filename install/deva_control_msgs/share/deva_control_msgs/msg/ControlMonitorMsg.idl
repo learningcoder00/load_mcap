@@ -1,0 +1,119 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_control_msgs/msg/ControlMonitorMsg.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs2/msg/PlanningTrajectory.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_control_msgs {
+  module msg {
+    struct ControlMonitorMsg {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "chassis info")
+      boolean in_auto_drive;
+
+      double chs_yaw_rate;
+
+      double chs_speed;
+
+      double chs_steer;
+
+      double chs_longit_acc;
+
+      double chs_longit_torque;
+
+      uint8 chs_gear;
+
+      @verbatim (language="comment", text=
+        "localization info")
+      double loc_x;
+
+      double loc_y;
+
+      double loc_z;
+
+      double loc_speed;
+
+      double loc_acc;
+
+      double loc_heading;
+
+      double loc_pitch;
+
+      @verbatim (language="comment", text=
+        "planning info" "\n"
+        "预瞄点")
+      double preview_path_x;
+
+      double preview_path_y;
+
+      double preview_path_theta;
+
+      @verbatim (language="comment", text=
+        "匹配点")
+      double matched_path_x;
+
+      double matched_path_y;
+
+      double matched_path_theta;
+
+      double matched_path_kappa;
+
+      double matched_path_s;
+
+      double matched_path_v;
+
+      double matched_path_a;
+
+      @verbatim (language="comment", text=
+        "control status info")
+      double current_station;
+
+      double station_ref;
+
+      double station_error;
+
+      double current_speed;
+
+      double speed_ref;
+
+      double preview_speed_ref;
+
+      double speed_error;
+
+      double acc_ref;
+
+      double preview_acc_ref;
+
+      double actual_acc;
+
+      double lat_d;
+
+      double lat_d_rate;
+
+      double heading_d_rate;
+
+      double heading_d;
+
+      double pre_lat_d;
+
+      double pre_lat_theta;
+
+      double cmd_steer;
+
+      double cmd_acc;
+
+      double control_computation_time;
+
+      double loc_header_time;
+
+      double chas_header_time;
+
+      double planning_header_time;
+
+      deva_planning_msgs2::msg::PlanningTrajectory openloop_trajectory;
+    };
+  };
+};

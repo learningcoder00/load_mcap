@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/Calibration.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Transform.idl"
+#include "std_msgs/msg/Header.idl"
+#include "std_msgs/msg/String.idl"
+
+module deva_perception_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message defines meta information for a obstacle status")
+    struct Calibration {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "calibration version")
+      std_msgs::msg::String version;
+
+      @verbatim (language="comment", text=
+        "transform")
+      geometry_msgs::msg::Transform lidar2gnss;
+
+      geometry_msgs::msg::Transform gnss2ego;
+    };
+  };
+};

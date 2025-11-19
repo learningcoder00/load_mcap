@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/LaneSecInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFFrontLinePpty.idl"
+#include "deva_aeb_msgs/msg/SFLaneInfo.idl"
+#include "deva_aeb_msgs/msg/SFSecLaneEstimn.idl"
+#include "deva_aeb_msgs/msg/SFSecLaneNearRampPoint.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct LaneSecInfo {
+      deva_aeb_msgs::msg::SFSecLaneEstimn estimn;
+
+      deva_aeb_msgs::msg::SFLaneInfo info;
+
+      deva_aeb_msgs::msg::SFFrontLinePpty ppty;
+
+      deva_aeb_msgs::msg::SFSecLaneNearRampPoint nearramppoint;
+    };
+  };
+};

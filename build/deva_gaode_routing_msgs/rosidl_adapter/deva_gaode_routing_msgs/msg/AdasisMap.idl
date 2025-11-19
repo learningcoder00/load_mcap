@@ -1,0 +1,98 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/AdasisMap.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_gaode_routing_msgs/msg/EhpMetaData.idl"
+#include "deva_gaode_routing_msgs/msg/EhpPosition.idl"
+#include "deva_gaode_routing_msgs/msg/EhpProfileLong.idl"
+#include "deva_gaode_routing_msgs/msg/EhpProfileShort.idl"
+#include "deva_gaode_routing_msgs/msg/EhpSegment.idl"
+#include "deva_gaode_routing_msgs/msg/EhpStub.idl"
+#include "deva_gaode_routing_msgs/msg/FeaturePointById.idl"
+#include "deva_gaode_routing_msgs/msg/HeterogeneousMatchLink.idl"
+#include "deva_gaode_routing_msgs/msg/IntersectionRoad.idl"
+#include "deva_gaode_routing_msgs/msg/IntersectionRoadNode.idl"
+#include "deva_gaode_routing_msgs/msg/J6mData.idl"
+#include "deva_gaode_routing_msgs/msg/LANE.idl"
+#include "deva_gaode_routing_msgs/msg/Link.idl"
+#include "deva_gaode_routing_msgs/msg/Node.idl"
+#include "deva_gaode_routing_msgs/msg/PositionMatchLink.idl"
+#include "deva_gaode_routing_msgs/msg/RouteGuideResponse.idl"
+#include "deva_gaode_routing_msgs/msg/StopLine.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct AdasisMap {
+      deva_common_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "0|no update 1|update")
+      uint8 is_update_ehp_position;
+
+      deva_gaode_routing_msgs::msg::EhpPosition ehp_position;
+
+      uint8 is_update_ehp_meta_data;
+
+      deva_gaode_routing_msgs::msg::EhpMetaData ehp_meta_data;
+
+      uint8 is_update_ehp_segments;
+
+      sequence<deva_gaode_routing_msgs::msg::EhpSegment> ehp_segments;
+
+      uint8 is_update_ehp_stubs;
+
+      sequence<deva_gaode_routing_msgs::msg::EhpStub> ehp_stubs;
+
+      uint8 is_update_ehp_profile_shorts;
+
+      sequence<deva_gaode_routing_msgs::msg::EhpProfileShort> ehp_profile_shorts;
+
+      uint8 is_update_ehp_profile_longs;
+
+      sequence<deva_gaode_routing_msgs::msg::EhpProfileLong> ehp_profile_longs;
+
+      @verbatim (language="comment", text=
+        "links")
+      sequence<deva_gaode_routing_msgs::msg::Link> link;
+
+      @verbatim (language="comment", text=
+        "link node")
+      sequence<deva_gaode_routing_msgs::msg::Node> node;
+
+      @verbatim (language="comment", text=
+        "feature_point")
+      sequence<deva_gaode_routing_msgs::msg::FeaturePointById> feature_points;
+
+      @verbatim (language="comment", text=
+        "lanes")
+      sequence<deva_gaode_routing_msgs::msg::LANE> lanes;
+
+      @verbatim (language="comment", text=
+        "stop line")
+      sequence<deva_gaode_routing_msgs::msg::StopLine> stoplines;
+
+      @verbatim (language="comment", text=
+        "交叉口节点")
+      sequence<deva_gaode_routing_msgs::msg::IntersectionRoadNode> intersection_road_nodes;
+
+      @verbatim (language="comment", text=
+        "交叉点道路")
+      sequence<deva_gaode_routing_msgs::msg::IntersectionRoad> intersection_roads;
+
+      deva_gaode_routing_msgs::msg::PositionMatchLink position_match_link;
+
+      @verbatim (language="comment", text=
+        "异源匹配links")
+      deva_gaode_routing_msgs::msg::HeterogeneousMatchLink heterogeneous_match_link;
+
+      @verbatim (language="comment", text=
+        "guide response")
+      deva_gaode_routing_msgs::msg::RouteGuideResponse route_guide_response;
+
+      @verbatim (language="comment", text=
+        "j6m data")
+      deva_gaode_routing_msgs::msg::J6mData j6m_data;
+    };
+  };
+};

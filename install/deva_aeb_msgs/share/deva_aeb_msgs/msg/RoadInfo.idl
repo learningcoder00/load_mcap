@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/RoadInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFFrontLinePpty.idl"
+#include "deva_aeb_msgs/msg/SFRoadEdgeEstimn.idl"
+#include "deva_aeb_msgs/msg/SFRoadEdgeInfo.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct RoadInfo {
+      deva_aeb_msgs::msg::SFRoadEdgeEstimn estimn;
+
+      deva_aeb_msgs::msg::SFFrontLinePpty ppty;
+
+      deva_aeb_msgs::msg::SFRoadEdgeInfo info;
+    };
+  };
+};

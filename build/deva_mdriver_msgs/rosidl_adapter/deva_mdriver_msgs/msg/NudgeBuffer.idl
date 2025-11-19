@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_mdriver_msgs/msg/NudgeBuffer.msg
+// generated code does not contain a copyright notice
+
+#include "deva_mdriver_msgs/msg/ObstacleNudgeBuffer.idl"
+
+module deva_mdriver_msgs {
+  module msg {
+    struct NudgeBuffer {
+      sequence<deva_mdriver_msgs::msg::ObstacleNudgeBuffer> obstacle_nudge_buffer;
+    };
+  };
+};

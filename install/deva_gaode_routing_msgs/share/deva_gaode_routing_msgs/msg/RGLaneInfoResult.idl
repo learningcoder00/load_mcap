@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/RGLaneInfoResult.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/RGAdditionalLaneInfo.idl"
+#include "deva_gaode_routing_msgs/msg/RoutePos.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct RGLaneInfoResult {
+      uint64 raw_link_id;
+
+      sequence<uint32> arrow;
+
+      sequence<uint32> flag;
+
+      sequence<uint32> rg_lane_result_property;
+
+      sequence<uint32> recommend;
+
+      string active_time;
+
+      sequence<deva_gaode_routing_msgs::msg::RGAdditionalLaneInfo> additional_lane_info;
+
+      sequence<uint64> lane_info_raw_link_ids;
+
+      deva_gaode_routing_msgs::msg::RoutePos pos;
+    };
+  };
+};

@@ -1,0 +1,5 @@
+deva_common_msgs/Header header
+
+uint8 request_type
+FaultStatus report_fault_status
+uint8 response_status

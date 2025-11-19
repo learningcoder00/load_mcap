@@ -1,0 +1,4 @@
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/s3_downloader.cpp:[m[K In member function ‘[01m[Kbool mcap_streamer::S3Downloader::downloadFromS3(const string&, const string&, const string&, const string&, const string&, const string&)[m[K’:
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/s3_downloader.cpp:97:23:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kregion[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   97 |   [01;35m[Kconst std::string & region[m[K,
+      |   [01;35m[K~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

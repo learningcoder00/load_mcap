@@ -1,0 +1,2 @@
+float64 publish_timestamp
+uint8 status

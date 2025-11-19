@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RadarObjectMessage.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/RadarObjectInfo.idl"
+#include "deva_perception_msgs/msg/RadarStatus.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct RadarObjectMessage {
+      std_msgs::msg::Header header;
+
+      deva_perception_msgs::msg::RadarStatus status;
+
+      sequence<deva_perception_msgs::msg::RadarObjectInfo> objects;
+    };
+  };
+};

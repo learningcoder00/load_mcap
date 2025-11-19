@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/Vec2dArray.msg
+// generated code does not contain a copyright notice
+
+#include "environment_model_msgs/msg/Vec2d.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct Vec2dArray {
+      sequence<environment_model_msgs::msg::Vec2d> vec2d_array;
+    };
+  };
+};

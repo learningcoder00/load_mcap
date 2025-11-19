@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/LaneRestriction.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/FeatureIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct LaneRestriction {
+      deva_gaode_routing_msgs::msg::FeatureIDType id;
+
+      @verbatim (language="comment", text=
+        "限制车辆类型  如果没有则为空")
+      sequence<uint8> limit_vehicle_type;
+
+      @verbatim (language="comment", text=
+        "该交限时间类型限制 时间限制")
+      sequence<uint8> special_time_type;
+
+      @verbatim (language="comment", text=
+        "该交限起作用的时间段信息 时间段描述字符")
+      string restrict_time_period;
+
+      @verbatim (language="comment", text=
+        "限制方向")
+      uint8 lane_direction;
+
+      @verbatim (language="comment", text=
+        "车道限制类型")
+      uint8 lane_retriction_type;
+
+      @verbatim (language="comment", text=
+        "作用开始位置 沿道路行驶方向，除10000表示[0,1]，例如30%~80%的限制范围位置区间，开始位置记为3000")
+      uint16 lane_range_start;
+
+      @verbatim (language="comment", text=
+        "作用结束位置 沿道路行驶方向，除10000表示[0,1]，例如30%~80%的限制范围位置区间，结束位置记为8000")
+      uint16 lane_range_end;
+    };
+  };
+};

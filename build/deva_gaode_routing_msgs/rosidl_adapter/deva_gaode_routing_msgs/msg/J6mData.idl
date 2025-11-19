@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/J6mData.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/J6mIntersection.idl"
+#include "deva_gaode_routing_msgs/msg/J6mLane.idl"
+#include "deva_gaode_routing_msgs/msg/J6mLaneMarking.idl"
+#include "deva_gaode_routing_msgs/msg/J6mLink.idl"
+#include "deva_gaode_routing_msgs/msg/J6mRoadObject.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct J6mData {
+      @verbatim (language="comment", text=
+        "j6m links")
+      sequence<deva_gaode_routing_msgs::msg::J6mLink> j6m_links;
+
+      @verbatim (language="comment", text=
+        "j6m intersection")
+      sequence<deva_gaode_routing_msgs::msg::J6mIntersection> j6m_intersections;
+
+      @verbatim (language="comment", text=
+        "j6m lanes")
+      sequence<deva_gaode_routing_msgs::msg::J6mLane> j6m_lanes;
+
+      @verbatim (language="comment", text=
+        "j6m lane markings")
+      sequence<deva_gaode_routing_msgs::msg::J6mLaneMarking> j6m_lane_markings;
+
+      @verbatim (language="comment", text=
+        "j6m road objects")
+      sequence<deva_gaode_routing_msgs::msg::J6mRoadObject> j6m_road_objects;
+    };
+  };
+};

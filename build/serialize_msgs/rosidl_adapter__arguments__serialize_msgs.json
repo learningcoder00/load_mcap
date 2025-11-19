@@ -1,0 +1,6 @@
+{
+  "package_name": "serialize_msgs",
+  "non_idl_tuples": [
+    "/home/linjiawei/load_mcap/src/serialize_msgs:msg/SerializeProto.msg"
+  ]
+}

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_map_msgs/msg/LocalMap.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_map_msgs/msg/AvpLocalMap.idl"
+#include "deva_map_msgs/msg/LocalMapHeader.idl"
+#include "deva_map_msgs/msg/STLocalMap.idl"
+#include "deva_perception_msgs/msg/USTBoundary.idl"
+
+module deva_map_msgs {
+  module msg {
+    struct LocalMap {
+      deva_common_msgs::msg::Header header;
+
+      string map_version;
+
+      uint16 error_code;
+
+      string error_message;
+
+      uint16 map_mode;
+
+      boolean is_localization_mode;
+
+      deva_map_msgs::msg::STLocalMap st_map;
+
+      sequence<deva_perception_msgs::msg::USTBoundary> ust_map;
+
+      deva_map_msgs::msg::AvpLocalMap avp_map;
+
+      deva_map_msgs::msg::LocalMapHeader sensor_header;
+    };
+  };
+};

@@ -1,0 +1,120 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/StateContext.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs2/msg/LaneBindInfo.idl"
+#include "deva_planning_msgs2/msg/PolicyScenario.idl"
+#include "deva_planning_msgs2/msg/Ref2SLBoundary.idl"
+#include "deva_planning_msgs2/msg/String2String.idl"
+#include "deva_planning_msgs2/msg/String2UInt.idl"
+#include "deva_planning_msgs2/msg/UInt2String.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    module StateContext_Constants {
+      @verbatim (language="comment", text=
+        "最终被选中的PolicyScenario的behavior_type")
+      const uint8 LANE_KEEPING = 0;
+      const uint8 RIGHT_CHANGE = 1;
+      const uint8 LEFT_CHANGE = 2;
+      const uint8 HOLD = 3;
+      const uint8 CANCEL = 4;
+      const uint8 LANE_CHANGE = 5;
+      const uint8 RIGHT_CHANGE_PREPARE = 6;
+      const uint8 LEFT_CHANGE_PREPARE = 7;
+      const uint8 UNKNOWN = 8;
+      const uint8 TAKE_OVER = 9;
+      const uint8 ROUTING_NULL = 0;
+      const uint8 INCREASED_ROAD = 1;
+      const uint8 LANE = 2;
+      const uint8 OSM = 3;
+      const uint8 ROAD = 4;
+      const uint8 SDK_NAVI = 5;
+      const uint8 SDK_CRUISE = 6;
+      const uint8 WEB = 7;
+      const uint8 U_TURN = 0;
+      const uint8 TURN_LEFT = 1;
+      const uint8 TURN_RIGHT = 2;
+      const uint8 LEFT_TURN_WAITING_AREA = 3;
+      const uint8 RIGHT_TURN_WAITING_AREA = 4;
+      const uint8 STRAIGHT_AHEAD_WAITING_AREA = 5;
+      const uint8 GO_STRAIGHT = 6;
+      const uint8 NONE = 0;
+      const uint8 TURN_LEVER = 1;
+      const uint8 OVERTAKE = 2;
+      const uint8 NAVIGATION = 3;
+      const uint8 OBSTACLE = 4;
+      @verbatim (language="comment", text=
+        "最终被选中的PolicyScenario的障碍物决策tag" "\n"        "增加新tag不必须修改msg文件，在文档中约定好uint8数字对应的tag即可")
+      const uint8 TAG_UNKNOWN = 0;
+      const uint8 TAG_FOLLOW = 1;
+      const uint8 TAG_OVERTAKE = 2;
+      const uint8 TAG_LEFT_PASS = 3;
+      const uint8 TAG_RIGHT_PASS = 4;
+      const uint8 TAG_PRE_DECELERATE = 5;
+      const uint8 TAG_PRE_OVERTAKE_LEFT = 6;
+      const uint8 TAG_PRE_OVERTAKE_RIGHT = 7;
+    };
+    struct StateContext {
+      std_msgs::msg::Header header;
+
+      uint8 behavior_type;
+
+      uint8 routing_mode;
+
+      uint8 current_turn_type;
+
+      int32 use_mdriver_ego;
+
+      int32 target_line_id;
+
+      int32 current_line_id;
+
+      @verbatim (language="comment", text=
+        "gap info")
+      string front_obstacle_id;
+
+      string rear_obstacle_id;
+
+      uint8 lane_change_task;
+
+      @verbatim (language="comment", text=
+        "【核心决策信息】")
+      int32 best_tree_id;
+
+      sequence<deva_planning_msgs2::msg::PolicyScenario> mcts_trees;
+
+      @verbatim (language="comment", text=
+        "[key: tag, value: obs_id]")
+      sequence<deva_planning_msgs2::msg::UInt2String> tagged_obstacle;
+
+      @verbatim (language="comment", text=
+        "车道线绑定关系和sl投影")
+      sequence<deva_planning_msgs2::msg::LaneBindInfo> lane_bind_infos;
+
+      @verbatim (language="comment", text=
+        "自车在每条被关注的车道上的SL")
+      sequence<deva_planning_msgs2::msg::Ref2SLBoundary> ego_sl_on_ref_lines;
+
+      @verbatim (language="comment", text=
+        "变道取消原因，使用 bitmask 表示" "\n"
+        "bit0 (0001): NAVIGATION_CANCEL" "\n"
+        "bit1 (0010): RISK_CANCEL" "\n"
+        "bit2 (0100): LINE_VIOLATION_CANCEL")
+      uint8 lane_change_cancel_reason;
+
+      @verbatim (language="comment", text=
+        "可扩展的标志位")
+      sequence<uint8> scalable_flags;
+
+      @verbatim (language="comment", text=
+        "可扩展的键值对")
+      sequence<deva_planning_msgs2::msg::String2String> scalable_multimap;
+
+      @verbatim (language="comment", text=
+        "可扩展的二进制流")
+      sequence<deva_planning_msgs2::msg::String2UInt> scalable_stream;
+    };
+  };
+};

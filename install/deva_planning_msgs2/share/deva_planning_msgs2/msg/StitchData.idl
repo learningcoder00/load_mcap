@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/StitchData.msg
+// generated code does not contain a copyright notice
+
+
+module deva_planning_msgs2 {
+  module msg {
+    struct StitchData {
+      uint8 stitch_mode;
+
+      uint8 planner_mode;
+
+      uint8 actual_planner_mode;
+
+      double current_x;
+
+      double current_y;
+
+      double stitch_s;
+
+      double stitch_l;
+
+      double stitch_x;
+
+      double stitch_y;
+
+      double stitch_z;
+
+      double stitch_heading;
+
+      double stitch_alpha;
+
+      double stitch_v;
+
+      double stitch_steer;
+    };
+  };
+};

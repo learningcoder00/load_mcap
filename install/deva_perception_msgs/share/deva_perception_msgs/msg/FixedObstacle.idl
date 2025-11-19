@@ -1,0 +1,51 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/FixedObstacle.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/ExtraInfo.idl"
+#include "deva_perception_msgs/msg/ObstacleCommon.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module FixedObstacle_Constants {
+      @verbatim (language="comment", text=
+        "静态障碍物类型")
+      const uint8 UNKNOWN = 0;
+      const uint8 CONE = 1;
+      const uint8 BAR = 2;
+      const uint8 BUCKET = 3;
+      const uint8 WATERHORSE = 4;
+      const uint8 CONSTRUCTION_SIGN = 5;
+      const uint8 TRIANGLE = 6;
+      const uint8 SPEED_BUMP = 7;
+      const uint8 BRAKE_LEVER = 8;
+      const uint8 FENCE = 9;
+      const uint8 COVER = 10;
+      @verbatim (language="comment", text=
+        "数据源")
+      const uint8 FOV120 = 0;
+      const uint8 FOV30 = 1;
+      const uint8 TRANS = 2;
+      const uint8 FUSION = 3;
+    };
+    @verbatim (language="comment", text=
+      "通用障碍物")
+    struct FixedObstacle {
+      deva_perception_msgs::msg::ObstacleCommon obstacle;
+
+      uint8 fixed_obstacle_type;
+
+      float det_score;
+
+      uint8 source;
+
+      @verbatim (language="comment", text=
+        "索引对")
+      sequence<int32> match_indices;
+
+      @verbatim (language="comment", text=
+        "补充信息")
+      sequence<deva_perception_msgs::msg::ExtraInfo> extra_infos;
+    };
+  };
+};

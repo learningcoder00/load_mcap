@@ -1,0 +1,29 @@
+{
+  "package_name": "deva_map_msgs",
+  "non_idl_tuples": [
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/AvpBoundary.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/AvpLocalMap.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/AvpSubLane.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/AvpSubMap.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/Channel.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ChannelLaneInfo.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ChannelLaneLine.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ChannelLaneMarking.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ChannelLaneSpeedLimitation.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ChannelLaneType.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ChannelMarkingType.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ChannelObjectInfo.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ChannelSignalInfo.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ChannelTurnType.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/EgoTrajectory.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/EgoTrajectoryPoint.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/LaneWaypoint.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/LocalMap.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/LocalMapHeader.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ObstacleEdge.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/PathPoint.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/ReferenceChannal.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/STLocalMap.msg",
+    "/home/linjiawei/load_mcap/src/deva_map_msgs:msg/TrafficLight.msg"
+  ]
+}

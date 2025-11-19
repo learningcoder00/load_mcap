@@ -1,0 +1,5 @@
+deva_common_msgs/Header header
+
+uint8 state_machine_main_state
+uint8 state_machine_mode
+uint8 act_func_arbn

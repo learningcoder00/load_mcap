@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "serialize_msgs__py",
+		"source" : "/home/linjiawei/load_mcap/build/serialize_msgs/serialize_msgs__py"
+	}
+}

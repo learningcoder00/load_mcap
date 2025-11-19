@@ -1,0 +1,15 @@
+# EHP_PROFILE_SHORT.msg
+uint16 prof_short_offset
+uint8 prof_short_msg_type
+uint8 prof_short_path_idx
+uint8 prof_short_cyc_cnt
+uint8 prof_short_update
+uint8 prof_short_retr
+uint8 prof_short_ctrl_point
+uint8 prof_short_prof_type
+uint16 prof_short_dist1
+uint8 prof_short_accur_class
+uint16 prof_short_value0
+uint16 prof_short_value1
+int32 prof_short_relative_offset
+uint8 prof_short_curve_road

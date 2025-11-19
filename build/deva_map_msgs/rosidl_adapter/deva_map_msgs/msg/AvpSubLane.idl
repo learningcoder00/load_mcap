@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_map_msgs/msg/AvpSubLane.msg
+// generated code does not contain a copyright notice
+
+#include "deva_map_msgs/msg/AvpBoundary.idl"
+#include "deva_map_msgs/msg/PathPoint.idl"
+
+module deva_map_msgs {
+  module msg {
+    struct AvpSubLane {
+      string lane_id;
+
+      sequence<deva_map_msgs::msg::PathPoint> ref_line;
+
+      sequence<deva_map_msgs::msg::AvpBoundary> drivable_boundary;
+
+      sequence<string> successor_lane_ids;
+
+      sequence<string> left_lane_ids;
+
+      sequence<string> right_lane_ids;
+    };
+  };
+};

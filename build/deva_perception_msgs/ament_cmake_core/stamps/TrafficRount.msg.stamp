@@ -1,0 +1,4 @@
+float64 timestamp
+LaneInfo lane_info
+int32 cur_road
+RoadInfo road_info

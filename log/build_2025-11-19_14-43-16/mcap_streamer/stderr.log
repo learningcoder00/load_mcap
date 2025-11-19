@@ -1,0 +1,4 @@
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function ‘void McapReaderNode::messageCallback(const string&, const string&, std::shared_ptr<rclcpp::SerializedMessage>)’:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:243:14: warning: unused variable ‘rcl_msg’ [-Wunused-variable]
+  243 |       auto & rcl_msg = msg->get_rcl_serialized_message();
+      |              ^~~~~~~

@@ -1,0 +1,57 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/PerceptionResult.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_perception_msgs/msg/Area.idl"
+#include "deva_perception_msgs/msg/CenterLine.idl"
+#include "deva_perception_msgs/msg/Crosswalk.idl"
+#include "deva_perception_msgs/msg/ForkPoint.idl"
+#include "deva_perception_msgs/msg/MovingObstacle.idl"
+#include "deva_perception_msgs/msg/MutableObstacle.idl"
+#include "deva_perception_msgs/msg/NoparkingZone.idl"
+#include "deva_perception_msgs/msg/STBoundary.idl"
+#include "deva_perception_msgs/msg/StaticObstacle.idl"
+#include "deva_perception_msgs/msg/SteeringArrow.idl"
+#include "deva_perception_msgs/msg/TrafficLight.idl"
+#include "deva_perception_msgs/msg/USTBoundary.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct PerceptionResult {
+      deva_common_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "localization")
+      geometry_msgs::msg::Vector3 translation;
+
+      geometry_msgs::msg::Quaternion orientation;
+
+      sequence<deva_perception_msgs::msg::STBoundary> st_boundaries;
+
+      sequence<deva_perception_msgs::msg::USTBoundary> ust_boundaries;
+
+      sequence<deva_perception_msgs::msg::Crosswalk> crosswalks;
+
+      sequence<deva_perception_msgs::msg::SteeringArrow> steering_arrows;
+
+      sequence<deva_perception_msgs::msg::NoparkingZone> noparking_zones;
+
+      sequence<deva_perception_msgs::msg::Area> areas;
+
+      sequence<deva_perception_msgs::msg::MovingObstacle> moving_obstacles;
+
+      sequence<deva_perception_msgs::msg::StaticObstacle> general_static_obstacles;
+
+      sequence<deva_perception_msgs::msg::TrafficLight> traffic_light_obstacles;
+
+      sequence<deva_perception_msgs::msg::MutableObstacle> mutable_obstacles;
+
+      sequence<deva_perception_msgs::msg::CenterLine> center_lines;
+
+      sequence<deva_perception_msgs::msg::ForkPoint> fork_points;
+    };
+  };
+};

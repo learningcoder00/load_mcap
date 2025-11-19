@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFFusionTFLList.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFFusionTFL.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    typedef uint8 uint8__2[2];
+    typedef deva_aeb_msgs::msg::SFFusionTFL deva_aeb_msgs__msg__SFFusionTFL;
+    typedef deva_aeb_msgs__msg__SFFusionTFL deva_aeb_msgs__msg__SFFusionTFL__8[8];
+    struct SFFusionTFLList {
+      uint64 timestamp;
+
+      uint32 framenum;
+
+      uint8 tflcount;
+
+      uint8__2 reserved;
+
+      deva_aeb_msgs__msg__SFFusionTFL__8 tfllist;
+
+      uint8 validsize;
+    };
+  };
+};

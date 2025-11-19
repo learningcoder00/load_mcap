@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/deva_localization_msgs__cpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/corrected_imu.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/corrected_imu__builder.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/corrected_imu__struct.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/corrected_imu__traits.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/corrected_imu__type_support.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/gnss_best_pose__builder.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/gnss_best_pose__struct.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/gnss_best_pose__traits.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/gnss_best_pose__type_support.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/ins__builder.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/ins__struct.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/ins__traits.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/ins__type_support.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/localization_estimate__builder.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/localization_estimate__struct.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/localization_estimate__traits.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/localization_estimate__type_support.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/localization_revise__builder.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/localization_revise__struct.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/localization_revise__traits.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/localization_revise__type_support.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/pose__builder.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/pose__struct.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/pose__traits.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/pose__type_support.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/raw_imu__builder.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/raw_imu__struct.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/raw_imu__traits.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/detail/raw_imu__type_support.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/gnss_best_pose.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/ins.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/localization_estimate.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/localization_revise.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/pose.hpp"
+  "rosidl_generator_cpp/deva_localization_msgs/msg/raw_imu.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/deva_localization_msgs__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,7 @@
+bool available
+float64 confidence_coefficient
+int16 channel_idx
+ChannelLaneLine middle_line
+ChannelLaneMarking left_marking
+ChannelLaneMarking right_marking
+ChannelObjectInfo[] object_infos

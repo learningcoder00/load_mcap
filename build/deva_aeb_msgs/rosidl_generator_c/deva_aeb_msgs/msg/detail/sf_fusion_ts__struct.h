@@ -1,0 +1,54 @@
+// generated from rosidl_generator_c/resource/idl__struct.h.em
+// with input from deva_aeb_msgs:msg/SFFusionTS.idl
+// generated code does not contain a copyright notice
+
+#ifndef DEVA_AEB_MSGS__MSG__DETAIL__SF_FUSION_TS__STRUCT_H_
+#define DEVA_AEB_MSGS__MSG__DETAIL__SF_FUSION_TS__STRUCT_H_
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+#include <stdbool.h>
+#include <stddef.h>
+#include <stdint.h>
+
+
+// Constants defined in the message
+
+/// Struct defined in msg/SFFusionTS in the package deva_aeb_msgs.
+typedef struct deva_aeb_msgs__msg__SFFusionTS
+{
+  uint32_t id;
+  float dstlgttoeve;
+  float dstlattoeve;
+  float height;
+  uint8_t electcsgn;
+  uint8_t lanelocn;
+  uint8_t locn;
+  uint8_t rlvc;
+  uint8_t notrlvres;
+  uint8_t qly;
+  uint8_t typ;
+  uint8_t val;
+  uint8_t reserved;
+  uint16_t spplinfoval;
+  uint8_t spplinfotype;
+} deva_aeb_msgs__msg__SFFusionTS;
+
+// Struct for a sequence of deva_aeb_msgs__msg__SFFusionTS.
+typedef struct deva_aeb_msgs__msg__SFFusionTS__Sequence
+{
+  deva_aeb_msgs__msg__SFFusionTS * data;
+  /// The number of valid items in data
+  size_t size;
+  /// The number of allocated items in data
+  size_t capacity;
+} deva_aeb_msgs__msg__SFFusionTS__Sequence;
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // DEVA_AEB_MSGS__MSG__DETAIL__SF_FUSION_TS__STRUCT_H_

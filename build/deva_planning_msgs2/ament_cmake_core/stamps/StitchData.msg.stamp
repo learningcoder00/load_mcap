@@ -1,0 +1,14 @@
+uint8 stitch_mode
+uint8 planner_mode
+uint8 actual_planner_mode
+float64 current_x
+float64 current_y
+float64 stitch_s
+float64 stitch_l
+float64 stitch_x
+float64 stitch_y
+float64 stitch_z
+float64 stitch_heading
+float64 stitch_alpha
+float64 stitch_v
+float64 stitch_steer

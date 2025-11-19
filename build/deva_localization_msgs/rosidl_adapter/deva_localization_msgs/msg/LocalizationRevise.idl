@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_localization_msgs/msg/LocalizationRevise.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+
+module deva_localization_msgs {
+  module msg {
+    struct LocalizationRevise {
+      deva_common_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "位置")
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "旋转")
+      geometry_msgs::msg::Quaternion orientation;
+
+      int32 state_message;
+    };
+  };
+};

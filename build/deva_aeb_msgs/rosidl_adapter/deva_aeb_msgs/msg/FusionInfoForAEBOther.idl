@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/FusionInfoForAEBOther.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFDiagList.idl"
+#include "deva_aeb_msgs/msg/SFFusionRoadSignList.idl"
+#include "deva_aeb_msgs/msg/SFFusionTFLList.idl"
+#include "deva_aeb_msgs/msg/SFFusionTSList.idl"
+#include "deva_aeb_msgs/msg/SFRoadPpty.idl"
+#include "deva_aeb_msgs/msg/SFVehSelf.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct FusionInfoForAEBOther {
+      deva_aeb_msgs::msg::SFRoadPpty roadppty;
+
+      deva_aeb_msgs::msg::SFVehSelf vehself;
+
+      deva_aeb_msgs::msg::SFFusionTSList fusiontslist;
+
+      deva_aeb_msgs::msg::SFFusionTFLList fusiontfllist;
+
+      deva_aeb_msgs::msg::SFFusionRoadSignList fusionroadsignlist;
+
+      deva_aeb_msgs::msg::SFDiagList fusiondiaglist;
+    };
+  };
+};

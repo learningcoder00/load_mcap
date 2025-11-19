@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/AvpRefLineTreePointVec.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs2/msg/AvpRefLineTreePoint.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    struct AvpRefLineTreePointVec {
+      sequence<deva_planning_msgs2::msg::AvpRefLineTreePoint> vec;
+    };
+  };
+};

@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/PlanningResult.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_planning_msgs/msg/PlanningTrajectory.idl"
+#include "deva_planning_msgs/msg/SensorTime.idl"
+
+module deva_planning_msgs {
+  module msg {
+    module PlanningResult_Constants {
+      const int8 SUCCESS = 1;
+      const int8 FAILED = 2;
+      const int8 FREEZE = 3;
+      const int8 QUIT = 4;
+    };
+    struct PlanningResult {
+      deva_common_msgs::msg::Header header;
+
+      deva_planning_msgs::msg::SensorTime sensor_time;
+
+      sequence<deva_planning_msgs::msg::PlanningTrajectory> trajectories;
+
+      int8 status;
+    };
+  };
+};

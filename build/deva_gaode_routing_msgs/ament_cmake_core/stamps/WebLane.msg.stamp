@@ -1,0 +1,12 @@
+int32 lane_num
+uint32[] actual_turn
+uint32[] navi_turn
+uint32[] optimal_turn
+uint32[] actual_exten_turn
+uint32[] exten_turn
+uint32[] actual_turn_type
+uint32[] navi_turn_type
+int32 road_idx
+int32 step_idx
+string md5
+WebPoint callback_point

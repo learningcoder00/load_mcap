@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RVLightList.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/RVLight.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module RVLightList_Constants {
+      @verbatim (language="comment", text=
+        "数据源")
+      const uint8 FOV120 = 0;
+      const uint8 FOV30 = 1;
+      const uint8 FUSION = 2;
+    };
+    @verbatim (language="comment", text=
+      "车灯序列")
+    struct RVLightList {
+      sequence<deva_perception_msgs::msg::RVLight> lights;
+
+      uint8 source;
+    };
+  };
+};

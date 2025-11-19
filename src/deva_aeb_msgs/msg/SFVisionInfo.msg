@@ -1,0 +1,15 @@
+float32 cornerx
+float32 cornery
+float32 distinlane
+uint8 objcutinflag
+uint8 objcutinlanetype
+uint8[3] reserved
+float32 visionposx
+float32 visionposy
+uint8 laneassignment
+uint8 iscipv
+uint8 mtncatergory
+uint8 mtnstatus
+uint8 distconvergence
+uint8 coverdproperty
+uint8 unstable

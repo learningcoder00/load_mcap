@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/TrafficDetectData.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_perception_msgs/msg/E2eResult.idl"
+#include "deva_perception_msgs/msg/TrafficObject.idl"
+
+module deva_perception_msgs {
+  module msg {
+    typedef deva_perception_msgs::msg::TrafficObject deva_perception_msgs__msg__TrafficObject;
+    typedef deva_perception_msgs__msg__TrafficObject deva_perception_msgs__msg__TrafficObject__64[64];
+    typedef uint8 uint8__2[2];
+    struct TrafficDetectData {
+      deva_common_msgs::msg::Header header;
+
+      uint64 framenum;
+
+      uint64 timestamp;
+
+      float abs_vel_x;
+
+      float abs_acc_x;
+
+      uint8 vel_motion;
+
+      uint8 acc_motion;
+
+      uint8 f120_object_num;
+
+      uint8 f30_object_num;
+
+      deva_perception_msgs__msg__TrafficObject__64 f120trafficobjects;
+
+      deva_perception_msgs__msg__TrafficObject__64 f30trafficobjects;
+
+      deva_perception_msgs::msg::E2eResult e2eobjects;
+
+      uint8 time_of_day;
+
+      uint8__2 reserved;
+    };
+  };
+};

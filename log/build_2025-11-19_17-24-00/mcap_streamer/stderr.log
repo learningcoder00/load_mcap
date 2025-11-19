@@ -1,0 +1,10 @@
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function ‘std::string McapReaderNode::formatValue(const MessageMember*, const uint8_t*, size_t&, int)’:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:511:68: error: ‘const rosidl_message_type_support_t’ {aka ‘const struct rosidl_message_type_support_t’} has no member named ‘size_’
+  511 |           oss << formatMessage(member->members_, member->members_->size_, data, offset, indent + 2);
+      |                                                                    ^~~~~
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:533:64: error: ‘const rosidl_message_type_support_t’ {aka ‘const struct rosidl_message_type_support_t’} has no member named ‘size_’
+  533 |       oss << formatMessage(member->members_, member->members_->size_, data, offset, indent + 1);
+      |                                                                ^~~~~
+gmake[2]: *** [CMakeFiles/mcap_reader_node.dir/build.make:76: CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_reader_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

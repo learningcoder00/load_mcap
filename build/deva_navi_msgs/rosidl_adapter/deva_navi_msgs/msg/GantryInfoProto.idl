@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/GantryInfoProto.msg
+// generated code does not contain a copyright notice
+
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "GantryInfoProto.msg")
+    struct GantryInfoProto {
+      int32 flag;
+
+      int32 type;
+
+      int64 dist_end;
+
+      string num;
+
+      string name;
+    };
+  };
+};

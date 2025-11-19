@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RVDynObstacleResult.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_perception_msgs/msg/ExtraInfo.idl"
+#include "deva_perception_msgs/msg/RVDynObstacleList.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+
+module deva_perception_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "消息头")
+    struct RVDynObstacleResult {
+      deva_common_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "定位信息")
+      geometry_msgs::msg::Vector3 translation;
+
+      geometry_msgs::msg::Quaternion orientation;
+
+      @verbatim (language="comment", text=
+        "动态障碍物序列")
+      sequence<deva_perception_msgs::msg::RVDynObstacleList> dynamic_obs_list;
+
+      @verbatim (language="comment", text=
+        "补充信息")
+      sequence<deva_perception_msgs::msg::ExtraInfo> extra_infos;
+    };
+  };
+};

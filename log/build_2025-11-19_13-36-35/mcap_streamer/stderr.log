@@ -1,0 +1,4 @@
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function ‘void McapReaderNode::messageCallback(const string&, const string&, std::shared_ptr<rclcpp::SerializedMessage>)’:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:212:77: warning: unused parameter ‘topic_type’ [-Wunused-parameter]
+  212 |   void messageCallback(const std::string & topic_name , const std::string & topic_type , std::shared_ptr<rclcpp::SerializedMessage> msg)
+      |                                                         ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~

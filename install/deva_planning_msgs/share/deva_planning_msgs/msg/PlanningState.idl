@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/PlanningState.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_planning_msgs/msg/PlanningFail.idl"
+
+module deva_planning_msgs {
+  module msg {
+    struct PlanningState {
+      deva_common_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "SUCCESS, FAILED, FREEZE[预留], QUIT[预留]")
+      string pilot_planning_state;
+
+      @verbatim (language="comment", text=
+        "ERROR[预留], NOA_NOT_AVAILABLE[planning不支持NOA], NOA_AVAILABLE")
+      string navi_state;
+
+      sequence<deva_planning_msgs::msg::PlanningFail> fail_reason;
+    };
+  };
+};

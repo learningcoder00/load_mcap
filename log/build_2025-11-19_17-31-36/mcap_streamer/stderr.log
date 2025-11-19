@@ -1,0 +1,64 @@
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function ‘const rosidl_message_type_support_t* McapReaderNode::getTypeSupport(const string&, const string&)’:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:635:53: error: no matching function for call to ‘get_message_type_support_handle(const string&, const string&)’
+  635 |       return rclcpp::get_message_type_support_handle(topic_type, typesupport_identifier);
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:48:1: note: candidate: ‘template<class MessageT> constexpr std::enable_if_t<rosidl_generator_traits::is_message<T>::value, const rosidl_message_type_support_t&> rclcpp::get_message_type_support_handle()’
+   48 | get_message_type_support_handle()
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:48:1: note:   template argument deduction/substitution failed:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:635:53: note:   candidate expects 0 arguments, 2 provided
+  635 |       return rclcpp::get_message_type_support_handle(topic_type, typesupport_identifier);
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:64:1: note: candidate: ‘template<class AdaptedType> constexpr std::enable_if_t<((! rosidl_generator_traits::is_message<T>::value) && typename rclcpp::TypeAdapter<MessageT>::is_specialized::value), const rosidl_message_type_support_t&> rclcpp::get_message_type_support_handle()’
+   64 | get_message_type_support_handle()
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:64:1: note:   template argument deduction/substitution failed:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:635:53: note:   candidate expects 0 arguments, 2 provided
+  635 |       return rclcpp::get_message_type_support_handle(topic_type, typesupport_identifier);
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:36,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:
+/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:87:1: note: candidate: ‘template<class AdaptedType> constexpr std::enable_if_t<((! rosidl_generator_traits::is_message<T>::value) && (! typename rclcpp::TypeAdapter<MessageT>::is_specialized::value)), const rosidl_message_type_support_t&> rclcpp::get_message_type_support_handle()’
+   87 | get_message_type_support_handle()
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:87:1: note:   template argument deduction/substitution failed:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:635:53: note:   candidate expects 0 arguments, 2 provided
+  635 |       return rclcpp::get_message_type_support_handle(topic_type, typesupport_identifier);
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/mcap_reader_node.dir/build.make:76: CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_reader_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

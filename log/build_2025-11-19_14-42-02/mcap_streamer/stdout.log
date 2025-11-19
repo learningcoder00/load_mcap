@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target mcap_reader_node[0m
+[ 33%] Built target s3_downloader_lib
+[ 50%] [32mBuilding CXX object CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o[0m
+[ 83%] Built target mcap_streamer_node

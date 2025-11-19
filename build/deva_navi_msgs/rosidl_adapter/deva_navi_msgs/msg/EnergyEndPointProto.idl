@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/EnergyEndPointProto.msg
+// generated code does not contain a copyright notice
+
+#include "deva_navi_msgs/msg/Coord3DDoubleProto.idl"
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "EnergyEndPointProto.msg")
+    struct EnergyEndPointProto {
+      deva_navi_msgs::msg::Coord3DDoubleProto show;
+
+      int32 segment_idx;
+
+      int32 link_index;
+    };
+  };
+};

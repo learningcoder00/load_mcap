@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RvStaticObstacleArray.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/RvStaticObstacle.idl"
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct RvStaticObstacleArray {
+      std_msgs::msg::Header header;
+
+      sequence<deva_perception_msgs::msg::RvStaticObstacle> obstacle_array;
+
+      @verbatim (language="comment", text=
+        "transform")
+      geometry_msgs::msg::Quaternion orientation;
+
+      geometry_msgs::msg::Point translation;
+    };
+  };
+};

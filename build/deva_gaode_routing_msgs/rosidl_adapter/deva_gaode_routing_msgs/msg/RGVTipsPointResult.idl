@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/RGVTipsPointResult.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/RoutePos.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct RGVTipsPointResult {
+      uint64 raw_link_id;
+
+      int32 tsection;
+
+      deva_gaode_routing_msgs::msg::RoutePos pos;
+    };
+  };
+};

@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/SdProLane.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/SdProLaneTopo.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct SdProLane {
+      uint64 id;
+
+      @verbatim (language="comment", text=
+        "车道引导标识方向")
+      uint32 lane_arrow_type;
+
+      uint32 category_location;
+
+      uint32 category_vehicle;
+
+      uint32 category_special;
+
+      @verbatim (language="comment", text=
+        "车道编号，从右到左增加，从1开始")
+      int32 lane_num;
+
+      int32 length;
+
+      int32 direction;
+
+      sequence<deva_gaode_routing_msgs::msg::SdProLaneTopo> next_lanes;
+
+      sequence<deva_gaode_routing_msgs::msg::SdProLaneTopo> pre_lanes;
+
+      @verbatim (language="comment", text=
+        "UNKNOWN = 0, CONTINUE = 1 // 直行, MERGE = 2 // 并道,  SPLIT = 3 // 岔道")
+      uint32 transition;
+    };
+  };
+};

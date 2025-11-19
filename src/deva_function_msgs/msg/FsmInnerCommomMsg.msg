@@ -1,0 +1,64 @@
+# FSM sends out the current state and the state of the sub-state machine.
+# Driving and Parking state machine and sub-state machine state
+
+deva_common_msgs/Header header
+
+uint32 asy_cnoa_crs_lan_chg_msg
+
+float32 set_spd_for_crs_ctrl_fct_active
+
+uint32 asy_lane_chg_assist_sts
+uint32 indcr_sts
+uint32 asy_noa_takeover_sod
+
+uint8 hmi_drvr_sod_req_pilot
+uint8 drvr_crs_ctrl_fct_actv_req
+uint8 asy_algt_indcr
+uint8 ti_gap_set_for_lgt_ctrl
+uint8 drv_mod_req
+
+uint8 drv_off_warn
+uint8 asy_alat_indcr
+uint8 asy_lgt_ctrl_take_over_req
+uint8 ovrd_wrn_for_fst_actv
+uint8 asy_inform_for_drvr
+uint8 cncl_warn_lgt_for_aut_drv
+uint8 avl_sts_for_long_aut_drv
+uint8 asy_steer_apply_rqrd
+uint8 asy_lan_chg_mesg
+uint32 asy_safe_stop_sts
+uint8 asy_eyes_off_warn_rqrd
+uint8 asy_noa_remind_mesg
+uint8 asy_noa_takeover_mesg
+uint8 asy_aut_drvg_avl
+uint8 asy_noa_actv_suggest
+uint8 cncl_warn_for_aut_drv
+uint8 asy_lat_deg_sts
+uint8 asy_icc_max_warn_msg
+uint8 asy_cnoa_takeover_warn_msg
+uint8 asy_cnoa_crs_cross_intsec_msg
+uint8 asy_d2d_avl_rmn
+uint8 asy_d2d_distan_msg
+uint8 asy_d2d_strt_to_end
+uint8 asy_d2d_deactvd_reasn_mesg
+uint8 asy_aut_emgy_steer_actv
+uint8 asy_d2d_etc_distan_msg
+uint8 asy_d2d_remind_msg
+uint8 disp_tsi_info_for_lgt_ctrl
+float32 disp_spd_set_for_lgt_ctrl
+uint8 ad_dim_light
+uint8 asy_d2d_crs_dim_indcr
+uint8 asy_aut_drv_ctrl_typ_dim_req
+uint8 ihu_set_disp_ad
+uint8 aut_lane_chg_sts
+uint8 ad_ctrl_mode
+uint8 hmi_drvr_sod_req_chg
+uint8 cam_status0
+uint8 frnt_side_cam_le_sts0
+uint8 frnt_side_cam_ri_sts0
+uint8 re_side_cam_le_sts0
+uint8 re_side_cam_ri_sts0
+uint8 hmi_re_cam_sts0
+uint8 asy_algt_sts
+uint8 hmi_auto_lane_chg_style
+uint8 trfc_jam_warn

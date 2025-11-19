@@ -1,0 +1,4 @@
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_streamer_node.cpp: In member function ‘bool McapStreamerNode::setupBagReader(const string&)’:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_streamer_node.cpp:387:14: warning: unused variable ‘skipped_count’ [-Wunused-variable]
+  387 |       size_t skipped_count = 0;
+      |              ^~~~~~~~~~~~~

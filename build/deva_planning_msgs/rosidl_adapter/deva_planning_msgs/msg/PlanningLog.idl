@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/PlanningLog.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module deva_planning_msgs {
+  module msg {
+    struct PlanningLog {
+      std_msgs::msg::Header header;
+
+      sequence<uint8> localization;
+
+      sequence<uint8> chassis;
+
+      sequence<uint8> pad_message;
+
+      sequence<uint8> pull_over_msg;
+
+      sequence<uint8> traffic_poles;
+
+      sequence<uint8> apollo_decision;
+
+      sequence<uint8> prediction;
+
+      sequence<uint8> megmap_proto;
+
+      sequence<uint8> state_context;
+
+      sequence<uint8> target_trajectory;
+
+      sequence<uint8> speed_solver_debug_sequence;
+
+      sequence<uint8> trajectory_solver_debug_sequence;
+
+      sequence<uint8> planning_log;
+
+      sequence<uint8> navigator_routing;
+
+      uint32 drving_state;
+
+      uint32 auto_function;
+
+      uint32 drive_action;
+
+      uint32 env_info_index;
+    };
+  };
+};

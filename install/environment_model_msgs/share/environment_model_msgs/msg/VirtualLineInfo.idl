@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/VirtualLineInfo.msg
+// generated code does not contain a copyright notice
+
+#include "environment_model_msgs/msg/PairDouble.idl"
+#include "environment_model_msgs/msg/PairInt.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct VirtualLineInfo {
+      uint8 enum_vlane_type;
+
+      double virtual_score;
+
+      environment_model_msgs::msg::PairInt ori_ids;
+
+      environment_model_msgs::msg::PairDouble e2e_pair;
+
+      string exit_lane_id;
+
+      int32 exit_seq_id;
+    };
+  };
+};

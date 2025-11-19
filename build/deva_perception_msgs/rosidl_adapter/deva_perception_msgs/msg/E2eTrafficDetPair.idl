@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/E2eTrafficDetPair.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/E2eDecodeResult.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct E2eTrafficDetPair {
+      @verbatim (language="comment", text=
+        "取值参考TrafficE2eResult.msg")
+      uint8 traffic_e2e_result;
+
+      deva_perception_msgs::msg::E2eDecodeResult e2e_decode_result;
+    };
+  };
+};

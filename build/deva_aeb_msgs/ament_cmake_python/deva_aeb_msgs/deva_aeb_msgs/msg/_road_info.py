@@ -1,0 +1,180 @@
+# generated from rosidl_generator_py/resource/_idl.py.em
+# with input from deva_aeb_msgs:msg/RoadInfo.idl
+# generated code does not contain a copyright notice
+
+
+# Import statements for member types
+
+import builtins  # noqa: E402, I100
+
+import rosidl_parser.definition  # noqa: E402, I100
+
+
+class Metaclass_RoadInfo(type):
+    """Metaclass of message 'RoadInfo'."""
+
+    _CREATE_ROS_MESSAGE = None
+    _CONVERT_FROM_PY = None
+    _CONVERT_TO_PY = None
+    _DESTROY_ROS_MESSAGE = None
+    _TYPE_SUPPORT = None
+
+    __constants = {
+    }
+
+    @classmethod
+    def __import_type_support__(cls):
+        try:
+            from rosidl_generator_py import import_type_support
+            module = import_type_support('deva_aeb_msgs')
+        except ImportError:
+            import logging
+            import traceback
+            logger = logging.getLogger(
+                'deva_aeb_msgs.msg.RoadInfo')
+            logger.debug(
+                'Failed to import needed modules for type support:\n' +
+                traceback.format_exc())
+        else:
+            cls._CREATE_ROS_MESSAGE = module.create_ros_message_msg__msg__road_info
+            cls._CONVERT_FROM_PY = module.convert_from_py_msg__msg__road_info
+            cls._CONVERT_TO_PY = module.convert_to_py_msg__msg__road_info
+            cls._TYPE_SUPPORT = module.type_support_msg__msg__road_info
+            cls._DESTROY_ROS_MESSAGE = module.destroy_ros_message_msg__msg__road_info
+
+            from deva_aeb_msgs.msg import SFFrontLinePpty
+            if SFFrontLinePpty.__class__._TYPE_SUPPORT is None:
+                SFFrontLinePpty.__class__.__import_type_support__()
+
+            from deva_aeb_msgs.msg import SFRoadEdgeEstimn
+            if SFRoadEdgeEstimn.__class__._TYPE_SUPPORT is None:
+                SFRoadEdgeEstimn.__class__.__import_type_support__()
+
+            from deva_aeb_msgs.msg import SFRoadEdgeInfo
+            if SFRoadEdgeInfo.__class__._TYPE_SUPPORT is None:
+                SFRoadEdgeInfo.__class__.__import_type_support__()
+
+    @classmethod
+    def __prepare__(cls, name, bases, **kwargs):
+        # list constant names here so that they appear in the help text of
+        # the message class under "Data and other attributes defined here:"
+        # as well as populate each message instance
+        return {
+        }
+
+
+class RoadInfo(metaclass=Metaclass_RoadInfo):
+    """Message class 'RoadInfo'."""
+
+    __slots__ = [
+        '_estimn',
+        '_ppty',
+        '_info',
+    ]
+
+    _fields_and_field_types = {
+        'estimn': 'deva_aeb_msgs/SFRoadEdgeEstimn',
+        'ppty': 'deva_aeb_msgs/SFFrontLinePpty',
+        'info': 'deva_aeb_msgs/SFRoadEdgeInfo',
+    }
+
+    SLOT_TYPES = (
+        rosidl_parser.definition.NamespacedType(['deva_aeb_msgs', 'msg'], 'SFRoadEdgeEstimn'),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['deva_aeb_msgs', 'msg'], 'SFFrontLinePpty'),  # noqa: E501
+        rosidl_parser.definition.NamespacedType(['deva_aeb_msgs', 'msg'], 'SFRoadEdgeInfo'),  # noqa: E501
+    )
+
+    def __init__(self, **kwargs):
+        assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+            'Invalid arguments passed to constructor: %s' % \
+            ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        from deva_aeb_msgs.msg import SFRoadEdgeEstimn
+        self.estimn = kwargs.get('estimn', SFRoadEdgeEstimn())
+        from deva_aeb_msgs.msg import SFFrontLinePpty
+        self.ppty = kwargs.get('ppty', SFFrontLinePpty())
+        from deva_aeb_msgs.msg import SFRoadEdgeInfo
+        self.info = kwargs.get('info', SFRoadEdgeInfo())
+
+    def __repr__(self):
+        typename = self.__class__.__module__.split('.')
+        typename.pop()
+        typename.append(self.__class__.__name__)
+        args = []
+        for s, t in zip(self.__slots__, self.SLOT_TYPES):
+            field = getattr(self, s)
+            fieldstr = repr(field)
+            # We use Python array type for fields that can be directly stored
+            # in them, and "normal" sequences for everything else.  If it is
+            # a type that we store in an array, strip off the 'array' portion.
+            if (
+                isinstance(t, rosidl_parser.definition.AbstractSequence) and
+                isinstance(t.value_type, rosidl_parser.definition.BasicType) and
+                t.value_type.typename in ['float', 'double', 'int8', 'uint8', 'int16', 'uint16', 'int32', 'uint32', 'int64', 'uint64']
+            ):
+                if len(field) == 0:
+                    fieldstr = '[]'
+                else:
+                    assert fieldstr.startswith('array(')
+                    prefix = "array('X', "
+                    suffix = ')'
+                    fieldstr = fieldstr[len(prefix):-len(suffix)]
+            args.append(s[1:] + '=' + fieldstr)
+        return '%s(%s)' % ('.'.join(typename), ', '.join(args))
+
+    def __eq__(self, other):
+        if not isinstance(other, self.__class__):
+            return False
+        if self.estimn != other.estimn:
+            return False
+        if self.ppty != other.ppty:
+            return False
+        if self.info != other.info:
+            return False
+        return True
+
+    @classmethod
+    def get_fields_and_field_types(cls):
+        from copy import copy
+        return copy(cls._fields_and_field_types)
+
+    @builtins.property
+    def estimn(self):
+        """Message field 'estimn'."""
+        return self._estimn
+
+    @estimn.setter
+    def estimn(self, value):
+        if __debug__:
+            from deva_aeb_msgs.msg import SFRoadEdgeEstimn
+            assert \
+                isinstance(value, SFRoadEdgeEstimn), \
+                "The 'estimn' field must be a sub message of type 'SFRoadEdgeEstimn'"
+        self._estimn = value
+
+    @builtins.property
+    def ppty(self):
+        """Message field 'ppty'."""
+        return self._ppty
+
+    @ppty.setter
+    def ppty(self, value):
+        if __debug__:
+            from deva_aeb_msgs.msg import SFFrontLinePpty
+            assert \
+                isinstance(value, SFFrontLinePpty), \
+                "The 'ppty' field must be a sub message of type 'SFFrontLinePpty'"
+        self._ppty = value
+
+    @builtins.property
+    def info(self):
+        """Message field 'info'."""
+        return self._info
+
+    @info.setter
+    def info(self, value):
+        if __debug__:
+            from deva_aeb_msgs.msg import SFRoadEdgeInfo
+            assert \
+                isinstance(value, SFRoadEdgeInfo), \
+                "The 'info' field must be a sub message of type 'SFRoadEdgeInfo'"
+        self._info = value

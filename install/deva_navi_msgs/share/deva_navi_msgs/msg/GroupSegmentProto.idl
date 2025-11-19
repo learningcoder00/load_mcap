@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/GroupSegmentProto.msg
+// generated code does not contain a copyright notice
+
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "GroupSegmentProto.msg")
+    struct GroupSegmentProto {
+      int64 length;
+
+      int64 toll_cost;
+
+      string road_name;
+
+      int32 start_segment_index;
+
+      int32 segment_count;
+
+      int32 status;
+
+      int32 speed;
+
+      boolean is_via_point;
+
+      boolean is_crucial;
+    };
+  };
+};

@@ -1,0 +1,61 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/SFFusionTSNOA.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/QuadrangleImg.idl"
+#include "deva_perception_msgs/msg/QuadrangleVcs.idl"
+#include "deva_perception_msgs/msg/TrafficRegion.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct SFFusionTSNOA {
+      uint32 id;
+
+      float dstlgttoeve;
+
+      float dstlattoeve;
+
+      float height;
+
+      float direction;
+
+      uint8 electcsgn;
+
+      uint8 lanelocn;
+
+      uint8 locn;
+
+      uint8 rlvc;
+
+      uint8 notrlvres;
+
+      uint8 qly;
+
+      uint8 typ;
+
+      uint8 val;
+
+      boolean is_ramp;
+
+      deva_perception_msgs::msg::TrafficRegion region;
+
+      uint8 reserved;
+
+      uint16 spplinfoval;
+
+      uint8 spplinfotype;
+
+      deva_perception_msgs::msg::QuadrangleVcs tsquadranglevcs;
+
+      deva_perception_msgs::msg::QuadrangleImg tsquadrangleimg;
+
+      float utmx;
+
+      float utmy;
+
+      float utmz;
+
+      uint32 pole;
+    };
+  };
+};

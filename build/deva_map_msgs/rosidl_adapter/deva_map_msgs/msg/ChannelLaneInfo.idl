@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_map_msgs/msg/ChannelLaneInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_map_msgs/msg/ChannelLaneSpeedLimitation.idl"
+#include "deva_map_msgs/msg/ChannelLaneType.idl"
+#include "deva_map_msgs/msg/ChannelTurnType.idl"
+
+module deva_map_msgs {
+  module msg {
+    struct ChannelLaneInfo {
+      sequence<string> lane_id_vec;
+
+      sequence<deva_map_msgs::msg::ChannelLaneType> lanetype_vec;
+
+      sequence<deva_map_msgs::msg::ChannelTurnType> turntype_vec;
+
+      sequence<deva_map_msgs::msg::ChannelLaneSpeedLimitation> lanespeedlimitation_vec;
+    };
+  };
+};

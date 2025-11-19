@@ -1,0 +1,90 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/AmapPathInfoProto.msg
+// generated code does not contain a copyright notice
+
+#include "deva_navi_msgs/msg/ChargeStationInfoProto.idl"
+#include "deva_navi_msgs/msg/Coord3DDoubleProto.idl"
+#include "deva_navi_msgs/msg/ElecPathInfoProto.idl"
+#include "deva_navi_msgs/msg/GroupSegmentProto.idl"
+#include "deva_navi_msgs/msg/LineIconPointProto.idl"
+#include "deva_navi_msgs/msg/OddSegInfoProto.idl"
+#include "deva_navi_msgs/msg/POIInfoProto.idl"
+#include "deva_navi_msgs/msg/PathDescriptionInfoProto.idl"
+#include "deva_navi_msgs/msg/RestrictionInfoProto.idl"
+#include "deva_navi_msgs/msg/SegmentInfoProto.idl"
+#include "deva_navi_msgs/msg/TipInfoProto.idl"
+#include "deva_navi_msgs/msg/ViaPointInfoProto.idl"
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "AmapPathInfoProto.msg")
+    struct AmapPathInfoProto {
+      sequence<deva_navi_msgs::msg::Coord3DDoubleProto> all_3d_traffic_lights;
+
+      sequence<deva_navi_msgs::msg::SegmentInfoProto> segment_infos;
+
+      sequence<deva_navi_msgs::msg::LineIconPointProto> line_icon_points;
+
+      sequence<int64> city_adcode_list;
+
+      sequence<deva_navi_msgs::msg::ViaPointInfoProto> via_point_info;
+
+      sequence<deva_navi_msgs::msg::ChargeStationInfoProto> charge_station_info;
+
+      sequence<deva_navi_msgs::msg::OddSegInfoProto> odd_seg_infos;
+
+      string plan_channel_id;
+
+      string offline_req_custom_identity_id;
+
+      boolean is_valid;
+
+      int64 path_id;
+
+      int32 type;
+
+      int64 length;
+
+      int64 strategy;
+
+      int64 travel_time;
+
+      int64 static_travel_time;
+
+      int32 toll_cost;
+
+      string navi_id;
+
+      boolean is_online;
+
+      sequence<deva_navi_msgs::msg::GroupSegmentProto> group_segments;
+
+      deva_navi_msgs::msg::RestrictionInfoProto restriction_info;
+
+      deva_navi_msgs::msg::POIInfoProto end_poi;
+
+      deva_navi_msgs::msg::TipInfoProto tip;
+
+      int32 end_direction;
+
+      boolean is_holiday_free;
+
+      boolean is_truck_path;
+
+      int64 data_version;
+
+      int64 normal_plan_time;
+
+      int32 route_type;
+
+      deva_navi_msgs::msg::ElecPathInfoProto elec_path_info;
+
+      deva_navi_msgs::msg::PathDescriptionInfoProto path_description_info;
+
+      int64 remain_toll_cost;
+
+      int64 main_route_remain_toll_cost;
+    };
+  };
+};

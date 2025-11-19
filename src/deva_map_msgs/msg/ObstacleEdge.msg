@@ -1,0 +1,1 @@
+geometry_msgs/Point world_coord_center_point

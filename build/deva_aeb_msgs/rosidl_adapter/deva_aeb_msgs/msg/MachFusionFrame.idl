@@ -1,0 +1,91 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/MachFusionFrame.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    typedef double double__7[7];
+    typedef double double__16[16];
+    typedef double double__9[9];
+    typedef double double__3[3];
+    typedef double double__4[4];
+    struct MachFusionFrame {
+      deva_common_msgs::msg::Header header;
+
+      uint64 frame_id;
+
+      uint64 rv_timestamp;
+
+      uint64 bev_timestamp;
+
+      uint64 front_radar_timestamp;
+
+      uint64 front_right_radar_timestamp;
+
+      uint64 front_left_radar_timestamp;
+
+      uint64 back_left_radar_timestamp;
+
+      uint64 back_right_radar_timestamp;
+
+      uint64 lidar_timestamp;
+
+      uint64 ins_timestamp;
+
+      double__7 rfu2camera_pose;
+
+      double__7 ego2camera_pose;
+
+      @verbatim (language="comment", text=
+        "####Col-major  begin ####" "\n"
+        "matrix << 1, 2, 3, 4," "\n"
+        "         5, 6, 7, 8," "\n"
+        "         9, 10, 11, 12," "\n"
+        "         13, 14, 15, 16;" "\n"
+        "results: 1 5 9 13 2 6 10 14 3 7 11 15 4 8 12 16")
+      double__16 rfu_ego_pose_matirx;
+
+      double__16 rfu_imu_pose_matirx;
+
+      double__16 ego_world_pose_matirx;
+
+      @verbatim (language="comment", text=
+        "#### Col-major matrix end ####")
+      double__9 camera_k_matrix;
+
+      double__3 imu_world_translation;
+
+      double__4 imu_world_rotation;
+
+      double__7 rfu2camera_pose_front;
+
+      double__7 rfu2camera_pose_front_left;
+
+      double__7 rfu2camera_pose_front_right;
+
+      double__7 rfu2camera_pose_back;
+
+      double__7 rfu2camera_pose_back_left;
+
+      double__7 rfu2camera_pose_back_right;
+
+      uint64 vehile_report_time;
+
+      int64 reserve1;
+
+      int64 reserve2;
+
+      int64 reserve3;
+
+      int64 reserve4;
+
+      int64 reserve5;
+
+      int64 reserve6;
+
+      int64 reserve7;
+    };
+  };
+};

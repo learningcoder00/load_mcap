@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_mdriver_msgs/msg/MdriverMetaAction.msg
+// generated code does not contain a copyright notice
+
+
+module deva_mdriver_msgs {
+  module msg {
+    module MdriverMetaAction_Constants {
+      @verbatim (language="comment", text=
+        "MDRIVER_META_ACTION")
+      const uint8 UNKNOWN = 0;
+      const uint8 KEEP_LANE = 1;
+      const uint8 LANE_LEFT = 2;
+      const uint8 LANE_RIGHT = 3;
+    };
+    struct MdriverMetaAction {
+      uint8 best_mdriver_meta_action;
+
+      double score;
+
+      sequence<double> logits;
+    };
+  };
+};

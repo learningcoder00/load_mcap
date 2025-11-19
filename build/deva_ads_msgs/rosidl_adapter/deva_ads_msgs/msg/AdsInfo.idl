@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_ads_msgs/msg/AdsInfo.msg
+// generated code does not contain a copyright notice
+
+
+module deva_ads_msgs {
+  module msg {
+    struct AdsInfo {
+      string key;
+
+      string value;
+    };
+  };
+};

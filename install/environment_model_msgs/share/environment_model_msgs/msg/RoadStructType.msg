@@ -1,0 +1,2 @@
+uint8 enum_road_struct_type
+float64 confidence

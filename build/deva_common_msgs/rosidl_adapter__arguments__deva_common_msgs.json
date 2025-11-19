@@ -1,0 +1,18 @@
+{
+  "package_name": "deva_common_msgs",
+  "non_idl_tuples": [
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/BoundingBox.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/BoundingBox2d.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/Dimension.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/DisperseCurve.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/EquationCurve.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/GroundPoint.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/Header.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/KV.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/Line2d.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/LineSegment.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/Point2d.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/Serialize.msg",
+    "/home/linjiawei/load_mcap/src/deva_common_msgs:msg/String.msg"
+  ]
+}

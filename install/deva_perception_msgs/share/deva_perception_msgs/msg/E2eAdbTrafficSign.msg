@@ -1,0 +1,8 @@
+std_msgs/Header header
+uint8 traffic_sign_for_adb_adb_trk_info
+float32 traffic_sign_for_adb_adb_abs_dist
+float32 traffic_sign_for_adb_adb_vert_ag_bot
+float32 traffic_sign_for_adb_adb_vert_ag_top
+float32 traffic_sign_for_adb_adb_hozl_ag_le
+float32 traffic_sign_for_adb_adb_hozl_ag_ri
+float32 traffic_sign_for_adb_adb_detd_qly

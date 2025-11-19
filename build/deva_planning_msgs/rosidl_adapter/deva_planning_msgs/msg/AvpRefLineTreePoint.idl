@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/AvpRefLineTreePoint.msg
+// generated code does not contain a copyright notice
+
+
+module deva_planning_msgs {
+  module msg {
+    struct AvpRefLineTreePoint {
+      int32 idx;
+
+      int32 directory;
+
+      double center_n;
+
+      double center_point_x;
+
+      double center_point_y;
+
+      double center_point_z;
+
+      double left_n;
+
+      double right_n;
+
+      double left_x;
+
+      double left_y;
+
+      double left_z;
+
+      double right_x;
+
+      double right_y;
+
+      double right_z;
+    };
+  };
+};

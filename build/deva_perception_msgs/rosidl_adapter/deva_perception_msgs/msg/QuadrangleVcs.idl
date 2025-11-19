@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/QuadrangleVcs.msg
+// generated code does not contain a copyright notice
+
+
+module deva_perception_msgs {
+  module msg {
+    struct QuadrangleVcs {
+      float leftuppointx;
+
+      float leftuppointy;
+
+      float leftuppointz;
+
+      float rightuppointx;
+
+      float rightuppointy;
+
+      float rightuppointz;
+
+      float rightdownpointx;
+
+      float rightdownpointy;
+
+      float rightdownpointz;
+
+      float leftdownpointx;
+
+      float leftdownpointy;
+
+      float leftdownpointz;
+    };
+  };
+};

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/FusionInfoForAEBObjList.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFFusionObjList.idl"
+#include "deva_aeb_msgs/msg/SFVehSelf.idl"
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct FusionInfoForAEBObjList {
+      deva_common_msgs::msg::Header header;
+
+      deva_aeb_msgs::msg::SFFusionObjList fusionobjlist;
+
+      deva_aeb_msgs::msg::SFVehSelf vehself;
+    };
+  };
+};

@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFStopline.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    typedef uint8 uint8__3[3];
+    struct SFStopline {
+      uint32 id;
+
+      float leftpointposlgt;
+
+      float leftpointposlat;
+
+      float rightpointposlgt;
+
+      float rightpointposlat;
+
+      uint8 confi;
+
+      uint8__3 reserved;
+    };
+  };
+};

@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/ChargeStationInfoProto.msg
+// generated code does not contain a copyright notice
+
+#include "deva_navi_msgs/msg/Coord3DDoubleProto.idl"
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "ChargeStationInfoProto.msg")
+    struct ChargeStationInfoProto {
+      int32 segment_idx;
+
+      int32 direction;
+
+      deva_navi_msgs::msg::Coord3DDoubleProto show;
+
+      deva_navi_msgs::msg::Coord3DDoubleProto projective;
+
+      string poi_id;
+
+      string name;
+
+      string brand_name;
+
+      int32 max_power;
+
+      int32 charge_percent;
+
+      int32 charge_time;
+
+      int32 remaining_capacity;
+    };
+  };
+};

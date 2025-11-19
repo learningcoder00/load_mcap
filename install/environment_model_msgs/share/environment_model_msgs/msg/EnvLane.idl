@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/EnvLane.msg
+// generated code does not contain a copyright notice
+
+#include "environment_model_msgs/msg/MapIds.idl"
+#include "environment_model_msgs/msg/Vec2d.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct EnvLane {
+      uint32 id;
+
+      sequence<environment_model_msgs::msg::Vec2d> coords;
+
+      sequence<environment_model_msgs::msg::Vec2d> extends;
+
+      sequence<environment_model_msgs::msg::Vec2d> left_boundary;
+
+      sequence<environment_model_msgs::msg::Vec2d> right_boundary;
+
+      sequence<environment_model_msgs::msg::MapIds> left_neibors;
+
+      sequence<environment_model_msgs::msg::MapIds> right_neibors;
+    };
+  };
+};

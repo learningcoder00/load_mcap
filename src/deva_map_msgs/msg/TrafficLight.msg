@@ -1,0 +1,5 @@
+deva_perception_msgs/ObstacleCommon perception_obstacle
+int8 color_type
+bool blink
+float64 remaining_time
+string bind_id

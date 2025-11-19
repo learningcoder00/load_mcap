@@ -1,0 +1,5 @@
+uint8 GREEN=0
+uint8 YELLOW=1
+uint8 RED=2
+uint8 EMPTY=3
+uint8 UNCLEAR=4

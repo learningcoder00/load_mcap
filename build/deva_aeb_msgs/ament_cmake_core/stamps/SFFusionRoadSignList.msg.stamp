@@ -1,0 +1,11 @@
+SFStopline[8] sllist
+SFCrosswalk[4] cwlist
+SFRoadArrow[8] ralist
+uint64 timestamp
+uint32 framenum
+uint8 cwcount
+uint8 racount
+uint8 slvalidsize
+uint8 cwvalidsize
+uint8 ravalidsize
+uint8[3] reserved

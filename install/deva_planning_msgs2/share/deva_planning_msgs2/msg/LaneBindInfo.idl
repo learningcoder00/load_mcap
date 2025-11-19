@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/LaneBindInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs2/msg/String2SLBoundary.idl"
+#include "deva_planning_msgs2/msg/String2String.idl"
+#include "deva_planning_msgs2/msg/UInt2String.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    module LaneBindInfo_Constants {
+      const uint8 BIND_ONLANE_BLOCK = 1;
+      const uint8 BIND_ONLANE_NOT_BLOCK = 2;
+      const uint8 BIND_CUTIN = 3;
+      const uint8 BIND_CUTOUT = 4;
+      const uint8 BIND_CROSS = 5;
+      const uint8 BIND_NEAR = 6;
+      const uint8 BIND_NUDGE = 7;
+    };
+    struct LaneBindInfo {
+      int32 ref_id;
+
+      sequence<deva_planning_msgs2::msg::UInt2String> binded_obs;
+
+      sequence<deva_planning_msgs2::msg::String2SLBoundary> sl_boundary;
+
+      @verbatim (language="comment", text=
+        "可扩展的标志位")
+      sequence<uint8> scalable_flags;
+
+      @verbatim (language="comment", text=
+        "可扩展的键值对")
+      sequence<deva_planning_msgs2::msg::String2String> scalable_multimap;
+    };
+  };
+};

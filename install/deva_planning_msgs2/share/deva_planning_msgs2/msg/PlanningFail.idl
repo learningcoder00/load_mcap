@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/PlanningFail.msg
+// generated code does not contain a copyright notice
+
+
+module deva_planning_msgs2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "UNKNOWN, NEAR_CONE, CIPV_EMPTY" "\n"
+      "PLANNING_ERROR" "\n"
+      "NAVIGATOR_ERROR" "\n"
+      "VEHICLE_STATE_ERROR" "\n"
+      "GENERATE_REFERENCE_LINE_ERROR" "\n"
+      "INIT_FRAME_ERROR" "\n"
+      "BEHAVIOR_ERROR, MOTION_ERROR" "\n"
+      "LATERAL_SPACE_CONFLICT" "\n"
+      "LONGITUDINAL_FENCE_CONFLICT " "\n"
+      "KINEMATIC_CONSTRAINT_FAILED " "\n"
+      "OPTIMIZER_SOLVE_FAILED" "\n"
+      "MERGING_DIFFICULTY" "\n"
+      "EXIT_DIFFICULTY" "\n"
+      "RESERVED_1(预留)" "\n"
+      "RESERVED_2(预留)")
+    struct PlanningFail {
+      string reason;
+
+      boolean request;
+    };
+  };
+};

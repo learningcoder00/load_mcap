@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000217] (-) JobUnselected: {'identifier': 'deva_ads_msgs'}
+[0.000474] (-) JobUnselected: {'identifier': 'deva_aeb_msgs'}
+[0.000499] (-) JobUnselected: {'identifier': 'deva_common_msgs'}
+[0.000519] (-) JobUnselected: {'identifier': 'deva_control_msgs'}
+[0.000536] (-) JobUnselected: {'identifier': 'deva_function_msgs'}
+[0.000554] (-) JobUnselected: {'identifier': 'deva_gaode_routing_msgs'}
+[0.000571] (-) JobUnselected: {'identifier': 'deva_localization_msgs'}
+[0.000588] (-) JobUnselected: {'identifier': 'deva_map_msgs'}
+[0.000605] (-) JobUnselected: {'identifier': 'deva_mdriver_msgs'}
+[0.000622] (-) JobUnselected: {'identifier': 'deva_navi_msgs'}
+[0.000639] (-) JobUnselected: {'identifier': 'deva_perception_msgs'}
+[0.000656] (-) JobUnselected: {'identifier': 'deva_planning_msgs'}
+[0.000673] (-) JobUnselected: {'identifier': 'deva_planning_msgs2'}
+[0.000690] (-) JobUnselected: {'identifier': 'environment_model_msgs'}
+[0.000707] (-) JobUnselected: {'identifier': 'fault_diagnosis'}
+[0.000724] (-) JobUnselected: {'identifier': 'rviz_plug_msg'}
+[0.000741] (-) JobUnselected: {'identifier': 'serialize_msgs'}
+[0.000762] (mcap_streamer) JobQueued: {'identifier': 'mcap_streamer', 'dependencies': OrderedDict()}
+[0.000784] (mcap_streamer) JobStarted: {'identifier': 'mcap_streamer'}
+[0.009883] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'cmake'}
+[0.010452] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'build'}
+[0.011112] (mcap_streamer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linjiawei/load_mcap/build/mcap_streamer', '--', '-j17', '-l17'], 'cwd': '/home/linjiawei/load_mcap/build/mcap_streamer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/linjiawei'), ('KUBERNETES_SERVICE_PORT', '443'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('KUBEBRAIN_SITE', 'mach'), ('KUBERNETES_PORT', 'tcp://10.68.0.1:443'), ('BRAIN_DAEMON_JUPYTER_DIR', '/data/jupyter'), ('USER', 'linjiawei'), ('SSH_CLIENT', '100.96.74.10 41472 22'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"en","defaultMessagesFile":"/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/out/nls.messages.json","locale":"zh-cn","availableLanguages":{}}'), ('BRAIN_SHARED_READONLY', 'false'), ('KUBEBRAIN_PROCESS_ID', 'a339afdf-8e23-41dd-b3c2-ec44dfa27e9d'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'ros'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64'), ('BROWSER', '/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/linjiawei'), ('TMP_SIZE', '16777216K'), ('KUBEBRAIN_RUNTIME', 'ws2'), ('OLDPWD', '/home/linjiawei/load_mcap'), ('VSCODE_IPC_HOOK_CLI', '/run/user/10250/vscode-ipc-0323b2dc-99b7-4f37-8e79-51601ada4bc8.sock'), ('BRAIN_DAEMON_JUPYTER_TOKEN', '9c0e8eec-6994-41a4-9f6b-319d33bc630e'), ('ROS_PYTHON_VERSION', '3'), ('BRAIN_DAEMON_JUPYTER_BASE_URL', '/kapi/workspace.kubebrain.io/mach-mp/ws-00018098a82852e6/jupyter'), ('PCIDEVICE_MELLANOX_COM_MLNX_RDMA', ''), ('NO_COLOR', '1'), ('TOPOLOGY_ZONE', 'mach-cn-west-qy-dsxs-cm'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/linjiawei/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.99.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('COLCON_PREFIX_PATH', '/home/linjiawei/load_mcap/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linjiawei'), ('FORCE_COLOR', '0'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('BRAIN_USERNAME', 'linjiawei'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('XDG_SESSION_ID', 'c44'), ('KUBERNETES_PORT_443_TCP_ADDR', '10.68.0.1'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('SHM_SIZE', '16777216K'), ('PATH', '/home/linjiawei/.local/bin:/home/linjiawei/.local/bin:/opt/ros/humble/bin:/opt/conda/bin:/kubebrain:/usr/local/nvidia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VSCODE_AGENT_FOLDER', '/home/linjiawei/.cursor-server'), ('KUBEBRAIN_WORKSPACE_NAME', 'ws-00018098a82852e6'), ('XDG_RUNTIME_DIR', '/run/user/10250'), ('KUBERNETES_PORT_443_TCP_PORT', '443'), ('CURSOR_AGENT', '1'), ('DISPLAY', 'localhost:11.0'), ('KUBERNETES_PORT_443_TCP_PROTO', 'tcp'), ('KUBEBRAIN_RESOURCE_TYPE', 'workspace'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-auth-sock-5947a298-eaf8-4f15-adfc-973d91be4566.sock'), ('AMENT_PREFIX_PATH', '/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/mcap_streamer:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/opt/ros/humble'), ('BRAIN_DAEMON_JUPYTER_PORT', '8888'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_SHUTDOWN_TIMEOUT', '300'), ('TerminationGracePeriodSeconds', '30'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KUBERNETES_SERVICE_PORT_HTTPS', '443'), ('KUBERNETES_PORT_443_TCP', 'tcp://10.68.0.1:443'), ('KUBEBRAIN_QUOTA_GROUP', 'mp_ws'), ('KUBEBRAIN_CLUSTER_ENTRY', 'https://qy.machdrive.cn'), ('PWD', '/home/linjiawei/load_mcap/build/mcap_streamer'), ('BRAIN_SHARED_ROOT', '10.68.17.151:/'), ('KUBEBRAIN_NAMESPACE', 'mach-mp'), ('KUBERNETES_SERVICE_HOST', '10.68.0.1'), ('BRAIN_TOPOLOGY_LEAF_ROCE', ''), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.96.74.10 41472 100.97.82.77 22'), ('KUBEBRAIN_PROCESS_NAME', 'ws-00018098a82852e6-master'), ('KUBEBRAIN_WORKSPACE_NAMESPACE', ''), ('PYTHONPATH', '/home/linjiawei/load_mcap/install/serialize_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/rviz_plug_msg/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/fault_diagnosis/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/environment_model_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_control_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_planning_msgs2/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_planning_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_map_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_perception_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_navi_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_localization_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_function_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_aeb_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_common_msgs/local/lib/python3.10/dist-packages:/home/linjiawei/load_mcap/install/deva_ads_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/mcap_streamer:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/opt/ros/humble')]), 'shell': False}
+[0.037870] (mcap_streamer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099759] (-) TimerEvent: {}
+[0.188237] (mcap_streamer) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.199835] (-) TimerEvent: {}
+[0.212630] (mcap_streamer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.215043] (mcap_streamer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.220755] (mcap_streamer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.230520] (mcap_streamer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.243088] (mcap_streamer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.275363] (mcap_streamer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.277166] (mcap_streamer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299911] (-) TimerEvent: {}
+[0.362186] (mcap_streamer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.400002] (-) TimerEvent: {}
+[0.411296] (mcap_streamer) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[0.429711] (mcap_streamer) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.500082] (-) TimerEvent: {}
+[0.516136] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.516348] (mcap_streamer) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linjiawei/load_mcap/src/mcap_streamer/include>\n'}
+[0.516414] (mcap_streamer) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.516708] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.517068] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.517368] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.518008] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.518073] (mcap_streamer) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.518317] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.518953] (mcap_streamer) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.532639] (mcap_streamer) StdoutLine: {'line': b'-- Generating done\n'}
+[0.538323] (mcap_streamer) StdoutLine: {'line': b'-- Build files have been written to: /home/linjiawei/load_mcap/build/mcap_streamer\n'}
+[0.568740] (mcap_streamer) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target mcap_reader_node\n'}
+[0.583725] (mcap_streamer) StdoutLine: {'line': b'[ 16%] Building CXX object CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o\n'}
+[0.588684] (mcap_streamer) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target s3_downloader_lib\n'}
+[0.600113] (mcap_streamer) StdoutLine: {'line': b'[ 50%] Built target s3_downloader_lib\n'}
+[0.600188] (-) TimerEvent: {}
+[0.614634] (mcap_streamer) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target mcap_streamer_node\n'}
+[0.628535] (mcap_streamer) StdoutLine: {'line': b'[ 83%] Built target mcap_streamer_node\n'}
+[0.700306] (-) TimerEvent: {}
+[0.800471] (-) TimerEvent: {}
+[0.900627] (-) TimerEvent: {}
+[1.000771] (-) TimerEvent: {}
+[1.100908] (-) TimerEvent: {}
+[1.201071] (-) TimerEvent: {}
+[1.301250] (-) TimerEvent: {}
+[1.401389] (-) TimerEvent: {}
+[1.501499] (-) TimerEvent: {}
+[1.601663] (-) TimerEvent: {}
+[1.701820] (-) TimerEvent: {}
+[1.801923] (-) TimerEvent: {}
+[1.902021] (-) TimerEvent: {}
+[2.002122] (-) TimerEvent: {}
+[2.102232] (-) TimerEvent: {}
+[2.202354] (-) TimerEvent: {}
+[2.302488] (-) TimerEvent: {}
+[2.402605] (-) TimerEvent: {}
+[2.502726] (-) TimerEvent: {}
+[2.602885] (-) TimerEvent: {}
+[2.703057] (-) TimerEvent: {}
+[2.803246] (-) TimerEvent: {}
+[2.903450] (-) TimerEvent: {}
+[2.994030] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function \xe2\x80\x98std::string McapReaderNode::formatValue(const MessageMember*, const uint8_t*, size_t&, int)\xe2\x80\x99:\n'}
+[2.994255] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:488:68: error: \xe2\x80\x98const rosidl_message_type_support_t\xe2\x80\x99 {aka \xe2\x80\x98const struct rosidl_message_type_support_t\xe2\x80\x99} has no member named \xe2\x80\x98size_\xe2\x80\x99\n'}
+[2.994324] (mcap_streamer) StderrLine: {'line': b'  488 |           oss << formatMessage(member->members_, member->members_->size_, data, offset, indent + 2);\n'}
+[2.994380] (mcap_streamer) StderrLine: {'line': b'      |                                                                    ^~~~~\n'}
+[2.995088] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:510:64: error: \xe2\x80\x98const rosidl_message_type_support_t\xe2\x80\x99 {aka \xe2\x80\x98const struct rosidl_message_type_support_t\xe2\x80\x99} has no member named \xe2\x80\x98size_\xe2\x80\x99\n'}
+[2.995171] (mcap_streamer) StderrLine: {'line': b'  510 |       oss << formatMessage(member->members_, member->members_->size_, data, offset, indent + 1);\n'}
+[2.995227] (mcap_streamer) StderrLine: {'line': b'      |                                                                ^~~~~\n'}
+[2.998858] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function \xe2\x80\x98std::string McapReaderNode::deserializeMessage(const string&, std::shared_ptr<rclcpp::SerializedMessage>)\xe2\x80\x99:\n'}
+[2.998957] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:611:63: error: no matching function for call to \xe2\x80\x98get_message_type_support_handle(const string&, const char [37])\xe2\x80\x99\n'}
+[2.999013] (mcap_streamer) StderrLine: {'line': b'  611 |         type_support = rclcpp::get_message_type_support_handle(\n'}
+[2.999072] (mcap_streamer) StderrLine: {'line': b'      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[2.999125] (mcap_streamer) StderrLine: {'line': b'  612 |           topic_type, "rosidl_typesupport_introspection_cpp");\n'}
+[2.999177] (mcap_streamer) StderrLine: {'line': b'      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  \n'}
+[2.999514] (mcap_streamer) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:36,\n'}
+[2.999590] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,\n'}
+[2.999651] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,\n'}
+[2.999706] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,\n'}
+[2.999770] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[2.999826] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[2.999878] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[2.999928] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[2.999978] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[3.000028] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[3.000078] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[3.000128] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:\n'}
+[3.000178] (mcap_streamer) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:48:1: note: candidate: \xe2\x80\x98template<class MessageT> constexpr std::enable_if_t<rosidl_generator_traits::is_message<T>::value, const rosidl_message_type_support_t&> rclcpp::get_message_type_support_handle()\xe2\x80\x99\n'}
+[3.000232] (mcap_streamer) StderrLine: {'line': b'   48 | get_message_type_support_handle()\n'}
+[3.000319] (mcap_streamer) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.000375] (mcap_streamer) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:48:1: note:   template argument deduction/substitution failed:\n'}
+[3.000427] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:611:63: note:   candidate expects 0 arguments, 2 provided\n'}
+[3.000478] (mcap_streamer) StderrLine: {'line': b'  611 |         type_support = rclcpp::get_message_type_support_handle(\n'}
+[3.000540] (mcap_streamer) StderrLine: {'line': b'      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[3.000594] (mcap_streamer) StderrLine: {'line': b'  612 |           topic_type, "rosidl_typesupport_introspection_cpp");\n'}
+[3.000647] (mcap_streamer) StderrLine: {'line': b'      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  \n'}
+[3.000700] (mcap_streamer) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:36,\n'}
+[3.000753] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,\n'}
+[3.000808] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,\n'}
+[3.000859] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,\n'}
+[3.000909] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[3.000958] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[3.001011] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[3.001062] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[3.001112] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[3.001162] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[3.001212] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[3.001261] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:\n'}
+[3.001312] (mcap_streamer) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:64:1: note: candidate: \xe2\x80\x98template<class AdaptedType> constexpr std::enable_if_t<((! rosidl_generator_traits::is_message<T>::value) && typename rclcpp::TypeAdapter<MessageT>::is_specialized::value), const rosidl_message_type_support_t&> rclcpp::get_message_type_support_handle()\xe2\x80\x99\n'}
+[3.001366] (mcap_streamer) StderrLine: {'line': b'   64 | get_message_type_support_handle()\n'}
+[3.001418] (mcap_streamer) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.001467] (mcap_streamer) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:64:1: note:   template argument deduction/substitution failed:\n'}
+[3.001524] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:611:63: note:   candidate expects 0 arguments, 2 provided\n'}
+[3.001582] (mcap_streamer) StderrLine: {'line': b'  611 |         type_support = rclcpp::get_message_type_support_handle(\n'}
+[3.001632] (mcap_streamer) StderrLine: {'line': b'      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[3.001684] (mcap_streamer) StderrLine: {'line': b'  612 |           topic_type, "rosidl_typesupport_introspection_cpp");\n'}
+[3.001736] (mcap_streamer) StderrLine: {'line': b'      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  \n'}
+[3.001785] (mcap_streamer) StderrLine: {'line': b'In file included from /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:36,\n'}
+[3.001836] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,\n'}
+[3.001887] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,\n'}
+[3.001936] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,\n'}
+[3.001985] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,\n'}
+[3.002038] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,\n'}
+[3.002088] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,\n'}
+[3.002138] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,\n'}
+[3.002187] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,\n'}
+[3.002239] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,\n'}
+[3.002289] (mcap_streamer) StderrLine: {'line': b'                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,\n'}
+[3.002338] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:\n'}
+[3.002390] (mcap_streamer) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:87:1: note: candidate: \xe2\x80\x98template<class AdaptedType> constexpr std::enable_if_t<((! rosidl_generator_traits::is_message<T>::value) && (! typename rclcpp::TypeAdapter<MessageT>::is_specialized::value)), const rosidl_message_type_support_t&> rclcpp::get_message_type_support_handle()\xe2\x80\x99\n'}
+[3.002443] (mcap_streamer) StderrLine: {'line': b'   87 | get_message_type_support_handle()\n'}
+[3.002493] (mcap_streamer) StderrLine: {'line': b'      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n'}
+[3.002558] (mcap_streamer) StderrLine: {'line': b'/opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:87:1: note:   template argument deduction/substitution failed:\n'}
+[3.002609] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:611:63: note:   candidate expects 0 arguments, 2 provided\n'}
+[3.002660] (mcap_streamer) StderrLine: {'line': b'  611 |         type_support = rclcpp::get_message_type_support_handle(\n'}
+[3.002709] (mcap_streamer) StderrLine: {'line': b'      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^\n'}
+[3.002759] (mcap_streamer) StderrLine: {'line': b'  612 |           topic_type, "rosidl_typesupport_introspection_cpp");\n'}
+[3.002810] (mcap_streamer) StderrLine: {'line': b'      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  \n'}
+[3.003520] (-) TimerEvent: {}
+[3.103614] (-) TimerEvent: {}
+[3.203748] (-) TimerEvent: {}
+[3.303909] (-) TimerEvent: {}
+[3.404068] (-) TimerEvent: {}
+[3.504210] (-) TimerEvent: {}
+[3.604328] (-) TimerEvent: {}
+[3.704447] (-) TimerEvent: {}
+[3.804558] (-) TimerEvent: {}
+[3.904661] (-) TimerEvent: {}
+[3.911663] (mcap_streamer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mcap_reader_node.dir/build.make:76: CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o] Error 1\n'}
+[3.912212] (mcap_streamer) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_reader_node.dir/all] Error 2\n'}
+[3.912369] (mcap_streamer) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[3.914170] (mcap_streamer) CommandEnded: {'returncode': 2}
+[3.926816] (mcap_streamer) JobEnded: {'identifier': 'mcap_streamer', 'rc': 2}
+[3.937143] (-) EventReactorShutdown: {}

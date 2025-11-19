@@ -1,0 +1,9 @@
+LinkIDType in_link_id
+NodeIDType node_id
+LinkIDType pass_link_id_s
+uint16 trc_kind
+uint16 forcetold_dist
+uint16 control_dist
+uint8 link_direction
+string descript
+Coordinate coordinate

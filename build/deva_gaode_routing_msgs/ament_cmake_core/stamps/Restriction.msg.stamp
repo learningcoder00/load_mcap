@@ -1,0 +1,13 @@
+uint64 id
+int32 limit_type
+# 进入点sdnode_id
+uint64 node_id
+uint64[] pass_list
+uint64 out_road
+int32 passage
+int32 slope
+string toll_mode
+string toll_lane_type
+string toll_name
+# 条件限制信息
+RestrictionDetail restriction_detail

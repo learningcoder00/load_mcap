@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_map_msgs/msg/STLocalMap.msg
+// generated code does not contain a copyright notice
+
+#include "deva_map_msgs/msg/Channel.idl"
+#include "deva_map_msgs/msg/ReferenceChannal.idl"
+#include "deva_perception_msgs/msg/Signal.idl"
+#include "deva_perception_msgs/msg/StaticObstacle.idl"
+
+module deva_map_msgs {
+  module msg {
+    struct STLocalMap {
+      sequence<deva_map_msgs::msg::Channel> channels;
+
+      sequence<deva_map_msgs::msg::ReferenceChannal> reference_channals;
+
+      sequence<deva_perception_msgs::msg::StaticObstacle> obstacles;
+
+      sequence<deva_perception_msgs::msg::Signal> signals;
+    };
+  };
+};

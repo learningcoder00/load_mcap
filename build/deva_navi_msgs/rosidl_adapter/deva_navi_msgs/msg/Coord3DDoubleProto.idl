@@ -1,0 +1,18 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/Coord3DDoubleProto.msg
+// generated code does not contain a copyright notice
+
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Coord3DDoubleProto.msg")
+    struct Coord3DDoubleProto {
+      double lon;
+
+      double lat;
+
+      double z;
+    };
+  };
+};

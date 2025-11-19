@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/AvpDebugInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs/msg/AvpRefLine.idl"
+#include "deva_planning_msgs/msg/AvpRefLineTreePointVec.idl"
+#include "deva_planning_msgs/msg/MpcPathData.idl"
+#include "deva_planning_msgs/msg/PathPoint.idl"
+#include "deva_planning_msgs/msg/StitchData.idl"
+
+module deva_planning_msgs {
+  module msg {
+    struct AvpDebugInfo {
+      int32 solve_num;
+
+      int32 acados_status;
+
+      sequence<deva_planning_msgs::msg::AvpRefLine> origin_ref_line;
+
+      deva_planning_msgs::msg::AvpRefLineTreePointVec smooth_line;
+
+      sequence<deva_planning_msgs::msg::AvpRefLineTreePointVec> used_ref_line_tree;
+
+      sequence<deva_planning_msgs::msg::AvpRefLineTreePointVec> driver_path;
+
+      sequence<deva_planning_msgs::msg::MpcPathData> now_mpc_data;
+
+      sequence<deva_planning_msgs::msg::MpcPathData> now_path_data;
+
+      sequence<deva_planning_msgs::msg::MpcPathData> past_path_data;
+
+      sequence<deva_planning_msgs::msg::PathPoint> boundary_poses;
+
+      sequence<deva_planning_msgs::msg::PathPoint> obstacle_poses;
+
+      deva_planning_msgs::msg::StitchData stitch_data;
+    };
+  };
+};

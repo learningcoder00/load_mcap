@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_function_msgs/msg/MachCalibrationResult.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_function_msgs {
+  module msg {
+    typedef uint8 uint8__256[256];
+    struct MachCalibrationResult {
+      deva_common_msgs::msg::Header header;
+
+      uint8 calibration_type;
+
+      uint8 senor_type;
+
+      uint8 length;
+
+      uint8__256 res_content;
+    };
+  };
+};

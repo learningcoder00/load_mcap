@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/SFFusionTSListNOA.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_perception_msgs/msg/SFFusionTSNOA.idl"
+
+module deva_perception_msgs {
+  module msg {
+    typedef uint8 uint8__3[3];
+    typedef deva_perception_msgs::msg::SFFusionTSNOA deva_perception_msgs__msg__SFFusionTSNOA;
+    typedef deva_perception_msgs__msg__SFFusionTSNOA deva_perception_msgs__msg__SFFusionTSNOA__16[16];
+    struct SFFusionTSListNOA {
+      deva_common_msgs::msg::Header header;
+
+      uint64 timestamp;
+
+      uint32 framenum;
+
+      uint8__3 reversed;
+
+      deva_perception_msgs__msg__SFFusionTSNOA__16 trafficsign;
+
+      uint8 validsize;
+
+      sequence<deva_perception_msgs::msg::SFFusionTSNOA> trafficsign_all;
+
+      uint8 all_validsize;
+    };
+  };
+};

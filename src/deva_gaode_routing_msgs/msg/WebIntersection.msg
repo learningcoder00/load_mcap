@@ -1,0 +1,3 @@
+float32 distance
+string first_road_id
+string second_road_id

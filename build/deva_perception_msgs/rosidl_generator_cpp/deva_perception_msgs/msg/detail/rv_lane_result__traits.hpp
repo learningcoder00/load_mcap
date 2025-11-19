@@ -1,0 +1,229 @@
+// generated from rosidl_generator_cpp/resource/idl__traits.hpp.em
+// with input from deva_perception_msgs:msg/RvLaneResult.idl
+// generated code does not contain a copyright notice
+
+#ifndef DEVA_PERCEPTION_MSGS__MSG__DETAIL__RV_LANE_RESULT__TRAITS_HPP_
+#define DEVA_PERCEPTION_MSGS__MSG__DETAIL__RV_LANE_RESULT__TRAITS_HPP_
+
+#include <stdint.h>
+
+#include <sstream>
+#include <string>
+#include <type_traits>
+
+#include "deva_perception_msgs/msg/detail/rv_lane_result__struct.hpp"
+#include "rosidl_runtime_cpp/traits.hpp"
+
+// Include directives for member types
+// Member 'header'
+#include "deva_common_msgs/msg/detail/header__traits.hpp"
+// Member 'laneline_2d_array'
+#include "deva_perception_msgs/msg/detail/lane_line2d_array__traits.hpp"
+// Member 'stopline_2d_array'
+#include "deva_perception_msgs/msg/detail/stop_line2d_array__traits.hpp"
+// Member 'crosswalk_2d_array'
+#include "deva_perception_msgs/msg/detail/crosswalk2d_array__traits.hpp"
+
+namespace deva_perception_msgs
+{
+
+namespace msg
+{
+
+inline void to_flow_style_yaml(
+  const RvLaneResult & msg,
+  std::ostream & out)
+{
+  out << "{";
+  // member: header
+  {
+    out << "header: ";
+    to_flow_style_yaml(msg.header, out);
+    out << ", ";
+  }
+
+  // member: laneline_2d_array
+  {
+    if (msg.laneline_2d_array.size() == 0) {
+      out << "laneline_2d_array: []";
+    } else {
+      out << "laneline_2d_array: [";
+      size_t pending_items = msg.laneline_2d_array.size();
+      for (auto item : msg.laneline_2d_array) {
+        to_flow_style_yaml(item, out);
+        if (--pending_items > 0) {
+          out << ", ";
+        }
+      }
+      out << "]";
+    }
+    out << ", ";
+  }
+
+  // member: stopline_2d_array
+  {
+    if (msg.stopline_2d_array.size() == 0) {
+      out << "stopline_2d_array: []";
+    } else {
+      out << "stopline_2d_array: [";
+      size_t pending_items = msg.stopline_2d_array.size();
+      for (auto item : msg.stopline_2d_array) {
+        to_flow_style_yaml(item, out);
+        if (--pending_items > 0) {
+          out << ", ";
+        }
+      }
+      out << "]";
+    }
+    out << ", ";
+  }
+
+  // member: crosswalk_2d_array
+  {
+    if (msg.crosswalk_2d_array.size() == 0) {
+      out << "crosswalk_2d_array: []";
+    } else {
+      out << "crosswalk_2d_array: [";
+      size_t pending_items = msg.crosswalk_2d_array.size();
+      for (auto item : msg.crosswalk_2d_array) {
+        to_flow_style_yaml(item, out);
+        if (--pending_items > 0) {
+          out << ", ";
+        }
+      }
+      out << "]";
+    }
+  }
+  out << "}";
+}  // NOLINT(readability/fn_size)
+
+inline void to_block_style_yaml(
+  const RvLaneResult & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: header
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "header:\n";
+    to_block_style_yaml(msg.header, out, indentation + 2);
+  }
+
+  // member: laneline_2d_array
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    if (msg.laneline_2d_array.size() == 0) {
+      out << "laneline_2d_array: []\n";
+    } else {
+      out << "laneline_2d_array:\n";
+      for (auto item : msg.laneline_2d_array) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "-\n";
+        to_block_style_yaml(item, out, indentation + 2);
+      }
+    }
+  }
+
+  // member: stopline_2d_array
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    if (msg.stopline_2d_array.size() == 0) {
+      out << "stopline_2d_array: []\n";
+    } else {
+      out << "stopline_2d_array:\n";
+      for (auto item : msg.stopline_2d_array) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "-\n";
+        to_block_style_yaml(item, out, indentation + 2);
+      }
+    }
+  }
+
+  // member: crosswalk_2d_array
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    if (msg.crosswalk_2d_array.size() == 0) {
+      out << "crosswalk_2d_array: []\n";
+    } else {
+      out << "crosswalk_2d_array:\n";
+      for (auto item : msg.crosswalk_2d_array) {
+        if (indentation > 0) {
+          out << std::string(indentation, ' ');
+        }
+        out << "-\n";
+        to_block_style_yaml(item, out, indentation + 2);
+      }
+    }
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const RvLaneResult & msg, bool use_flow_style = false)
+{
+  std::ostringstream out;
+  if (use_flow_style) {
+    to_flow_style_yaml(msg, out);
+  } else {
+    to_block_style_yaml(msg, out);
+  }
+  return out.str();
+}
+
+}  // namespace msg
+
+}  // namespace deva_perception_msgs
+
+namespace rosidl_generator_traits
+{
+
+[[deprecated("use deva_perception_msgs::msg::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const deva_perception_msgs::msg::RvLaneResult & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  deva_perception_msgs::msg::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use deva_perception_msgs::msg::to_yaml() instead")]]
+inline std::string to_yaml(const deva_perception_msgs::msg::RvLaneResult & msg)
+{
+  return deva_perception_msgs::msg::to_yaml(msg);
+}
+
+template<>
+inline const char * data_type<deva_perception_msgs::msg::RvLaneResult>()
+{
+  return "deva_perception_msgs::msg::RvLaneResult";
+}
+
+template<>
+inline const char * name<deva_perception_msgs::msg::RvLaneResult>()
+{
+  return "deva_perception_msgs/msg/RvLaneResult";
+}
+
+template<>
+struct has_fixed_size<deva_perception_msgs::msg::RvLaneResult>
+  : std::integral_constant<bool, false> {};
+
+template<>
+struct has_bounded_size<deva_perception_msgs::msg::RvLaneResult>
+  : std::integral_constant<bool, false> {};
+
+template<>
+struct is_message<deva_perception_msgs::msg::RvLaneResult>
+  : std::true_type {};
+
+}  // namespace rosidl_generator_traits
+
+#endif  // DEVA_PERCEPTION_MSGS__MSG__DETAIL__RV_LANE_RESULT__TRAITS_HPP_

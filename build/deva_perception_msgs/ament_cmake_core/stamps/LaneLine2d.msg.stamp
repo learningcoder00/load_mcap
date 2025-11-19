@@ -1,0 +1,10 @@
+uint32 lane_id
+uint32 left_lane_id
+uint32 right_lane_id
+float32 confidence
+uint32 num_points
+uint8 lane_type
+uint8 lane_color
+uint8 lane_property
+deva_common_msgs/Point2d[] pixel_points
+CurveCoef[] curve_line_coeffs

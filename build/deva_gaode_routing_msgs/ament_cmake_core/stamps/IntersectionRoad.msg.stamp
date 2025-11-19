@@ -1,0 +1,12 @@
+FeatureIDType id
+uint8 link_direction
+uint8 cross_turn_type
+bool has_traffic_light
+Coordinate[] geometry
+FeatureIDType start_node_id
+FeatureIDType end_node_id
+FeatureIDType start_feature_point_id
+FeatureIDType end_feature_point_id
+LinkIDType relate_link_id
+FeatureIDType[] nexts
+FeatureIDType[] prevs

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/RoadFacilityProto.msg
+// generated code does not contain a copyright notice
+
+#include "deva_navi_msgs/msg/GroupTimeRangeProto.idl"
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "RoadFacilityProto.msg")
+    struct RoadFacilityProto {
+      int32 type;
+
+      int32 lon;
+
+      int32 lat;
+
+      sequence<int32> speed_limit;
+
+      int32 dist_to_end;
+
+      int32 valid_lane;
+
+      int32 lane_num;
+
+      sequence<deva_navi_msgs::msg::GroupTimeRangeProto> time_range;
+    };
+  };
+};

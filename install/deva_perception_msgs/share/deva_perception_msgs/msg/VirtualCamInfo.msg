@@ -1,0 +1,12 @@
+string cam_name
+int32[] resolution
+string distort_model
+float32[] ori_intrinsic
+float32[] vir_intrinsic
+float32[] ori_extrinsic
+float32[] vir_extrinsic
+float32[] mapx
+float32[] mapy
+float32[] pinhole_intrinsic
+int32[] crops
+int32[] input_size

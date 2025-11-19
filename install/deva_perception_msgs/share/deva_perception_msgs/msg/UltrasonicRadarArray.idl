@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/UltrasonicRadarArray.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/UltrasonicRadar.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct UltrasonicRadarArray {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "当前msg的版本号")
+      uint8 version;
+
+      @verbatim (language="comment", text=
+        "数组，表示多个超声波雷达")
+      sequence<deva_perception_msgs::msg::UltrasonicRadar> ultrasonic_radar_array;
+    };
+  };
+};

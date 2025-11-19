@@ -1,0 +1,12 @@
+# EHP_POSITION.msg
+uint16 posn_offset
+uint8 posn_msg_type
+uint8 posn_path_idx
+uint8 posn_cyc_cnt
+uint16 posn_age
+float32 posn_pos_probb
+uint8 posn_idx
+float32 posn_spd
+uint8 posn_cur_lane
+uint8 posn_pos_confdc
+float32 posn_rehead

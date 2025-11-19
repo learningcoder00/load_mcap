@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/LaneArray.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_perception_msgs/msg/Lane.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct LaneArray {
+      deva_common_msgs::msg::Header header;
+
+      int32 vehicle_left_lane_id;
+
+      int32 vehicle_right_lane_id;
+
+      sequence<deva_perception_msgs::msg::Lane> lanes;
+    };
+  };
+};

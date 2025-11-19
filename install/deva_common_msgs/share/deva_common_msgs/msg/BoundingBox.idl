@@ -1,0 +1,28 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_common_msgs/msg/BoundingBox.msg
+// generated code does not contain a copyright notice
+
+
+module deva_common_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "in pixels, starting from 0" "\n"
+      "for example:" "\n"
+      "" "\n"
+      "  0   1   2" "\n"
+      "0 +---+---+" "\n"
+      "  |   |   |" "\n"
+      "1 +---+---+" "\n"
+      "  |   |   |" "\n"
+      "2 +---+---+")
+    struct BoundingBox {
+      float xmin;
+
+      float ymin;
+
+      float xmax;
+
+      float ymax;
+    };
+  };
+};

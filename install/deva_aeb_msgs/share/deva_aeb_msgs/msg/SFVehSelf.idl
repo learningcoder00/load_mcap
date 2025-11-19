@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFVehSelf.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFVehSelf {
+      float vlgt;
+
+      float vlgtcmpfac;
+
+      float algt;
+
+      float algtraw;
+
+      float alatraw;
+
+      float yawrate;
+
+      float yawrateraw;
+
+      float posnlgtdelta;
+
+      float posnlatdelta;
+
+      float agdirdelta;
+    };
+  };
+};

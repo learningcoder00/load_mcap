@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/WebLane.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/WebPoint.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct WebLane {
+      int32 lane_num;
+
+      sequence<uint32> actual_turn;
+
+      sequence<uint32> navi_turn;
+
+      sequence<uint32> optimal_turn;
+
+      sequence<uint32> actual_exten_turn;
+
+      sequence<uint32> exten_turn;
+
+      sequence<uint32> actual_turn_type;
+
+      sequence<uint32> navi_turn_type;
+
+      int32 road_idx;
+
+      int32 step_idx;
+
+      string md5;
+
+      deva_gaode_routing_msgs::msg::WebPoint callback_point;
+    };
+  };
+};

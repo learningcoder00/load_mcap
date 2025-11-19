@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/WebIntersection.msg
+// generated code does not contain a copyright notice
+
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct WebIntersection {
+      float distance;
+
+      string first_road_id;
+
+      string second_road_id;
+    };
+  };
+};

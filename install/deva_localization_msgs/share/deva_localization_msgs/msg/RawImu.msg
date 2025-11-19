@@ -1,0 +1,4 @@
+deva_common_msgs/Header header
+float32 measurement_span
+geometry_msgs/Point linear_acceleration
+geometry_msgs/Point angular_velocity 

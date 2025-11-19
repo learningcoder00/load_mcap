@@ -1,0 +1,14 @@
+# EHP_META_DATA.msg
+uint16 meta_country_code
+uint8 meta_map_provider
+uint8 meta_msg_type
+uint16 meta_hw_ver
+uint8 meta_prot_ver_minor_sub
+uint8 meta_prot_ver_major
+uint8 meta_cyc_cnt
+uint16 meta_region_code
+uint8 meta_drv_side
+uint8 meta_map_ver_year
+uint8 meta_map_ver_qtr
+uint8 meta_prot_ver_minor
+uint8 meta_spd_units

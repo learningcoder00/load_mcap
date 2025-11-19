@@ -1,0 +1,12 @@
+std_msgs/Header header
+
+# sync input timestamp
+std_msgs/Header planning_header
+std_msgs/Header prediction_header
+std_msgs/Header localization_header
+std_msgs/Header chassis_header
+std_msgs/Header avp_local_map_header
+std_msgs/Header perception_map_header
+
+AvpDebugInfo avp_debug_info
+NavOpenspaceDebugInfo nav_openspace_debug_info

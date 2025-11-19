@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFSecLaneEstimn.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFSecLaneEstimn {
+      float constcoeff;
+
+      float firstordercoeff;
+
+      float secondordercoeff;
+
+      float thirdordercoeff;
+
+      float width;
+
+      float startpointposx;
+
+      float startpointposy;
+
+      float endpointposx;
+
+      float endpointposy;
+
+      float extendendpointposx;
+
+      float extendendpointposy;
+
+      uint8 parseconfi;
+
+      uint8 rmse;
+
+      uint8 obstacleflag;
+
+      uint8 trackstatus;
+    };
+  };
+};

@@ -1,0 +1,3 @@
+uint32 error_code
+uint8 error_status
+uint64 report_time

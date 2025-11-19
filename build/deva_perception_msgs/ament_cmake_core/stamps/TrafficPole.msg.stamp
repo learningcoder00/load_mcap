@@ -1,0 +1,4 @@
+deva_perception_msgs/ObstacleCommon perception_obstacle
+
+string bind_id
+bool raised

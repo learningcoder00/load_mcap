@@ -1,0 +1,10 @@
+float32 vlgt
+float32 vlgtcmpfac
+float32 algt
+float32 algtraw
+float32 alatraw
+float32 yawrate
+float32 yawrateraw
+float32 posnlgtdelta
+float32 posnlatdelta
+float32 agdirdelta

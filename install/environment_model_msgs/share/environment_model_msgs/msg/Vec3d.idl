@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/Vec3d.msg
+// generated code does not contain a copyright notice
+
+
+module environment_model_msgs {
+  module msg {
+    struct Vec3d {
+      double x;
+
+      double y;
+
+      double z;
+    };
+  };
+};

@@ -1,0 +1,71 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/EnvInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "environment_model_msgs/msg/EnvLine.idl"
+#include "environment_model_msgs/msg/EnvLink.idl"
+#include "environment_model_msgs/msg/EnvObject.idl"
+#include "environment_model_msgs/msg/EnvSignal.idl"
+#include "environment_model_msgs/msg/RoadBoundary.idl"
+#include "environment_model_msgs/msg/ScenarioInfo.idl"
+#include "environment_model_msgs/msg/Vec2d.idl"
+#include "environment_model_msgs/msg/Vec2dArray.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct EnvInfo {
+      deva_common_msgs::msg::Header header;
+
+      int32 index;
+
+      sequence<environment_model_msgs::msg::EnvLine> env_lines;
+
+      sequence<environment_model_msgs::msg::EnvObject> env_objects;
+
+      sequence<environment_model_msgs::msg::EnvSignal> env_signals;
+
+      sequence<environment_model_msgs::msg::Vec2d> junction_box;
+
+      deva_common_msgs::msg::Header env_start_header;
+
+      deva_common_msgs::msg::Header map_header;
+
+      uint8 map_mode;
+
+      uint8 routing_mode;
+
+      int32 navi_index;
+
+      boolean has_map;
+
+      sequence<environment_model_msgs::msg::Vec2dArray> passable_space;
+
+      sequence<environment_model_msgs::msg::Vec2dArray> law_space;
+
+      sequence<environment_model_msgs::msg::Vec2d> roadline_final;
+
+      sequence<environment_model_msgs::msg::Vec2d> roadline;
+
+      sequence<environment_model_msgs::msg::Vec2dArray> law_space_merged;
+
+      uint8 meg_map_mode;
+
+      boolean channel_valid;
+
+      double dist_sd_junction;
+
+      sequence<environment_model_msgs::msg::Vec2dArray> hdair_driveline;
+
+      sequence<environment_model_msgs::msg::EnvLink> links;
+
+      int32 ownership;
+
+      sequence<environment_model_msgs::msg::RoadBoundary> road_boundaries;
+
+      sequence<environment_model_msgs::msg::ScenarioInfo> scenario_info;
+
+      uint8 highway_scene;
+    };
+  };
+};

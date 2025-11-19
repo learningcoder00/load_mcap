@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/GodObstacle.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/ObstacleCommon.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module GodObstacle_Constants {
+      @verbatim (language="comment", text=
+        "object_type")
+      const uint8 OBJECT_TYPE_UNKNOWN = 0;
+      const uint8 OBJECT_TYPE_BAR = 1;
+      const uint8 OBJECT_TYPE_CONE = 2;
+      const uint8 OBJECT_TYPE_WATERHORSE = 3;
+      const uint8 OBJECT_TYPE_BOARD = 4;
+      const uint8 OBJECT_TYPE_BUCKET = 5;
+      const uint8 OBJECT_TYPE_OTHER = 6;
+    };
+    struct GodObstacle {
+      deva_perception_msgs::msg::ObstacleCommon obstacle;
+
+      uint8 object_type;
+    };
+  };
+};

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/NaviStatusProto.msg
+// generated code does not contain a copyright notice
+
+#include "deva_navi_msgs/msg/HeaderProto.idl"
+
+module deva_navi_msgs {
+  module msg {
+    struct NaviStatusProto {
+      deva_navi_msgs::msg::HeaderProto header;
+
+      int32 status;
+    };
+  };
+};

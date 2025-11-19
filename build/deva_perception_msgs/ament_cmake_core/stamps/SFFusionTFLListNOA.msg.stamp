@@ -1,0 +1,19 @@
+deva_common_msgs/Header header
+
+uint64 timestamp
+uint32 framenum
+uint8 tflcount
+uint8[2] reserved
+SFFusionTFLNOA[8] tfllist
+uint8 validsize
+SFFusionTFLNOA[] tfllist_all
+uint8 all_validsize
+PoPTFLNOA[8] pop_tfllist
+uint8 pop_lightnum
+PoPFusionTFLNOA[8] pop_fs_tfllist
+uint8 pop_fs_lightnum
+E2eTrafficDetPair[] e2e_traffic_det_maps
+TrafficE2eStablePair[] tracked_traffic_e2e_stable_maps
+uint8 tracked_traffic_e2ebc
+bool tracked_traffic_e2ebc_stable
+TrafficRount rount_info

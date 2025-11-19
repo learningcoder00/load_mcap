@@ -1,0 +1,114 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/Lane.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Line2d.idl"
+#include "deva_common_msgs/msg/Point2d.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module Lane_Constants {
+      @verbatim (language="comment", text=
+        "车道线属性，取值如下:" "\n"        "0x0: 其他")
+      const uint8 UNKNOWN = 0;
+      @verbatim (language="comment", text=
+        "0x1: 黄色虚线")
+      const uint8 DOTTED_YELLOW = 1;
+      @verbatim (language="comment", text=
+        "0x2: 白色虚线")
+      const uint8 DOTTED_WHITE = 2;
+      @verbatim (language="comment", text=
+        "0x3: 黄色实线")
+      const uint8 SOLID_YELLOW = 3;
+      @verbatim (language="comment", text=
+        "0x4: 白色实线")
+      const uint8 SOLID_WHITE = 4;
+      @verbatim (language="comment", text=
+        "0x5: 双黄线")
+      const uint8 DOUBLE_YELLOW = 5;
+      @verbatim (language="comment", text=
+        "0x6: 路沿")
+      const uint8 CURB = 6;
+      @verbatim (language="comment", text=
+        "0x7: 栏杆")
+      const uint8 GUARDRAIL = 7;
+      @verbatim (language="comment", text=
+        "分叉线属性，取值如下:" "\n"        "0x0: 非叉线")
+      const uint8 NORMAL = 0;
+      @verbatim (language="comment", text=
+        "0x1: 分叉线")
+      const uint8 SPLIT = 1;
+      @verbatim (language="comment", text=
+        "0x2: 合流线")
+      const uint8 MERGE = 2;
+    };
+    struct Lane {
+      double confidence;
+
+      @verbatim (language="comment", text=
+        "禁止使用id 0！！！")
+      uint32 lane_id;
+
+      @verbatim (language="comment", text=
+        "id为0表示无左/右车道！！！")
+      uint32 left_lane_id;
+
+      uint32 right_lane_id;
+
+      uint32 fork_lane_id;
+
+      @verbatim (language="comment", text=
+        "像素坐标系")
+      sequence<deva_common_msgs::msg::Point2d> imagepoints;
+
+      @verbatim (language="comment", text=
+        "像素坐标系v轴最小值")
+      uint32 v_min;
+
+      @verbatim (language="comment", text=
+        "像素坐标系v轴最大值")
+      uint32 v_max;
+
+      @verbatim (language="comment", text=
+        "ego 坐标系")
+      sequence<geometry_msgs::msg::Point> waypoints;
+
+      @verbatim (language="comment", text=
+        "ego坐标系x轴最小值")
+      double x_min;
+
+      @verbatim (language="comment", text=
+        "ego坐标系x轴最大值")
+      double x_max;
+
+      @verbatim (language="comment", text=
+        "ego 坐标系")
+      sequence<geometry_msgs::msg::Point> waypoints_extend;
+
+      @verbatim (language="comment", text=
+        "延长车道线ego坐标系x轴最小值")
+      double x_min_extend;
+
+      @verbatim (language="comment", text=
+        "延长车道线ego坐标系x轴最大值")
+      double x_max_extend;
+
+      uint8 lane_property;
+
+      uint8 fork_property;
+
+      deva_common_msgs::msg::Point2d rv_fork_point;
+
+      geometry_msgs::msg::Point bev_fork_point;
+
+      @verbatim (language="comment", text=
+        "拟合 ego 坐标系车道线下的样条曲线." "\n"
+        "lane_xy: xy平面下拟合曲线， lane_xz: xz平面下拟合曲线" "\n"
+        "x_min, x_max 分别为取样的上界和下界")
+      deva_common_msgs::msg::Line2d lane_xy;
+
+      deva_common_msgs::msg::Line2d lane_xz;
+    };
+  };
+};

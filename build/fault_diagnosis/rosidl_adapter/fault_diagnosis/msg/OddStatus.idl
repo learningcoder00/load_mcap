@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fault_diagnosis/msg/OddStatus.msg
+// generated code does not contain a copyright notice
+
+
+module fault_diagnosis {
+  module msg {
+    module OddStatus_Constants {
+      const string ACC = "ACC";
+      const string ICC = "ICC";
+      const string ALCA = "ALCA";
+      const string HWA = "HWA";
+      const string NOA = "NOA";
+      const string D2D = "D2D";
+      @verbatim (language="comment", text=
+        "状态枚举" "\n"        "功能不可激活，不可运行（存在阻止条件）")
+      const uint8 UNACTAVABLE = 0;
+      @verbatim (language="comment", text=
+        "功能不可激活，可运行（满足运行条件）")
+      const uint8 WORKABLE = 1;
+      @verbatim (language="comment", text=
+        "功能可激活（满足激活条件）")
+      const uint8 ACTIVABLE = 2;
+    };
+    @verbatim (language="comment", text=
+      "OddStatus.msg" "\n"
+      "单个功能状态")
+    struct OddStatus {
+      @verbatim (language="comment", text=
+        "功能标识")
+      string function_id;
+
+      uint8 state;
+
+      @verbatim (language="comment", text=
+        "模块专属故障列表")
+      sequence<string> fault_reasons;
+    };
+  };
+};

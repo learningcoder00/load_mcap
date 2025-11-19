@@ -1,0 +1,22 @@
+# SegmentInfoProto.msg
+LinkInfoProto[] link_infos
+Coord3DDoubleProto[] points
+bool is_valid
+int64 related_path_id
+int32 segment_index
+int32 main_action
+int32 assistant_action
+int32 slope
+int32 length
+int32 toll_cost
+int32 toll_dist
+int64 travel_time
+int64 traffic_light_num
+bool is_end_of_road
+string toll_road_name
+string guideboard_name
+string exit_name
+string crossing_name
+IconRoadProto[] maneuver_icons
+int32 uturn_and_arrivedest
+

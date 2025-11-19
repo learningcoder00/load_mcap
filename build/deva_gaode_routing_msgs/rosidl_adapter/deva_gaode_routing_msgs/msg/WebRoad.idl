@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/WebRoad.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/WebIntersection.idl"
+#include "deva_gaode_routing_msgs/msg/WebPoint.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct WebRoad {
+      boolean has_traffic_light;
+
+      float distance;
+
+      float time;
+
+      uint32 road_type;
+
+      uint32 road_class;
+
+      uint32 specific_type;
+
+      uint32 road_direction;
+
+      uint32 link_direction;
+
+      sequence<deva_gaode_routing_msgs::msg::WebPoint> coord_list;
+
+      uint32 traffic_status;
+
+      sequence<deva_gaode_routing_msgs::msg::WebIntersection> intersection_msg;
+
+      uint32 lane_num;
+    };
+  };
+};

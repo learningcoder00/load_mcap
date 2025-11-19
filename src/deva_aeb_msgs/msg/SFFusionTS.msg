@@ -1,0 +1,15 @@
+uint32 id
+float32 dstlgttoeve
+float32 dstlattoeve
+float32 height
+uint8 electcsgn
+uint8 lanelocn
+uint8 locn
+uint8 rlvc
+uint8 notrlvres
+uint8 qly
+uint8 typ
+uint8 val
+uint8 reserved
+uint16 spplinfoval
+uint8 spplinfotype

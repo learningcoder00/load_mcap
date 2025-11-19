@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/StructuredHdair.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_gaode_routing_msgs/msg/LANE.idl"
+#include "environment_model_msgs/msg/StructuredFeaturePoint.idl"
+#include "environment_model_msgs/msg/StructuredLink.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct StructuredHdair {
+      deva_common_msgs::msg::Header header;
+
+      uint64 current_link_id;
+
+      sequence<environment_model_msgs::msg::StructuredLink> links;
+
+      sequence<environment_model_msgs::msg::StructuredFeaturePoint> feature_points;
+
+      sequence<deva_gaode_routing_msgs::msg::LANE> lanes;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+float64 publish_timestamp
+uint8 odd_apa_illumination_pass_flag
+uint8 odd_apa_gradient_pass_flag
+uint8 odd_apa_standby_hu_speed_pass_flag

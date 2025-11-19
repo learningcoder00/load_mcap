@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/PerceptCenterLine.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct PerceptCenterLine {
+      uint8 id;
+
+      uint8 center_line_property;
+
+      sequence<geometry_msgs::msg::Point> waypoints;
+
+      geometry_msgs::msg::Point bev_fork_point;
+    };
+  };
+};

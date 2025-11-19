@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/EnvLink.msg
+// generated code does not contain a copyright notice
+
+
+module environment_model_msgs {
+  module msg {
+    struct EnvLink {
+      uint64 id;
+
+      uint64 parent_link_id;
+
+      float angle_with_parent;
+
+      double length;
+
+      boolean is_on_routing;
+
+      int32 lane_num;
+
+      int32 sub_link_num;
+    };
+  };
+};

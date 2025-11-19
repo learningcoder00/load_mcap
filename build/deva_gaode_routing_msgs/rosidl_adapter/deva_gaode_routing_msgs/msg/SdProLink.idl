@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/SdProLink.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/SdProRoad.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct SdProLink {
+      uint32 path_id;
+
+      double offset;
+
+      deva_gaode_routing_msgs::msg::SdProRoad road;
+    };
+  };
+};

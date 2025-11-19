@@ -1,0 +1,13 @@
+{
+  "package_name": "rviz_plug_msg",
+  "non_idl_tuples": [
+    "/home/linjiawei/load_mcap/src/rviz_plug_msg:msg/BywireDiag.msg",
+    "/home/linjiawei/load_mcap/src/rviz_plug_msg:msg/BywireMsgType.msg",
+    "/home/linjiawei/load_mcap/src/rviz_plug_msg:msg/ErrorEnum.msg",
+    "/home/linjiawei/load_mcap/src/rviz_plug_msg:msg/ExceptionMonitor.msg",
+    "/home/linjiawei/load_mcap/src/rviz_plug_msg:msg/Freq.msg",
+    "/home/linjiawei/load_mcap/src/rviz_plug_msg:msg/FreqMonitor.msg",
+    "/home/linjiawei/load_mcap/src/rviz_plug_msg:msg/InfoEnum.msg",
+    "/home/linjiawei/load_mcap/src/rviz_plug_msg:msg/StatusEnum.msg"
+  ]
+}

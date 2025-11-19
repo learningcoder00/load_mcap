@@ -1,0 +1,10 @@
+/usr/bin/ld: CMakeFiles/mcap_streamer_node.dir/src/mcap_streamer_node.cpp.o: in function `McapStreamerNode::McapStreamerNode()':
+mcap_streamer_node.cpp:(.text._ZN16McapStreamerNodeC2Ev[_ZN16McapStreamerNodeC5Ev]+0x1f20): undefined reference to `mcap_streamer::S3Downloader::downloadFromS3(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)'
+/usr/bin/ld: CMakeFiles/mcap_streamer_node.dir/src/mcap_streamer_node.cpp.o: in function `std::_MakeUniq<mcap_streamer::S3Downloader>::__single_object std::make_unique<mcap_streamer::S3Downloader>()':
+mcap_streamer_node.cpp:(.text._ZSt11make_uniqueIN13mcap_streamer12S3DownloaderEJEENSt9_MakeUniqIT_E15__single_objectEDpOT0_[_ZSt11make_uniqueIN13mcap_streamer12S3DownloaderEJEENSt9_MakeUniqIT_E15__single_objectEDpOT0_]+0x26): undefined reference to `mcap_streamer::S3Downloader::S3Downloader()'
+/usr/bin/ld: CMakeFiles/mcap_streamer_node.dir/src/mcap_streamer_node.cpp.o: in function `std::default_delete<mcap_streamer::S3Downloader>::operator()(mcap_streamer::S3Downloader*) const':
+mcap_streamer_node.cpp:(.text._ZNKSt14default_deleteIN13mcap_streamer12S3DownloaderEEclEPS1_[_ZNKSt14default_deleteIN13mcap_streamer12S3DownloaderEEclEPS1_]+0x22): undefined reference to `mcap_streamer::S3Downloader::~S3Downloader()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/mcap_streamer_node.dir/build.make:166: mcap_streamer_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/mcap_streamer_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

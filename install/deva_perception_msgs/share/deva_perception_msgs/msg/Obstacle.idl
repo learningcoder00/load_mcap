@@ -1,0 +1,86 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/Obstacle.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/BoundingBox2d.idl"
+#include "deva_perception_msgs/msg/DictInfo.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Twist.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module Obstacle_Constants {
+      @verbatim (language="comment", text=
+        "TODO(huchong): complete enum type definition" "\n"        "# enum" "\n"        "uint32 UNKNOWN = 0" "\n"        "uint32 UNKNOWN_MOVABLE = 1" "\n"        "uint32 UNKNOWN_UNMOVABLE = 2" "\n"        "uint32 PEDESTRIAN = 3   # Pedestrian, usually determined by moving behavior." "\n"        "uint32 BICYCLE = 4      # bike, motor bike" "\n"        "uint32 VEHICLE = 5      # Passenger car or truck.")
+      const uint32 CAR = 1;
+      const uint32 TRUCK = 2;
+      const uint32 CONSTRUCTION_VEHICLE = 3;
+      const uint32 BUS = 4;
+      const uint32 MOTORCYCLE = 5;
+      const uint32 BICYCLE = 6;
+      const uint32 TRICYCLE = 7;
+      const uint32 CYCLIST = 8;
+      const uint32 PEDESTRIAN = 9;
+    };
+    @verbatim (language="comment", text=
+      "This message defines meta information for a obstacle status")
+    struct Obstacle {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "obstacle id. 区别不同实体")
+      uint32 id;
+
+      @verbatim (language="comment", text=
+        "单位都是标准单位. m, m/s, m/s^2, radian/s, radian/s^2" "\n"
+        "位置 朝向")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "尺寸. 即长宽高")
+      geometry_msgs::msg::Vector3 dimensions;
+
+      @verbatim (language="comment", text=
+        "速度/速度方差")
+      geometry_msgs::msg::Twist detection_velocity;
+
+      geometry_msgs::msg::Twist velocity;
+
+      geometry_msgs::msg::Twist velocity_variance;
+
+      @verbatim (language="comment", text=
+        "加速度/加速度方差")
+      geometry_msgs::msg::Twist acceleration;
+
+      geometry_msgs::msg::Twist acceleration_variance;
+
+      @verbatim (language="comment", text=
+        "tracking time. 追踪时间 单位 s")
+      double tracking_time;
+
+      @verbatim (language="comment", text=
+        "轨迹长度")
+      uint32 track_length;
+
+      @verbatim (language="comment", text=
+        "置信度")
+      double score;
+
+      @verbatim (language="comment", text=
+        "补miss")
+      boolean is_predict;
+
+      @verbatim (language="comment", text=
+        "障碍物属性")
+      uint32 type;
+
+      @verbatim (language="comment", text=
+        "障碍物2d 框. 如果需要的话")
+      deva_common_msgs::msg::BoundingBox2d bbox2d;
+
+      sequence<deva_perception_msgs::msg::DictInfo> extra_info;
+    };
+  };
+};

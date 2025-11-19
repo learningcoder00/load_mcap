@@ -1,0 +1,9 @@
+{
+  "package_name": "deva_ads_msgs",
+  "non_idl_tuples": [
+    "/home/linjiawei/load_mcap/src/deva_ads_msgs:msg/AdsInfo.msg",
+    "/home/linjiawei/load_mcap/src/deva_ads_msgs:msg/AdsMarker.msg",
+    "/home/linjiawei/load_mcap/src/deva_ads_msgs:msg/AdsMarkerArray.msg",
+    "/home/linjiawei/load_mcap/src/deva_ads_msgs:msg/AdsMarkerArrayVec.msg"
+  ]
+}

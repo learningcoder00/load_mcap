@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RvLaneResult.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_perception_msgs/msg/Crosswalk2dArray.idl"
+#include "deva_perception_msgs/msg/LaneLine2dArray.idl"
+#include "deva_perception_msgs/msg/StopLine2dArray.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct RvLaneResult {
+      deva_common_msgs::msg::Header header;
+
+      sequence<deva_perception_msgs::msg::LaneLine2dArray> laneline_2d_array;
+
+      sequence<deva_perception_msgs::msg::StopLine2dArray> stopline_2d_array;
+
+      sequence<deva_perception_msgs::msg::Crosswalk2dArray> crosswalk_2d_array;
+    };
+  };
+};

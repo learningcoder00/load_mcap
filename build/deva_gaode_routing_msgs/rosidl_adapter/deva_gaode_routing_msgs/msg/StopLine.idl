@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/StopLine.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/Coordinate.idl"
+#include "deva_gaode_routing_msgs/msg/FeatureIDType.idl"
+#include "deva_gaode_routing_msgs/msg/NodeIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct StopLine {
+      deva_gaode_routing_msgs::msg::FeatureIDType id;
+
+      uint8 type;
+
+      deva_gaode_routing_msgs::msg::Coordinate location;
+
+      @verbatim (language="comment", text=
+        "关联的NodeID")
+      deva_gaode_routing_msgs::msg::NodeIDType related_node_id;
+
+      @verbatim (language="comment", text=
+        "关联的LaneID")
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> related_lane_ids;
+
+      @verbatim (language="comment", text=
+        "关联的IntersectionRoadID")
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> related_intersection_road_ids;
+    };
+  };
+};

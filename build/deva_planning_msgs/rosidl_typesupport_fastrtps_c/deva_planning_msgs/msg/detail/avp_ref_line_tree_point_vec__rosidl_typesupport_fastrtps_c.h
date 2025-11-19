@@ -1,0 +1,37 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__rosidl_typesupport_fastrtps_c.h.em
+// with input from deva_planning_msgs:msg/AvpRefLineTreePointVec.idl
+// generated code does not contain a copyright notice
+#ifndef DEVA_PLANNING_MSGS__MSG__DETAIL__AVP_REF_LINE_TREE_POINT_VEC__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+#define DEVA_PLANNING_MSGS__MSG__DETAIL__AVP_REF_LINE_TREE_POINT_VEC__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_
+
+
+#include <stddef.h>
+#include "rosidl_runtime_c/message_type_support_struct.h"
+#include "rosidl_typesupport_interface/macros.h"
+#include "deva_planning_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+
+#ifdef __cplusplus
+extern "C"
+{
+#endif
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_deva_planning_msgs
+size_t get_serialized_size_deva_planning_msgs__msg__AvpRefLineTreePointVec(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_deva_planning_msgs
+size_t max_serialized_size_deva_planning_msgs__msg__AvpRefLineTreePointVec(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_deva_planning_msgs
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, deva_planning_msgs, msg, AvpRefLineTreePointVec)();
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif  // DEVA_PLANNING_MSGS__MSG__DETAIL__AVP_REF_LINE_TREE_POINT_VEC__ROSIDL_TYPESUPPORT_FASTRTPS_C_H_

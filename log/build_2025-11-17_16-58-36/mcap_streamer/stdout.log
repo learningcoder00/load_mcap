@@ -1,0 +1,6 @@
+[ 16%] [32mBuilding CXX object CMakeFiles/s3_downloader_lib.dir/src/s3_downloader.cpp.o[0m
+[ 50%] Built target mcap_reader_node
+[ 66%] [32m[1mLinking CXX static library libs3_downloader_lib.a[0m
+[ 66%] Built target s3_downloader_lib
+[35m[1mConsolidate compiler generated dependencies of target mcap_streamer_node[0m
+[ 83%] [32m[1mLinking CXX executable mcap_streamer_node[0m

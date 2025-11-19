@@ -1,0 +1,317 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_function_msgs/msg/UIToSTMData.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_function_msgs/msg/APPToStmDataStruct.idl"
+#include "deva_function_msgs/msg/AppMapInfoToStmStruct.idl"
+
+module deva_function_msgs {
+  module msg {
+    struct UIToSTMData {
+      deva_common_msgs::msg::Header header;
+
+      uint8 drvr_assc_sys_btn_push;
+
+      uint8 swt_disp_on_and_off_req;
+
+      uint8 nav_frnt_actv_sts;
+
+      uint8 ihu_fail;
+
+      uint8 scene_mod_seld;
+
+      uint8 other_ar_psd_req;
+
+      uint8 mob_dev_rpa_req_rspa_ctrl;
+
+      uint8 mob_dev_rpa_req_rpa_req;
+
+      uint8 mob_dev_rpa_req_rpa_out_mode_sub_t;
+
+      uint8 mob_dev_rpa_req_mob_dev_sts;
+
+      uint8 rem_straight_prkg_assi_seln_req;
+
+      uint8 prkg_touch_coorn_req_touch_eve_typ;
+
+      uint16 veh_spd_indcd_veh_spd_indcd;
+
+      uint8 sm_aut_prkg_slot_nr_req;
+
+      uint8 sm_prkg_in_or_out_and_cncl;
+
+      uint8 sm_prkg_intrpt_reld_btn;
+
+      uint8 sm_prkg_fct_swt;
+
+      uint8 sm_aut_actv_prkg_fct_swt;
+
+      uint8 full_screen_btn_push;
+
+      uint8 sm_sel_push_apa_info;
+
+      uint8 sm_hpa_soft_butn_enter_rq;
+
+      uint8 sm_map_build_rq;
+
+      uint8 sm_map_save_rq;
+
+      uint8 sm_map_select_id;
+
+      uint8 sm_drvr_assc_sys_park_mod;
+
+      uint8 map_build_sts;
+
+      uint8 aut_valt_prkg_map_src_req;
+
+      uint8 aut_valt_prkg_l2_btn_req_setting_fct_push_btn_req;
+
+      uint8 aut_valt_prkg_l2_btn_req_setting_no_sence_btn_req;
+
+      uint8 aut_valt_prkg_l2_btn_req_setting_voice_btn_req;
+
+      uint8 aut_valt_prkg_map_oper_req_map_type;
+
+      uint8 aut_valt_prkg_l1_btn_req;
+
+      uint8 aut_valt_prkg_experience_resp;
+
+      uint8 lo_spd_drvg_assi_sho_push_resp;
+
+      uint8 aut_valt_prkg_sho_dst_push_swt;
+
+      uint8 aut_valt_prkg_picture_upload_swt;
+
+      uint8 aut_valt_prkg_ins_btn_req;
+
+      uint8 aut_valt_prkg_swt;
+
+      uint8 prof_pen_sts1;
+
+      uint8 aut_valt_prkg_map_oper_req2_map_type2;
+
+      uint32 aut_valt_prkg_map_oper_req2_map_list1;
+
+      uint32 aut_valt_prkg_map_oper_req2_map_list2;
+
+      uint32 aut_valt_prkg_map_oper_req2_map_list3;
+
+      uint32 aut_valt_prkg_map_oper_req2_map_list4;
+
+      uint8 aut_valt_prkg_l2_pop_btn_req;
+
+      uint8 voice_active_adcu;
+
+      uint8 btn_tr_sts1;
+
+      uint8 btn_unlck_sts1;
+
+      uint8 btn_lock_sts1;
+
+      uint8 btn_tr_sts1_key_id;
+
+      uint8 btn_unlck_sts1_key_id;
+
+      uint8 btn_lock_sts1_key_id;
+
+      uint8 voice_ctrl_brk;
+
+      uint8 lo_spd_drvg_assi_swt;
+
+      uint8 prkg_frnt_or_re_select;
+
+      uint8 tracking_back_assi_swt;
+
+      uint8 prkg_emg_brk_sys_swt;
+
+      uint8 aut_prkg_voice_swt;
+
+      uint8 lsda_notif_push_req;
+
+      uint8 monr_sys_sts;
+
+      uint8 drvr_assc_wisdom_btn;
+
+      uint8 scenario_mod;
+
+      uint8 aut_prkg_voice_typ;
+
+      uint8 mai_setting;
+
+      uint8 aut_prkg_hand_slot_nr_req;
+
+      uint8 asy_aut_drv_ctrl_typ_dim_req;
+
+      uint8 hmi_drvr_sod_req_pilot;
+
+      uint8 drvr_crs_ctrl_fct_actv_req;
+
+      uint8 drvr_acc_fct_deactvn_req;
+
+      uint8 drvr_acc_rs_set_spd_req;
+
+      float set_spd_for_crs_ctrl_fct_active;
+
+      uint8 acc_fusn_trfc_req;
+
+      uint8 crs_ctrl_ti_gap_adj_req;
+
+      uint8 ve_spd_indcd_unit;
+
+      float veh_spd_indcd;
+
+      uint8 drv_mod_req;
+
+      uint8 cam_flts_sts_from_dhu;
+
+      uint8 drvr_dec_sts_from_dhu;
+
+      uint8 eye_gaze_zone;
+
+      uint16 eye_gaze_zone_time;
+
+      uint8 eye_on_road_from_dhu;
+
+      float eye_open_from_dhu_eye_open_deg_le;
+
+      float eye_open_from_dhu_eye_open_deg_ri;
+
+      uint8 eye_open_from_dhu_eye_open_le;
+
+      uint8 eye_open_from_dhu_eye_open_ri;
+
+      uint8 eye_open_from_dhu_eye_visible_le;
+
+      uint8 eye_open_from_dhu_eye_visible_ri;
+
+      uint8 eye_open_from_dhu_face_visible;
+
+      uint8 snsr_drvr_pfmnc_sts_from_dhu;
+
+      uint8 voice_brst_mod;
+
+      uint8 auto_lane_chg_style_sw_sts;
+
+      uint8 nop_cofm_of_lan_chag_onoff;
+
+      uint8 hmi_sod_lan_chg_switch;
+
+      uint8 hmi_drvr_sod_req_chg;
+
+      uint8 asy_noa_upgrade_switch;
+
+      uint8 sfty_hmi_ena;
+
+      uint8 nop_remind_typ_of_chg_lane_req;
+
+      uint8 drvr_lane_chg_aut_actv_sts;
+
+      uint8 auto_lane_chg_with_navi_sw_onoff;
+
+      uint8 nav_noa_status_change_req;
+
+      uint8 prkg_camera_store_req;
+
+      uint8 voice_ctrl_prk;
+
+      uint8 drift_prkg_req;
+
+      uint8 hmi_drvr_sod_req_cnoa_main_page;
+
+      uint8 hmi_drvr_sod_req_cnoa_lrng;
+
+      uint8 hmi_drvr_sod_req_finish_lrng;
+
+      uint8 hmi_cnoa_crs_swt_on_off;
+
+      uint8 hmi_cnoa_sod_lan_chg_swt;
+
+      uint8 hmi_cnoa_auto_lane_chg_style_sw_sts;
+
+      uint8 hmi_cnoa_lrng_swt_on_off;
+
+      uint8 hmi_drvr_sod_req_contns_lrng;
+
+      uint8 apa_custom_prkg_req;
+
+      uint8 exit_custom_prkg_req;
+
+      int16 cust_prk_slot_posn_angle_disp;
+
+      int16 cust_prk_slot_posn_end_x1;
+
+      int16 cust_prk_slot_posn_end_x2;
+
+      int16 cust_prk_slot_posn_end_y1;
+
+      int16 cust_prk_slot_posn_end_y2;
+
+      int16 cust_prk_slot_posn_start_x1;
+
+      int16 cust_prk_slot_posn_start_x2;
+
+      int16 cust_prk_slot_posn_start_y1;
+
+      int16 cust_prk_slot_posn_start_y2;
+
+      uint8 screem_oper;
+
+      boolean hpa_max_swt;
+
+      uint8 rpa_select_par_in;
+
+      uint8 frnt_and_re_prkg_in_swt;
+
+      deva_function_msgs::msg::AppMapInfoToStmStruct app_map_info_to_stm;
+
+      deva_function_msgs::msg::APPToStmDataStruct app_to_stm_data;
+
+      uint8 aut_prkg_hand_slot_nr_req_topo_slot_id;
+
+      uint8 aut_prkg_hand_slot_nr_req_topo_slot_status;
+
+      uint8 aut_prkg_select_entrance;
+
+      uint8 aut_valt_prkg_cls_pop;
+
+      uint8 aut_valt_prkg_cover_results;
+
+      uint8 aut_valt_prkg_select_d2d;
+
+      int8 aut_valt_prkg_topo_flr;
+
+      uint8 d2d_p_icon_clicked;
+
+      uint8 d2d_route_push_button_resp;
+
+      uint8 hmi_etc_traffic_sw_sts;
+
+      uint8 prkg_lrng_sts_hpa_lrng_sts;
+
+      uint8 prkg_slot_typ_select;
+
+      uint8 asy_aut_drvg_li_swt;
+
+      uint32 aut_valt_prkg_map_resp_map_id_list1;
+
+      uint32 aut_valt_prkg_map_resp_map_id_list2;
+
+      uint32 aut_valt_prkg_map_resp_map_id_list3;
+
+      uint32 aut_valt_prkg_map_resp_map_id_list4;
+
+      uint8 aut_valt_prkg_map_resp_map_id_result;
+
+      uint32 aut_valt_prkg_map_syncn_map_id_list1;
+
+      uint32 aut_valt_prkg_map_syncn_map_id_list2;
+
+      uint32 aut_valt_prkg_map_syncn_map_id_list3;
+
+      uint32 aut_valt_prkg_map_syncn_map_id_list4;
+
+      uint8 aut_valt_prkg_map_syncn_map_syncn;
+    };
+  };
+};

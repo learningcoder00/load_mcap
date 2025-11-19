@@ -1,0 +1,8 @@
+{
+  "package_name": "fault_diagnosis",
+  "non_idl_tuples": [
+    "/home/linjiawei/load_mcap/src/fault_diagnosis:msg/DiagState.msg",
+    "/home/linjiawei/load_mcap/src/fault_diagnosis:msg/ODDStatusArray.msg",
+    "/home/linjiawei/load_mcap/src/fault_diagnosis:msg/OddStatus.msg"
+  ]
+}

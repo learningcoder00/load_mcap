@@ -1,0 +1,21 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/diag_state__type_support.c.o"
+  "CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/diag_state__type_support.c.o.d"
+  "CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/odd_status__type_support.c.o"
+  "CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/odd_status__type_support.c.o.d"
+  "CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/odd_status_array__type_support.c.o"
+  "CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/odd_status_array__type_support.c.o.d"
+  "libfault_diagnosis__rosidl_typesupport_introspection_c.pdb"
+  "libfault_diagnosis__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/diag_state__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/diag_state__type_support.c"
+  "rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/odd_status__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/odd_status__type_support.c"
+  "rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/odd_status_array__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/fault_diagnosis/msg/detail/odd_status_array__type_support.c"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang C)
+  include(CMakeFiles/fault_diagnosis__rosidl_typesupport_introspection_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

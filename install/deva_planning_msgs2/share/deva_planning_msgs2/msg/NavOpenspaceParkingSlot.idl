@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/NavOpenspaceParkingSlot.msg
+// generated code does not contain a copyright notice
+
+
+module deva_planning_msgs2 {
+  module msg {
+    struct NavOpenspaceParkingSlot {
+      uint32 id;
+
+      @verbatim (language="comment", text=
+        "UNKNOWN = 0" "\n"
+        "CROSSWALK = 1" "\n"
+        "JUNCTION = 2" "\n"
+        "VERTICAL_SLOT = 3" "\n"
+        "SIDE_SLOT = 4" "\n"
+        "SLANTED_SLOT = 5" "\n"
+        "ULTRASONIC_VERTICAL_SLOT = 6" "\n"
+        "ULTRASONIC_SIDE_SLOT = 7")
+      uint32 type;
+
+      @verbatim (language="comment", text=
+        "corner point: xyz * 4")
+      sequence<double> xyz_vec;
+
+      boolean is_occupied;
+
+      boolean is_stable_tracked;
+
+      double occupied_confidence;
+    };
+  };
+};

@@ -1,0 +1,76 @@
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function ‘std::string McapReaderNode::deserializeMessage(const string&, std::shared_ptr<rclcpp::SerializedMessage>)’:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:419:33: error: no matching function for call to ‘rclcpp::SerializationBase::SerializationBase()’
+  419 |       rclcpp::SerializationBase serialization;
+      |                                 ^~~~~~~~~~~~~
+In file included from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:4:
+/opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp:56:12: note: candidate: ‘rclcpp::SerializationBase::SerializationBase(const rosidl_message_type_support_t*)’
+   56 |   explicit SerializationBase(const rosidl_message_type_support_t * type_support);
+      |            ^~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp:56:12: note:   candidate expects 1 argument, 0 provided
+/opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp:48:26: note: candidate: ‘constexpr rclcpp::SerializationBase::SerializationBase(const rclcpp::SerializationBase&)’
+   48 | class RCLCPP_PUBLIC_TYPE SerializationBase
+      |                          ^~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rclcpp/rclcpp/serialization.hpp:48:26: note:   candidate expects 1 argument, 0 provided
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:426:72: error: no matching function for call to ‘get_message_type_support_handle(const string&, const char [23])’
+  426 |       auto ts = rosidl_typesupport_cpp::get_message_type_support_handle(
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  427 |         topic_type, "rosidl_typesupport_cpp");
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                           
+In file included from /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:12,
+                 from /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:10,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39: note: candidate: ‘template<class T> const rosidl_message_type_support_t* rosidl_typesupport_cpp::get_message_type_support_handle()’
+   25 | const rosidl_message_type_support_t * get_message_type_support_handle();
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39: note:   template argument deduction/substitution failed:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:426:72: note:   candidate expects 0 arguments, 2 provided
+  426 |       auto ts = rosidl_typesupport_cpp::get_message_type_support_handle(
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  427 |         topic_type, "rosidl_typesupport_cpp");
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~                           
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:432:69: error: no matching function for call to ‘get_message_type_support_handle(const string&, const char [37])’
+  432 |         ts = rosidl_typesupport_cpp::get_message_type_support_handle(
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  433 |           topic_type, "rosidl_typesupport_introspection_cpp");
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~        
+In file included from /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/detail/duration__type_support.hpp:12,
+                 from /opt/ros/humble/include/builtin_interfaces/builtin_interfaces/msg/duration.hpp:10,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/duration.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/qos.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_graph_interface.hpp:32,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/client.hpp:42,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+                 from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39: note: candidate: ‘template<class T> const rosidl_message_type_support_t* rosidl_typesupport_cpp::get_message_type_support_handle()’
+   25 | const rosidl_message_type_support_t * get_message_type_support_handle();
+      |                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/opt/ros/humble/include/rosidl_runtime_cpp/rosidl_typesupport_cpp/message_type_support.hpp:25:39: note:   template argument deduction/substitution failed:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:432:69: note:   candidate expects 0 arguments, 2 provided
+  432 |         ts = rosidl_typesupport_cpp::get_message_type_support_handle(
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+  433 |           topic_type, "rosidl_typesupport_introspection_cpp");
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~        
+gmake[2]: *** [CMakeFiles/mcap_reader_node.dir/build.make:76: CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_reader_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

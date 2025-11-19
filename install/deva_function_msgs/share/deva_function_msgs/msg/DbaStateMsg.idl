@@ -1,0 +1,81 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_function_msgs/msg/DbaStateMsg.msg
+// generated code does not contain a copyright notice
+
+
+module deva_function_msgs {
+  module msg {
+    typedef boolean boolean__4[4];
+    typedef boolean boolean__5[5];
+    module DbaStateMsg_Constants {
+      @verbatim (language="comment", text=
+        "泊车指令")
+      const uint8 COMMAND_NONE = 0;
+      const uint8 SEARCH_SLOT = 1;
+      const uint8 PARK_IN = 2;
+      const uint8 PARK_OUT = 3;
+      const uint8 CRUISE = 4;
+      const uint8 QUIT = 5;
+      @verbatim (language="comment", text=
+        "泊出方向")
+      const uint8 DIRECTION_NONE = 0;
+      const uint8 LEFT = 1;
+      const uint8 LEFT_FRONT = 2;
+      const uint8 FRONT = 3;
+      const uint8 RIGHT_FRONT = 4;
+      const uint8 RIGHT = 5;
+      const uint8 RIGHT_LEFT = 6;
+      const uint8 LEFT_RIGHT = 7;
+      @verbatim (language="comment", text=
+        "APA模式")
+      const uint8 APA = 1;
+      @verbatim (language="comment", text=
+        "HPP模式")
+      const uint8 HPP = 3;
+    };
+    struct DbaStateMsg {
+      double publish_timestamp;
+
+      uint8 epb_state;
+
+      float speed;
+
+      boolean acc_enable;
+
+      boolean brake_enable;
+
+      @verbatim (language="comment", text=
+        "四车门关闭状态，顺序为[FL, FR, RL, RR]")
+      boolean__4 door_open_state;
+
+      uint8 turn_lamp_lever_state;
+
+      boolean late_enable;
+
+      boolean late_driveover;
+
+      boolean longit_enable;
+
+      boolean longit_driveover;
+
+      uint8 gear;
+
+      @verbatim (language="comment", text=
+        "安全带是否系上 ，顺序为")
+      @unit (value="驾驶位，副驾驶位，后左，后中，后右")
+      boolean__5 belt;
+
+      uint8 command;
+
+      boolean save_map;
+
+      uint64 slot_id;
+
+      @verbatim (language="comment", text=
+        "只有当指令为PARK_OUT 时有效")
+      uint8 park_out_direction;
+
+      uint8 run_mode;
+    };
+  };
+};

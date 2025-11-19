@@ -1,0 +1,64 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/ReferenceLine.msg
+// generated code does not contain a copyright notice
+
+#include "nav_msgs/msg/Path.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    module ReferenceLine_Constants {
+      @verbatim (language="comment", text=
+        "参考线状态，需要时可加4\8")
+      const int32 IS_REVERSE = 1;
+      const int32 IS_NOT_CURRENT_ROAD = 2;
+      const int32 IS_UNREACHABLE = 4;
+    };
+    struct ReferenceLine {
+      nav_msgs::msg::Path reference_line;
+
+      int32 line_id;
+
+      @verbatim (language="comment", text=
+        "未填写")
+      nav_msgs::msg::Path original_merge_point;
+
+      @verbatim (language="comment", text=
+        "未填写")
+      nav_msgs::msg::Path merge_point;
+
+      int32 reference_line_type;
+
+      boolean line_is_model;
+
+      @verbatim (language="comment", text=
+        "未填写")
+      boolean line_is_virtual;
+
+      @verbatim (language="comment", text=
+        "未填写")
+      int32 left_line_nums;
+
+      @verbatim (language="comment", text=
+        "未填写")
+      int32 right_line_nums;
+
+      @verbatim (language="comment", text=
+        "未填写")
+      sequence<string> cipv_ids;
+
+      @verbatim (language="comment", text=
+        "未填写")
+      sequence<string> cutin_cipv_ids;
+
+      @verbatim (language="comment", text=
+        "未填写")
+      sequence<string> nearest_cipv_ids;
+
+      double navi_score;
+
+      double effic_score;
+
+      int32 turn_scenario;
+    };
+  };
+};

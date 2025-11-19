@@ -1,0 +1,125 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/WebCallBack.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/CameraCallbackInfo.idl"
+#include "deva_gaode_routing_msgs/msg/WebCrossImage.idl"
+#include "deva_gaode_routing_msgs/msg/WebCrossNaviInfo.idl"
+#include "deva_gaode_routing_msgs/msg/WebLane.idl"
+#include "deva_gaode_routing_msgs/msg/WebNotAvoidInfo.idl"
+#include "deva_gaode_routing_msgs/msg/WebParallelRoad.idl"
+#include "deva_gaode_routing_msgs/msg/WebTrafficLight.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "标志回调信息更新与否, 实时更新")
+    struct WebCallBack {
+      int32 index;
+
+      @verbatim (language="comment", text=
+        "获取当前大路段索引, 实时更新")
+      int32 cur_step;
+
+      @verbatim (language="comment", text=
+        "获取自车所在小路段索引（对于巡航模式默认road是0）, 实时更新")
+      int32 cur_road;
+
+      @verbatim (language="comment", text=
+        "获取当前位置所在link上的点索引, 实时更新")
+      int32 cur_point;
+
+      @verbatim (language="comment", text=
+        "获取当前road剩余距离，实时更新")
+      double cur_road_retain_dis;
+
+      @verbatim (language="comment", text=
+        "获取当前路段剩余距离, 实时更新")
+      double cur_step_retain_dis;
+
+      @verbatim (language="comment", text=
+        "获取当前路段剩余时间, 实时更新")
+      double cur_step_retain_time;
+
+      @verbatim (language="comment", text=
+        "获取到途经点距离，实时更新")
+      sequence<double> via_retain_dis;
+
+      @verbatim (language="comment", text=
+        "获取路线剩余距离, 实时更新")
+      double path_retain_dis;
+
+      @verbatim (language="comment", text=
+        "获取路线剩余时间, 实时更新")
+      double path_retain_time;
+
+      @verbatim (language="comment", text=
+        "当前道路转向图标, 实时更新")
+      int32 trun_icon;
+
+      @verbatim (language="comment", text=
+        "与trun_icon位置对应的剩余距离")
+      double trun_icon_retain_dis;
+
+      @verbatim (language="comment", text=
+        "回调的lane info, 实时更新")
+      deva_gaode_routing_msgs::msg::WebLane lane_info;
+
+      @verbatim (language="comment", text=
+        "道路限速抓拍信息")
+      deva_gaode_routing_msgs::msg::CameraCallbackInfo camera_callback;
+
+      @verbatim (language="comment", text=
+        "环岛出口序号，不是个数")
+      int32 ring_out_cnt;
+
+      @verbatim (language="comment", text=
+        "环岛出口度数（0~360）")
+      int32 roundabout_out_angle;
+
+      @verbatim (language="comment", text=
+        "当前link的历史行驶速度")
+      int32 cur_link_speed;
+
+      @verbatim (language="comment", text=
+        "未避开的设施和禁行")
+      deva_gaode_routing_msgs::msg::WebNotAvoidInfo not_avoid_info;
+
+      @verbatim (language="comment", text=
+        "路口转向ID，使用SDKStepForwardDirection")
+      int32 cross_maneuver_id;
+
+      @verbatim (language="comment", text=
+        "下个路口信息，需配置语音配置表才有")
+      sequence<deva_gaode_routing_msgs::msg::WebCrossNaviInfo> next_cross_info;
+
+      @verbatim (language="comment", text=
+        "红绿灯状态")
+      deva_gaode_routing_msgs::msg::WebTrafficLight traffic_light_cd;
+
+      @verbatim (language="comment", text=
+        "平行道路/高架上下信息")
+      deva_gaode_routing_msgs::msg::WebParallelRoad parallel_road;
+
+      @verbatim (language="comment", text=
+        "Ownership 判断内外部道路  0: 公共道路 1：内部道路 2：私有道路 3：地下停车场道路 4：立体停车场道路")
+      int32 ownership;
+
+      @verbatim (language="comment", text=
+        "当前道路限速")
+      uint32 cur_road_limit_speed;
+
+      @verbatim (language="comment", text=
+        "路口放大图")
+      deva_gaode_routing_msgs::msg::WebCrossImage cross_image;
+
+      @verbatim (language="comment", text=
+        "当前路口行驶方向")
+      uint32 cur_cross_dir;
+
+      @verbatim (language="comment", text=
+        "自车到当前路口距离")
+      double cur_cross_dist;
+    };
+  };
+};

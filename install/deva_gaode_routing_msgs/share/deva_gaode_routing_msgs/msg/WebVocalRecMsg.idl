@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/WebVocalRecMsg.msg
+// generated code does not contain a copyright notice
+
+
+module deva_gaode_routing_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "语音序号, 实时更新")
+    struct WebVocalRecMsg {
+      int32 sequence_num;
+
+      @verbatim (language="comment", text=
+        "道路类型, 实时更新")
+      int32 road_type;
+
+      @verbatim (language="comment", text=
+        "转向类型, 实时更新")
+      int32 conor_type;
+
+      @verbatim (language="comment", text=
+        "车道数量（几车道）, 实时更新")
+      int32 lane_num;
+
+      @verbatim (language="comment", text=
+        "剩余距离（米）, 实时更新")
+      int32 distance;
+
+      @verbatim (language="comment", text=
+        "语音内容, 实时更新")
+      string voice_content;
+    };
+  };
+};

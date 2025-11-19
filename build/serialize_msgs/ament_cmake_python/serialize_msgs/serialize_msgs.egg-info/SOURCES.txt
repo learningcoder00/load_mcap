@@ -1,0 +1,8 @@
+setup.py
+serialize_msgs/__init__.py
+serialize_msgs.egg-info/PKG-INFO
+serialize_msgs.egg-info/SOURCES.txt
+serialize_msgs.egg-info/dependency_links.txt
+serialize_msgs.egg-info/top_level.txt
+serialize_msgs/msg/__init__.py
+serialize_msgs/msg/_serialize_proto.py

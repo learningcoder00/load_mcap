@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/RoadBoundary.msg
+// generated code does not contain a copyright notice
+
+#include "environment_model_msgs/msg/BoundaryPoint.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct RoadBoundary {
+      sequence<environment_model_msgs::msg::BoundaryPoint> left_physical_bound_line;
+
+      sequence<environment_model_msgs::msg::BoundaryPoint> right_physical_bound_line;
+
+      sequence<environment_model_msgs::msg::BoundaryPoint> left_law_bound_line;
+
+      sequence<environment_model_msgs::msg::BoundaryPoint> right_law_bound_line;
+
+      @verbatim (language="comment", text=
+        "bit 0 for on-route or not, could be extended")
+      uint8 feature;
+
+      sequence<string> isolated_obj_ids;
+    };
+  };
+};

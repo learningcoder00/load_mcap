@@ -1,0 +1,56 @@
+// generated from rosidl_generator_cpp/resource/idl__builder.hpp.em
+// with input from deva_control_msgs:msg/ParkingStatus.idl
+// generated code does not contain a copyright notice
+
+#ifndef DEVA_CONTROL_MSGS__MSG__DETAIL__PARKING_STATUS__BUILDER_HPP_
+#define DEVA_CONTROL_MSGS__MSG__DETAIL__PARKING_STATUS__BUILDER_HPP_
+
+#include <algorithm>
+#include <utility>
+
+#include "deva_control_msgs/msg/detail/parking_status__struct.hpp"
+#include "rosidl_runtime_cpp/message_initialization.hpp"
+
+
+namespace deva_control_msgs
+{
+
+namespace msg
+{
+
+namespace builder
+{
+
+class Init_ParkingStatus_status
+{
+public:
+  Init_ParkingStatus_status()
+  : msg_(::rosidl_runtime_cpp::MessageInitialization::SKIP)
+  {}
+  ::deva_control_msgs::msg::ParkingStatus status(::deva_control_msgs::msg::ParkingStatus::_status_type arg)
+  {
+    msg_.status = std::move(arg);
+    return std::move(msg_);
+  }
+
+private:
+  ::deva_control_msgs::msg::ParkingStatus msg_;
+};
+
+}  // namespace builder
+
+}  // namespace msg
+
+template<typename MessageType>
+auto build();
+
+template<>
+inline
+auto build<::deva_control_msgs::msg::ParkingStatus>()
+{
+  return deva_control_msgs::msg::builder::Init_ParkingStatus_status();
+}
+
+}  // namespace deva_control_msgs
+
+#endif  // DEVA_CONTROL_MSGS__MSG__DETAIL__PARKING_STATUS__BUILDER_HPP_

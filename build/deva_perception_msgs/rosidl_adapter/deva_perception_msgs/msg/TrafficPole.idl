@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/TrafficPole.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/ObstacleCommon.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct TrafficPole {
+      deva_perception_msgs::msg::ObstacleCommon perception_obstacle;
+
+      string bind_id;
+
+      boolean raised;
+    };
+  };
+};

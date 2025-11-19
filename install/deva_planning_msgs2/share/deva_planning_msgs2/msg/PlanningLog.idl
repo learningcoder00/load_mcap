@@ -1,0 +1,55 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/PlanningLog.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs2/msg/String2Bool.idl"
+#include "deva_planning_msgs2/msg/String2Double.idl"
+#include "deva_planning_msgs2/msg/String2Int.idl"
+#include "deva_planning_msgs2/msg/String2UInt.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    struct PlanningLog {
+      std_msgs::msg::Header header;
+
+      sequence<uint8> localization;
+
+      sequence<uint8> chassis;
+
+      sequence<uint8> pad_message;
+
+      sequence<uint8> pull_over_msg;
+
+      sequence<uint8> traffic_poles;
+
+      sequence<uint8> apollo_decision;
+
+      sequence<uint8> prediction;
+
+      sequence<uint8> megmap_proto;
+
+      sequence<uint8> state_context;
+
+      sequence<uint8> target_trajectory;
+
+      sequence<uint8> speed_solver_debug_sequence;
+
+      sequence<uint8> trajectory_solver_debug_sequence;
+
+      sequence<uint8> planning_log;
+
+      sequence<uint8> navigator_routing;
+
+      @verbatim (language="comment", text=
+        "可扩展的二进制流")
+      sequence<deva_planning_msgs2::msg::String2UInt> scalable_stream;
+
+      sequence<deva_planning_msgs2::msg::String2Int> scalable_int;
+
+      sequence<deva_planning_msgs2::msg::String2Double> scalable_double;
+
+      sequence<deva_planning_msgs2::msg::String2Bool> scalable_bool;
+    };
+  };
+};

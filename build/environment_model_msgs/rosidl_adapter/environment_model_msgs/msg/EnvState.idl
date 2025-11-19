@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/EnvState.msg
+// generated code does not contain a copyright notice
+
+
+module environment_model_msgs {
+  module msg {
+    typedef uint8 uint8__64[64];
+    struct EnvState {
+      uint8 type;
+
+      int32 msg_length;
+
+      uint8__64 msg;
+    };
+  };
+};

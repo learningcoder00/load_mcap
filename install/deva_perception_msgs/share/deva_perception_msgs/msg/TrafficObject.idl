@@ -1,0 +1,92 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/TrafficObject.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/TrafficRegion.idl"
+#include "deva_perception_msgs/msg/TrafficStatus.idl"
+
+module deva_perception_msgs {
+  module msg {
+    typedef deva_perception_msgs::msg::TrafficStatus deva_perception_msgs__msg__TrafficStatus;
+    typedef deva_perception_msgs__msg__TrafficStatus deva_perception_msgs__msg__TrafficStatus__4[4];
+    struct TrafficObject {
+      uint8 class_idx;
+
+      boolean det_is_focus_light;
+
+      uint8 sign_appx_type;
+
+      deva_perception_msgs::msg::TrafficRegion region;
+
+      deva_perception_msgs::msg::TrafficRegion new_h_region;
+
+      deva_perception_msgs__msg__TrafficStatus__4 status;
+
+      uint8 f120_ori_color;
+
+      uint8 f120_ori_color_light_type;
+
+      uint8 color;
+
+      uint8 origin_color;
+
+      uint8 light_type;
+
+      uint8 origin_light_type;
+
+      int32 count_down;
+
+      int32 orig_count_down;
+
+      boolean has_count_down;
+
+      boolean ori_has_count_down;
+
+      int32 f120_origin_sign_type;
+
+      int32 origin_sign_type;
+
+      int32 sign_type;
+
+      float sign_confidence;
+
+      float digit_confidence;
+
+      int32 digit_type;
+
+      uint8 digit_class_idx;
+
+      float ego_x;
+
+      float ego_y;
+
+      float ego_z;
+
+      float ramp_confidence;
+
+      boolean is_ramp;
+
+      boolean origin_is_ramp;
+
+      boolean is_ramp_from_41;
+
+      boolean is_ramp_double_checked;
+
+      int32 pole;
+
+      boolean is_rechecked_ramp;
+
+      float rechecked_ramp_score;
+
+      deva_perception_msgs::msg::TrafficRegion bind_ramp_region;
+
+      float ego_x_out;
+
+      boolean is_recheck_result;
+
+      float model_depth;
+
+      uint8 tl_oriention;
+    };
+  };
+};

@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rviz_plug_msg/msg/StatusEnum.msg
+// generated code does not contain a copyright notice
+
+
+module rviz_plug_msg {
+  module msg {
+    module StatusEnum_Constants {
+      @verbatim (language="comment", text=
+        "自动驾驶模式")
+      const uint8 AUTO_MODE = 1;
+      @verbatim (language="comment", text=
+        "横向模式")
+      const uint8 LATE_MODE = 2;
+      @verbatim (language="comment", text=
+        "纵向模式")
+      const uint8 LONGIT_MODE = 3;
+      @verbatim (language="comment", text=
+        "初始状态")
+      const uint8 ORIGINAL = 4;
+      @verbatim (language="comment", text=
+        "退出状态")
+      const uint8 EXITING = 5;
+    };
+    struct StatusEnum {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

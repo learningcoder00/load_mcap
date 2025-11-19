@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/FusionInfoForAEBObstracleList.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFFusionObstacle.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    typedef deva_aeb_msgs::msg::SFFusionObstacle deva_aeb_msgs__msg__SFFusionObstacle;
+    typedef deva_aeb_msgs__msg__SFFusionObstacle deva_aeb_msgs__msg__SFFusionObstacle__32[32];
+    typedef uint8 uint8__3[3];
+    struct FusionInfoForAEBObstracleList {
+      deva_aeb_msgs__msg__SFFusionObstacle__32 obslist;
+
+      uint64 timestamp;
+
+      uint32 framenum;
+
+      uint8 validsize;
+
+      uint8__3 reserved;
+    };
+  };
+};

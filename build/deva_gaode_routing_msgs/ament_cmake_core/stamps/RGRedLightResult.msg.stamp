@@ -1,0 +1,2 @@
+uint64 raw_link_id
+RoutePos pos

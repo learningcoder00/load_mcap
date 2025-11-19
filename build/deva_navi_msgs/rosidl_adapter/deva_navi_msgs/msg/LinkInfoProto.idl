@@ -1,0 +1,93 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/LinkInfoProto.msg
+// generated code does not contain a copyright notice
+
+#include "deva_navi_msgs/msg/Coord3DDoubleProto.idl"
+#include "deva_navi_msgs/msg/GantryInfoProto.idl"
+#include "deva_navi_msgs/msg/NaviCameraProto.idl"
+#include "deva_navi_msgs/msg/RoadFacilityProto.idl"
+#include "deva_navi_msgs/msg/TurnInfoProto.idl"
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "LinkInfoProto.msg")
+    struct LinkInfoProto {
+      sequence<deva_navi_msgs::msg::Coord3DDoubleProto> points;
+
+      sequence<deva_navi_msgs::msg::GantryInfoProto> gantry_infos;
+
+      sequence<deva_navi_msgs::msg::NaviCameraProto> cameras;
+
+      boolean is_valid;
+
+      int64 related_path_id;
+
+      int32 related_segment_index;
+
+      int32 link_index;
+
+      int32 length;
+
+      int64 travel_time;
+
+      int64 static_travel_time;
+
+      string road_name;
+
+      sequence<deva_navi_msgs::msg::RoadFacilityProto> road_facilities;
+
+      int64 topo_id_64;
+
+      int32 urid;
+
+      int32 link_direction;
+
+      int32 main_action;
+
+      int32 assistant_action;
+
+      int64 adcode;
+
+      int32 link_type;
+
+      int32 formway;
+
+      int32 road_class;
+
+      int32 road_direction;
+
+      int32 ownership;
+
+      boolean is_toll;
+
+      boolean is_over_head;
+
+      boolean has_parallel_road;
+
+      boolean has_multi_out;
+
+      boolean has_traffic_light;
+
+      boolean has_mix_fork;
+
+      boolean is_at_service;
+
+      boolean is_restricting;
+
+      int32 limit_flag;
+
+      int32 speed;
+
+      sequence<deva_navi_msgs::msg::TurnInfoProto> turn_infos;
+
+      string service_name;
+
+      boolean inner_road;
+
+      boolean is_parking_road;
+
+      int32 traffic_status;
+    };
+  };
+};

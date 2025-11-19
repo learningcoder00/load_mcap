@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/E2eAdbTrafficSign.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct E2eAdbTrafficSign {
+      std_msgs::msg::Header header;
+
+      uint8 traffic_sign_for_adb_adb_trk_info;
+
+      float traffic_sign_for_adb_adb_abs_dist;
+
+      float traffic_sign_for_adb_adb_vert_ag_bot;
+
+      float traffic_sign_for_adb_adb_vert_ag_top;
+
+      float traffic_sign_for_adb_adb_hozl_ag_le;
+
+      float traffic_sign_for_adb_adb_hozl_ag_ri;
+
+      float traffic_sign_for_adb_adb_detd_qly;
+    };
+  };
+};

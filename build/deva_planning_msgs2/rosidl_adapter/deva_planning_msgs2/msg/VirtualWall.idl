@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/VirtualWall.msg
+// generated code does not contain a copyright notice
+
+
+module deva_planning_msgs2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "This message defines meta information for a obstacle status" "\n"
+      "区别不同实体")
+    struct VirtualWall {
+      string id;
+
+      double x_center;
+
+      double y_center;
+
+      double z_center;
+
+      double theta;
+
+      double width;
+
+      double height;
+
+      double length;
+    };
+  };
+};

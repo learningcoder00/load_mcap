@@ -1,0 +1,2 @@
+/usr/bin/ar qc libs3_downloader_lib.a CMakeFiles/s3_downloader_lib.dir/src/s3_downloader.cpp.o
+/usr/bin/ranlib libs3_downloader_lib.a

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/Lit.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module Lit_Constants {
+      @verbatim (language="comment", text=
+        "空值")
+      const uint8 NONE = 0;
+      @verbatim (language="comment", text=
+        "黑暗场景")
+      const uint8 DARK = 1;
+      @verbatim (language="comment", text=
+        "明亮场景")
+      const uint8 BRIGHT = 2;
+    };
+    @verbatim (language="comment", text=
+      "消息头")
+    struct Lit {
+      deva_common_msgs::msg::Header header;
+
+      uint8 lit_area;
+
+      float brightness;
+    };
+  };
+};

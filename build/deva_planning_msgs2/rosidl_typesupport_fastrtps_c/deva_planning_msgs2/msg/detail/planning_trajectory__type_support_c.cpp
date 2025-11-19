@@ -1,0 +1,831 @@
+// generated from rosidl_typesupport_fastrtps_c/resource/idl__type_support_c.cpp.em
+// with input from deva_planning_msgs2:msg/PlanningTrajectory.idl
+// generated code does not contain a copyright notice
+#include "deva_planning_msgs2/msg/detail/planning_trajectory__rosidl_typesupport_fastrtps_c.h"
+
+
+#include <cassert>
+#include <limits>
+#include <string>
+#include "rosidl_typesupport_fastrtps_c/identifier.h"
+#include "rosidl_typesupport_fastrtps_c/wstring_conversion.hpp"
+#include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
+#include "deva_planning_msgs2/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
+#include "deva_planning_msgs2/msg/detail/planning_trajectory__struct.h"
+#include "deva_planning_msgs2/msg/detail/planning_trajectory__functions.h"
+#include "fastcdr/Cdr.h"
+
+#ifndef _WIN32
+# pragma GCC diagnostic push
+# pragma GCC diagnostic ignored "-Wunused-parameter"
+# ifdef __clang__
+#  pragma clang diagnostic ignored "-Wdeprecated-register"
+#  pragma clang diagnostic ignored "-Wreturn-type-c-linkage"
+# endif
+#endif
+#ifndef _WIN32
+# pragma GCC diagnostic pop
+#endif
+
+// includes and forward declarations of message dependencies and their conversion functions
+
+#if defined(__cplusplus)
+extern "C"
+{
+#endif
+
+#include "deva_common_msgs/msg/detail/equation_curve__functions.h"  // curve
+#include "deva_planning_msgs2/msg/detail/trajectory_point__functions.h"  // trajectory_points
+#include "geometry_msgs/msg/detail/point__functions.h"  // stop_pose
+#include "rosidl_runtime_c/string.h"  // estop_reason, replan_reason, stop_reason
+#include "rosidl_runtime_c/string_functions.h"  // estop_reason, replan_reason, stop_reason
+
+// forward declare type support functions
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_deva_planning_msgs2
+size_t get_serialized_size_deva_common_msgs__msg__EquationCurve(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_deva_planning_msgs2
+size_t max_serialized_size_deva_common_msgs__msg__EquationCurve(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_deva_planning_msgs2
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, deva_common_msgs, msg, EquationCurve)();
+size_t get_serialized_size_deva_planning_msgs2__msg__TrajectoryPoint(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+size_t max_serialized_size_deva_planning_msgs2__msg__TrajectoryPoint(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, deva_planning_msgs2, msg, TrajectoryPoint)();
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_deva_planning_msgs2
+size_t get_serialized_size_geometry_msgs__msg__Point(
+  const void * untyped_ros_message,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_deva_planning_msgs2
+size_t max_serialized_size_geometry_msgs__msg__Point(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment);
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_IMPORT_deva_planning_msgs2
+const rosidl_message_type_support_t *
+  ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point)();
+
+
+using _PlanningTrajectory__ros_msg_type = deva_planning_msgs2__msg__PlanningTrajectory;
+
+static bool _PlanningTrajectory__cdr_serialize(
+  const void * untyped_ros_message,
+  eprosima::fastcdr::Cdr & cdr)
+{
+  if (!untyped_ros_message) {
+    fprintf(stderr, "ros message handle is null\n");
+    return false;
+  }
+  const _PlanningTrajectory__ros_msg_type * ros_message = static_cast<const _PlanningTrajectory__ros_msg_type *>(untyped_ros_message);
+  // Field name: path_type
+  {
+    cdr << ros_message->path_type;
+  }
+
+  // Field name: trajectory_points
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, deva_planning_msgs2, msg, TrajectoryPoint
+      )()->data);
+    size_t size = ros_message->trajectory_points.size;
+    auto array_ptr = ros_message->trajectory_points.data;
+    cdr << static_cast<uint32_t>(size);
+    for (size_t i = 0; i < size; ++i) {
+      if (!callbacks->cdr_serialize(
+          &array_ptr[i], cdr))
+      {
+        return false;
+      }
+    }
+  }
+
+  // Field name: curve
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, deva_common_msgs, msg, EquationCurve
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->curve, cdr))
+    {
+      return false;
+    }
+  }
+
+  // Field name: total_path_length
+  {
+    cdr << ros_message->total_path_length;
+  }
+
+  // Field name: total_path_time
+  {
+    cdr << ros_message->total_path_time;
+  }
+
+  // Field name: gear
+  {
+    cdr << ros_message->gear;
+  }
+
+  // Field name: is_estop
+  {
+    cdr << (ros_message->is_estop ? true : false);
+  }
+
+  // Field name: estop_reason
+  {
+    const rosidl_runtime_c__String * str = &ros_message->estop_reason;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
+  }
+
+  // Field name: is_stop
+  {
+    cdr << (ros_message->is_stop ? true : false);
+  }
+
+  // Field name: stop_reason
+  {
+    const rosidl_runtime_c__String * str = &ros_message->stop_reason;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
+  }
+
+  // Field name: stop_pose
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point
+      )()->data);
+    if (!callbacks->cdr_serialize(
+        &ros_message->stop_pose, cdr))
+    {
+      return false;
+    }
+  }
+
+  // Field name: is_replan
+  {
+    cdr << (ros_message->is_replan ? true : false);
+  }
+
+  // Field name: replan_reason
+  {
+    const rosidl_runtime_c__String * str = &ros_message->replan_reason;
+    if (str->capacity == 0 || str->capacity <= str->size) {
+      fprintf(stderr, "string capacity not greater than size\n");
+      return false;
+    }
+    if (str->data[str->size] != '\0') {
+      fprintf(stderr, "string not null-terminated\n");
+      return false;
+    }
+    cdr << str->data;
+  }
+
+  // Field name: high_beam
+  {
+    cdr << (ros_message->high_beam ? true : false);
+  }
+
+  // Field name: low_beam
+  {
+    cdr << (ros_message->low_beam ? true : false);
+  }
+
+  // Field name: horn
+  {
+    cdr << (ros_message->horn ? true : false);
+  }
+
+  // Field name: turn_light
+  {
+    cdr << ros_message->turn_light;
+  }
+
+  // Field name: id
+  {
+    cdr << ros_message->id;
+  }
+
+  return true;
+}
+
+static bool _PlanningTrajectory__cdr_deserialize(
+  eprosima::fastcdr::Cdr & cdr,
+  void * untyped_ros_message)
+{
+  if (!untyped_ros_message) {
+    fprintf(stderr, "ros message handle is null\n");
+    return false;
+  }
+  _PlanningTrajectory__ros_msg_type * ros_message = static_cast<_PlanningTrajectory__ros_msg_type *>(untyped_ros_message);
+  // Field name: path_type
+  {
+    cdr >> ros_message->path_type;
+  }
+
+  // Field name: trajectory_points
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, deva_planning_msgs2, msg, TrajectoryPoint
+      )()->data);
+    uint32_t cdrSize;
+    cdr >> cdrSize;
+    size_t size = static_cast<size_t>(cdrSize);
+
+    // Check there are at least 'size' remaining bytes in the CDR stream before resizing
+    auto old_state = cdr.getState();
+    bool correct_size = cdr.jump(size);
+    cdr.setState(old_state);
+    if (!correct_size) {
+      fprintf(stderr, "sequence size exceeds remaining buffer\n");
+      return false;
+    }
+
+    if (ros_message->trajectory_points.data) {
+      deva_planning_msgs2__msg__TrajectoryPoint__Sequence__fini(&ros_message->trajectory_points);
+    }
+    if (!deva_planning_msgs2__msg__TrajectoryPoint__Sequence__init(&ros_message->trajectory_points, size)) {
+      fprintf(stderr, "failed to create array for field 'trajectory_points'");
+      return false;
+    }
+    auto array_ptr = ros_message->trajectory_points.data;
+    for (size_t i = 0; i < size; ++i) {
+      if (!callbacks->cdr_deserialize(
+          cdr, &array_ptr[i]))
+      {
+        return false;
+      }
+    }
+  }
+
+  // Field name: curve
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, deva_common_msgs, msg, EquationCurve
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->curve))
+    {
+      return false;
+    }
+  }
+
+  // Field name: total_path_length
+  {
+    cdr >> ros_message->total_path_length;
+  }
+
+  // Field name: total_path_time
+  {
+    cdr >> ros_message->total_path_time;
+  }
+
+  // Field name: gear
+  {
+    cdr >> ros_message->gear;
+  }
+
+  // Field name: is_estop
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->is_estop = tmp ? true : false;
+  }
+
+  // Field name: estop_reason
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->estop_reason.data) {
+      rosidl_runtime_c__String__init(&ros_message->estop_reason);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->estop_reason,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'estop_reason'\n");
+      return false;
+    }
+  }
+
+  // Field name: is_stop
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->is_stop = tmp ? true : false;
+  }
+
+  // Field name: stop_reason
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->stop_reason.data) {
+      rosidl_runtime_c__String__init(&ros_message->stop_reason);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->stop_reason,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'stop_reason'\n");
+      return false;
+    }
+  }
+
+  // Field name: stop_pose
+  {
+    const message_type_support_callbacks_t * callbacks =
+      static_cast<const message_type_support_callbacks_t *>(
+      ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(
+        rosidl_typesupport_fastrtps_c, geometry_msgs, msg, Point
+      )()->data);
+    if (!callbacks->cdr_deserialize(
+        cdr, &ros_message->stop_pose))
+    {
+      return false;
+    }
+  }
+
+  // Field name: is_replan
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->is_replan = tmp ? true : false;
+  }
+
+  // Field name: replan_reason
+  {
+    std::string tmp;
+    cdr >> tmp;
+    if (!ros_message->replan_reason.data) {
+      rosidl_runtime_c__String__init(&ros_message->replan_reason);
+    }
+    bool succeeded = rosidl_runtime_c__String__assign(
+      &ros_message->replan_reason,
+      tmp.c_str());
+    if (!succeeded) {
+      fprintf(stderr, "failed to assign string into field 'replan_reason'\n");
+      return false;
+    }
+  }
+
+  // Field name: high_beam
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->high_beam = tmp ? true : false;
+  }
+
+  // Field name: low_beam
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->low_beam = tmp ? true : false;
+  }
+
+  // Field name: horn
+  {
+    uint8_t tmp;
+    cdr >> tmp;
+    ros_message->horn = tmp ? true : false;
+  }
+
+  // Field name: turn_light
+  {
+    cdr >> ros_message->turn_light;
+  }
+
+  // Field name: id
+  {
+    cdr >> ros_message->id;
+  }
+
+  return true;
+}  // NOLINT(readability/fn_size)
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_deva_planning_msgs2
+size_t get_serialized_size_deva_planning_msgs2__msg__PlanningTrajectory(
+  const void * untyped_ros_message,
+  size_t current_alignment)
+{
+  const _PlanningTrajectory__ros_msg_type * ros_message = static_cast<const _PlanningTrajectory__ros_msg_type *>(untyped_ros_message);
+  (void)ros_message;
+  size_t initial_alignment = current_alignment;
+
+  const size_t padding = 4;
+  const size_t wchar_size = 4;
+  (void)padding;
+  (void)wchar_size;
+
+  // field.name path_type
+  {
+    size_t item_size = sizeof(ros_message->path_type);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name trajectory_points
+  {
+    size_t array_size = ros_message->trajectory_points.size;
+    auto array_ptr = ros_message->trajectory_points.data;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += get_serialized_size_deva_planning_msgs2__msg__TrajectoryPoint(
+        &array_ptr[index], current_alignment);
+    }
+  }
+  // field.name curve
+
+  current_alignment += get_serialized_size_deva_common_msgs__msg__EquationCurve(
+    &(ros_message->curve), current_alignment);
+  // field.name total_path_length
+  {
+    size_t item_size = sizeof(ros_message->total_path_length);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name total_path_time
+  {
+    size_t item_size = sizeof(ros_message->total_path_time);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name gear
+  {
+    size_t item_size = sizeof(ros_message->gear);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name is_estop
+  {
+    size_t item_size = sizeof(ros_message->is_estop);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name estop_reason
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->estop_reason.size + 1);
+  // field.name is_stop
+  {
+    size_t item_size = sizeof(ros_message->is_stop);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name stop_reason
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->stop_reason.size + 1);
+  // field.name stop_pose
+
+  current_alignment += get_serialized_size_geometry_msgs__msg__Point(
+    &(ros_message->stop_pose), current_alignment);
+  // field.name is_replan
+  {
+    size_t item_size = sizeof(ros_message->is_replan);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name replan_reason
+  current_alignment += padding +
+    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+    (ros_message->replan_reason.size + 1);
+  // field.name high_beam
+  {
+    size_t item_size = sizeof(ros_message->high_beam);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name low_beam
+  {
+    size_t item_size = sizeof(ros_message->low_beam);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name horn
+  {
+    size_t item_size = sizeof(ros_message->horn);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name turn_light
+  {
+    size_t item_size = sizeof(ros_message->turn_light);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+  // field.name id
+  {
+    size_t item_size = sizeof(ros_message->id);
+    current_alignment += item_size +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
+  }
+
+  return current_alignment - initial_alignment;
+}
+
+static uint32_t _PlanningTrajectory__get_serialized_size(const void * untyped_ros_message)
+{
+  return static_cast<uint32_t>(
+    get_serialized_size_deva_planning_msgs2__msg__PlanningTrajectory(
+      untyped_ros_message, 0));
+}
+
+ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_deva_planning_msgs2
+size_t max_serialized_size_deva_planning_msgs2__msg__PlanningTrajectory(
+  bool & full_bounded,
+  bool & is_plain,
+  size_t current_alignment)
+{
+  size_t initial_alignment = current_alignment;
+
+  const size_t padding = 4;
+  const size_t wchar_size = 4;
+  size_t last_member_size = 0;
+  (void)last_member_size;
+  (void)padding;
+  (void)wchar_size;
+
+  full_bounded = true;
+  is_plain = true;
+
+  // member: path_type
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: trajectory_points
+  {
+    size_t array_size = 0;
+    full_bounded = false;
+    is_plain = false;
+    current_alignment += padding +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, padding);
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_deva_planning_msgs2__msg__TrajectoryPoint(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+  // member: curve
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_deva_common_msgs__msg__EquationCurve(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+  // member: total_path_length
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: total_path_time
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint64_t);
+    current_alignment += array_size * sizeof(uint64_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
+  }
+  // member: gear
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: is_estop
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: estop_reason
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+  // member: is_stop
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: stop_reason
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+  // member: stop_pose
+  {
+    size_t array_size = 1;
+
+
+    last_member_size = 0;
+    for (size_t index = 0; index < array_size; ++index) {
+      bool inner_full_bounded;
+      bool inner_is_plain;
+      size_t inner_size;
+      inner_size =
+        max_serialized_size_geometry_msgs__msg__Point(
+        inner_full_bounded, inner_is_plain, current_alignment);
+      last_member_size += inner_size;
+      current_alignment += inner_size;
+      full_bounded &= inner_full_bounded;
+      is_plain &= inner_is_plain;
+    }
+  }
+  // member: is_replan
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: replan_reason
+  {
+    size_t array_size = 1;
+
+    full_bounded = false;
+    is_plain = false;
+    for (size_t index = 0; index < array_size; ++index) {
+      current_alignment += padding +
+        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
+        1;
+    }
+  }
+  // member: high_beam
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: low_beam
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: horn
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: turn_light
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint8_t);
+    current_alignment += array_size * sizeof(uint8_t);
+  }
+  // member: id
+  {
+    size_t array_size = 1;
+
+    last_member_size = array_size * sizeof(uint32_t);
+    current_alignment += array_size * sizeof(uint32_t) +
+      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
+  }
+
+  size_t ret_val = current_alignment - initial_alignment;
+  if (is_plain) {
+    // All members are plain, and type is not empty.
+    // We still need to check that the in-memory alignment
+    // is the same as the CDR mandated alignment.
+    using DataType = deva_planning_msgs2__msg__PlanningTrajectory;
+    is_plain =
+      (
+      offsetof(DataType, id) +
+      last_member_size
+      ) == ret_val;
+  }
+
+  return ret_val;
+}
+
+static size_t _PlanningTrajectory__max_serialized_size(char & bounds_info)
+{
+  bool full_bounded;
+  bool is_plain;
+  size_t ret_val;
+
+  ret_val = max_serialized_size_deva_planning_msgs2__msg__PlanningTrajectory(
+    full_bounded, is_plain, 0);
+
+  bounds_info =
+    is_plain ? ROSIDL_TYPESUPPORT_FASTRTPS_PLAIN_TYPE :
+    full_bounded ? ROSIDL_TYPESUPPORT_FASTRTPS_BOUNDED_TYPE : ROSIDL_TYPESUPPORT_FASTRTPS_UNBOUNDED_TYPE;
+  return ret_val;
+}
+
+
+static message_type_support_callbacks_t __callbacks_PlanningTrajectory = {
+  "deva_planning_msgs2::msg",
+  "PlanningTrajectory",
+  _PlanningTrajectory__cdr_serialize,
+  _PlanningTrajectory__cdr_deserialize,
+  _PlanningTrajectory__get_serialized_size,
+  _PlanningTrajectory__max_serialized_size
+};
+
+static rosidl_message_type_support_t _PlanningTrajectory__type_support = {
+  rosidl_typesupport_fastrtps_c__identifier,
+  &__callbacks_PlanningTrajectory,
+  get_message_typesupport_handle_function,
+};
+
+const rosidl_message_type_support_t *
+ROSIDL_TYPESUPPORT_INTERFACE__MESSAGE_SYMBOL_NAME(rosidl_typesupport_fastrtps_c, deva_planning_msgs2, msg, PlanningTrajectory)() {
+  return &_PlanningTrajectory__type_support;
+}
+
+#if defined(__cplusplus)
+}
+#endif

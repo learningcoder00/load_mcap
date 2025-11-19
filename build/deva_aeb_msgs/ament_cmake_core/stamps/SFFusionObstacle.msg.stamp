@@ -1,0 +1,12 @@
+uint32 id
+uint8 type
+uint8 confi
+uint8 laneassignment
+uint8 overrideflag
+uint32 lifetime
+float32 poslgt
+float32 poslat
+float32 length
+float32 width
+float32 height
+float32 headingangle

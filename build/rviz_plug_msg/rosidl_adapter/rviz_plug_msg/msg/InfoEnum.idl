@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rviz_plug_msg/msg/InfoEnum.msg
+// generated code does not contain a copyright notice
+
+
+module rviz_plug_msg {
+  module msg {
+    module InfoEnum_Constants {
+      @verbatim (language="comment", text=
+        "取消线控状态")
+      const uint8 CANCEL_BYWIRE = 1;
+      @verbatim (language="comment", text=
+        "驾驶员接管")
+      const uint8 DRIVER_TAKEOVER = 2;
+    };
+    struct InfoEnum {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

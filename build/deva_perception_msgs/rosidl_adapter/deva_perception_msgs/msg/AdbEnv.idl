@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/AdbEnv.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_perception_msgs/msg/AdbTrafficSign.idl"
+#include "deva_perception_msgs/msg/ExtraInfo.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct AdbEnv {
+      deva_common_msgs::msg::Header header;
+
+      sequence<deva_perception_msgs::msg::AdbTrafficSign> sign_list;
+
+      @verbatim (language="comment", text=
+        "补充信息")
+      sequence<deva_perception_msgs::msg::ExtraInfo> extra_infos;
+    };
+  };
+};

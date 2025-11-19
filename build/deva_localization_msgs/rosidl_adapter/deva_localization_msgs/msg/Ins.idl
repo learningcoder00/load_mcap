@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_localization_msgs/msg/Ins.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_localization_msgs/msg/Pose.idl"
+
+module deva_localization_msgs {
+  module msg {
+    struct Ins {
+      deva_common_msgs::msg::Header header;
+
+      string ins_status;
+
+      @verbatim (language="comment", text=
+        " # WGS84 经纬度" "\n"
+        "纬度")
+      double lat;
+
+      @verbatim (language="comment", text=
+        "经度")
+      double lon;
+
+      @verbatim (language="comment", text=
+        "高度")
+      double height;
+
+      deva_localization_msgs::msg::Pose localization;
+
+      @verbatim (language="comment", text=
+        " # GCJ02 经纬度" "\n"
+        "纬度")
+      double gcj_lat;
+
+      @verbatim (language="comment", text=
+        "经度")
+      double gcj_lon;
+
+      deva_localization_msgs::msg::Pose gcj_localization;
+
+      @verbatim (language="comment", text=
+        "真北航向角，以每条经线所在的方向为北向，Pose中的heading为投影后的网格y轴为北，两者数值有一定的差别")
+      double true_north_heading;
+    };
+  };
+};

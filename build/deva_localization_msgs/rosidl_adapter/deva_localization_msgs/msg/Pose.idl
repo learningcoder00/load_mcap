@@ -1,0 +1,62 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_localization_msgs/msg/Pose.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+#include "geometry_msgs/msg/Quaternion.idl"
+
+module deva_localization_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "UTM zone id, -1代表自定义坐标系")
+    struct Pose {
+      int32 utm_id;
+
+      @verbatim (language="comment", text=
+        "车辆参考点(vehicle reference point)在地图参考系中的位置." "\n"
+        "VRP是车辆IMU中心点.")
+      geometry_msgs::msg::Point position;
+
+      @verbatim (language="comment", text=
+        "表征IMU坐标旋转的四元数.")
+      geometry_msgs::msg::Quaternion orientation;
+
+      @verbatim (language="comment", text=
+        "VRP在地图参考系中的线性速度." "\n"
+        "East/north/up in meters per second.")
+      geometry_msgs::msg::Point linear_velocity;
+
+      @verbatim (language="comment", text=
+        "VRP在地图参考系中的线性加速度." "\n"
+        "East/north/up in meters per square second.")
+      geometry_msgs::msg::Point linear_acceleration;
+
+      @verbatim (language="comment", text=
+        "VRP在地图参考系中的角速度." "\n"
+        "Around east/north/up axes in radians per second.")
+      geometry_msgs::msg::Point angular_velocity;
+
+      @verbatim (language="comment", text=
+        "Heading" "\n"
+        "The heading is zero when the car is facing East and positive when facing North.")
+      double heading;
+
+      @verbatim (language="comment", text=
+        "VRP在车辆参考系中的线性加速度." "\n"
+        "forward/left/up in meters per square second.")
+      geometry_msgs::msg::Point linear_acceleration_vrf;
+
+      @verbatim (language="comment", text=
+        "VRP在车辆参考系中的角速度." "\n"
+        "Around forward/left/up axes in radians per second.")
+      geometry_msgs::msg::Point angular_velocity_vrf;
+
+      @verbatim (language="comment", text=
+        "The roll, in (-pi/2, pi/2), corresponds to a rotation around the x-axis." "\n"
+        "The pitch, in [-pi, pi), corresponds to a rotation around the y-axis." "\n"
+        "The yaw, in [-pi, pi), corresponds to a rotation around the z-axis." "\n"
+        "The direction of rotation follows the right-hand rule.")
+      geometry_msgs::msg::Point euler_angles;
+    };
+  };
+};

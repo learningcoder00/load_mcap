@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFFusionTSList.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFFusionTS.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    typedef uint8 uint8__3[3];
+    typedef deva_aeb_msgs::msg::SFFusionTS deva_aeb_msgs__msg__SFFusionTS;
+    typedef deva_aeb_msgs__msg__SFFusionTS deva_aeb_msgs__msg__SFFusionTS__8[8];
+    struct SFFusionTSList {
+      uint64 timestamp;
+
+      uint32 framenum;
+
+      uint8__3 reversed;
+
+      deva_aeb_msgs__msg__SFFusionTS__8 trafficsign;
+
+      uint8 validsize;
+    };
+  };
+};

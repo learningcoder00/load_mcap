@@ -1,0 +1,15 @@
+bool available
+bool is_on_route
+uint8 errcode
+string current_lane_id
+int16 channel_idx
+float64 lane_offset
+ChannelLaneInfo laneinfo
+ChannelLaneLine middle_line
+ChannelLaneLine[] reference_line_vec
+ChannelLaneMarking left_marking
+ChannelLaneMarking right_marking
+int16 left_channel_idx
+int16 right_channel_idx
+ChannelObjectInfo[] object_info
+ChannelSignalInfo[] signal_info

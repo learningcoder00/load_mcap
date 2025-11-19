@@ -1,0 +1,16 @@
+uint8	app_to_hpa_ctrl_cmd
+uint8	mob_dev_avp_req
+uint8	on_bd_chrgr_hndl_sts1
+uint8	dc_chrgn_hndl_sts
+uint8	occupy_mon_sts_drvr_sts
+uint8	alrm_sts_alrm_failr
+uint8	alrm_sts_alrm_st
+uint8	alrm_sts_alrm_trg_src
+uint8	alrm_sts_snsr_incln_failr
+uint8	alrm_sts_snsr_intr_scanr_failr
+uint8	telephone_sts
+uint8	tr_lock_sts
+uint8	trsm_park_lockd_trsm_park_lockd
+uint8	twli_bri_raw_qf
+uint16	twli_bri_raw_twli_bri_raw
+uint8[8]	rev

@@ -1,0 +1,111 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RadarObject.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/AccelWithCovariance.idl"
+#include "geometry_msgs/msg/PoseWithCovariance.idl"
+#include "geometry_msgs/msg/TwistWithCovariance.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct RadarObject {
+      @verbatim (language="comment", text=
+        "障碍物id")
+      uint8 id;
+
+      @verbatim (language="comment", text=
+        "障碍物位置" "\n"
+        "实际有效的为position.pose.position.x和position.pose.position.y" "\n"
+        "其中坐标为radar坐标系下的坐标，单位m")
+      geometry_msgs::msg::PoseWithCovariance position;
+
+      @verbatim (language="comment", text=
+        "障碍物的线速度" "\n"
+        "实际有效的为relative_velocity.twist.linear.x和relative_velocity.twist.linear.y" "\n"
+        "单位 m/s")
+      geometry_msgs::msg::TwistWithCovariance relative_velocity;
+
+      @verbatim (language="comment", text=
+        "障碍物的加速度值，目前无效")
+      geometry_msgs::msg::AccelWithCovariance relative_acceleration;
+
+      @verbatim (language="comment", text=
+        "障碍物雷达目标有效截面（dBm）")
+      double rcs;
+
+      @verbatim (language="comment", text=
+        "障碍物的动态特性，取值如下:" "\n"
+        "0x0: Moving" "\n"
+        "0x1: Stationary" "\n"
+        "0x2: Oncoming" "\n"
+        "0x3: Stationary candidate" "\n"
+        "0x4: Unknown" "\n"
+        "0x5: Crossing stationary" "\n"
+        "0x6: Crossing moving" "\n"
+        "0x7: Stopped")
+      uint8 dynamic_property;
+
+      @verbatim (language="comment", text=
+        "信号质量相关字段内容是否有效")
+      boolean quality_valid;
+
+      @verbatim (language="comment", text=
+        "障碍物测量状态，当quality_valid=true时值有效，取值如下：" "\n"
+        "0x0: Deleted" "\n"
+        "0x1: New" "\n"
+        "0x2: Measured" "\n"
+        "0x3: Predicted" "\n"
+        "0x4: Deleted for merge" "\n"
+        "0x5: New from merge")
+      uint8 meas_state;
+
+      @verbatim (language="comment", text=
+        "障碍物存在的可能性，当quality_valid=true时值有效，取值如下：" "\n"
+        "0x0: invalid" "\n"
+        "0x1: <25%" "\n"
+        "0x2: <50%" "\n"
+        "0x3: <75%" "\n"
+        "0x4: <90%" "\n"
+        "0x5: <99%" "\n"
+        "0x6: <99.9%" "\n"
+        "0x7: <=100%")
+      uint8 prob_of_exist;
+
+      @verbatim (language="comment", text=
+        "扩展字段是否有效")
+      boolean extended_valid;
+
+      @verbatim (language="comment", text=
+        "障碍物长度，单位m，当extended_valid=true时值有效")
+      double length;
+
+      @verbatim (language="comment", text=
+        "障碍物宽度，单位m，当extended_valid=true时值有效")
+      double width;
+
+      @verbatim (language="comment", text=
+        "障碍物轮廓中心点相对于障碍物位置的y坐标")
+      double center_latitude;
+
+      @verbatim (language="comment", text=
+        "障碍物轮廓中心点相对于障碍物位置的x坐标")
+      double center_longitude;
+
+      @verbatim (language="comment", text=
+        "障碍物方位角，单位deg，当extended_valid=true时值有效")
+      double orientation_angle;
+
+      @verbatim (language="comment", text=
+        "障碍物类型，当extended_valid=true时值有效，取值如下:" "\n"
+        "0x0: Point" "\n"
+        "0x1: Car" "\n"
+        "0x2: Truck" "\n"
+        "0x3: Pedestrian" "\n"
+        "0x4: Motorcycle" "\n"
+        "0x5: Bicycle" "\n"
+        "0x6: Wide" "\n"
+        "0x7: 未知值")
+      uint8 class_type;
+    };
+  };
+};

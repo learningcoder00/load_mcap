@@ -1,0 +1,52 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/J6mLink.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/Coordinate.idl"
+#include "deva_gaode_routing_msgs/msg/LinkIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct J6mLink {
+      deva_gaode_routing_msgs::msg::LinkIDType id;
+
+      uint8 road_type;
+
+      @verbatim (language="comment", text=
+        "cm")
+      uint32 length;
+
+      @verbatim (language="comment", text=
+        "取道路置信度，单位为百分之（返回 5 表示 5%）")
+      uint32 confidence;
+
+      @verbatim (language="comment", text=
+        "道路行驶方向")
+      uint8 travel_direction;
+
+      @verbatim (language="comment", text=
+        "道路几何形状")
+      sequence<deva_gaode_routing_msgs::msg::Coordinate> coordinates;
+
+      @verbatim (language="comment", text=
+        "道路后继linkId列表")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> successor_linkid_s;
+
+      @verbatim (language="comment", text=
+        "道路前驱linkId列表")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> predecessor_linkid_s;
+
+      @verbatim (language="comment", text=
+        "道路关联lane")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> referenced_lane_id_s;
+
+      @verbatim (language="comment", text=
+        "道路关联路口")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> referenced_intersection_id_s;
+
+      @verbatim (language="comment", text=
+        "道路关联laneMarking")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> referenced_lanemarking_id_s;
+    };
+  };
+};

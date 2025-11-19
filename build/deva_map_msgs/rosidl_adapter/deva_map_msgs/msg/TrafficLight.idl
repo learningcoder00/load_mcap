@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_map_msgs/msg/TrafficLight.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/ObstacleCommon.idl"
+
+module deva_map_msgs {
+  module msg {
+    struct TrafficLight {
+      deva_perception_msgs::msg::ObstacleCommon perception_obstacle;
+
+      int8 color_type;
+
+      boolean blink;
+
+      double remaining_time;
+
+      string bind_id;
+    };
+  };
+};

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_control_msgs/msg/ParkingStatus.msg
+// generated code does not contain a copyright notice
+
+
+module deva_control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "uint8 UNKNOWN = 0" "\n"
+      "uint8 FREEZING = 1" "\n"
+      "uint8 WAITING = 2" "\n"
+      "uint8 NORMAL = 3" "\n"
+      "uint8 SHIFTGEAR = 4" "\n"
+      "uint8 FINISHED = 5" "\n"
+      "uint8 TAKEOVER = 6" "\n"
+      "uint8 FORCEDFINISH = 7")
+    struct ParkingStatus {
+      uint8 status;
+    };
+  };
+};

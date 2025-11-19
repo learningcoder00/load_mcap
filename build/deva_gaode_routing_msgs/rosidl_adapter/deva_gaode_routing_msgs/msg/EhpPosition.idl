@@ -1,0 +1,34 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/EhpPosition.msg
+// generated code does not contain a copyright notice
+
+
+module deva_gaode_routing_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "EHP_POSITION.msg")
+    struct EhpPosition {
+      uint16 posn_offset;
+
+      uint8 posn_msg_type;
+
+      uint8 posn_path_idx;
+
+      uint8 posn_cyc_cnt;
+
+      uint16 posn_age;
+
+      float posn_pos_probb;
+
+      uint8 posn_idx;
+
+      float posn_spd;
+
+      uint8 posn_cur_lane;
+
+      uint8 posn_pos_confdc;
+
+      float posn_rehead;
+    };
+  };
+};

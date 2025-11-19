@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/J6mIntersection.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/Coordinate.idl"
+#include "deva_gaode_routing_msgs/msg/LinkIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct J6mIntersection {
+      @verbatim (language="comment", text=
+        "路口原始数据Id")
+      deva_gaode_routing_msgs::msg::LinkIDType intersection_id;
+
+      @verbatim (language="comment", text=
+        "路口linkId列表")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> link_id_s;
+
+      @verbatim (language="comment", text=
+        "路口后继路口Id列表")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> intersection_successor_id_s;
+
+      @verbatim (language="comment", text=
+        "路口前驱路口Id列表")
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> intersection_predecessor_id_s;
+
+      @verbatim (language="comment", text=
+        "路口是否是车道数变化区域")
+      boolean is_lane_num_change_areas;
+
+      @verbatim (language="comment", text=
+        "路口坐标列表")
+      sequence<deva_gaode_routing_msgs::msg::Coordinate> intersection_coordinates;
+    };
+  };
+};

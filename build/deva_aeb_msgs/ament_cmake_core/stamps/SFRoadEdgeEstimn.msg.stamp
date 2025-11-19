@@ -1,0 +1,15 @@
+float32 constcoeff
+float32 firstordercoeff
+float32 secondordercoeff
+float32 thirdordercoeff
+float32 dstlgttoend
+float32 startpointposx
+float32 startpointposy
+float32 endpointposx
+float32 endpointposy
+float32 extendendpointposx
+float32 extendendpointposy
+uint8 overrideflag
+uint8 type
+uint8 parseconfi
+uint8 tracestatus

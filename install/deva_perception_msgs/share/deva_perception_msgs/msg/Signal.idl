@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/Signal.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/StaticObstacle.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct Signal {
+      deva_perception_msgs::msg::StaticObstacle so;
+
+      uint8 signal_type;
+
+      uint8 geometry_type;
+
+      uint8 state_type;
+    };
+  };
+};

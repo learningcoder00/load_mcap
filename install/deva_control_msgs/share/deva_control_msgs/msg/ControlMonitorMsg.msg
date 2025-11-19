@@ -1,0 +1,54 @@
+std_msgs/Header header
+# chassis info 
+bool in_auto_drive
+float64 chs_yaw_rate
+float64 chs_speed
+float64 chs_steer
+float64 chs_longit_acc
+float64 chs_longit_torque 
+uint8 chs_gear
+# localization info
+float64  loc_x
+float64  loc_y
+float64  loc_z
+float64  loc_speed
+float64  loc_acc
+float64  loc_heading
+float64  loc_pitch
+# planning info
+# 预瞄点
+float64 preview_path_x
+float64 preview_path_y
+float64 preview_path_theta
+# 匹配点
+float64 matched_path_x
+float64 matched_path_y
+float64 matched_path_theta
+float64 matched_path_kappa
+float64 matched_path_s
+float64 matched_path_v
+float64 matched_path_a
+# control status info
+float64 current_station
+float64 station_ref
+float64 station_error
+float64 current_speed
+float64 speed_ref
+float64 preview_speed_ref
+float64 speed_error
+float64 acc_ref
+float64 preview_acc_ref
+float64 actual_acc
+float64 lat_d
+float64 lat_d_rate
+float64 heading_d_rate
+float64 heading_d
+float64 pre_lat_d
+float64 pre_lat_theta
+float64 cmd_steer
+float64 cmd_acc
+float64 control_computation_time
+float64 loc_header_time
+float64 chas_header_time
+float64 planning_header_time
+deva_planning_msgs2/PlanningTrajectory openloop_trajectory

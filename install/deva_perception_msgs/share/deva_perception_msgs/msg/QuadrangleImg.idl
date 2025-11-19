@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/QuadrangleImg.msg
+// generated code does not contain a copyright notice
+
+
+module deva_perception_msgs {
+  module msg {
+    struct QuadrangleImg {
+      uint16 imglupointposu;
+
+      uint16 imglupointposv;
+
+      uint16 imgrupointposu;
+
+      uint16 imgrupointposv;
+
+      uint16 imgrdpointposu;
+
+      uint16 imgrdpointposv;
+
+      uint16 imgldpointposu;
+
+      uint16 imgldpointposv;
+    };
+  };
+};

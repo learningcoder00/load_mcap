@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/EnvPoint.msg
+// generated code does not contain a copyright notice
+
+#include "environment_model_msgs/msg/BoundPoint.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct EnvPoint {
+      double x;
+
+      double y;
+
+      double heading;
+
+      double s;
+
+      double kappa;
+
+      environment_model_msgs::msg::BoundPoint left_lan_bound;
+
+      environment_model_msgs::msg::BoundPoint right_lane_bound;
+
+      environment_model_msgs::msg::BoundPoint left_road_bound;
+
+      environment_model_msgs::msg::BoundPoint right_road_bound;
+
+      double speed_limit;
+
+      uint8 enum_lane_type;
+
+      uint8 enum_road_type;
+    };
+  };
+};

@@ -1,0 +1,4 @@
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function ‘void McapReaderNode::messageCallback(const string&, const string&, std::shared_ptr<rclcpp::SerializedMessage>)’:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:177:48: warning: unused parameter ‘msg’ [-Wunused-parameter]
+  177 |     std::shared_ptr<rclcpp::SerializedMessage> msg)
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~

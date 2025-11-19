@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFFrontLinePpty.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFFrontLinePpty {
+      uint8 drvrpfmncmonqly;
+
+      uint8 lanekeepaidqly;
+
+      uint8 trfcjamassiqly;
+
+      uint8 reserved;
+
+      float tunqly;
+
+      uint32 id;
+
+      uint32 lifetime;
+    };
+  };
+};

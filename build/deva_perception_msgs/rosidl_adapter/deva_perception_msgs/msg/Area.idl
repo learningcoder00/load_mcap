@@ -1,0 +1,66 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/Area.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Point2d.idl"
+#include "deva_localization_msgs/msg/Pose.idl"
+#include "deva_perception_msgs/msg/EdgeDisperseCurve.idl"
+#include "deva_perception_msgs/msg/EdgeEquationCurve.idl"
+#include "deva_perception_msgs/msg/EdgeLineSegment.idl"
+#include "deva_perception_msgs/msg/StaticObstacle.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module Area_Constants {
+      const uint8 UNKNOWN = 0;
+      const uint8 CROSSWALK = 1;
+      const uint8 JUNCTION = 2;
+      const uint8 VERTICAL_SLOT = 3;
+      const uint8 SIDE_SLOT = 4;
+      const uint8 SLANTED_SLOT = 5;
+      const uint8 ULTRASONIC_VERTICAL_SLOT = 6;
+      const uint8 ULTRASONIC_SIDE_SLOT = 7;
+      const uint8 LINE_SEGMENT = 0;
+      const uint8 EQUATION_CURVE = 1;
+      const uint8 DISPERSE_CURVE = 2;
+    };
+    struct Area {
+      int32 id;
+
+      uint8 type;
+
+      geometry_msgs::msg::Point dims;
+
+      deva_localization_msgs::msg::Pose pose;
+
+      uint8 segment_type;
+
+      sequence<deva_perception_msgs::msg::EdgeLineSegment> line_segments;
+
+      sequence<deva_perception_msgs::msg::EdgeEquationCurve> equation_curves;
+
+      sequence<deva_perception_msgs::msg::EdgeDisperseCurve> disperse_curves;
+
+      sequence<geometry_msgs::msg::Point> corner_points;
+
+      deva_common_msgs::msg::Point2d direction_pixcoord;
+
+      float confidence;
+
+      float depth_carcoord;
+
+      boolean is_occupied;
+
+      boolean is_stable_tracked;
+
+      float occupied_confidence;
+
+      sequence<deva_perception_msgs::msg::StaticObstacle> static_obstacles;
+
+      @verbatim (language="comment", text=
+        "Only used by MVIZ")
+      sequence<deva_common_msgs::msg::Point2d> pixel_points;
+    };
+  };
+};

@@ -1,0 +1,32 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/LaneLine2d.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Point2d.idl"
+#include "deva_perception_msgs/msg/CurveCoef.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct LaneLine2d {
+      uint32 lane_id;
+
+      uint32 left_lane_id;
+
+      uint32 right_lane_id;
+
+      float confidence;
+
+      uint32 num_points;
+
+      uint8 lane_type;
+
+      uint8 lane_color;
+
+      uint8 lane_property;
+
+      sequence<deva_common_msgs::msg::Point2d> pixel_points;
+
+      sequence<deva_perception_msgs::msg::CurveCoef> curve_line_coeffs;
+    };
+  };
+};

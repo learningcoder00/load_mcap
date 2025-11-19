@@ -1,0 +1,10 @@
+std_msgs/Header header
+float64 pre_crash_front_data_closing_velocity
+uint8 pre_crash_front_data_object_class
+float64 pre_crash_front_data_overlap
+float32 pre_crash_front_data_time_to_impact
+bool lit_area
+uint8 camera_sts_for_ahbc
+bool too_many_cars
+E2eAdb[] e2e_adb_veh_obj
+E2eAdbTrafficSign[] e2e_adb_traffic_sign

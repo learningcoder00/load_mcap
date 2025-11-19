@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/ChargingArgumentsInfoProto.msg
+// generated code does not contain a copyright notice
+
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "ChargingArgumentsInfoProto.msg")
+    struct ChargingArgumentsInfoProto {
+      int32 type;
+
+      int32 min_arrival_percent;
+
+      int64 power;
+
+      int64 voltage;
+
+      int64 amperage;
+    };
+  };
+};

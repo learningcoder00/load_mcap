@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFFusionRoadEdge.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/RoadInfo.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFFusionRoadEdge {
+      uint64 timestamp;
+
+      uint32 framenum;
+
+      deva_aeb_msgs::msg::RoadInfo frontleft;
+
+      deva_aeb_msgs::msg::RoadInfo frontright;
+
+      deva_aeb_msgs::msg::RoadInfo rearleft;
+
+      deva_aeb_msgs::msg::RoadInfo rearright;
+    };
+  };
+};

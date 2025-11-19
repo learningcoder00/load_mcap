@@ -1,0 +1,105 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_control_msgs/msg/VehicleStatusCommand.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module deva_control_msgs {
+  module msg {
+    struct VehicleStatusCommand {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "消息协议版本号，更改消息后需要增加版本号，保持默认值方式")
+      @default (value="2.0")
+      string protocol_version;
+
+      @verbatim (language="comment", text=
+        "发送命令节点的节点名")
+      string node_name;
+
+      @verbatim (language="comment", text=
+        "使用档位控制命令，为true时下面的档位控制命令字段有效")
+      @default (value=FALSE)
+      boolean use_gear_cmd;
+
+      @verbatim (language="comment", text=
+        "档位控制使能")
+      boolean gear_en;
+
+      @verbatim (language="comment", text=
+        "档位控制输出档位值 1:P, 2:R, 3:N, 4:D")
+      int8 gear_cmd_val;
+
+      @verbatim (language="comment", text=
+        "使用EPB控制命令，为true时下面的EPB控制命令字段有效")
+      @default (value=FALSE)
+      boolean use_epb_cmd;
+
+      @verbatim (language="comment", text=
+        "EPB控制使能")
+      boolean epb_en;
+
+      @verbatim (language="comment", text=
+        "EPB控制值，0:无效，1:释放EPB，2:拉紧EPB")
+      int8 epb_cmd_val;
+
+      @verbatim (language="comment", text=
+        "使用转向灯控制命令，为true时下面的转向灯控制命令字段有效")
+      @default (value=FALSE)
+      boolean use_turn_light_cmd;
+
+      @verbatim (language="comment", text=
+        "转向灯控制使能")
+      boolean turn_light_en;
+
+      @verbatim (language="comment", text=
+        "转向灯控制值 0：关闭转向灯， 1：左转， 2：右转，3：双闪")
+      uint8 turn_light_cmd;
+
+      @verbatim (language="comment", text=
+        "使用雨刷器控制命令，为true时下面的雨刷器控制命令字段有效")
+      @default (value=FALSE)
+      boolean use_wiper_cmd;
+
+      @verbatim (language="comment", text=
+        "雨刷器控制使能")
+      boolean wiper_en;
+
+      @verbatim (language="comment", text=
+        "雨刷器控制命令 0：关闭， 1：打开")
+      boolean wiper_cmd;
+
+      @verbatim (language="comment", text=
+        "使用线控使能命令，为true时下面的线控使能字段有效")
+      @default (value=FALSE)
+      boolean use_bywire_enable_cmd;
+
+      @verbatim (language="comment", text=
+        "横向控制使能")
+      boolean lateral_en;
+
+      @verbatim (language="comment", text=
+        "纵向控制使能")
+      boolean longitudinal_en;
+
+      @verbatim (language="comment", text=
+        "使用泊车命令，为true时下面的字段有效")
+      @default (value=FALSE)
+      boolean use_park_cmd;
+
+      @verbatim (language="comment", text=
+        "泊车动作：" "\n"
+        "0：无效，" "\n"
+        "1：准备状态，" "\n"
+        "2：开始泊车，" "\n"
+        "3：泊车中，" "\n"
+        "4：泊车完成，" "\n"
+        "5：泊车中止，" "\n"
+        "6：泊车中取消，" "\n"
+        "7：泊车中错误，" "\n"
+        "8： 其他错误")
+      uint8 park_action;
+    };
+  };
+};

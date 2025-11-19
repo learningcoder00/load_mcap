@@ -1,0 +1,45 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/USTBoundary.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/EdgeDisperseCurve.idl"
+#include "deva_perception_msgs/msg/EdgeEquationCurve.idl"
+#include "deva_perception_msgs/msg/EdgeLineSegment.idl"
+#include "deva_perception_msgs/msg/WayLink.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module USTBoundary_Constants {
+      const uint8 UNKNOWN = 0;
+      const uint8 STATIC_BOUNDARY = 1;
+      const uint8 CURB = 2;
+      const uint8 GUARDRAIL = 3;
+      const uint8 WALLEDGE = 4;
+      const uint8 CONE_LINE = 5;
+      const uint8 STOP_LINE = 6;
+      const uint8 LINE_SEGMENT = 0;
+      const uint8 EQUATION_CURVE = 1;
+      const uint8 DISPERSE_CURVE = 2;
+    };
+    struct USTBoundary {
+      int32 id;
+
+      uint8 type;
+
+      uint8 segment_type;
+
+      sequence<deva_perception_msgs::msg::EdgeLineSegment> line_segments;
+
+      sequence<deva_perception_msgs::msg::EdgeEquationCurve> equation_curves;
+
+      sequence<deva_perception_msgs::msg::EdgeDisperseCurve> disperse_curves;
+
+      sequence<geometry_msgs::msg::Point> corner_points;
+
+      deva_perception_msgs::msg::WayLink waylink;
+
+      boolean is_stable_tracked;
+    };
+  };
+};

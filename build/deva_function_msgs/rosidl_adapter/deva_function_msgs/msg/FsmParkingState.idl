@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_function_msgs/msg/FsmParkingState.msg
+// generated code does not contain a copyright notice
+
+
+module deva_function_msgs {
+  module msg {
+    struct FsmParkingState {
+      double publish_timestamp;
+
+      uint8 fsm_apa_current_state;
+    };
+  };
+};

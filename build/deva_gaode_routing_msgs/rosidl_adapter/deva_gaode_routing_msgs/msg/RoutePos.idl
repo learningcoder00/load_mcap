@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/RoutePos.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/Coordinate.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct RoutePos {
+      deva_gaode_routing_msgs::msg::Coordinate pos;
+
+      uint32 coor_start;
+
+      uint32 offset_length;
+
+      uint32 link_offset;
+    };
+  };
+};

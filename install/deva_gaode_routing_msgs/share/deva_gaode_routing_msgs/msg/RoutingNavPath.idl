@@ -1,0 +1,44 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/RoutingNavPath.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/WebPoint.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "本消息用于收发导航信息，发送到高德node")
+    struct RoutingNavPath {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "版本信息")
+      string version;
+
+      @verbatim (language="comment", text=
+        "可用状态")
+      boolean status;
+
+      @verbatim (language="comment", text=
+        "策略更新标志，用于rerouting更新,md5值")
+      string md5;
+
+      @verbatim (language="comment", text=
+        "策略更新标志，用于rerouting更新,index值")
+      uint32 index;
+
+      @verbatim (language="comment", text=
+        "起点")
+      deva_gaode_routing_msgs::msg::WebPoint start_point;
+
+      @verbatim (language="comment", text=
+        "途经点")
+      sequence<deva_gaode_routing_msgs::msg::WebPoint> way_points;
+
+      @verbatim (language="comment", text=
+        "终点")
+      deva_gaode_routing_msgs::msg::WebPoint end_point;
+    };
+  };
+};

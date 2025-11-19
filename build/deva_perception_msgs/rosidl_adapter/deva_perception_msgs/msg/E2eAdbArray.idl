@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/E2eAdbArray.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/E2eAdb.idl"
+#include "deva_perception_msgs/msg/E2eAdbTrafficSign.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct E2eAdbArray {
+      std_msgs::msg::Header header;
+
+      double pre_crash_front_data_closing_velocity;
+
+      uint8 pre_crash_front_data_object_class;
+
+      double pre_crash_front_data_overlap;
+
+      float pre_crash_front_data_time_to_impact;
+
+      boolean lit_area;
+
+      uint8 camera_sts_for_ahbc;
+
+      boolean too_many_cars;
+
+      sequence<deva_perception_msgs::msg::E2eAdb> e2e_adb_veh_obj;
+
+      sequence<deva_perception_msgs::msg::E2eAdbTrafficSign> e2e_adb_traffic_sign;
+    };
+  };
+};

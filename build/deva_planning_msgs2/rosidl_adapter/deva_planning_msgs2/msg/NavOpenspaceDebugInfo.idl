@@ -1,0 +1,70 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/NavOpenspaceDebugInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs2/msg/NavOpenspaceObstacle.idl"
+#include "deva_planning_msgs2/msg/NavOpenspaceParkingSlot.idl"
+#include "deva_planning_msgs2/msg/PathData.idl"
+#include "deva_planning_msgs2/msg/TargetTrajectory.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    @verbatim (language="comment", text=
+      "input")
+    struct NavOpenspaceDebugInfo {
+      double x_s;
+
+      double y_s;
+
+      double theta_s;
+
+      double x_e;
+
+      double y_e;
+
+      double theta_e;
+
+      sequence<double> xy_bounds;
+
+      sequence<deva_planning_msgs2::msg::NavOpenspaceObstacle> obstacles_info;
+
+      sequence<deva_planning_msgs2::msg::NavOpenspaceParkingSlot> parking_slots;
+
+      @verbatim (language="comment", text=
+        "初始挡位, 0 为 D 挡, 1 为 R 挡位")
+      uint32 start_gear;
+
+      double speed;
+
+      double keep_start_gear_distance;
+
+      double kappa;
+
+      double timestamp;
+
+      sequence<deva_planning_msgs2::msg::PathData> ref_points;
+
+      @verbatim (language="comment", text=
+        "status")
+      uint32 openspace_planning_status;
+
+      deva_planning_msgs2::msg::TargetTrajectory last_trajectory;
+
+      double last_trajectory_timestamp;
+
+      sequence<deva_planning_msgs2::msg::TargetTrajectory> last_internal_trajectory_paths;
+
+      uint32 current_path_index;
+
+      boolean is_arrived_path_end;
+
+      sequence<deva_planning_msgs2::msg::PathData> last_ref_points;
+
+      @verbatim (language="comment", text=
+        "internal results")
+      sequence<deva_planning_msgs2::msg::TargetTrajectory> hybrid_astar_search_results;
+
+      sequence<deva_planning_msgs2::msg::TargetTrajectory> optimization_results;
+    };
+  };
+};

@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFLaneMkrInfo.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    typedef uint8 uint8__2[2];
+    struct SFLaneMkrInfo {
+      float width;
+
+      uint8 lanecolor;
+
+      uint8 lanemkrtype;
+
+      uint8__2 reserved;
+    };
+  };
+};

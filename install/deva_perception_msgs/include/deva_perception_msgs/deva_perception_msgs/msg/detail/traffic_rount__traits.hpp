@@ -1,0 +1,164 @@
+// generated from rosidl_generator_cpp/resource/idl__traits.hpp.em
+// with input from deva_perception_msgs:msg/TrafficRount.idl
+// generated code does not contain a copyright notice
+
+#ifndef DEVA_PERCEPTION_MSGS__MSG__DETAIL__TRAFFIC_ROUNT__TRAITS_HPP_
+#define DEVA_PERCEPTION_MSGS__MSG__DETAIL__TRAFFIC_ROUNT__TRAITS_HPP_
+
+#include <stdint.h>
+
+#include <sstream>
+#include <string>
+#include <type_traits>
+
+#include "deva_perception_msgs/msg/detail/traffic_rount__struct.hpp"
+#include "rosidl_runtime_cpp/traits.hpp"
+
+// Include directives for member types
+// Member 'lane_info'
+#include "deva_perception_msgs/msg/detail/lane_info__traits.hpp"
+// Member 'road_info'
+#include "deva_perception_msgs/msg/detail/road_info__traits.hpp"
+
+namespace deva_perception_msgs
+{
+
+namespace msg
+{
+
+inline void to_flow_style_yaml(
+  const TrafficRount & msg,
+  std::ostream & out)
+{
+  out << "{";
+  // member: timestamp
+  {
+    out << "timestamp: ";
+    rosidl_generator_traits::value_to_yaml(msg.timestamp, out);
+    out << ", ";
+  }
+
+  // member: lane_info
+  {
+    out << "lane_info: ";
+    to_flow_style_yaml(msg.lane_info, out);
+    out << ", ";
+  }
+
+  // member: cur_road
+  {
+    out << "cur_road: ";
+    rosidl_generator_traits::value_to_yaml(msg.cur_road, out);
+    out << ", ";
+  }
+
+  // member: road_info
+  {
+    out << "road_info: ";
+    to_flow_style_yaml(msg.road_info, out);
+  }
+  out << "}";
+}  // NOLINT(readability/fn_size)
+
+inline void to_block_style_yaml(
+  const TrafficRount & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  // member: timestamp
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "timestamp: ";
+    rosidl_generator_traits::value_to_yaml(msg.timestamp, out);
+    out << "\n";
+  }
+
+  // member: lane_info
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "lane_info:\n";
+    to_block_style_yaml(msg.lane_info, out, indentation + 2);
+  }
+
+  // member: cur_road
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "cur_road: ";
+    rosidl_generator_traits::value_to_yaml(msg.cur_road, out);
+    out << "\n";
+  }
+
+  // member: road_info
+  {
+    if (indentation > 0) {
+      out << std::string(indentation, ' ');
+    }
+    out << "road_info:\n";
+    to_block_style_yaml(msg.road_info, out, indentation + 2);
+  }
+}  // NOLINT(readability/fn_size)
+
+inline std::string to_yaml(const TrafficRount & msg, bool use_flow_style = false)
+{
+  std::ostringstream out;
+  if (use_flow_style) {
+    to_flow_style_yaml(msg, out);
+  } else {
+    to_block_style_yaml(msg, out);
+  }
+  return out.str();
+}
+
+}  // namespace msg
+
+}  // namespace deva_perception_msgs
+
+namespace rosidl_generator_traits
+{
+
+[[deprecated("use deva_perception_msgs::msg::to_block_style_yaml() instead")]]
+inline void to_yaml(
+  const deva_perception_msgs::msg::TrafficRount & msg,
+  std::ostream & out, size_t indentation = 0)
+{
+  deva_perception_msgs::msg::to_block_style_yaml(msg, out, indentation);
+}
+
+[[deprecated("use deva_perception_msgs::msg::to_yaml() instead")]]
+inline std::string to_yaml(const deva_perception_msgs::msg::TrafficRount & msg)
+{
+  return deva_perception_msgs::msg::to_yaml(msg);
+}
+
+template<>
+inline const char * data_type<deva_perception_msgs::msg::TrafficRount>()
+{
+  return "deva_perception_msgs::msg::TrafficRount";
+}
+
+template<>
+inline const char * name<deva_perception_msgs::msg::TrafficRount>()
+{
+  return "deva_perception_msgs/msg/TrafficRount";
+}
+
+template<>
+struct has_fixed_size<deva_perception_msgs::msg::TrafficRount>
+  : std::integral_constant<bool, has_fixed_size<deva_perception_msgs::msg::LaneInfo>::value && has_fixed_size<deva_perception_msgs::msg::RoadInfo>::value> {};
+
+template<>
+struct has_bounded_size<deva_perception_msgs::msg::TrafficRount>
+  : std::integral_constant<bool, has_bounded_size<deva_perception_msgs::msg::LaneInfo>::value && has_bounded_size<deva_perception_msgs::msg::RoadInfo>::value> {};
+
+template<>
+struct is_message<deva_perception_msgs::msg::TrafficRount>
+  : std::true_type {};
+
+}  // namespace rosidl_generator_traits
+
+#endif  // DEVA_PERCEPTION_MSGS__MSG__DETAIL__TRAFFIC_ROUNT__TRAITS_HPP_

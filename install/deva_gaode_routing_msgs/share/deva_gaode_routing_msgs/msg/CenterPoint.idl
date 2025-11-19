@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/CenterPoint.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/WebPoint.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct CenterPoint {
+      double offset;
+
+      deva_gaode_routing_msgs::msg::WebPoint point;
+    };
+  };
+};

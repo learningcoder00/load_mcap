@@ -1,0 +1,85 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_control_msgs/msg/ControlDebugSignal.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module deva_control_msgs {
+  module msg {
+    struct ControlDebugSignal {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "for debug 横向偏差反馈")
+      double c0_val;
+
+      @verbatim (language="comment", text=
+        "for debug 航向角偏差反馈")
+      double c1_val;
+
+      @verbatim (language="comment", text=
+        "for debug 轨迹曲率前馈")
+      double c2_val;
+
+      @verbatim (language="comment", text=
+        "for debug 纵向偏差")
+      double station_error;
+
+      @verbatim (language="comment", text=
+        "for debug 位置补偿")
+      double speed_offset;
+
+      @verbatim (language="comment", text=
+        "for debug 目标速度")
+      double speed_target;
+
+      @verbatim (language="comment", text=
+        "for debug 当前速度")
+      double speed_current;
+
+      @verbatim (language="comment", text=
+        "for debug 速度偏差+位置补偿")
+      double speed_error;
+
+      @verbatim (language="comment", text=
+        "for debug 预瞄方向盘转角与当前转角偏差")
+      double preview_steer_error;
+
+      @verbatim (language="comment", text=
+        "for debug 预瞄点速度")
+      double preview_speed_target;
+
+      @verbatim (language="comment", text=
+        "for debug 横向距离偏差")
+      double distance_error;
+
+      @verbatim (language="comment", text=
+        "for debug 航向角偏差")
+      double angle_error;
+
+      @verbatim (language="comment", text=
+        "for debug 预留")
+      double debug_signal_4;
+
+      @verbatim (language="comment", text=
+        "for debug 预留")
+      double debug_signal_5;
+
+      @verbatim (language="comment", text=
+        "for debug 预留")
+      double debug_signal_6;
+
+      @verbatim (language="comment", text=
+        "for debug 预留")
+      double debug_signal_7;
+
+      @verbatim (language="comment", text=
+        "for debug 预留")
+      double debug_signal_8;
+
+      @verbatim (language="comment", text=
+        "for debug 预留")
+      double debug_signal_9;
+    };
+  };
+};

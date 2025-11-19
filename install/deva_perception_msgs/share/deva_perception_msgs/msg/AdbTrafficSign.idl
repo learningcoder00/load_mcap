@@ -1,0 +1,35 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/AdbTrafficSign.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/ExtraInfo.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct AdbTrafficSign {
+      uint8 id;
+
+      uint8 conf;
+
+      uint8 parsing_conf;
+
+      uint8 track_info;
+
+      uint32 age;
+
+      uint32 life_time;
+
+      float distance;
+
+      float horizon_left_angle;
+
+      float horizon_right_angle;
+
+      float vertical_bottom_angle;
+
+      float vertical_top_angle;
+
+      sequence<deva_perception_msgs::msg::ExtraInfo> extra_infos;
+    };
+  };
+};

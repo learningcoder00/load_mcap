@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/StopLine2d.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Point2d.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct StopLine2d {
+      uint32 lane_id;
+
+      float confidence;
+
+      sequence<deva_common_msgs::msg::Point2d> pixel_points;
+
+      float left_point_pos_lgt;
+
+      float left_point_pos_lat;
+
+      float right_point_pos_lgt;
+
+      float right_point_pos_lat;
+    };
+  };
+};

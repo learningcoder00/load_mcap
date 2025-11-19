@@ -1,0 +1,12 @@
+// generated from rosidl_generator_cpp/resource/idl.hpp.em
+// generated code does not contain a copyright notice
+
+#ifndef DEVA_AEB_MSGS__MSG__SF_FUSION_ROAD_EDGE_HPP_
+#define DEVA_AEB_MSGS__MSG__SF_FUSION_ROAD_EDGE_HPP_
+
+#include "deva_aeb_msgs/msg/detail/sf_fusion_road_edge__struct.hpp"
+#include "deva_aeb_msgs/msg/detail/sf_fusion_road_edge__builder.hpp"
+#include "deva_aeb_msgs/msg/detail/sf_fusion_road_edge__traits.hpp"
+#include "deva_aeb_msgs/msg/detail/sf_fusion_road_edge__type_support.hpp"
+
+#endif  // DEVA_AEB_MSGS__MSG__SF_FUSION_ROAD_EDGE_HPP_

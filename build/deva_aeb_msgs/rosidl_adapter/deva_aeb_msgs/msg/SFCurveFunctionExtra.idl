@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFCurveFunctionExtra.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFLaneEstimn.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFCurveFunctionExtra {
+      float poslgt;
+
+      float poslat;
+
+      deva_aeb_msgs::msg::SFLaneEstimn estimn;
+
+      uint8 extrapointtype;
+
+      uint8 lanemkrtype;
+
+      uint8 confi;
+
+      uint8 reserved;
+    };
+  };
+};

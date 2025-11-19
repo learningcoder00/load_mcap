@@ -1,0 +1,23 @@
+[0.047s] Invoking command in '/home/linjiawei/load_mcap/build/deva_localization_msgs': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_localization_msgs -- -j17 -l17
+[0.104s] [  1%] Built target deva_localization_msgs__cpp
+[0.113s] [ 12%] Built target deva_localization_msgs__rosidl_generator_c
+[0.152s] [ 24%] Built target deva_localization_msgs__rosidl_typesupport_fastrtps_cpp
+[0.156s] [ 35%] Built target deva_localization_msgs__rosidl_typesupport_fastrtps_c
+[0.157s] [ 46%] Built target deva_localization_msgs__rosidl_typesupport_introspection_cpp
+[0.159s] [ 58%] Built target deva_localization_msgs__rosidl_typesupport_cpp
+[0.162s] [ 69%] Built target deva_localization_msgs__rosidl_typesupport_c
+[0.163s] [ 81%] Built target deva_localization_msgs__rosidl_typesupport_introspection_c
+[0.192s] [ 81%] Built target deva_localization_msgs
+[0.220s] [ 82%] Built target deva_localization_msgs__py
+[0.248s] [ 92%] Built target deva_localization_msgs__rosidl_generator_py
+[0.274s] [ 94%] Built target deva_localization_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.279s] [ 97%] Built target deva_localization_msgs__rosidl_typesupport_c__pyext
+[0.279s] [100%] Built target deva_localization_msgs__rosidl_typesupport_introspection_c__pyext
+[0.384s] [100%] Built target ament_cmake_python_copy_deva_localization_msgs
+[0.664s] running egg_info
+[0.665s] writing deva_localization_msgs.egg-info/PKG-INFO
+[0.666s] writing dependency_links to deva_localization_msgs.egg-info/dependency_links.txt
+[0.666s] writing top-level names to deva_localization_msgs.egg-info/top_level.txt
+[0.669s] reading manifest file 'deva_localization_msgs.egg-info/SOURCES.txt'
+[0.670s] writing manifest file 'deva_localization_msgs.egg-info/SOURCES.txt'
+[0.699s] [100%] Built target ament_cmake_python_build_deva_localization_msgs_egg

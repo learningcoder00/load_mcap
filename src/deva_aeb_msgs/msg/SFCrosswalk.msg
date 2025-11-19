@@ -1,0 +1,11 @@
+uint32 id
+float32 lupointposlgt
+float32 lupointposlat
+float32 rupointposlgt
+float32 rupointposlat
+float32 rdpointposlgt
+float32 rdpointposlat
+float32 ldpointposlgt
+float32 ldpointposlat
+uint8 confi
+uint8[3] reserved

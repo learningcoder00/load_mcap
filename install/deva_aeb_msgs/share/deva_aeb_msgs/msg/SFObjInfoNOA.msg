@@ -1,0 +1,16 @@
+float32 length
+float32 width
+float32 hei
+float32 dstlatfrommidoflaneself
+uint8 typ
+uint8 sidenear
+uint8 indcrturn
+uint8 indcrbrkli
+uint8 indcrhzrdli
+uint8 mtnpat
+uint8 mtnpathist
+uint8 fusnsrcraw
+uint8 clisnsideradarctrlwarnqly
+uint8 clisnsideradarctrlbrkqly
+uint8[2] reserved
+uint8 lan_assignment

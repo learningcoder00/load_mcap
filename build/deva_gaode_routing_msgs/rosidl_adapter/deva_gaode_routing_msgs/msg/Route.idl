@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/Route.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/Coordinate.idl"
+#include "deva_gaode_routing_msgs/msg/RGIntersectionResult.idl"
+#include "deva_gaode_routing_msgs/msg/RGLaneInfoResult.idl"
+#include "deva_gaode_routing_msgs/msg/RGRedLightResult.idl"
+#include "deva_gaode_routing_msgs/msg/RGVTipsPointResult.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct Route {
+      sequence<deva_gaode_routing_msgs::msg::Coordinate> route_points;
+
+      sequence<deva_gaode_routing_msgs::msg::RGIntersectionResult> rg_intersection_result;
+
+      sequence<deva_gaode_routing_msgs::msg::RGLaneInfoResult> rg_lane_info_result;
+
+      sequence<deva_gaode_routing_msgs::msg::RGRedLightResult> rg_red_light_result;
+
+      sequence<deva_gaode_routing_msgs::msg::RGVTipsPointResult> rg_tips_result;
+    };
+  };
+};

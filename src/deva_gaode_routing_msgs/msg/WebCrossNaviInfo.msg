@@ -1,0 +1,15 @@
+int32 assist_action
+int32 cross_maneuver_id
+int32 cur_to_segment_dist
+int32 cur_to_segment_time
+int32 dest_direction
+int32 main_action
+int32 maneuver_id
+string next_road_name
+int32 out_cnt
+int32 path_id
+int32 rev
+int32 reversed
+int32 seg_idx
+int32 tunnel_flag
+int32 via_num

@@ -1,0 +1,125 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_control_msgs/msg/ControlResult.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_control_msgs/msg/ControlValidLimit.idl"
+
+module deva_control_msgs {
+  module msg {
+    struct ControlResult {
+      deva_common_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "消息协议版本号，更改消息后需要增加版本号，保持默认值方式")
+      @default (value="2.10")
+      string protocol_version;
+
+      @verbatim (language="comment", text=
+        "横向控制目标模式，可使用以下几种模式，之外的值无效：" "\n"
+        "1：方向盘角度目标控制；控制量为steering_target字段；" "\n"
+        "2：前轮角度目标控制; 控制量为front_wheel_target字段；" "\n"
+        "3：力矩目标控制；控制量为eps_torque字段；")
+      int8 late_mode;
+
+      @verbatim (language="comment", text=
+        "EPS力矩控制目标值（Nm）")
+      double eps_torque;
+
+      @verbatim (language="comment", text=
+        "前轮控制目标角度（deg）")
+      double front_wheel_target;
+
+      @verbatim (language="comment", text=
+        "方向盘控制目标角度 (deg)")
+      double steering_target;
+
+      @verbatim (language="comment", text=
+        "纵向控制目标模式，可使用以下几种模式，之外的值无效：" "\n"
+        "1：加速度为控制目标；控制量为acceleration字段；" "\n"
+        "2：速度为控制目标; 控制量为speed字段；" "\n"
+        "3: 力矩控制; 控制量为longit_torque字段；" "\n"
+        "4: 目标距离和速度控制，控制量为target_distance和speed字段" "\n"
+        "5：踏板开度控制模式；控制量为throttle和brake字段")
+      int8 long_mode;
+
+      @verbatim (language="comment", text=
+        "速度控制目标速度（km/h）")
+      double speed;
+
+      @verbatim (language="comment", text=
+        "纵向控制加速度值 (m/s2)")
+      double acceleration;
+
+      @verbatim (language="comment", text=
+        "纵向控制力矩输出值 (Nm)")
+      double longit_torque;
+
+      @verbatim (language="comment", text=
+        "纵向控制距离 (m)")
+      double target_distance;
+
+      @verbatim (language="comment", text=
+        "油门控制值 [0.0, 1.0]")
+      double throttle;
+
+      @verbatim (language="comment", text=
+        "制动控制值 [0.0, 1.0]")
+      double brake;
+
+      @verbatim (language="comment", text=
+        "限制值控制是否使能，默认false不使能限制值，下面所有的ControlValidLimit限制类型都无效" "\n"
+        "需要设置某一项限制值是，将limit_command_enable设置为true，并将对应的限制字段设置有效")
+      @default (value=FALSE)
+      boolean limit_command_enable;
+
+      @verbatim (language="comment", text=
+        "方向盘转动角速度限制，具体限制值单位为deg/s")
+      deva_control_msgs::msg::ControlValidLimit steer_angle_rate_limit;
+
+      @verbatim (language="comment", text=
+        "方向盘转动力矩限制, 具体限制值的单位为Nm")
+      deva_control_msgs::msg::ControlValidLimit steer_tq_limit;
+
+      @verbatim (language="comment", text=
+        "纵向驱动力矩限制, 具体限制值的单位为Nm")
+      deva_control_msgs::msg::ControlValidLimit longit_tq_limit;
+
+      @verbatim (language="comment", text=
+        "纵向急动度（加加速度，加速度变化率）限制, 具体限制值的单位为m/s3")
+      deva_control_msgs::msg::ControlValidLimit longit_jerk_limit;
+
+      @verbatim (language="comment", text=
+        "控制接口失败原因")
+      string control_ready_false_reason;
+
+      @verbatim (language="comment", text=
+        "控制算法是否准备好接入线控")
+      boolean ready;
+
+      @verbatim (language="comment", text=
+        "控制模式，在行车和泊车分开控制的车辆上有效。0：无效；1：行车控制；2：泊车控制；3：AVP模式；其他无效")
+      uint8 control_mode;
+
+      @verbatim (language="comment", text=
+        "档位控制使能")
+      boolean gear_en;
+
+      @verbatim (language="comment", text=
+        "档位控制输出档位值 1:P, 2:R, 3:N, 4:D")
+      int32 gear_cmd_val;
+
+      @verbatim (language="comment", text=
+        "横向控制使能")
+      boolean lateral_en;
+
+      @verbatim (language="comment", text=
+        "纵向控制使能")
+      boolean longitudinal_en;
+
+      @verbatim (language="comment", text=
+        "方向盘控制目标角速度 (deg/s)")
+      double steering_rate;
+    };
+  };
+};

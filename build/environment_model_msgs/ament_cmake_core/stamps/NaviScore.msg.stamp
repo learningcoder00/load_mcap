@@ -1,0 +1,4 @@
+bool has_route_signal
+float64 static_score
+bool is_on_route
+float64 dis2junction

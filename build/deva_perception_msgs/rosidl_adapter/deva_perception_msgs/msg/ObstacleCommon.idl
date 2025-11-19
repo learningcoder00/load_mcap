@@ -1,0 +1,50 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/ObstacleCommon.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/BoundingBox.idl"
+#include "deva_common_msgs/msg/Point2d.idl"
+#include "deva_localization_msgs/msg/Pose.idl"
+#include "deva_perception_msgs/msg/AssociatedInfo.idl"
+#include "deva_perception_msgs/msg/ExtraInfo.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct ObstacleCommon {
+      string obs_name;
+
+      sequence<geometry_msgs::msg::Point> points;
+
+      int32 obs_id;
+
+      geometry_msgs::msg::Point dims;
+
+      deva_localization_msgs::msg::Pose pose;
+
+      float score;
+
+      int32 track_length;
+
+      double tracking_time;
+
+      deva_common_msgs::msg::BoundingBox bounding_box;
+
+      int32 miss_length;
+
+      boolean is_stable_tracked;
+
+      @verbatim (language="comment", text=
+        "障碍物是否在车位内")
+      boolean in_parking_slot;
+
+      sequence<deva_perception_msgs::msg::AssociatedInfo> associated_infos;
+
+      sequence<deva_perception_msgs::msg::ExtraInfo> extra_infos;
+
+      @verbatim (language="comment", text=
+        "Only used by MVIZ")
+      sequence<deva_common_msgs::msg::Point2d> pixel_points;
+    };
+  };
+};

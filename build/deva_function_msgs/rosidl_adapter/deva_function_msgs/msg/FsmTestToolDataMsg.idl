@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_function_msgs/msg/FsmTestToolDataMsg.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_function_msgs {
+  module msg {
+    struct FsmTestToolDataMsg {
+      deva_common_msgs::msg::Header header;
+
+      uint8 cmd;
+
+      uint32 request_id;
+
+      sequence<string> keys;
+
+      sequence<string> values;
+
+      string state;
+
+      sequence<string> conditions;
+    };
+  };
+};

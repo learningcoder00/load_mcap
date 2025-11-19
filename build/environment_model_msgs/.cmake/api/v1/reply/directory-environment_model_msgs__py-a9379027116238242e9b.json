@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "environment_model_msgs__py",
+		"source" : "/home/linjiawei/load_mcap/build/environment_model_msgs/environment_model_msgs__py"
+	}
+}

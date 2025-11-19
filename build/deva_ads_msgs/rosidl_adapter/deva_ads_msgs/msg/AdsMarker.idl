@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_ads_msgs/msg/AdsMarker.msg
+// generated code does not contain a copyright notice
+
+#include "deva_ads_msgs/msg/AdsInfo.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_ads_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "points：点集   ego坐标" "\n"
+      " - point: 仅取第一点即可" "\n"
+      " - circle: 取第一点为圆心" "\n"
+      " - polyline: 取所有点连成线" "\n"
+      " - polygon :n个点 连线成的底面 比如四个点代表车障碍物的底面 ads会和高度拼接成一个box" "\n"
+      " - text: 取第一个点为文本位置")
+    struct AdsMarker {
+      sequence<geometry_msgs::msg::Point> points;
+
+      @verbatim (language="comment", text=
+        "string type专属值")
+      string text;
+
+      @verbatim (language="comment", text=
+        "是否可点击  当前协议在障碍物和车道线使用  比如障碍物点击 显示物体信息的框")
+      boolean clickable;
+
+      @verbatim (language="comment", text=
+        "如果可点击 则展示里面的详细信息 k-v结构")
+      sequence<deva_ads_msgs::msg::AdsInfo> detail;
+    };
+  };
+};

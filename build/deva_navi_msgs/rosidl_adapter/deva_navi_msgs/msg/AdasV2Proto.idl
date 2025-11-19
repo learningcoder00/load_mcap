@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/AdasV2Proto.msg
+// generated code does not contain a copyright notice
+
+
+module deva_navi_msgs {
+  module msg {
+    struct AdasV2Proto {
+      int64 id;
+
+      sequence<uint8> data;
+    };
+  };
+};

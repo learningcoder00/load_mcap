@@ -1,0 +1,9 @@
+uint64 raw_link_id
+uint32[]  arrow
+uint32[] flag
+uint32[] rg_lane_result_property
+uint32[] recommend
+string   active_time
+RGAdditionalLaneInfo[] additional_lane_info
+uint64[] lane_info_raw_link_ids
+RoutePos pos

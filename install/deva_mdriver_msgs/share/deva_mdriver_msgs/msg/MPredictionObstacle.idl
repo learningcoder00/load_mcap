@@ -1,0 +1,39 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_mdriver_msgs/msg/MPredictionObstacle.msg
+// generated code does not contain a copyright notice
+
+#include "deva_mdriver_msgs/msg/AccHeadingSteeringStats.idl"
+#include "deva_mdriver_msgs/msg/DebugInfo.idl"
+#include "deva_perception_msgs/msg/MovingObstacle.idl"
+#include "deva_planning_msgs/msg/TrajectoryPoint.idl"
+
+module deva_mdriver_msgs {
+  module msg {
+    module MPredictionObstacle_Constants {
+      @verbatim (language="comment", text=
+        "StaticIntent")
+      const uint8 NOT_STATIC = 0;
+      const uint8 WAIT_TO_MOVE = 1;
+      const uint8 DEAD_CAR = 2;
+    };
+    struct MPredictionObstacle {
+      deva_perception_msgs::msg::MovingObstacle perception_obstacle;
+
+      sequence<deva_planning_msgs::msg::TrajectoryPoint> trajectory;
+
+      sequence<uint8> decision;
+
+      int32 obs_id;
+
+      double score;
+
+      sequence<double> cov;
+
+      uint8 is_static;
+
+      sequence<deva_mdriver_msgs::msg::AccHeadingSteeringStats> acc_heading_steering_stats;
+
+      sequence<deva_mdriver_msgs::msg::DebugInfo> prediction_debug_info;
+    };
+  };
+};

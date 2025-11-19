@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/PartitionZone.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct PartitionZone {
+      @verbatim (language="comment", text=
+        "4*空白区域，1*延长交点")
+      sequence<geometry_msgs::msg::Point> waypoints;
+    };
+  };
+};

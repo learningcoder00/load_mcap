@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "rviz_plug_msg__py",
+		"source" : "/home/linjiawei/load_mcap/build/rviz_plug_msg/rviz_plug_msg__py"
+	}
+}

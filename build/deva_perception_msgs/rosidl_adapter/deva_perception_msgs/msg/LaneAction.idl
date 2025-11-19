@@ -1,0 +1,38 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/LaneAction.msg
+// generated code does not contain a copyright notice
+
+
+module deva_perception_msgs {
+  module msg {
+    module LaneAction_Constants {
+      const uint8 LANE_ACTION_NULL = 255;
+      const uint8 LANE_ACTION_AHEAD = 0;
+      const uint8 LANE_ACTION_LEFT = 1;
+      const uint8 LANE_ACTION_AHEAD_LEFT = 2;
+      const uint8 LANE_ACTION_RIGHT = 3;
+      const uint8 LANE_ACTION_AHEAD_RIGHT = 4;
+      const uint8 LANE_ACTION_LU_TURN = 5;
+      const uint8 LANE_ACTION_LEFT_RIGHT = 6;
+      const uint8 LANE_ACTION_AHEAD_LEFT_RIGHT = 7;
+      const uint8 LANE_ACTION_RU_TURN = 8;
+      const uint8 LANE_ACTION_AHEAD_LU_TURN = 9;
+      const uint8 LANE_ACTION_AHEAD_RU_TURN = 10;
+      const uint8 LANE_ACTION_LEFT_LU_TURN = 11;
+      const uint8 LANE_ACTION_RIGHT_RU_TURN = 12;
+      const uint8 LANE_ACTION_AHEAD_LEFT_LU_TURN = 16;
+      const uint8 LANE_ACTION_RIGHT_LU_TURN = 17;
+      const uint8 LANE_ACTION_LEFT_RIGHT_LU_TURN = 18;
+      const uint8 LANE_ACTION_AHEAD_RIGHT_LU_TURN = 19;
+      const uint8 LANE_ACTION_LEFT_RU_TURN = 20;
+      const uint8 LANE_ACTION_BUS = 21;
+      const uint8 LANE_ACTION_EMPTY = 22;
+      const uint8 LANE_ACTION_VARIABLE = 23;
+      const uint8 LANE_ACTION_DEDICATED = 24;
+      const uint8 LANE_ACTION_TIDAL = 25;
+    };
+    struct LaneAction {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

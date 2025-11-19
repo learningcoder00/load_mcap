@@ -1,0 +1,11 @@
+uint32 lane_id
+float32 confidence
+float32 lu_point_pos_lgt
+float32 lu_point_pos_lat
+float32 ru_point_pos_lgt
+float32 ru_point_pos_lat
+float32 rd_point_pos_lgt
+float32 rd_point_pos_lat
+float32 ld_point_pos_lgt
+float32 ld_point_pos_lat
+deva_common_msgs/Point2d[] pixel_points

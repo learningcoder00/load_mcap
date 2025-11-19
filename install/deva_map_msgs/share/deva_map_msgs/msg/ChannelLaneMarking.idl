@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_map_msgs/msg/ChannelLaneMarking.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/EquationCurve.idl"
+#include "deva_common_msgs/msg/Point2d.idl"
+#include "deva_map_msgs/msg/ChannelMarkingType.idl"
+
+module deva_map_msgs {
+  module msg {
+    struct ChannelLaneMarking {
+      boolean available;
+
+      uint8 perception_lane_id;
+
+      sequence<deva_common_msgs::msg::EquationCurve> marking_equation_vec;
+
+      sequence<deva_map_msgs::msg::ChannelMarkingType> marking_type_vec;
+
+      sequence<deva_common_msgs::msg::Point2d> marking_point_vec;
+    };
+  };
+};

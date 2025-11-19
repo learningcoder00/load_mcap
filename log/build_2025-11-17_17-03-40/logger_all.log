@@ -1,0 +1,748 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=17, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f274ff9b5b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f2750103fd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f2750103fd0>>)
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.295s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.296s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.296s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/linjiawei/load_mcap'
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.312s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_ads_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_ads_msgs) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_ads_msgs) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_ads_msgs) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_ads_msgs) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_ads_msgs) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_ads_msgs) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_ads_msgs) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_ads_msgs) by extension 'ros'
+[0.316s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_ads_msgs' with type 'ros.ament_cmake' and name 'deva_ads_msgs'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_aeb_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_aeb_msgs) by extension 'ignore'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_aeb_msgs) by extension 'ignore_ament_install'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_aeb_msgs) by extensions ['colcon_pkg']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_aeb_msgs) by extension 'colcon_pkg'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_aeb_msgs) by extensions ['colcon_meta']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_aeb_msgs) by extension 'colcon_meta'
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_aeb_msgs) by extensions ['ros']
+[0.317s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_aeb_msgs) by extension 'ros'
+[0.318s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_aeb_msgs' with type 'ros.ament_cmake' and name 'deva_aeb_msgs'
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_common_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.318s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_common_msgs) by extension 'ignore'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_common_msgs) by extension 'ignore_ament_install'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_common_msgs) by extensions ['colcon_pkg']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_common_msgs) by extension 'colcon_pkg'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_common_msgs) by extensions ['colcon_meta']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_common_msgs) by extension 'colcon_meta'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_common_msgs) by extensions ['ros']
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_common_msgs) by extension 'ros'
+[0.320s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_common_msgs' with type 'ros.ament_cmake' and name 'deva_common_msgs'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_control_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_control_msgs) by extension 'ignore'
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_control_msgs) by extension 'ignore_ament_install'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_control_msgs) by extensions ['colcon_pkg']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_control_msgs) by extension 'colcon_pkg'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_control_msgs) by extensions ['colcon_meta']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_control_msgs) by extension 'colcon_meta'
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_control_msgs) by extensions ['ros']
+[0.321s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_control_msgs) by extension 'ros'
+[0.322s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_control_msgs' with type 'ros.ament_cmake' and name 'deva_control_msgs'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_function_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_function_msgs) by extension 'ignore'
+[0.322s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_function_msgs) by extension 'ignore_ament_install'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_function_msgs) by extensions ['colcon_pkg']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_function_msgs) by extension 'colcon_pkg'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_function_msgs) by extensions ['colcon_meta']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_function_msgs) by extension 'colcon_meta'
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_function_msgs) by extensions ['ros']
+[0.323s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_function_msgs) by extension 'ros'
+[0.324s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_function_msgs' with type 'ros.ament_cmake' and name 'deva_function_msgs'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_gaode_routing_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_gaode_routing_msgs) by extension 'ignore'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_gaode_routing_msgs) by extension 'ignore_ament_install'
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_gaode_routing_msgs) by extensions ['colcon_pkg']
+[0.324s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_gaode_routing_msgs) by extension 'colcon_pkg'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_gaode_routing_msgs) by extensions ['colcon_meta']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_gaode_routing_msgs) by extension 'colcon_meta'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_gaode_routing_msgs) by extensions ['ros']
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_gaode_routing_msgs) by extension 'ros'
+[0.326s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_gaode_routing_msgs' with type 'ros.ament_cmake' and name 'deva_gaode_routing_msgs'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_localization_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_localization_msgs) by extension 'ignore'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_localization_msgs) by extension 'ignore_ament_install'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_localization_msgs) by extensions ['colcon_pkg']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_localization_msgs) by extension 'colcon_pkg'
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_localization_msgs) by extensions ['colcon_meta']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_localization_msgs) by extension 'colcon_meta'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_localization_msgs) by extensions ['ros']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_localization_msgs) by extension 'ros'
+[0.328s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_localization_msgs' with type 'ros.ament_cmake' and name 'deva_localization_msgs'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_map_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_map_msgs) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_map_msgs) by extension 'ignore_ament_install'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_map_msgs) by extensions ['colcon_pkg']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_map_msgs) by extension 'colcon_pkg'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_map_msgs) by extensions ['colcon_meta']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_map_msgs) by extension 'colcon_meta'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_map_msgs) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_map_msgs) by extension 'ros'
+[0.329s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_map_msgs' with type 'ros.ament_cmake' and name 'deva_map_msgs'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_mdriver_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_mdriver_msgs) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_mdriver_msgs) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_mdriver_msgs) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_mdriver_msgs) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_mdriver_msgs) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_mdriver_msgs) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_mdriver_msgs) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_mdriver_msgs) by extension 'ros'
+[0.331s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_mdriver_msgs' with type 'ros.ament_cmake' and name 'deva_mdriver_msgs'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_navi_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_navi_msgs) by extension 'ignore'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_navi_msgs) by extension 'ignore_ament_install'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_navi_msgs) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_navi_msgs) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_navi_msgs) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_navi_msgs) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_navi_msgs) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_navi_msgs) by extension 'ros'
+[0.333s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_navi_msgs' with type 'ros.ament_cmake' and name 'deva_navi_msgs'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_perception_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_perception_msgs) by extension 'ignore'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_perception_msgs) by extension 'ignore_ament_install'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_perception_msgs) by extensions ['colcon_pkg']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_perception_msgs) by extension 'colcon_pkg'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_perception_msgs) by extensions ['colcon_meta']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_perception_msgs) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_perception_msgs) by extensions ['ros']
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_perception_msgs) by extension 'ros'
+[0.335s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_perception_msgs' with type 'ros.ament_cmake' and name 'deva_perception_msgs'
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs) by extension 'ignore'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs) by extension 'ignore_ament_install'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs) by extensions ['colcon_pkg']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs) by extension 'colcon_pkg'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs) by extensions ['colcon_meta']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs) by extension 'colcon_meta'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs) by extensions ['ros']
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs) by extension 'ros'
+[0.337s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_planning_msgs' with type 'ros.ament_cmake' and name 'deva_planning_msgs'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs2) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs2) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs2) by extension 'ignore_ament_install'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs2) by extensions ['colcon_pkg']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs2) by extension 'colcon_pkg'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs2) by extensions ['colcon_meta']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs2) by extension 'colcon_meta'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs2) by extensions ['ros']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/deva_planning_msgs2) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deva_planning_msgs2' with type 'ros.ament_cmake' and name 'deva_planning_msgs2'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment_model_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment_model_msgs) by extension 'ignore'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment_model_msgs) by extension 'ignore_ament_install'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment_model_msgs) by extensions ['colcon_pkg']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment_model_msgs) by extension 'colcon_pkg'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment_model_msgs) by extensions ['colcon_meta']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment_model_msgs) by extension 'colcon_meta'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment_model_msgs) by extensions ['ros']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/environment_model_msgs) by extension 'ros'
+[0.342s] DEBUG:colcon.colcon_core.package_identification:Package 'src/environment_model_msgs' with type 'ros.ament_cmake' and name 'environment_model_msgs'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/fault_diagnosis) by extensions ['ignore', 'ignore_ament_install']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/fault_diagnosis) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fault_diagnosis) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fault_diagnosis) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fault_diagnosis) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fault_diagnosis) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fault_diagnosis) by extension 'colcon_meta'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fault_diagnosis) by extensions ['ros']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/fault_diagnosis) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/fault_diagnosis' with type 'ros.ament_cmake' and name 'fault_diagnosis'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcap_streamer) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcap_streamer) by extension 'ignore'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcap_streamer) by extension 'ignore_ament_install'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcap_streamer) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcap_streamer) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcap_streamer) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcap_streamer) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcap_streamer) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcap_streamer) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mcap_streamer' with type 'ros.ament_cmake' and name 'mcap_streamer'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_plug_msg) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_plug_msg) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_plug_msg) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_plug_msg) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_plug_msg) by extension 'colcon_pkg'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_plug_msg) by extensions ['colcon_meta']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_plug_msg) by extension 'colcon_meta'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_plug_msg) by extensions ['ros']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/rviz_plug_msg) by extension 'ros'
+[0.348s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rviz_plug_msg' with type 'ros.ament_cmake' and name 'rviz_plug_msg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialize_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialize_msgs) by extension 'ignore'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialize_msgs) by extension 'ignore_ament_install'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialize_msgs) by extensions ['colcon_pkg']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialize_msgs) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialize_msgs) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialize_msgs) by extension 'colcon_meta'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialize_msgs) by extensions ['ros']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/serialize_msgs) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serialize_msgs' with type 'ros.ament_cmake' and name 'serialize_msgs'
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.389s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 18 installed packages in /home/linjiawei/load_mcap/install
+[0.391s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 274 installed packages in /opt/ros/humble
+[0.393s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'deva_ads_msgs' build argument 'cmake_args' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'deva_ads_msgs' build argument 'cmake_target' from command line to 'None'
+[0.434s] Level 5:colcon.colcon_core.verb:set package 'deva_ads_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'deva_ads_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'deva_ads_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'deva_ads_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'deva_ads_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'deva_ads_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'deva_ads_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.435s] DEBUG:colcon.colcon_core.verb:Building package 'deva_ads_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_ads_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_ads_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_ads_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.435s] Level 5:colcon.colcon_core.verb:set package 'deva_common_msgs' build argument 'cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'deva_common_msgs' build argument 'cmake_target' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'deva_common_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'deva_common_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'deva_common_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'deva_common_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'deva_common_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'deva_common_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.436s] Level 5:colcon.colcon_core.verb:set package 'deva_common_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.436s] DEBUG:colcon.colcon_core.verb:Building package 'deva_common_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_common_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_common_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_common_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'deva_navi_msgs' build argument 'cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'deva_navi_msgs' build argument 'cmake_target' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'deva_navi_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'deva_navi_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'deva_navi_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'deva_navi_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'deva_navi_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'deva_navi_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.437s] Level 5:colcon.colcon_core.verb:set package 'deva_navi_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.437s] DEBUG:colcon.colcon_core.verb:Building package 'deva_navi_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_navi_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_navi_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_navi_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'mcap_streamer' build argument 'cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'mcap_streamer' build argument 'cmake_target' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'mcap_streamer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'mcap_streamer' build argument 'cmake_clean_cache' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'mcap_streamer' build argument 'cmake_clean_first' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'mcap_streamer' build argument 'cmake_force_configure' from command line to 'False'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'mcap_streamer' build argument 'ament_cmake_args' from command line to 'None'
+[0.438s] Level 5:colcon.colcon_core.verb:set package 'mcap_streamer' build argument 'catkin_cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'mcap_streamer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.439s] DEBUG:colcon.colcon_core.verb:Building package 'mcap_streamer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/mcap_streamer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/mcap_streamer', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/mcap_streamer', 'symlink_install': False, 'test_result_base': None}
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rviz_plug_msg' build argument 'cmake_args' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rviz_plug_msg' build argument 'cmake_target' from command line to 'None'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rviz_plug_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rviz_plug_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rviz_plug_msg' build argument 'cmake_clean_first' from command line to 'False'
+[0.439s] Level 5:colcon.colcon_core.verb:set package 'rviz_plug_msg' build argument 'cmake_force_configure' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rviz_plug_msg' build argument 'ament_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rviz_plug_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'rviz_plug_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.440s] DEBUG:colcon.colcon_core.verb:Building package 'rviz_plug_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/rviz_plug_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/rviz_plug_msg', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/rviz_plug_msg', 'symlink_install': False, 'test_result_base': None}
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'serialize_msgs' build argument 'cmake_args' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'serialize_msgs' build argument 'cmake_target' from command line to 'None'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'serialize_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.440s] Level 5:colcon.colcon_core.verb:set package 'serialize_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'serialize_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'serialize_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'serialize_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'serialize_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'serialize_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.441s] DEBUG:colcon.colcon_core.verb:Building package 'serialize_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/serialize_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/serialize_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/serialize_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'deva_aeb_msgs' build argument 'cmake_args' from command line to 'None'
+[0.441s] Level 5:colcon.colcon_core.verb:set package 'deva_aeb_msgs' build argument 'cmake_target' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'deva_aeb_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'deva_aeb_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'deva_aeb_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'deva_aeb_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'deva_aeb_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'deva_aeb_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'deva_aeb_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.442s] DEBUG:colcon.colcon_core.verb:Building package 'deva_aeb_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_aeb_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_aeb_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_aeb_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.442s] Level 5:colcon.colcon_core.verb:set package 'deva_function_msgs' build argument 'cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'deva_function_msgs' build argument 'cmake_target' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'deva_function_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'deva_function_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'deva_function_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'deva_function_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'deva_function_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'deva_function_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.443s] Level 5:colcon.colcon_core.verb:set package 'deva_function_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.443s] DEBUG:colcon.colcon_core.verb:Building package 'deva_function_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_function_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_function_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_function_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'deva_gaode_routing_msgs' build argument 'cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'deva_gaode_routing_msgs' build argument 'cmake_target' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'deva_gaode_routing_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'deva_gaode_routing_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'deva_gaode_routing_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'deva_gaode_routing_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'deva_gaode_routing_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'deva_gaode_routing_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.444s] Level 5:colcon.colcon_core.verb:set package 'deva_gaode_routing_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.444s] DEBUG:colcon.colcon_core.verb:Building package 'deva_gaode_routing_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_gaode_routing_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_gaode_routing_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'deva_localization_msgs' build argument 'cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'deva_localization_msgs' build argument 'cmake_target' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'deva_localization_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'deva_localization_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'deva_localization_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'deva_localization_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'deva_localization_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'deva_localization_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.445s] Level 5:colcon.colcon_core.verb:set package 'deva_localization_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.446s] DEBUG:colcon.colcon_core.verb:Building package 'deva_localization_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_localization_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_localization_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_localization_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'fault_diagnosis' build argument 'cmake_args' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'fault_diagnosis' build argument 'cmake_target' from command line to 'None'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'fault_diagnosis' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'fault_diagnosis' build argument 'cmake_clean_cache' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'fault_diagnosis' build argument 'cmake_clean_first' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'fault_diagnosis' build argument 'cmake_force_configure' from command line to 'False'
+[0.446s] Level 5:colcon.colcon_core.verb:set package 'fault_diagnosis' build argument 'ament_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'fault_diagnosis' build argument 'catkin_cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'fault_diagnosis' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.447s] DEBUG:colcon.colcon_core.verb:Building package 'fault_diagnosis' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/fault_diagnosis', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/fault_diagnosis', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/fault_diagnosis', 'symlink_install': False, 'test_result_base': None}
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'deva_perception_msgs' build argument 'cmake_args' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'deva_perception_msgs' build argument 'cmake_target' from command line to 'None'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'deva_perception_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'deva_perception_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.447s] Level 5:colcon.colcon_core.verb:set package 'deva_perception_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'deva_perception_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'deva_perception_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'deva_perception_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'deva_perception_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.448s] DEBUG:colcon.colcon_core.verb:Building package 'deva_perception_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_perception_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_perception_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_perception_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'environment_model_msgs' build argument 'cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'environment_model_msgs' build argument 'cmake_target' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'environment_model_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'environment_model_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'environment_model_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'environment_model_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'environment_model_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'environment_model_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'environment_model_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.449s] DEBUG:colcon.colcon_core.verb:Building package 'environment_model_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/environment_model_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/environment_model_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/environment_model_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'deva_map_msgs' build argument 'cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'deva_map_msgs' build argument 'cmake_target' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'deva_map_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'deva_map_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'deva_map_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'deva_map_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'deva_map_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'deva_map_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.450s] Level 5:colcon.colcon_core.verb:set package 'deva_map_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.450s] DEBUG:colcon.colcon_core.verb:Building package 'deva_map_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_map_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_map_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_map_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs' build argument 'cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs' build argument 'cmake_target' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.451s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.451s] DEBUG:colcon.colcon_core.verb:Building package 'deva_planning_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_planning_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_planning_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_planning_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs2' build argument 'cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs2' build argument 'cmake_target' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs2' build argument 'cmake_clean_first' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs2' build argument 'cmake_force_configure' from command line to 'False'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs2' build argument 'ament_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.452s] Level 5:colcon.colcon_core.verb:set package 'deva_planning_msgs2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.452s] DEBUG:colcon.colcon_core.verb:Building package 'deva_planning_msgs2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_planning_msgs2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_planning_msgs2', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_planning_msgs2', 'symlink_install': False, 'test_result_base': None}
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'deva_control_msgs' build argument 'cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'deva_control_msgs' build argument 'cmake_target' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'deva_control_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'deva_control_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'deva_control_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'deva_control_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'deva_control_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'deva_control_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.453s] Level 5:colcon.colcon_core.verb:set package 'deva_control_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.454s] DEBUG:colcon.colcon_core.verb:Building package 'deva_control_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_control_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_control_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_control_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'deva_mdriver_msgs' build argument 'cmake_args' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'deva_mdriver_msgs' build argument 'cmake_target' from command line to 'None'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'deva_mdriver_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'deva_mdriver_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'deva_mdriver_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'deva_mdriver_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.454s] Level 5:colcon.colcon_core.verb:set package 'deva_mdriver_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'deva_mdriver_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'deva_mdriver_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'deva_mdriver_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/linjiawei/load_mcap/build/deva_mdriver_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/linjiawei/load_mcap/install/deva_mdriver_msgs', 'merge_install': False, 'path': '/home/linjiawei/load_mcap/src/deva_mdriver_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.455s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.457s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/deva_common_msgs' with build type 'ament_cmake'
+[0.457s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/deva_common_msgs'
+[0.460s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.460s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.461s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.465s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/deva_ads_msgs' with build type 'ament_cmake'
+[0.465s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/deva_ads_msgs'
+[0.466s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.466s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.469s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/deva_navi_msgs' with build type 'ament_cmake'
+[0.470s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/deva_navi_msgs'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/mcap_streamer' with build type 'ament_cmake'
+[0.474s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/mcap_streamer'
+[0.474s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.474s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.477s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/rviz_plug_msg' with build type 'ament_cmake'
+[0.478s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/rviz_plug_msg'
+[0.478s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.478s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.481s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/serialize_msgs' with build type 'ament_cmake'
+[0.482s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/serialize_msgs'
+[0.482s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.482s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/deva_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_common_msgs -- -j17 -l17
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/deva_ads_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_ads_msgs -- -j17 -l17
+[0.498s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/deva_navi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_navi_msgs -- -j17 -l17
+[0.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/rviz_plug_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/rviz_plug_msg -- -j17 -l17
+[0.512s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/serialize_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/serialize_msgs -- -j17 -l17
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/deva_ads_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_ads_msgs -- -j17 -l17
+[0.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/deva_ads_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/deva_ads_msgs
+[0.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/rviz_plug_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/rviz_plug_msg -- -j17 -l17
+[0.940s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/rviz_plug_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/rviz_plug_msg
+[0.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/deva_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_common_msgs -- -j17 -l17
+[0.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/deva_common_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/deva_common_msgs
+[0.945s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/deva_navi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_navi_msgs -- -j17 -l17
+[0.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/deva_navi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/deva_navi_msgs
+[1.001s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deva_ads_msgs)
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs' for CMake module files
+[1.013s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs' for CMake config files
+[1.014s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/serialize_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/serialize_msgs -- -j17 -l17
+[1.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/serialize_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/serialize_msgs
+[1.015s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_ads_msgs', 'cmake_prefix_path')
+[1.015s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/cmake_prefix_path.ps1'
+[1.017s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/cmake_prefix_path.dsv'
+[1.018s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/cmake_prefix_path.sh'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs/lib'
+[1.020s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_ads_msgs', 'ld_library_path_lib')
+[1.020s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/ld_library_path_lib.ps1'
+[1.021s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/ld_library_path_lib.dsv'
+[1.022s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/ld_library_path_lib.sh'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs/bin'
+[1.024s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs/lib/pkgconfig/deva_ads_msgs.pc'
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs/lib/python3.10/site-packages'
+[1.025s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs/bin'
+[1.026s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/package.ps1'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/package.dsv'
+[1.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/package.sh'
+[1.031s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/package.bash'
+[1.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/package.zsh'
+[1.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/deva_ads_msgs/share/colcon-core/packages/deva_ads_msgs)
+[1.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deva_ads_msgs)
+[1.036s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs' for CMake module files
+[1.038s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs' for CMake config files
+[1.040s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_ads_msgs', 'cmake_prefix_path')
+[1.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/cmake_prefix_path.ps1'
+[1.041s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/cmake_prefix_path.dsv'
+[1.042s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/cmake_prefix_path.sh'
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs/lib'
+[1.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_ads_msgs', 'ld_library_path_lib')
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/ld_library_path_lib.ps1'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/ld_library_path_lib.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/hook/ld_library_path_lib.sh'
+[1.046s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs/bin'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs/lib/pkgconfig/deva_ads_msgs.pc'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs/lib/python3.10/site-packages'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_ads_msgs/bin'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/package.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/package.dsv'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/package.sh'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/package.bash'
+[1.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/package.zsh'
+[1.065s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/deva_ads_msgs/share/colcon-core/packages/deva_ads_msgs)
+[1.070s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_plug_msg)
+[1.070s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg' for CMake module files
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg' for CMake config files
+[1.094s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_plug_msg', 'cmake_prefix_path')
+[1.094s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/cmake_prefix_path.ps1'
+[1.096s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/cmake_prefix_path.dsv'
+[1.099s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/cmake_prefix_path.sh'
+[1.101s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/deva_ads_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/deva_ads_msgs
+[1.101s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg/lib'
+[1.101s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_plug_msg', 'ld_library_path_lib')
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/ld_library_path_lib.ps1'
+[1.105s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/ld_library_path_lib.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/ld_library_path_lib.sh'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg/bin'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg/lib/pkgconfig/rviz_plug_msg.pc'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg/lib/python3.10/site-packages'
+[1.112s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg/bin'
+[1.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/package.ps1'
+[1.115s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/package.dsv'
+[1.117s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/package.sh'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/package.bash'
+[1.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/package.zsh'
+[1.127s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/rviz_plug_msg/share/colcon-core/packages/rviz_plug_msg)
+[1.129s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rviz_plug_msg)
+[1.129s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg' for CMake module files
+[1.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/rviz_plug_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/rviz_plug_msg
+[1.131s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg' for CMake config files
+[1.132s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_plug_msg', 'cmake_prefix_path')
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/cmake_prefix_path.ps1'
+[1.132s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/cmake_prefix_path.dsv'
+[1.133s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/cmake_prefix_path.sh'
+[1.134s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg/lib'
+[1.134s] Level 1:colcon.colcon_core.shell:create_environment_hook('rviz_plug_msg', 'ld_library_path_lib')
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/ld_library_path_lib.ps1'
+[1.134s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/ld_library_path_lib.dsv'
+[1.135s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/hook/ld_library_path_lib.sh'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg/bin'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg/lib/pkgconfig/rviz_plug_msg.pc'
+[1.135s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg/lib/python3.10/site-packages'
+[1.136s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/rviz_plug_msg/bin'
+[1.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/package.ps1'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/package.dsv'
+[1.137s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/package.sh'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/package.bash'
+[1.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/package.zsh'
+[1.139s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/rviz_plug_msg/share/colcon-core/packages/rviz_plug_msg)
+[1.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deva_common_msgs)
+[1.140s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs' for CMake module files
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs' for CMake config files
+[1.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/deva_common_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/deva_common_msgs
+[1.142s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_common_msgs', 'cmake_prefix_path')
+[1.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/cmake_prefix_path.ps1'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/cmake_prefix_path.dsv'
+[1.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/cmake_prefix_path.sh'
+[1.144s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs/lib'
+[1.144s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_common_msgs', 'ld_library_path_lib')
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/ld_library_path_lib.ps1'
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/ld_library_path_lib.dsv'
+[1.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/ld_library_path_lib.sh'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs/bin'
+[1.145s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs/lib/pkgconfig/deva_common_msgs.pc'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs/lib/python3.10/site-packages'
+[1.146s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs/bin'
+[1.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/package.ps1'
+[1.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/package.dsv'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/package.sh'
+[1.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/package.bash'
+[1.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/package.zsh'
+[1.149s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/deva_common_msgs/share/colcon-core/packages/deva_common_msgs)
+[1.150s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deva_common_msgs)
+[1.150s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs' for CMake module files
+[1.151s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs' for CMake config files
+[1.151s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_common_msgs', 'cmake_prefix_path')
+[1.151s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/cmake_prefix_path.ps1'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/cmake_prefix_path.dsv'
+[1.152s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/cmake_prefix_path.sh'
+[1.153s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs/lib'
+[1.153s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_common_msgs', 'ld_library_path_lib')
+[1.153s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/ld_library_path_lib.ps1'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/ld_library_path_lib.dsv'
+[1.154s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/hook/ld_library_path_lib.sh'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs/bin'
+[1.154s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs/lib/pkgconfig/deva_common_msgs.pc'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs/lib/python3.10/site-packages'
+[1.155s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_common_msgs/bin'
+[1.155s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/package.ps1'
+[1.156s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/package.dsv'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/package.sh'
+[1.157s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/package.bash'
+[1.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_common_msgs/share/deva_common_msgs/package.zsh'
+[1.158s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/deva_common_msgs/share/colcon-core/packages/deva_common_msgs)
+[1.158s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serialize_msgs)
+[1.159s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs' for CMake module files
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs' for CMake config files
+[1.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/serialize_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/serialize_msgs
+[1.161s] Level 1:colcon.colcon_core.shell:create_environment_hook('serialize_msgs', 'cmake_prefix_path')
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/cmake_prefix_path.ps1'
+[1.161s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/cmake_prefix_path.dsv'
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/cmake_prefix_path.sh'
+[1.162s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs/lib'
+[1.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('serialize_msgs', 'ld_library_path_lib')
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/ld_library_path_lib.ps1'
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/ld_library_path_lib.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/ld_library_path_lib.sh'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs/bin'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs/lib/pkgconfig/serialize_msgs.pc'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs/lib/python3.10/site-packages'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs/bin'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/package.ps1'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/package.dsv'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/package.sh'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/package.bash'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/package.zsh'
+[1.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/serialize_msgs/share/colcon-core/packages/serialize_msgs)
+[1.168s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serialize_msgs)
+[1.168s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs' for CMake module files
+[1.169s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs' for CMake config files
+[1.169s] Level 1:colcon.colcon_core.shell:create_environment_hook('serialize_msgs', 'cmake_prefix_path')
+[1.169s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/cmake_prefix_path.ps1'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/cmake_prefix_path.dsv'
+[1.218s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/cmake_prefix_path.sh'
+[1.246s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs/lib'
+[1.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('serialize_msgs', 'ld_library_path_lib')
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/ld_library_path_lib.ps1'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/ld_library_path_lib.dsv'
+[1.247s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/hook/ld_library_path_lib.sh'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs/bin'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs/lib/pkgconfig/serialize_msgs.pc'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs/lib/python3.10/site-packages'
+[1.248s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/serialize_msgs/bin'
+[1.249s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/package.ps1'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/package.dsv'
+[1.250s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/package.sh'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/package.bash'
+[1.251s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/package.zsh'
+[1.252s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/serialize_msgs/share/colcon-core/packages/serialize_msgs)
+[1.252s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/deva_localization_msgs' with build type 'ament_cmake'
+[1.253s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/deva_localization_msgs'
+[1.253s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.253s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/deva_gaode_routing_msgs' with build type 'ament_cmake'
+[1.258s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/deva_gaode_routing_msgs'
+[1.258s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.258s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.262s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/deva_aeb_msgs' with build type 'ament_cmake'
+[1.262s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/deva_aeb_msgs'
+[1.262s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.262s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.266s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/deva_function_msgs' with build type 'ament_cmake'
+[1.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/deva_function_msgs'
+[1.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.270s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/linjiawei/load_mcap/src/fault_diagnosis' with build type 'ament_cmake'
+[1.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/linjiawei/load_mcap/src/fault_diagnosis'
+[1.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.274s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deva_navi_msgs)
+[1.274s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs' for CMake module files
+[1.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/deva_navi_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/deva_navi_msgs
+[1.276s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs' for CMake config files
+[1.276s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_navi_msgs', 'cmake_prefix_path')
+[1.276s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/cmake_prefix_path.ps1'
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/cmake_prefix_path.dsv'
+[1.277s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/cmake_prefix_path.sh'
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs/lib'
+[1.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_navi_msgs', 'ld_library_path_lib')
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/ld_library_path_lib.ps1'
+[1.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/ld_library_path_lib.dsv'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/ld_library_path_lib.sh'
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs/bin'
+[1.279s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs/lib/pkgconfig/deva_navi_msgs.pc'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs/lib/python3.10/site-packages'
+[1.280s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs/bin'
+[1.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/package.ps1'
+[1.281s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/package.dsv'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/package.sh'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/package.bash'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/package.zsh'
+[1.283s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/deva_navi_msgs/share/colcon-core/packages/deva_navi_msgs)
+[1.284s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deva_navi_msgs)
+[1.284s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs' for CMake module files
+[1.285s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs' for CMake config files
+[1.285s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_navi_msgs', 'cmake_prefix_path')
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/cmake_prefix_path.ps1'
+[1.285s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/cmake_prefix_path.dsv'
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/cmake_prefix_path.sh'
+[1.290s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs/lib'
+[1.290s] Level 1:colcon.colcon_core.shell:create_environment_hook('deva_navi_msgs', 'ld_library_path_lib')
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/ld_library_path_lib.ps1'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/ld_library_path_lib.dsv'
+[1.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/hook/ld_library_path_lib.sh'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs/bin'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs/lib/pkgconfig/deva_navi_msgs.pc'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs/lib/python3.10/site-packages'
+[1.292s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/deva_navi_msgs/bin'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/package.ps1'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/package.dsv'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/package.sh'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/package.bash'
+[1.295s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/package.zsh'
+[1.295s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/deva_navi_msgs/share/colcon-core/packages/deva_navi_msgs)
+[1.301s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/deva_localization_msgs': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_localization_msgs -- -j17 -l17
+[1.304s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/deva_gaode_routing_msgs': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_gaode_routing_msgs -- -j17 -l17
+[1.307s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/deva_aeb_msgs': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_aeb_msgs -- -j17 -l17
+[1.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/deva_function_msgs': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_function_msgs -- -j17 -l17
+[1.313s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/linjiawei/load_mcap/build/fault_diagnosis': CMAKE_PREFIX_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs:/home/linjiawei/load_mcap/install/serialize_msgs:/home/linjiawei/load_mcap/install/rviz_plug_msg:/home/linjiawei/load_mcap/install/fault_diagnosis:/home/linjiawei/load_mcap/install/environment_model_msgs:/home/linjiawei/load_mcap/install/deva_control_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs2:/home/linjiawei/load_mcap/install/deva_mdriver_msgs:/home/linjiawei/load_mcap/install/deva_planning_msgs:/home/linjiawei/load_mcap/install/deva_map_msgs:/home/linjiawei/load_mcap/install/deva_perception_msgs:/home/linjiawei/load_mcap/install/deva_navi_msgs:/home/linjiawei/load_mcap/install/deva_localization_msgs:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs:/home/linjiawei/load_mcap/install/deva_function_msgs:/home/linjiawei/load_mcap/install/deva_aeb_msgs:/home/linjiawei/load_mcap/install/deva_ads_msgs:/home/linjiawei/load_mcap/install/mcap_streamer:/opt/ros/humble LD_LIBRARY_PATH=/home/linjiawei/load_mcap/install/deva_common_msgs/lib:/home/linjiawei/load_mcap/install/serialize_msgs/lib:/home/linjiawei/load_mcap/install/rviz_plug_msg/lib:/home/linjiawei/load_mcap/install/fault_diagnosis/lib:/home/linjiawei/load_mcap/install/environment_model_msgs/lib:/home/linjiawei/load_mcap/install/deva_control_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs2/lib:/home/linjiawei/load_mcap/install/deva_mdriver_msgs/lib:/home/linjiawei/load_mcap/install/deva_planning_msgs/lib:/home/linjiawei/load_mcap/install/deva_map_msgs/lib:/home/linjiawei/load_mcap/install/deva_perception_msgs/lib:/home/linjiawei/load_mcap/install/deva_navi_msgs/lib:/home/linjiawei/load_mcap/install/deva_localization_msgs/lib:/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/lib:/home/linjiawei/load_mcap/install/deva_function_msgs/lib:/home/linjiawei/load_mcap/install/deva_aeb_msgs/lib:/home/linjiawei/load_mcap/install/deva_ads_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64 /usr/bin/cmake --build /home/linjiawei/load_mcap/build/fault_diagnosis -- -j17 -l17
+[1.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[1.362s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mcap_streamer)
+[1.362s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/mcap_streamer' for CMake module files
+[1.363s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/mcap_streamer' for CMake config files
+[1.363s] Level 1:colcon.colcon_core.shell:create_environment_hook('mcap_streamer', 'cmake_prefix_path')
+[1.363s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/hook/cmake_prefix_path.ps1'
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/hook/cmake_prefix_path.dsv'
+[1.364s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/hook/cmake_prefix_path.sh'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/mcap_streamer/lib'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/mcap_streamer/bin'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/mcap_streamer/lib/pkgconfig/mcap_streamer.pc'
+[1.365s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/mcap_streamer/lib/python3.10/site-packages'
+[1.366s] Level 1:colcon.colcon_core.environment:checking '/home/linjiawei/load_mcap/install/mcap_streamer/bin'
+[1.366s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.ps1'
+[1.367s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.dsv'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.sh'
+[1.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.bash'
+[1.369s] INFO:colcon.colcon_core.shell:Creating package script '/home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.zsh'
+[1.369s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/linjiawei/load_mcap/install/mcap_streamer/share/colcon-core/packages/mcap_streamer)
+[1.975s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.975s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.975s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.975s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.982s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.982s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.985s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[1.985s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.986s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/linjiawei/load_mcap/install/local_setup.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/linjiawei/load_mcap/install/_local_setup_util_ps1.py'
+[1.988s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/linjiawei/load_mcap/install/setup.ps1'
+[1.990s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/linjiawei/load_mcap/install/local_setup.sh'
+[1.991s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/linjiawei/load_mcap/install/_local_setup_util_sh.py'
+[1.991s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/linjiawei/load_mcap/install/setup.sh'
+[1.993s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/linjiawei/load_mcap/install/local_setup.bash'
+[1.993s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/linjiawei/load_mcap/install/setup.bash'
+[1.995s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/linjiawei/load_mcap/install/local_setup.zsh'
+[1.995s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/linjiawei/load_mcap/install/setup.zsh'

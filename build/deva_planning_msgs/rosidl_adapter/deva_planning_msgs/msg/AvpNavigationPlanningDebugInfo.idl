@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/AvpNavigationPlanningDebugInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs/msg/AvpDebugInfo.idl"
+#include "deva_planning_msgs/msg/NavOpenspaceDebugInfo.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_planning_msgs {
+  module msg {
+    struct AvpNavigationPlanningDebugInfo {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "sync input timestamp")
+      std_msgs::msg::Header planning_header;
+
+      std_msgs::msg::Header prediction_header;
+
+      std_msgs::msg::Header localization_header;
+
+      std_msgs::msg::Header chassis_header;
+
+      std_msgs::msg::Header avp_local_map_header;
+
+      std_msgs::msg::Header perception_map_header;
+
+      deva_planning_msgs::msg::AvpDebugInfo avp_debug_info;
+
+      deva_planning_msgs::msg::NavOpenspaceDebugInfo nav_openspace_debug_info;
+    };
+  };
+};

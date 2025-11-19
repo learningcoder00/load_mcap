@@ -1,0 +1,49 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/StructuredLink.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/FeatureIDType.idl"
+#include "deva_gaode_routing_msgs/msg/Guidance.idl"
+#include "environment_model_msgs/msg/Vec3d.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct StructuredLink {
+      uint64 id;
+
+      sequence<uint64> prev_ids;
+
+      sequence<uint64> succ_ids;
+
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> feature_point_ids;
+
+      sequence<environment_model_msgs::msg::Vec3d> points;
+
+      uint8 direction;
+
+      int32 length;
+
+      uint32 speed_limit_s2e;
+
+      uint32 speed_limit_e2s;
+
+      uint16 coverage_status;
+
+      uint8 lane_num;
+
+      uint8 lane_num_s2e;
+
+      uint8 lane_num_e2s;
+
+      uint8 relationship_with_junction;
+
+      sequence<deva_gaode_routing_msgs::msg::Guidance> guidances;
+
+      boolean is_on_routing;
+
+      boolean need_revert;
+
+      sequence<uint8> link_kinds;
+    };
+  };
+};

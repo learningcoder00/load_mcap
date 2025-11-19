@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/RestrictionDetail.msg
+// generated code does not contain a copyright notice
+
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct RestrictionDetail {
+      uint64 id;
+
+      @verbatim (language="comment", text=
+        "目前只有一个方向：顺")
+      int32 direction;
+
+      uint32 vehicle_limit;
+
+      @verbatim (language="comment", text=
+        "时间段是否是估算值,0 是 1 否")
+      int32 period_approx;
+
+      string valid_period;
+
+      uint32 time_type;
+    };
+  };
+};

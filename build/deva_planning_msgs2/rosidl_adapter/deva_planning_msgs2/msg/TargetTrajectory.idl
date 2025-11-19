@@ -1,0 +1,73 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/TargetTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs2/msg/PathPoint.idl"
+#include "deva_planning_msgs2/msg/SensorTime.idl"
+#include "deva_planning_msgs2/msg/TrajectoryPoint.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    module TargetTrajectory_Constants {
+      @verbatim (language="comment", text=
+        "============================================")
+      const uint8 TRACETYPE_GO_STRAIGHT = 0;
+      const uint8 TRACETYPE_TURN_LEFT = 1;
+      const uint8 TRACETYPE_TURN_RIGHT = 2;
+      const uint8 TRACETYPE_CHANGELINE_LEFT = 3;
+      const uint8 TRACETYPE_CHANGELINE_RIGHT = 4;
+    };
+    struct TargetTrajectory {
+      std_msgs::msg::Header header;
+
+      deva_planning_msgs2::msg::SensorTime sensor_timestamp;
+
+      double start_gnss_time;
+
+      @verbatim (language="comment", text=
+        "in meters​​")
+      double total_path_length;
+
+      @verbatim (language="comment", text=
+        "in seconds​​")
+      double total_path_time;
+
+      @verbatim (language="comment", text=
+        "============================================")
+      sequence<deva_planning_msgs2::msg::TrajectoryPoint> trajectory_point;
+
+      sequence<deva_planning_msgs2::msg::PathPoint> path_point;
+
+      string gear;
+
+      @verbatim (language="comment", text=
+        "============================================")
+      boolean is_estop;
+
+      string estop_reason;
+
+      boolean is_stop;
+
+      deva_planning_msgs2::msg::PathPoint stop_pose;
+
+      string stop_reason;
+
+      boolean is_replan;
+
+      string replan_reason;
+
+      boolean car_in_dead_end;
+
+      boolean high_beam;
+
+      boolean low_beam;
+
+      boolean horn;
+
+      boolean emergency_light;
+
+      uint8 trace_type;
+    };
+  };
+};

@@ -1,0 +1,12 @@
+FeatureIDType id
+LaneGroupIDType lane_group_id_type
+FeatureIDType[] feature_point_id_s
+uint8 direction
+uint8[] lane_type 
+uint8[] border_types
+uint8[] border_colors
+float32 lane_width
+float32 lane_start_width
+float32 lane_end_width
+FeatureIDType[] previous_id_s
+FeatureIDType[] next_id_s

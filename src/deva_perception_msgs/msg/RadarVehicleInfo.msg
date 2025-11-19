@@ -1,0 +1,15 @@
+uint8 id
+float64 position_x
+float64 position_y
+float64 rel_vel_x
+float64 rel_vel_y
+float64 abs_vel_x
+float64 abs_vel_y
+float64 rel_acc_x
+float64 rel_acc_y
+float64 abs_acc_x
+float64 abs_acc_y
+float64 speed
+float64 yaw_rate
+float64 radar_time
+float64 vehicle_time

@@ -1,0 +1,14 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/ParkableID.msg
+// generated code does not contain a copyright notice
+
+
+module deva_planning_msgs2 {
+  module msg {
+    struct ParkableID {
+      @verbatim (language="comment", text=
+        "可泊的车位ID数组")
+      sequence<uint32> parkable_ids;
+    };
+  };
+};

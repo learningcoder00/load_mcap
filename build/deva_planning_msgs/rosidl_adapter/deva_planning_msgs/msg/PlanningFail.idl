@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/PlanningFail.msg
+// generated code does not contain a copyright notice
+
+
+module deva_planning_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "UNKNOWN, NEAR_CONE, CIPV_EMPTY" "\n"
+      "PLANNING_ERROR" "\n"
+      "NAVIGATOR_ERROR" "\n"
+      "VEHICLE_STATE_ERROR" "\n"
+      "GENERATE_REFERENCE_LINE_ERROR" "\n"
+      "INIT_FRAME_ERROR" "\n"
+      "BEHAVIOR_ERROR, MOTION_ERROR")
+    struct PlanningFail {
+      string reason;
+
+      boolean request;
+    };
+  };
+};

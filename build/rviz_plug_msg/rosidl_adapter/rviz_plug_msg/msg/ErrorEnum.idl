@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from rviz_plug_msg/msg/ErrorEnum.msg
+// generated code does not contain a copyright notice
+
+
+module rviz_plug_msg {
+  module msg {
+    module ErrorEnum_Constants {
+      @verbatim (language="comment", text=
+        "存在错误")
+      const uint8 EXISTS_ERROR = 1;
+      @verbatim (language="comment", text=
+        "进入/维持线控条件不满足")
+      const uint8 CONDITION_INVALID = 2;
+      @verbatim (language="comment", text=
+        "请求线控超时")
+      const uint8 REQUEST_TIMEOUT = 3;
+    };
+    struct ErrorEnum {
+      uint8 structure_needs_at_least_one_member;
+    };
+  };
+};

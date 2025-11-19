@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/EnvObject.msg
+// generated code does not contain a copyright notice
+
+#include "environment_model_msgs/msg/Vec3d.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct EnvObject {
+      string id;
+
+      uint8 enum_object_type;
+
+      sequence<environment_model_msgs::msg::Vec3d> polygen;
+    };
+  };
+};

@@ -1,0 +1,40 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFFusionTS.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFFusionTS {
+      uint32 id;
+
+      float dstlgttoeve;
+
+      float dstlattoeve;
+
+      float height;
+
+      uint8 electcsgn;
+
+      uint8 lanelocn;
+
+      uint8 locn;
+
+      uint8 rlvc;
+
+      uint8 notrlvres;
+
+      uint8 qly;
+
+      uint8 typ;
+
+      uint8 val;
+
+      uint8 reserved;
+
+      uint16 spplinfoval;
+
+      uint8 spplinfotype;
+    };
+  };
+};

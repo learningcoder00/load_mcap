@@ -1,0 +1,93 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/StateContext.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module deva_planning_msgs {
+  module msg {
+    module StateContext_Constants {
+      const uint8 LANE_KEEPING = 0;
+      const uint8 RIGHT_CHANGE = 1;
+      const uint8 LEFT_CHANGE = 2;
+      const uint8 HOLD = 3;
+      const uint8 CANCEL = 4;
+      const uint8 LANE_CHANGE = 5;
+      const uint8 RIGHT_CHANGE_PREPARE = 6;
+      const uint8 LEFT_CHANGE_PREPARE = 7;
+      const uint8 UNKNOWN = 8;
+      const uint8 TAKE_OVER = 9;
+      const uint8 MAP_NULL = 0;
+      const uint8 ACC = 1;
+      const uint8 ICC = 2;
+      const uint8 NOA = 3;
+      const uint8 ROUTING_NULL = 0;
+      const uint8 INCREASED_ROAD = 1;
+      const uint8 LANE = 2;
+      const uint8 OSM = 3;
+      const uint8 ROAD = 4;
+      const uint8 SDK_NAVI = 5;
+      const uint8 SDK_CRUISE = 6;
+      const uint8 WEB = 7;
+      const uint8 NONE = 0;
+      const uint8 TURN_LEVER = 1;
+      const uint8 OVERTAKE = 2;
+      const uint8 NAVIGATION = 3;
+      const uint8 OBSTACLE = 4;
+    };
+    struct StateContext {
+      std_msgs::msg::Header header;
+
+      uint8 behavior_type;
+
+      uint8 navi_map_mode;
+
+      uint8 routing_mode;
+
+      double target_lane_seq_score;
+
+      double state_score;
+
+      double score;
+
+      int32 use_mdriver_ego;
+
+      int32 target_line_id;
+
+      int32 current_line_id;
+
+      int32 gap_id;
+
+      int32 gap_line_id;
+
+      double start_s;
+
+      double end_s;
+
+      double length;
+
+      double future_length;
+
+      @verbatim (language="comment", text=
+        "gap info: 暂时用string后面会改成uint32和感知对齐")
+      string front_obstacle_id;
+
+      string rear_obstacle_id;
+
+      @verbatim (language="comment", text=
+        "string merge_front_obstacle_id" "\n"
+        "string merge_rear_obstacle_id" "\n"
+        "uint32 front_obstacle_id" "\n"
+        "uint32 rear_obstacle_id")
+      sequence<uint32> cipv_obstacle_id;
+
+      sequence<uint32> nudge_obstacle_id;
+
+      sequence<uint32> cutin_follow_obstacle_id;
+
+      sequence<uint32> cutin_overtake_obstacle_id;
+
+      uint8 lane_change_task;
+    };
+  };
+};

@@ -1,0 +1,30 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFObjEstimn.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFObjEstimn {
+      float posnlgt;
+
+      float posnlat;
+
+      float spd;
+
+      float vlgt;
+
+      float vlat;
+
+      float a;
+
+      float algt;
+
+      float alat;
+
+      float agdir;
+
+      float crvt;
+    };
+  };
+};

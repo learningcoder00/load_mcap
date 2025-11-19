@@ -1,0 +1,29 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_localization_msgs/msg/LocalizationEstimate.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+#include "deva_localization_msgs/msg/Pose.idl"
+
+module deva_localization_msgs {
+  module msg {
+    struct LocalizationEstimate {
+      deva_common_msgs::msg::Header header;
+
+      deva_localization_msgs::msg::Pose pose;
+
+      deva_localization_msgs::msg::Pose global_pose;
+
+      @verbatim (language="comment", text=
+        "The time of pose measurement, seconds since 1970-1-1 (UNIX time)." "\n"
+        "In seconds.")
+      double measurement_time;
+
+      @verbatim (language="comment", text=
+        "GOOD: Safe to use. The INS has fully converged;")
+      string state_message;
+
+      string global_pose_state_message;
+    };
+  };
+};

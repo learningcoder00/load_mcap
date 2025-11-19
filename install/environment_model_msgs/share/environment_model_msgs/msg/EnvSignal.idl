@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from environment_model_msgs/msg/EnvSignal.msg
+// generated code does not contain a copyright notice
+
+#include "environment_model_msgs/msg/Vec3d.idl"
+
+module environment_model_msgs {
+  module msg {
+    struct EnvSignal {
+      uint8 enum_color;
+
+      double remain_time;
+
+      string id;
+
+      uint8 enum_shape_type;
+
+      sequence<environment_model_msgs::msg::Vec3d> polygen;
+
+      sequence<environment_model_msgs::msg::Vec3d> virtual_brake_point;
+
+      boolean blink;
+
+      uint8 block;
+    };
+  };
+};

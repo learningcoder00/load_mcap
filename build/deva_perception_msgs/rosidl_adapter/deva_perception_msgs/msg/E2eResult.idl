@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/E2eResult.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/E2eDecodeBroadResult.idl"
+#include "deva_perception_msgs/msg/E2eDecodeResult.idl"
+
+module deva_perception_msgs {
+  module msg {
+    struct E2eResult {
+      deva_perception_msgs::msg::E2eDecodeBroadResult broadcategory;
+
+      deva_perception_msgs::msg::E2eDecodeResult turn_around;
+
+      deva_perception_msgs::msg::E2eDecodeResult left;
+
+      deva_perception_msgs::msg::E2eDecodeResult straight;
+
+      deva_perception_msgs::msg::E2eDecodeResult right;
+    };
+  };
+};

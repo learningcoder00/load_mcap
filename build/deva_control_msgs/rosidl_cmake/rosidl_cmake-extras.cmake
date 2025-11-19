@@ -1,0 +1,4 @@
+# generated from rosidl_cmake/cmake/rosidl_cmake-extras.cmake.in
+
+set(deva_control_msgs_IDL_FILES "msg/ControlDebugSignal.idl;msg/ControlMonitorMsg.idl;msg/ControlResult.idl;msg/ControlStatus.idl;msg/ControlValidLimit.idl;msg/ParkingStatus.idl;msg/VehicleControlCommand.idl;msg/VehicleEnableCommand.idl;msg/VehicleLimitValue.idl;msg/VehicleReportBelt.idl;msg/VehicleReportCommon.idl;msg/VehicleReportPedal.idl;msg/VehicleStatusCommand.idl;msg/WheelSpeed.idl")
+set(deva_control_msgs_INTERFACE_FILES "msg/ControlDebugSignal.msg;msg/ControlMonitorMsg.msg;msg/ControlResult.msg;msg/ControlStatus.msg;msg/ControlValidLimit.msg;msg/ParkingStatus.msg;msg/VehicleControlCommand.msg;msg/VehicleEnableCommand.msg;msg/VehicleLimitValue.msg;msg/VehicleReportBelt.msg;msg/VehicleReportCommon.msg;msg/VehicleReportPedal.msg;msg/VehicleStatusCommand.msg;msg/WheelSpeed.msg")

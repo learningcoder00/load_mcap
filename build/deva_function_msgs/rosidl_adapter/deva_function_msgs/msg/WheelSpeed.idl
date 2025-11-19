@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_function_msgs/msg/WheelSpeed.msg
+// generated code does not contain a copyright notice
+
+#include "deva_function_msgs/msg/WheelInfo.idl"
+
+module deva_function_msgs {
+  module msg {
+    struct WheelSpeed {
+      deva_function_msgs::msg::WheelInfo front_left;
+
+      deva_function_msgs::msg::WheelInfo front_right;
+
+      deva_function_msgs::msg::WheelInfo rear_left;
+
+      deva_function_msgs::msg::WheelInfo rear_right;
+    };
+  };
+};

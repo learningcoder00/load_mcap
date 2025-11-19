@@ -1,0 +1,53 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFFusionLaneMkrList.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/LaneFstInfo.idl"
+#include "deva_aeb_msgs/msg/LaneSecInfo.idl"
+#include "deva_aeb_msgs/msg/RearLaneInfo.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFFusionLaneMkrList {
+      uint64 timestamp;
+
+      uint32 framenum;
+
+      uint8 lanechg;
+
+      uint8 reserved;
+
+      float distostopline;
+
+      deva_aeb_msgs::msg::LaneFstInfo clsle;
+
+      deva_aeb_msgs::msg::LaneFstInfo clsri;
+
+      deva_aeb_msgs::msg::LaneSecInfo secclsle;
+
+      deva_aeb_msgs::msg::LaneSecInfo secclsri;
+
+      deva_aeb_msgs::msg::LaneSecInfo thiclsle;
+
+      deva_aeb_msgs::msg::LaneSecInfo thiclsri;
+
+      deva_aeb_msgs::msg::RearLaneInfo rearclsle;
+
+      deva_aeb_msgs::msg::RearLaneInfo rearclsri;
+
+      deva_aeb_msgs::msg::RearLaneInfo rearsecclsle;
+
+      deva_aeb_msgs::msg::RearLaneInfo rearsecclsri;
+
+      deva_aeb_msgs::msg::RearLaneInfo rearthiclsle;
+
+      deva_aeb_msgs::msg::RearLaneInfo rearthiclsri;
+
+      uint8 isambiguouslinepatternleft;
+
+      uint8 isambiguouslinepatternright;
+
+      float cmpforvisnyaw;
+    };
+  };
+};

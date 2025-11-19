@@ -1,0 +1,83 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/LinkAttribute.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/LinkIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct LinkAttribute {
+      deva_gaode_routing_msgs::msg::LinkIDType link_id;
+
+      int32 length;
+
+      uint8 link_direction;
+
+      uint8 lane_num_sum;
+
+      uint8 lane_num_s2e;
+
+      uint8 lane_num_e2s;
+
+      uint8 speed_limit_s2e;
+
+      uint8 speed_limit_e2s;
+
+      @verbatim (language="comment", text=
+        "道路等级")
+      int8 road_class;
+
+      @verbatim (language="comment", text=
+        "收费属性")
+      uint8 toll_type;
+
+      @verbatim (language="comment", text=
+        "道路类型   0x12 提前道路")
+      sequence<uint8> road_kinds;
+
+      @verbatim (language="comment", text=
+        "link数据hdair覆盖状态")
+      uint16 coverage_status;
+
+      @verbatim (language="comment", text=
+        "功能类别")
+      uint8 function_class;
+
+      @verbatim (language="comment", text=
+        "在建状态")
+      uint8 construction_type;
+
+      @verbatim (language="comment", text=
+        "铺设状态")
+      uint8 condition_type;
+
+      @verbatim (language="comment", text=
+        "速度等级")
+      uint8 speed_class;
+
+      @verbatim (language="comment", text=
+        "行政区代码")
+      uint32 admin_code;
+
+      @verbatim (language="comment", text=
+        "可通行车辆类型")
+      sequence<uint8> vehicle_types;
+
+      @verbatim (language="comment", text=
+        "通行能力")
+      uint8 compacity;
+
+      @verbatim (language="comment", text=
+        "特殊交通类型 为了控制进入道路车流量的近似环形道路")
+      boolean is_special;
+
+      @verbatim (language="comment", text=
+        "是否城市区域")
+      boolean is_in_city;
+
+      @verbatim (language="comment", text=
+        "是否跨tile")
+      boolean is_cross_tile;
+    };
+  };
+};

@@ -1,0 +1,33 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFCrosswalk.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    typedef uint8 uint8__3[3];
+    struct SFCrosswalk {
+      uint32 id;
+
+      float lupointposlgt;
+
+      float lupointposlat;
+
+      float rupointposlgt;
+
+      float rupointposlat;
+
+      float rdpointposlgt;
+
+      float rdpointposlat;
+
+      float ldpointposlgt;
+
+      float ldpointposlat;
+
+      uint8 confi;
+
+      uint8__3 reserved;
+    };
+  };
+};

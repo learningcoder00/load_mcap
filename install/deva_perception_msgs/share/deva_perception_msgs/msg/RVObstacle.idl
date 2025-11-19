@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/RVObstacle.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/BoundingBox2d.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module RVObstacle_Constants {
+      const uint32 CAR = 0;
+      const uint32 BUS = 1;
+    };
+    struct RVObstacle {
+      @verbatim (language="comment", text=
+        "障碍物属性")
+      uint32 type;
+
+      @verbatim (language="comment", text=
+        "置信度")
+      double score;
+
+      @verbatim (language="comment", text=
+        "距离自车纵向距离")
+      double distance;
+
+      @verbatim (language="comment", text=
+        "障碍物2d框.")
+      deva_common_msgs::msg::BoundingBox2d bbox2d;
+    };
+  };
+};

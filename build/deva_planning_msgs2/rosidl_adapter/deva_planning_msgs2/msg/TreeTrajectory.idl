@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/TreeTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs2/msg/String2Double.idl"
+#include "deva_planning_msgs2/msg/TrajectoryPoint.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    struct TreeTrajectory {
+      string obs_id;
+
+      double confidence;
+
+      sequence<deva_planning_msgs2::msg::TrajectoryPoint> trajectory_points;
+
+      @verbatim (language="comment", text=
+        "[key: score_type, value：score]")
+      sequence<deva_planning_msgs2::msg::String2Double> traj_score;
+    };
+  };
+};

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/WebNotAvoidInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/WebPoint.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct WebNotAvoidInfo {
+      deva_gaode_routing_msgs::msg::WebPoint coord_2d;
+
+      int32 dist_to_car;
+
+      int32 forbid_type;
+
+      int32 type;
+
+      boolean valid;
+    };
+  };
+};

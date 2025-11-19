@@ -1,0 +1,16 @@
+/**:
+  ros__parameters:
+    s3_urls:
+      - "s3://mach-vehicle-data/car_z18/20250905/ppl_bag_20250905_100910/ppl_bag_20250905_100910__103029_103109_1757039459077120703.mcap"
+      - "s3://mach-vehicle-data/car_z18/20250902/ppl_bag_20250902_110821/ppl_bag_20250902_110821__111112_111152_1756782702124852589.mcap" 
+    local_cache_path: "/data/output/debug"
+    endpoint_url: "http://oss.i.machdrive.cn"
+
+    # AWS访问凭证
+    aws_access_key_id: "9eacd1b38af66b2e5f4fcf09c9313d7e"
+    aws_secret_access_key: "dc0646dfcd3d45d775fafd5532035af2"
+    aws_region: "us-east-1"
+    
+    playback_rate: 1.0  # 播放速率（1.0为正常速度，2.0为2倍速）
+    loop: true         # 是否循环播放
+    storage_id: "mcap"

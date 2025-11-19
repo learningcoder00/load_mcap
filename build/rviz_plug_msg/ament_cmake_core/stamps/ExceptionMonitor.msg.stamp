@@ -1,0 +1,1 @@
+string[] exception_content      # 异常事件

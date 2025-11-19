@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/LaneFstInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_aeb_msgs/msg/SFCurveFunctionExtra.idl"
+#include "deva_aeb_msgs/msg/SFFrontLinePpty.idl"
+#include "deva_aeb_msgs/msg/SFLaneInfo.idl"
+#include "deva_aeb_msgs/msg/SFLaneTwoSegEstimn.idl"
+
+module deva_aeb_msgs {
+  module msg {
+    struct LaneFstInfo {
+      deva_aeb_msgs::msg::SFLaneTwoSegEstimn estimn;
+
+      deva_aeb_msgs::msg::SFLaneInfo info;
+
+      deva_aeb_msgs::msg::SFFrontLinePpty ppty;
+
+      deva_aeb_msgs::msg::SFCurveFunctionExtra extracurveinfo;
+    };
+  };
+};

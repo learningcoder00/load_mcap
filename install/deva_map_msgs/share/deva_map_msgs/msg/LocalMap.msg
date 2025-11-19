@@ -1,0 +1,11 @@
+deva_common_msgs/Header header
+string map_version
+uint16 error_code
+string error_message
+uint16 map_mode
+bool is_localization_mode
+STLocalMap st_map
+deva_perception_msgs/USTBoundary[] ust_map
+
+AvpLocalMap avp_map
+LocalMapHeader sensor_header

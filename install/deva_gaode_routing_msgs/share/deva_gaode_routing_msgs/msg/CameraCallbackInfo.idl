@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/CameraCallbackInfo.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/CameraInfo.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "区间限速剩余距离 (仅在区间限速内有效), 单位： 米")
+    struct CameraCallbackInfo {
+      int32 inter_remain_distance;
+
+      sequence<deva_gaode_routing_msgs::msg::CameraInfo> camera_info;
+    };
+  };
+};

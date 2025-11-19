@@ -1,0 +1,15 @@
+/**:
+  ros__parameters:
+
+    mcap_reader_path: "/data/output/mcap_reader"
+
+    # 最大记录持续时间（秒，0表示无限制）
+    max_duration: 0.0
+    
+    # 每个话题的最大消息数量（0表示无限制）
+    max_messages_per_topic: 0
+
+    # 需要输出消息数据的topics列表（空列表表示不输出任何消息数据）
+    deal_topics: 
+     - "/perception/aeb_rv_dyn_result"
+

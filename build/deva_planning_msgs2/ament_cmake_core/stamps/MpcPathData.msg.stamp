@@ -1,0 +1,10 @@
+float64 x
+float64 y
+float64 z
+float64 heading
+float64 kappa
+float64 s
+float64 l
+float64 alpha
+float64 v
+float64 delta

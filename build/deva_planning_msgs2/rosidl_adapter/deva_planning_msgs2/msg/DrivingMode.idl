@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/DrivingMode.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/Header.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    struct DrivingMode {
+      deva_common_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "RVIZ_DRIVING_CANCEL（default）" "\n"
+        "RVIZ_DRIVING_NOA" "\n"
+        "RVIZ_DRIVING_ICC" "\n"
+        "RVIZ_DRIVING_ACC")
+      string driving_mode_select;
+    };
+  };
+};

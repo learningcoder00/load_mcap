@@ -1,0 +1,70 @@
+[0.012s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.059s] Consolidate compiler generated dependencies of target mcap_reader_node
+[0.066s] [ 33%] Built target s3_downloader_lib
+[0.074s] [ 50%] Building CXX object CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o
+[0.094s] [ 83%] Built target mcap_streamer_node
+[2.508s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function ‘const rosidl_message_type_support_t* McapReaderNode::getTypeSupport(const string&, const string&)’:
+[2.508s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:635:53: error: no matching function for call to ‘get_message_type_support_handle(const string&, const string&)’
+[2.508s]   635 |       return rclcpp::get_message_type_support_handle(topic_type, typesupport_identifier);
+[2.508s]       |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.508s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:36,
+[2.508s]                  from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,
+[2.508s]                  from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,
+[2.508s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,
+[2.508s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.508s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.508s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.508s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.508s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.508s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.508s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.509s]                  from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:
+[2.509s] /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:48:1: note: candidate: ‘template<class MessageT> constexpr std::enable_if_t<rosidl_generator_traits::is_message<T>::value, const rosidl_message_type_support_t&> rclcpp::get_message_type_support_handle()’
+[2.509s]    48 | get_message_type_support_handle()
+[2.509s]       | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.509s] /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:48:1: note:   template argument deduction/substitution failed:
+[2.509s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:635:53: note:   candidate expects 0 arguments, 2 provided
+[2.509s]   635 |       return rclcpp::get_message_type_support_handle(topic_type, typesupport_identifier);
+[2.509s]       |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.509s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:36,
+[2.509s]                  from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,
+[2.509s]                  from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,
+[2.509s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,
+[2.509s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.509s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.509s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.509s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.509s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.509s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.509s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.510s]                  from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:
+[2.510s] /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:64:1: note: candidate: ‘template<class AdaptedType> constexpr std::enable_if_t<((! rosidl_generator_traits::is_message<T>::value) && typename rclcpp::TypeAdapter<MessageT>::is_specialized::value), const rosidl_message_type_support_t&> rclcpp::get_message_type_support_handle()’
+[2.510s]    64 | get_message_type_support_handle()
+[2.510s]       | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.510s] /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:64:1: note:   template argument deduction/substitution failed:
+[2.510s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:635:53: note:   candidate expects 0 arguments, 2 provided
+[2.510s]   635 |       return rclcpp::get_message_type_support_handle(topic_type, typesupport_identifier);
+[2.510s]       |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.510s] In file included from /opt/ros/humble/include/rclcpp/rclcpp/publisher.hpp:36,
+[2.510s]                  from /opt/ros/humble/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:31,
+[2.510s]                  from /opt/ros/humble/include/rclcpp/rclcpp/subscription.hpp:50,
+[2.510s]                  from /opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:25,
+[2.510s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25,
+[2.510s]                  from /opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18,
+[2.510s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20,
+[2.510s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37,
+[2.510s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25,
+[2.510s]                  from /opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21,
+[2.510s]                  from /opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155,
+[2.511s]                  from /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:1:
+[2.511s] /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:87:1: note: candidate: ‘template<class AdaptedType> constexpr std::enable_if_t<((! rosidl_generator_traits::is_message<T>::value) && (! typename rclcpp::TypeAdapter<MessageT>::is_specialized::value)), const rosidl_message_type_support_t&> rclcpp::get_message_type_support_handle()’
+[2.511s]    87 | get_message_type_support_handle()
+[2.511s]       | ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[2.511s] /opt/ros/humble/include/rclcpp/rclcpp/get_message_type_support_handle.hpp:87:1: note:   template argument deduction/substitution failed:
+[2.511s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:635:53: note:   candidate expects 0 arguments, 2 provided
+[2.511s]   635 |       return rclcpp::get_message_type_support_handle(topic_type, typesupport_identifier);
+[2.511s]       |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[3.437s] gmake[2]: *** [CMakeFiles/mcap_reader_node.dir/build.make:76: CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o] Error 1
+[3.437s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_reader_node.dir/all] Error 2
+[3.437s] gmake: *** [Makefile:146: all] Error 2
+[3.440s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17

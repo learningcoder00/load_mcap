@@ -1,0 +1,27 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/Guidance.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/KLaneMetaInfo.idl"
+#include "deva_gaode_routing_msgs/msg/KLsl.idl"
+#include "deva_gaode_routing_msgs/msg/KWarningSign.idl"
+#include "deva_gaode_routing_msgs/msg/LinkIDType.idl"
+#include "deva_gaode_routing_msgs/msg/NodeIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct Guidance {
+      deva_gaode_routing_msgs::msg::LinkIDType in_link_id;
+
+      deva_gaode_routing_msgs::msg::NodeIDType node_id;
+
+      sequence<deva_gaode_routing_msgs::msg::LinkIDType> pass_link_id_s;
+
+      deva_gaode_routing_msgs::msg::KWarningSign k_warning_sign;
+
+      deva_gaode_routing_msgs::msg::KLaneMetaInfo k_lane_meta_info;
+
+      deva_gaode_routing_msgs::msg::KLsl k_lsl;
+    };
+  };
+};

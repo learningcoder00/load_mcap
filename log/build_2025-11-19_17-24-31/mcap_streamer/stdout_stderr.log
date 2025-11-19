@@ -1,0 +1,20 @@
+Consolidate compiler generated dependencies of target mcap_reader_node
+[ 33%] Built target s3_downloader_lib
+[ 50%] Building CXX object CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o
+[ 83%] Built target mcap_streamer_node
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp: In member function ‘std::string McapReaderNode::formatValue(const MessageMember*, const uint8_t*, size_t&, int)’:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:511:50: error: ‘const rosidl_message_type_support_t’ {aka ‘const struct rosidl_message_type_support_t’} has no member named ‘members_’
+  511 |           oss << formatMessage(member->members_->members_, member->members_->member_count_, data, offset, indent + 2);
+      |                                                  ^~~~~~~~
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:511:78: error: ‘const rosidl_message_type_support_t’ {aka ‘const struct rosidl_message_type_support_t’} has no member named ‘member_count_’
+  511 |           oss << formatMessage(member->members_->members_, member->members_->member_count_, data, offset, indent + 2);
+      |                                                                              ^~~~~~~~~~~~~
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:533:46: error: ‘const rosidl_message_type_support_t’ {aka ‘const struct rosidl_message_type_support_t’} has no member named ‘members_’
+  533 |       oss << formatMessage(member->members_->members_, member->members_->member_count_, data, offset, indent + 1);
+      |                                              ^~~~~~~~
+/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_reader_node.cpp:533:74: error: ‘const rosidl_message_type_support_t’ {aka ‘const struct rosidl_message_type_support_t’} has no member named ‘member_count_’
+  533 |       oss << formatMessage(member->members_->members_, member->members_->member_count_, data, offset, indent + 1);
+      |                                                                          ^~~~~~~~~~~~~
+gmake[2]: *** [CMakeFiles/mcap_reader_node.dir/build.make:76: CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_reader_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

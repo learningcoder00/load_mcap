@@ -1,0 +1,59 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs/msg/PlanningTrajectory.msg
+// generated code does not contain a copyright notice
+
+#include "deva_common_msgs/msg/EquationCurve.idl"
+#include "deva_planning_msgs/msg/TrajectoryPoint.idl"
+#include "geometry_msgs/msg/Point.idl"
+
+module deva_planning_msgs {
+  module msg {
+    struct PlanningTrajectory {
+      int8 path_type;
+
+      sequence<deva_planning_msgs::msg::TrajectoryPoint> trajectory_points;
+
+      deva_common_msgs::msg::EquationCurve curve;
+
+      double total_path_length;
+
+      double total_path_time;
+
+      string gear;
+
+      boolean is_estop;
+
+      string estop_reason;
+
+      boolean is_stop;
+
+      string stop_reason;
+
+      geometry_msgs::msg::Point stop_pose;
+
+      boolean is_replan;
+
+      string replan_reason;
+
+      boolean car_in_dead_end;
+
+      uint8 trace_type;
+
+      boolean high_beam;
+
+      boolean low_beam;
+
+      boolean horn;
+
+      boolean emergency_light;
+
+      int8 vehicle_gear;
+
+      geometry_msgs::msg::Point circle_center;
+
+      double radius;
+
+      uint32 id;
+    };
+  };
+};

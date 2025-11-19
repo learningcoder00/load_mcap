@@ -1,0 +1,4 @@
+deva_common_msgs/Header header
+
+uint32 calibration_action
+uint32 calibration_type

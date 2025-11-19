@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/StopLine2dArray.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/StopLine2d.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module StopLine2dArray_Constants {
+      @verbatim (language="comment", text=
+        "数据源")
+      const uint8 FOV120 = 0;
+      const uint8 FOV30 = 1;
+      const uint8 BACK = 2;
+    };
+    @verbatim (language="comment", text=
+      "2D停止线")
+    struct StopLine2dArray {
+      sequence<deva_perception_msgs::msg::StopLine2d> stopline_2ds;
+
+      uint8 source;
+    };
+  };
+};

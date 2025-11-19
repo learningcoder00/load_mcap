@@ -1,0 +1,14 @@
+float64 s
+float64 x
+float64 y
+float64 z
+float64 heading
+float64 left_boundary_x
+float64 left_boundary_y
+float64 left_boundary_z
+float64 right_boundary_x
+float64 right_boundary_y
+float64 right_boundary_z
+float64 left_boundary_n
+float64 right_boundary_n
+float64 is_junction

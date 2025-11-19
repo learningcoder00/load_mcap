@@ -1,0 +1,36 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_navi_msgs/msg/ElecPathInfoProto.msg
+// generated code does not contain a copyright notice
+
+#include "deva_navi_msgs/msg/EnergyConsumeProto.idl"
+#include "deva_navi_msgs/msg/ViaPointInfoProto.idl"
+
+module deva_navi_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "ElecPathInfoProto.msg")
+    struct ElecPathInfoProto {
+      boolean m_is_elec_route;
+
+      boolean m_link_consume_size_word;
+
+      int32 m_traffic_info;
+
+      int32 m_energy_unit;
+
+      int32 m_path_flag;
+
+      int32 m_energy_sum;
+
+      int32 m_link_num;
+
+      sequence<int32> m_link_consume;
+
+      sequence<int64> m_link_distance;
+
+      sequence<deva_navi_msgs::msg::ViaPointInfoProto> m_via_info;
+
+      deva_navi_msgs::msg::EnergyConsumeProto m_energy_consume;
+    };
+  };
+};

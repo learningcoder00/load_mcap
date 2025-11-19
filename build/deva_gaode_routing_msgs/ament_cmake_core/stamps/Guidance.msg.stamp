@@ -1,0 +1,6 @@
+LinkIDType in_link_id
+NodeIDType node_id
+LinkIDType[] pass_link_id_s
+KWarningSign k_warning_sign
+KLaneMetaInfo k_lane_meta_info
+KLsl k_lsl

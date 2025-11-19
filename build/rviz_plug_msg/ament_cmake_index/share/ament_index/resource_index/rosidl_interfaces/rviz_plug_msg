@@ -1,0 +1,16 @@
+msg/BywireDiag.idl
+msg/BywireDiag.msg
+msg/BywireMsgType.idl
+msg/BywireMsgType.msg
+msg/ErrorEnum.idl
+msg/ErrorEnum.msg
+msg/ExceptionMonitor.idl
+msg/ExceptionMonitor.msg
+msg/Freq.idl
+msg/Freq.msg
+msg/FreqMonitor.idl
+msg/FreqMonitor.msg
+msg/InfoEnum.idl
+msg/InfoEnum.msg
+msg/StatusEnum.idl
+msg/StatusEnum.msg

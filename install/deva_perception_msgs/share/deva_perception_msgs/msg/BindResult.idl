@@ -1,0 +1,72 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_perception_msgs/msg/BindResult.msg
+// generated code does not contain a copyright notice
+
+#include "deva_perception_msgs/msg/PerceptionResult.idl"
+#include "geometry_msgs/msg/Pose.idl"
+#include "geometry_msgs/msg/Vector3.idl"
+#include "std_msgs/msg/Header.idl"
+
+module deva_perception_msgs {
+  module msg {
+    module BindResult_Constants {
+      @verbatim (language="comment", text=
+        "锥桶绑定属性，取值如下:" "\n"        "0x0: 绑定车道线失败")
+      const uint8 FAIL = 0;
+      @verbatim (language="comment", text=
+        "0x1: 绑定左车道线")
+      const uint8 LEFT = 1;
+      @verbatim (language="comment", text=
+        "0x2: 绑定中间")
+      const uint8 MID = 2;
+      @verbatim (language="comment", text=
+        "0x3: 绑定右车道线")
+      const uint8 RIGHT = 3;
+    };
+    struct BindResult {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "锥桶2d框" "\n"
+        "deva_common_msgs/BoundingBox bbox")
+      deva_perception_msgs::msg::PerceptionResult result;
+
+      @verbatim (language="comment", text=
+        "obstacle id. 区别不同实体")
+      uint32 id;
+
+      @verbatim (language="comment", text=
+        "是否有3D框")
+      boolean with_bev_info;
+
+      @verbatim (language="comment", text=
+        "位置 朝向")
+      geometry_msgs::msg::Pose pose;
+
+      @verbatim (language="comment", text=
+        "尺寸. 即长宽高")
+      geometry_msgs::msg::Vector3 dimensions;
+
+      uint8 bind_type;
+
+      @verbatim (language="comment", text=
+        "置信度")
+      double score;
+
+      @verbatim (language="comment", text=
+        "纵向距离")
+      double vertical_distance;
+
+      @verbatim (language="comment", text=
+        "锥桶左右车道线id和距离" "\n"
+        "id为0表示无左/右车道！！！")
+      uint32 left_lane_id;
+
+      uint32 right_lane_id;
+
+      double left_lane_distance;
+
+      double right_lane_distance;
+    };
+  };
+};

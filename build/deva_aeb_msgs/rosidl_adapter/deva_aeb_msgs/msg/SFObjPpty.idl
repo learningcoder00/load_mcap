@@ -1,0 +1,46 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_aeb_msgs/msg/SFObjPpty.msg
+// generated code does not contain a copyright notice
+
+
+module deva_aeb_msgs {
+  module msg {
+    struct SFObjPpty {
+      uint8 idn;
+
+      uint8 sts;
+
+      uint8 mdlofmtn;
+
+      uint8 trfcsceno;
+
+      uint8 cllsnmtgtnbybrkgprimqly;
+
+      uint8 cllsnmtgtnbybrkgsecqly;
+
+      uint8 cllsnwarnfwdqly;
+
+      uint8 trfcjamassiqly;
+
+      uint8 dstlatfrommidoflaneselfqly;
+
+      uint8 emgylanekeepaidposnqly;
+
+      uint8 fusnsrc;
+
+      float posnlgtstdde;
+
+      float posnlatstdde;
+
+      float agdirstdde;
+
+      float spdstdde;
+
+      float astdde;
+
+      uint8 reserved;
+
+      uint32 visnid;
+    };
+  };
+};

@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/IntersectionRoadNode.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/Coordinate.idl"
+#include "deva_gaode_routing_msgs/msg/FeatureIDType.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct IntersectionRoadNode {
+      deva_gaode_routing_msgs::msg::FeatureIDType id;
+
+      deva_gaode_routing_msgs::msg::Coordinate position;
+
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> enter_intersection_road_ids;
+
+      sequence<deva_gaode_routing_msgs::msg::FeatureIDType> out_intersection_roads_ids;
+    };
+  };
+};

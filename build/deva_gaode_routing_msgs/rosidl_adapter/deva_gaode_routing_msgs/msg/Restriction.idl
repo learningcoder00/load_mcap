@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_gaode_routing_msgs/msg/Restriction.msg
+// generated code does not contain a copyright notice
+
+#include "deva_gaode_routing_msgs/msg/RestrictionDetail.idl"
+
+module deva_gaode_routing_msgs {
+  module msg {
+    struct Restriction {
+      uint64 id;
+
+      int32 limit_type;
+
+      @verbatim (language="comment", text=
+        "进入点sdnode_id")
+      uint64 node_id;
+
+      sequence<uint64> pass_list;
+
+      uint64 out_road;
+
+      int32 passage;
+
+      int32 slope;
+
+      string toll_mode;
+
+      string toll_lane_type;
+
+      string toll_name;
+
+      @verbatim (language="comment", text=
+        "条件限制信息")
+      deva_gaode_routing_msgs::msg::RestrictionDetail restriction_detail;
+    };
+  };
+};

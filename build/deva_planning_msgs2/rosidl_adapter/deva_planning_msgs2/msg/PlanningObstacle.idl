@@ -1,0 +1,64 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from deva_planning_msgs2/msg/PlanningObstacle.msg
+// generated code does not contain a copyright notice
+
+#include "deva_planning_msgs2/msg/String2String.idl"
+
+module deva_planning_msgs2 {
+  module msg {
+    module PlanningObstacle_Constants {
+      @verbatim (language="comment", text=
+        "增加新tag不必须修改msg文件，在文档中约定好uint8数字对应的tag即可")
+      const uint8 TAG_UNKNOWN = 0;
+      const uint8 TAG_FOLLOW = 1;
+      const uint8 TAG_OVERTAKE = 2;
+      const uint8 TAG_LEFT_PASS = 3;
+      const uint8 TAG_RIGHT_PASS = 4;
+      const uint8 TAG_PRE_DECELERATE = 5;
+      const uint8 TAG_PRE_OVERTAKE_LEFT = 6;
+      const uint8 TAG_PRE_OVERTAKE_RIGHT = 7;
+      const uint8 SCENE_CUTIN = 1;
+      const uint8 SCENE_CUTOUT = 2;
+      const uint8 SCENE_CROSS = 3;
+      const uint8 SCENE_ONCOMING = 4;
+      const uint8 SCENE_DEAD_CAR = 5;
+      const uint8 SCENE_BLOCK = 6;
+      const uint8 PRIORITY_LOW = 1;
+      const uint8 PRIORITY_EQUAL = 2;
+      const uint8 PRIORITY_HIGH = 3;
+    };
+    struct PlanningObstacle {
+      @verbatim (language="comment", text=
+        "障碍物id")
+      string id;
+
+      sequence<int32> current_line_id;
+
+      sequence<int32> target_line_id;
+
+      @verbatim (language="comment", text=
+        "只在最终被选中的PolicyScenario中会被填值")
+      sequence<uint8> decision_tag;
+
+      sequence<uint8> scene_understanding;
+
+      double cutin_time;
+
+      double cutout_time;
+
+      double distance;
+
+      double ttc;
+
+      uint8 priority;
+
+      @verbatim (language="comment", text=
+        "可扩展的标志位")
+      sequence<uint8> scalable_flags;
+
+      @verbatim (language="comment", text=
+        "可扩展的键值对")
+      sequence<deva_planning_msgs2::msg::String2String> scalable_multimap;
+    };
+  };
+};
