@@ -1,0 +1,23 @@
+[0.028s] Invoking command in '/home/linjiawei/load_mcap/build/deva_navi_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_navi_msgs -- -j17 -l17
+[0.114s] [  0%] Built target deva_navi_msgs__cpp
+[0.118s] [ 12%] Built target deva_navi_msgs__rosidl_generator_c
+[0.143s] [ 12%] Built target ament_cmake_python_copy_deva_navi_msgs
+[0.154s] [ 24%] Built target deva_navi_msgs__rosidl_typesupport_cpp
+[0.170s] [ 37%] Built target deva_navi_msgs__rosidl_typesupport_introspection_cpp
+[0.171s] [ 49%] Built target deva_navi_msgs__rosidl_typesupport_fastrtps_cpp
+[0.174s] [ 61%] Built target deva_navi_msgs__rosidl_typesupport_c
+[0.189s] [ 73%] Built target deva_navi_msgs__rosidl_typesupport_fastrtps_c
+[0.203s] [ 86%] Built target deva_navi_msgs__rosidl_typesupport_introspection_c
+[0.226s] [ 86%] Built target deva_navi_msgs
+[0.250s] [ 86%] Built target deva_navi_msgs__py
+[0.289s] [ 98%] Built target deva_navi_msgs__rosidl_generator_py
+[0.313s] [ 99%] Built target deva_navi_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.313s] [ 99%] Built target deva_navi_msgs__rosidl_typesupport_introspection_c__pyext
+[0.315s] [100%] Built target deva_navi_msgs__rosidl_typesupport_c__pyext
+[0.425s] running egg_info
+[0.426s] writing deva_navi_msgs.egg-info/PKG-INFO
+[0.427s] writing dependency_links to deva_navi_msgs.egg-info/dependency_links.txt
+[0.427s] writing top-level names to deva_navi_msgs.egg-info/top_level.txt
+[0.430s] reading manifest file 'deva_navi_msgs.egg-info/SOURCES.txt'
+[0.431s] writing manifest file 'deva_navi_msgs.egg-info/SOURCES.txt'
+[0.460s] [100%] Built target ament_cmake_python_build_deva_navi_msgs_egg

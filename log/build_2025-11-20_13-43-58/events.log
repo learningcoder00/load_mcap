@@ -1,0 +1,194 @@
+[0.000000] (-) TimerEvent: {}
+[0.000273] (-) JobUnselected: {'identifier': 'deva_ads_msgs'}
+[0.000305] (-) JobUnselected: {'identifier': 'deva_aeb_msgs'}
+[0.000326] (-) JobUnselected: {'identifier': 'deva_common_msgs'}
+[0.000346] (-) JobUnselected: {'identifier': 'deva_control_msgs'}
+[0.000376] (-) JobUnselected: {'identifier': 'deva_function_msgs'}
+[0.000398] (-) JobUnselected: {'identifier': 'deva_gaode_routing_msgs'}
+[0.000415] (-) JobUnselected: {'identifier': 'deva_localization_msgs'}
+[0.000432] (-) JobUnselected: {'identifier': 'deva_map_msgs'}
+[0.000449] (-) JobUnselected: {'identifier': 'deva_mdriver_msgs'}
+[0.000466] (-) JobUnselected: {'identifier': 'deva_navi_msgs'}
+[0.000483] (-) JobUnselected: {'identifier': 'deva_perception_msgs'}
+[0.000499] (-) JobUnselected: {'identifier': 'deva_planning_msgs'}
+[0.000516] (-) JobUnselected: {'identifier': 'deva_planning_msgs2'}
+[0.000533] (-) JobUnselected: {'identifier': 'environment_model_msgs'}
+[0.000549] (-) JobUnselected: {'identifier': 'fault_diagnosis'}
+[0.000566] (-) JobUnselected: {'identifier': 'rviz_plug_msg'}
+[0.000583] (-) JobUnselected: {'identifier': 'serialize_msgs'}
+[0.000603] (mcap_streamer) JobQueued: {'identifier': 'mcap_streamer', 'dependencies': OrderedDict()}
+[0.000625] (mcap_streamer) JobStarted: {'identifier': 'mcap_streamer'}
+[0.007581] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'cmake'}
+[0.008193] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'build'}
+[0.008946] (mcap_streamer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linjiawei/load_mcap/build/mcap_streamer', '--', '-j17', '-l17'], 'cwd': '/home/linjiawei/load_mcap/build/mcap_streamer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/linjiawei'), ('KUBERNETES_SERVICE_PORT', '443'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('KUBEBRAIN_SITE', 'mach'), ('KUBERNETES_PORT', 'tcp://10.68.0.1:443'), ('BRAIN_DAEMON_JUPYTER_DIR', '/data/jupyter'), ('USER', 'linjiawei'), ('SSH_CLIENT', '100.96.2.80 57616 22'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/tcf.json","messagesFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/ba90f2f88e4911312761abab9492c42442117cf0/nls.messages.json","corruptMarkerFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"6fe284ae87274d9cb2cdffc89b193492.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/tcf.json","_cacheRoot":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn","_resolvedLanguagePackCoreLocation":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/ba90f2f88e4911312761abab9492c42442117cf0","_corruptedFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/corrupted.info"}'), ('BRAIN_SHARED_READONLY', 'false'), ('KUBEBRAIN_PROCESS_ID', 'a339afdf-8e23-41dd-b3c2-ec44dfa27e9d'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'ros'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64'), ('BROWSER', '/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/linjiawei'), ('TMP_SIZE', '16777216K'), ('KUBEBRAIN_RUNTIME', 'ws2'), ('OLDPWD', '/home/linjiawei/load_mcap'), ('VSCODE_IPC_HOOK_CLI', '/run/user/10250/vscode-ipc-a2aff49f-58d2-441e-828d-ced252d61886.sock'), ('BRAIN_DAEMON_JUPYTER_TOKEN', '9c0e8eec-6994-41a4-9f6b-319d33bc630e'), ('ROS_PYTHON_VERSION', '3'), ('BRAIN_DAEMON_JUPYTER_BASE_URL', '/kapi/workspace.kubebrain.io/mach-mp/ws-00018098a82852e6/jupyter'), ('PCIDEVICE_MELLANOX_COM_MLNX_RDMA', ''), ('NO_COLOR', '1'), ('TOPOLOGY_ZONE', 'mach-cn-west-qy-dsxs-cm'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/linjiawei/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.99.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linjiawei'), ('FORCE_COLOR', '0'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('BRAIN_USERNAME', 'linjiawei'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('XDG_SESSION_ID', 'c59'), ('KUBERNETES_PORT_443_TCP_ADDR', '10.68.0.1'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('SHM_SIZE', '16777216K'), ('PATH', '/home/linjiawei/.local/bin:/home/linjiawei/.local/bin:/opt/ros/humble/bin:/opt/conda/bin:/kubebrain:/usr/local/nvidia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VSCODE_AGENT_FOLDER', '/home/linjiawei/.cursor-server'), ('KUBEBRAIN_WORKSPACE_NAME', 'ws-00018098a82852e6'), ('XDG_RUNTIME_DIR', '/run/user/10250'), ('KUBERNETES_PORT_443_TCP_PORT', '443'), ('CURSOR_AGENT', '1'), ('DISPLAY', 'localhost:10.0'), ('KUBERNETES_PORT_443_TCP_PROTO', 'tcp'), ('KUBEBRAIN_RESOURCE_TYPE', 'workspace'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-auth-sock-5947a298-eaf8-4f15-adfc-973d91be4566.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('BRAIN_DAEMON_JUPYTER_PORT', '8888'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_SHUTDOWN_TIMEOUT', '300'), ('TerminationGracePeriodSeconds', '30'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KUBERNETES_SERVICE_PORT_HTTPS', '443'), ('KUBERNETES_PORT_443_TCP', 'tcp://10.68.0.1:443'), ('KUBEBRAIN_QUOTA_GROUP', 'mp_ws'), ('KUBEBRAIN_CLUSTER_ENTRY', 'https://qy.machdrive.cn'), ('PWD', '/home/linjiawei/load_mcap/build/mcap_streamer'), ('BRAIN_SHARED_ROOT', '10.68.17.151:/'), ('KUBEBRAIN_NAMESPACE', 'mach-mp'), ('KUBERNETES_SERVICE_HOST', '10.68.0.1'), ('BRAIN_TOPOLOGY_LEAF_ROCE', ''), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.96.2.80 57616 100.97.82.77 22'), ('KUBEBRAIN_PROCESS_NAME', 'ws-00018098a82852e6-master'), ('KUBEBRAIN_WORKSPACE_NAMESPACE', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058108] (mcap_streamer) StdoutLine: {'line': b'[ 33%] Built target s3_downloader_lib\n'}
+[0.072976] (mcap_streamer) StdoutLine: {'line': b'[ 50%] Building CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o\n'}
+[0.082826] (mcap_streamer) StdoutLine: {'line': b'[ 83%] Built target mcap_streamer_node\n'}
+[0.099542] (-) TimerEvent: {}
+[0.199663] (-) TimerEvent: {}
+[0.299800] (-) TimerEvent: {}
+[0.399924] (-) TimerEvent: {}
+[0.500039] (-) TimerEvent: {}
+[0.600145] (-) TimerEvent: {}
+[0.700287] (-) TimerEvent: {}
+[0.800420] (-) TimerEvent: {}
+[0.900523] (-) TimerEvent: {}
+[1.000722] (-) TimerEvent: {}
+[1.100950] (-) TimerEvent: {}
+[1.201081] (-) TimerEvent: {}
+[1.301205] (-) TimerEvent: {}
+[1.401308] (-) TimerEvent: {}
+[1.501412] (-) TimerEvent: {}
+[1.601524] (-) TimerEvent: {}
+[1.701647] (-) TimerEvent: {}
+[1.801766] (-) TimerEvent: {}
+[1.901867] (-) TimerEvent: {}
+[2.001983] (-) TimerEvent: {}
+[2.102102] (-) TimerEvent: {}
+[2.202216] (-) TimerEvent: {}
+[2.302340] (-) TimerEvent: {}
+[2.402507] (-) TimerEvent: {}
+[2.502672] (-) TimerEvent: {}
+[2.602780] (-) TimerEvent: {}
+[2.702899] (-) TimerEvent: {}
+[2.803082] (-) TimerEvent: {}
+[2.903254] (-) TimerEvent: {}
+[3.003483] (-) TimerEvent: {}
+[3.103730] (-) TimerEvent: {}
+[3.203921] (-) TimerEvent: {}
+[3.304090] (-) TimerEvent: {}
+[3.404240] (-) TimerEvent: {}
+[3.504396] (-) TimerEvent: {}
+[3.604534] (-) TimerEvent: {}
+[3.704671] (-) TimerEvent: {}
+[3.804817] (-) TimerEvent: {}
+[3.904961] (-) TimerEvent: {}
+[4.005096] (-) TimerEvent: {}
+[4.105238] (-) TimerEvent: {}
+[4.205375] (-) TimerEvent: {}
+[4.305514] (-) TimerEvent: {}
+[4.405667] (-) TimerEvent: {}
+[4.505826] (-) TimerEvent: {}
+[4.605975] (-) TimerEvent: {}
+[4.706120] (-) TimerEvent: {}
+[4.806291] (-) TimerEvent: {}
+[4.906492] (-) TimerEvent: {}
+[5.006702] (-) TimerEvent: {}
+[5.106908] (-) TimerEvent: {}
+[5.207104] (-) TimerEvent: {}
+[5.307281] (-) TimerEvent: {}
+[5.407439] (-) TimerEvent: {}
+[5.507604] (-) TimerEvent: {}
+[5.607761] (-) TimerEvent: {}
+[5.707912] (-) TimerEvent: {}
+[5.808062] (-) TimerEvent: {}
+[5.908215] (-) TimerEvent: {}
+[6.008386] (-) TimerEvent: {}
+[6.108546] (-) TimerEvent: {}
+[6.208700] (-) TimerEvent: {}
+[6.308848] (-) TimerEvent: {}
+[6.408994] (-) TimerEvent: {}
+[6.509146] (-) TimerEvent: {}
+[6.609293] (-) TimerEvent: {}
+[6.709439] (-) TimerEvent: {}
+[6.809584] (-) TimerEvent: {}
+[6.909727] (-) TimerEvent: {}
+[7.009869] (-) TimerEvent: {}
+[7.110049] (-) TimerEvent: {}
+[7.210242] (-) TimerEvent: {}
+[7.310412] (-) TimerEvent: {}
+[7.410566] (-) TimerEvent: {}
+[7.510711] (-) TimerEvent: {}
+[7.610852] (-) TimerEvent: {}
+[7.710994] (-) TimerEvent: {}
+[7.811137] (-) TimerEvent: {}
+[7.911282] (-) TimerEvent: {}
+[8.011437] (-) TimerEvent: {}
+[8.111611] (-) TimerEvent: {}
+[8.211796] (-) TimerEvent: {}
+[8.311979] (-) TimerEvent: {}
+[8.412167] (-) TimerEvent: {}
+[8.512428] (-) TimerEvent: {}
+[8.612659] (-) TimerEvent: {}
+[8.712875] (-) TimerEvent: {}
+[8.813060] (-) TimerEvent: {}
+[8.913221] (-) TimerEvent: {}
+[9.013367] (-) TimerEvent: {}
+[9.113524] (-) TimerEvent: {}
+[9.213685] (-) TimerEvent: {}
+[9.313837] (-) TimerEvent: {}
+[9.413976] (-) TimerEvent: {}
+[9.514109] (-) TimerEvent: {}
+[9.614238] (-) TimerEvent: {}
+[9.714376] (-) TimerEvent: {}
+[9.814537] (-) TimerEvent: {}
+[9.914717] (-) TimerEvent: {}
+[10.014908] (-) TimerEvent: {}
+[10.115095] (-) TimerEvent: {}
+[10.215296] (-) TimerEvent: {}
+[10.315498] (-) TimerEvent: {}
+[10.415678] (-) TimerEvent: {}
+[10.515871] (-) TimerEvent: {}
+[10.616046] (-) TimerEvent: {}
+[10.716199] (-) TimerEvent: {}
+[10.816336] (-) TimerEvent: {}
+[10.916486] (-) TimerEvent: {}
+[11.016616] (-) TimerEvent: {}
+[11.116748] (-) TimerEvent: {}
+[11.216895] (-) TimerEvent: {}
+[11.317052] (-) TimerEvent: {}
+[11.417190] (-) TimerEvent: {}
+[11.517320] (-) TimerEvent: {}
+[11.617448] (-) TimerEvent: {}
+[11.717581] (-) TimerEvent: {}
+[11.817713] (-) TimerEvent: {}
+[11.917843] (-) TimerEvent: {}
+[12.017975] (-) TimerEvent: {}
+[12.118102] (-) TimerEvent: {}
+[12.218277] (-) TimerEvent: {}
+[12.318471] (-) TimerEvent: {}
+[12.418694] (-) TimerEvent: {}
+[12.518916] (-) TimerEvent: {}
+[12.619116] (-) TimerEvent: {}
+[12.686603] (mcap_streamer) StdoutLine: {'line': b'[100%] Linking CXX executable mcap_example\n'}
+[12.719220] (-) TimerEvent: {}
+[12.819411] (-) TimerEvent: {}
+[12.919606] (-) TimerEvent: {}
+[13.019759] (-) TimerEvent: {}
+[13.119899] (-) TimerEvent: {}
+[13.220080] (-) TimerEvent: {}
+[13.294513] (mcap_streamer) StdoutLine: {'line': b'[100%] Built target mcap_example\n'}
+[13.304558] (mcap_streamer) CommandEnded: {'returncode': 0}
+[13.305020] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'install'}
+[13.312991] (mcap_streamer) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/linjiawei/load_mcap/build/mcap_streamer'], 'cwd': '/home/linjiawei/load_mcap/build/mcap_streamer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/linjiawei'), ('KUBERNETES_SERVICE_PORT', '443'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('KUBEBRAIN_SITE', 'mach'), ('KUBERNETES_PORT', 'tcp://10.68.0.1:443'), ('BRAIN_DAEMON_JUPYTER_DIR', '/data/jupyter'), ('USER', 'linjiawei'), ('SSH_CLIENT', '100.96.2.80 57616 22'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/tcf.json","messagesFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/ba90f2f88e4911312761abab9492c42442117cf0/nls.messages.json","corruptMarkerFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"6fe284ae87274d9cb2cdffc89b193492.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/tcf.json","_cacheRoot":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn","_resolvedLanguagePackCoreLocation":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/ba90f2f88e4911312761abab9492c42442117cf0","_corruptedFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/corrupted.info"}'), ('BRAIN_SHARED_READONLY', 'false'), ('KUBEBRAIN_PROCESS_ID', 'a339afdf-8e23-41dd-b3c2-ec44dfa27e9d'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'ros'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64'), ('BROWSER', '/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/linjiawei'), ('TMP_SIZE', '16777216K'), ('KUBEBRAIN_RUNTIME', 'ws2'), ('OLDPWD', '/home/linjiawei/load_mcap'), ('VSCODE_IPC_HOOK_CLI', '/run/user/10250/vscode-ipc-a2aff49f-58d2-441e-828d-ced252d61886.sock'), ('BRAIN_DAEMON_JUPYTER_TOKEN', '9c0e8eec-6994-41a4-9f6b-319d33bc630e'), ('ROS_PYTHON_VERSION', '3'), ('BRAIN_DAEMON_JUPYTER_BASE_URL', '/kapi/workspace.kubebrain.io/mach-mp/ws-00018098a82852e6/jupyter'), ('PCIDEVICE_MELLANOX_COM_MLNX_RDMA', ''), ('NO_COLOR', '1'), ('TOPOLOGY_ZONE', 'mach-cn-west-qy-dsxs-cm'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/linjiawei/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.99.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linjiawei'), ('FORCE_COLOR', '0'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('BRAIN_USERNAME', 'linjiawei'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('XDG_SESSION_ID', 'c59'), ('KUBERNETES_PORT_443_TCP_ADDR', '10.68.0.1'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('SHM_SIZE', '16777216K'), ('PATH', '/home/linjiawei/.local/bin:/home/linjiawei/.local/bin:/opt/ros/humble/bin:/opt/conda/bin:/kubebrain:/usr/local/nvidia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VSCODE_AGENT_FOLDER', '/home/linjiawei/.cursor-server'), ('KUBEBRAIN_WORKSPACE_NAME', 'ws-00018098a82852e6'), ('XDG_RUNTIME_DIR', '/run/user/10250'), ('KUBERNETES_PORT_443_TCP_PORT', '443'), ('CURSOR_AGENT', '1'), ('DISPLAY', 'localhost:10.0'), ('KUBERNETES_PORT_443_TCP_PROTO', 'tcp'), ('KUBEBRAIN_RESOURCE_TYPE', 'workspace'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-auth-sock-5947a298-eaf8-4f15-adfc-973d91be4566.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('BRAIN_DAEMON_JUPYTER_PORT', '8888'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_SHUTDOWN_TIMEOUT', '300'), ('TerminationGracePeriodSeconds', '30'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KUBERNETES_SERVICE_PORT_HTTPS', '443'), ('KUBERNETES_PORT_443_TCP', 'tcp://10.68.0.1:443'), ('KUBEBRAIN_QUOTA_GROUP', 'mp_ws'), ('KUBEBRAIN_CLUSTER_ENTRY', 'https://qy.machdrive.cn'), ('PWD', '/home/linjiawei/load_mcap/build/mcap_streamer'), ('BRAIN_SHARED_ROOT', '10.68.17.151:/'), ('KUBEBRAIN_NAMESPACE', 'mach-mp'), ('KUBERNETES_SERVICE_HOST', '10.68.0.1'), ('BRAIN_TOPOLOGY_LEAF_ROCE', ''), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.96.2.80 57616 100.97.82.77 22'), ('KUBEBRAIN_PROCESS_NAME', 'ws-00018098a82852e6-master'), ('KUBEBRAIN_WORKSPACE_NAMESPACE', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[13.319535] (mcap_streamer) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[13.319712] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_streamer_node\n'}
+[13.319963] (mcap_streamer) StdoutLine: {'line': b'-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_example\n'}
+[13.320138] (-) TimerEvent: {}
+[13.323285] (mcap_streamer) StdoutLine: {'line': b'-- Set runtime path of "/home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_example" to ""\n'}
+[13.323358] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config\n'}
+[13.323432] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config/mcap_streamer_params.yaml\n'}
+[13.323503] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config/mcap_reader_params.yaml\n'}
+[13.323574] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch\n'}
+[13.323643] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_streamer.launch.py\n'}
+[13.323713] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_reader.launch.py\n'}
+[13.323782] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_streamer_with_reader.launch.py\n'}
+[13.323851] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_example.launch.py\n'}
+[13.323920] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/package_run_dependencies/mcap_streamer\n'}
+[13.323986] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/parent_prefix_path/mcap_streamer\n'}
+[13.324128] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/ament_prefix_path.sh\n'}
+[13.324179] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/ament_prefix_path.dsv\n'}
+[13.324229] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/path.sh\n'}
+[13.324279] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/path.dsv\n'}
+[13.324346] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.bash\n'}
+[13.324568] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.sh\n'}
+[13.324643] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.zsh\n'}
+[13.324712] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.dsv\n'}
+[13.324780] (mcap_streamer) StdoutLine: {'line': b'-- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.dsv\n'}
+[13.324849] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/packages/mcap_streamer\n'}
+[13.324917] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/cmake/mcap_streamerConfig.cmake\n'}
+[13.325032] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/cmake/mcap_streamerConfig-version.cmake\n'}
+[13.325103] (mcap_streamer) StdoutLine: {'line': b'-- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.xml\n'}
+[13.325445] (mcap_streamer) CommandEnded: {'returncode': 0}
+[13.343701] (mcap_streamer) JobEnded: {'identifier': 'mcap_streamer', 'rc': 0}
+[13.344294] (-) EventReactorShutdown: {}

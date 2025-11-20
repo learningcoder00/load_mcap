@@ -1,0 +1,23 @@
+[0.031s] Invoking command in '/home/linjiawei/load_mcap/build/rviz_plug_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/rviz_plug_msg -- -j17 -l17
+[0.095s] [  1%] Built target rviz_plug_msg__cpp
+[0.096s] [ 12%] Built target rviz_plug_msg__rosidl_generator_c
+[0.101s] [ 12%] Built target ament_cmake_python_copy_rviz_plug_msg
+[0.134s] [ 24%] Built target rviz_plug_msg__rosidl_typesupport_fastrtps_cpp
+[0.157s] [ 35%] Built target rviz_plug_msg__rosidl_typesupport_c
+[0.161s] [ 47%] Built target rviz_plug_msg__rosidl_typesupport_introspection_c
+[0.162s] [ 58%] Built target rviz_plug_msg__rosidl_typesupport_fastrtps_c
+[0.165s] [ 70%] Built target rviz_plug_msg__rosidl_typesupport_introspection_cpp
+[0.171s] [ 81%] Built target rviz_plug_msg__rosidl_typesupport_cpp
+[0.198s] [ 81%] Built target rviz_plug_msg
+[0.223s] [ 82%] Built target rviz_plug_msg__py
+[0.251s] [ 93%] Built target rviz_plug_msg__rosidl_generator_py
+[0.277s] [ 95%] Built target rviz_plug_msg__rosidl_typesupport_fastrtps_c__pyext
+[0.279s] [ 97%] Built target rviz_plug_msg__rosidl_typesupport_introspection_c__pyext
+[0.279s] [100%] Built target rviz_plug_msg__rosidl_typesupport_c__pyext
+[0.421s] running egg_info
+[0.422s] writing rviz_plug_msg.egg-info/PKG-INFO
+[0.422s] writing dependency_links to rviz_plug_msg.egg-info/dependency_links.txt
+[0.423s] writing top-level names to rviz_plug_msg.egg-info/top_level.txt
+[0.426s] reading manifest file 'rviz_plug_msg.egg-info/SOURCES.txt'
+[0.426s] writing manifest file 'rviz_plug_msg.egg-info/SOURCES.txt'
+[0.456s] [100%] Built target ament_cmake_python_build_rviz_plug_msg_egg

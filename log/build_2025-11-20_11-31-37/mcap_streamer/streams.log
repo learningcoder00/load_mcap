@@ -1,0 +1,77 @@
+[0.010s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.034s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.159s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.183s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.185s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.191s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.200s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.212s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.244s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.245s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.323s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.373s] -- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.390s] -- Found deva_perception_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_perception_msgs/share/deva_perception_msgs/cmake)
+[0.483s] -- Found deva_control_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_control_msgs/share/deva_control_msgs/cmake)
+[0.570s] -- Found deva_aeb_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_aeb_msgs/share/deva_aeb_msgs/cmake)
+[0.586s] -- Found deva_mdriver_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_mdriver_msgs/share/deva_mdriver_msgs/cmake)
+[0.643s] -- Found deva_gaode_routing_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/share/deva_gaode_routing_msgs/cmake)
+[0.660s] -- Found deva_navi_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/cmake)
+[0.669s] -- Found deva_ads_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/cmake)
+[0.684s] -- Found deva_function_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_function_msgs/share/deva_function_msgs/cmake)
+[0.701s] -- Found rviz_plug_msg: 0.0.0 (/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/cmake)
+[0.713s] -- Found fault_diagnosis: 0.0.0 (/home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake)
+[0.728s] -- Found serialize_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/cmake)
+[0.740s] -- Found environment_model_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/environment_model_msgs/share/environment_model_msgs/cmake)
+[0.758s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.778s] -- Found foxglove_msgs: 3.2.1 (/opt/ros/humble/share/foxglove_msgs/cmake)
+[0.793s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.883s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.883s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linjiawei/load_mcap/src/mcap_streamer/include>
+[0.884s] -- Configured cppcheck exclude dirs and/or files: 
+[0.884s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.884s] -- Added test 'lint_cmake' to check CMake code style
+[0.885s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.885s] -- Added test 'uncrustify' to check C / C++ code style
+[0.885s] -- Configured uncrustify additional arguments: 
+[0.886s] -- Added test 'xmllint' to check XML markup files
+[0.886s] -- Configuring done
+[0.918s] -- Generating done
+[0.927s] -- Build files have been written to: /home/linjiawei/load_mcap/build/mcap_streamer
+[0.955s] Consolidate compiler generated dependencies of target s3_downloader_lib
+[0.965s] [ 33%] Built target s3_downloader_lib
+[0.968s] Consolidate compiler generated dependencies of target mcap_example
+[0.977s] Consolidate compiler generated dependencies of target mcap_streamer_node
+[0.986s] [ 50%] Building CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o
+[0.989s] [ 83%] Built target mcap_streamer_node
+[13.425s] [100%] Linking CXX executable mcap_example
+[14.021s] [100%] Built target mcap_example
+[14.032s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[14.040s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/mcap_streamer
+[14.046s] -- Install configuration: ""
+[14.046s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_streamer_node
+[14.046s] -- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_example
+[14.049s] -- Set runtime path of "/home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_example" to ""
+[14.049s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config
+[14.049s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config/mcap_streamer_params.yaml
+[14.049s] -- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config/mcap_reader_params.yaml
+[14.049s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch
+[14.049s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_streamer.launch.py
+[14.049s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_reader.launch.py
+[14.049s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_streamer_with_reader.launch.py
+[14.050s] -- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_example.launch.py
+[14.050s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/package_run_dependencies/mcap_streamer
+[14.050s] -- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/parent_prefix_path/mcap_streamer
+[14.050s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/ament_prefix_path.sh
+[14.050s] -- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/ament_prefix_path.dsv
+[14.050s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/path.sh
+[14.050s] -- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/path.dsv
+[14.050s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.bash
+[14.050s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.sh
+[14.050s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.zsh
+[14.051s] -- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.dsv
+[14.051s] -- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.dsv
+[14.051s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/packages/mcap_streamer
+[14.051s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/cmake/mcap_streamerConfig.cmake
+[14.051s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/cmake/mcap_streamerConfig-version.cmake
+[14.051s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.xml
+[14.052s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/mcap_streamer

@@ -1,0 +1,13 @@
+[0.012s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.068s] [ 33%] Built target s3_downloader_lib
+[0.070s] Consolidate compiler generated dependencies of target mcap_example
+[0.090s] [ 50%] Building CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o
+[0.095s] [ 83%] Built target mcap_streamer_node
+[0.357s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:4:9: fatal error: rosidl_generator_traits/traits.hpp: No such file or directory
+[0.357s]     4 | #include<rosidl_generator_traits/traits.hpp>
+[0.357s]       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.357s] compilation terminated.
+[0.359s] gmake[2]: *** [CMakeFiles/mcap_example.dir/build.make:76: CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o] Error 1
+[0.360s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_example.dir/all] Error 2
+[0.360s] gmake: *** [Makefile:146: all] Error 2
+[0.362s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17

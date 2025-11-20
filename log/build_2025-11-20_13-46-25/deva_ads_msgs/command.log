@@ -1,0 +1,4 @@
+Invoking command in '/home/linjiawei/load_mcap/build/deva_ads_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_ads_msgs -- -j17 -l17
+Invoked command in '/home/linjiawei/load_mcap/build/deva_ads_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/deva_ads_msgs -- -j17 -l17
+Invoking command in '/home/linjiawei/load_mcap/build/deva_ads_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/deva_ads_msgs
+Invoked command in '/home/linjiawei/load_mcap/build/deva_ads_msgs' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/deva_ads_msgs

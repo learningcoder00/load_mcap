@@ -1,0 +1,1 @@
+Invoking command in '/home/linjiawei/load_mcap/build/rviz_plug_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/rviz_plug_msg -- -j17 -l17

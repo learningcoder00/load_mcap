@@ -1,0 +1,185 @@
+[0.000000] (-) TimerEvent: {}
+[0.000471] (-) JobUnselected: {'identifier': 'deva_ads_msgs'}
+[0.000614] (-) JobUnselected: {'identifier': 'deva_aeb_msgs'}
+[0.000645] (-) JobUnselected: {'identifier': 'deva_common_msgs'}
+[0.000667] (-) JobUnselected: {'identifier': 'deva_control_msgs'}
+[0.000687] (-) JobUnselected: {'identifier': 'deva_function_msgs'}
+[0.000706] (-) JobUnselected: {'identifier': 'deva_gaode_routing_msgs'}
+[0.000724] (-) JobUnselected: {'identifier': 'deva_localization_msgs'}
+[0.000742] (-) JobUnselected: {'identifier': 'deva_map_msgs'}
+[0.000761] (-) JobUnselected: {'identifier': 'deva_mdriver_msgs'}
+[0.000779] (-) JobUnselected: {'identifier': 'deva_navi_msgs'}
+[0.000798] (-) JobUnselected: {'identifier': 'deva_perception_msgs'}
+[0.000816] (-) JobUnselected: {'identifier': 'deva_planning_msgs'}
+[0.000835] (-) JobUnselected: {'identifier': 'deva_planning_msgs2'}
+[0.000853] (-) JobUnselected: {'identifier': 'environment_model_msgs'}
+[0.000872] (-) JobUnselected: {'identifier': 'fault_diagnosis'}
+[0.000891] (-) JobUnselected: {'identifier': 'rviz_plug_msg'}
+[0.000910] (-) JobUnselected: {'identifier': 'serialize_msgs'}
+[0.000933] (mcap_streamer) JobQueued: {'identifier': 'mcap_streamer', 'dependencies': OrderedDict()}
+[0.000956] (mcap_streamer) JobStarted: {'identifier': 'mcap_streamer'}
+[0.007533] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'cmake'}
+[0.008207] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'build'}
+[0.009607] (mcap_streamer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linjiawei/load_mcap/build/mcap_streamer', '--', '-j17', '-l17'], 'cwd': '/home/linjiawei/load_mcap/build/mcap_streamer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/linjiawei'), ('KUBERNETES_SERVICE_PORT', '443'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('KUBEBRAIN_SITE', 'mach'), ('KUBERNETES_PORT', 'tcp://10.68.0.1:443'), ('BRAIN_DAEMON_JUPYTER_DIR', '/data/jupyter'), ('USER', 'linjiawei'), ('SSH_CLIENT', '100.96.2.80 57616 22'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/tcf.json","messagesFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/ba90f2f88e4911312761abab9492c42442117cf0/nls.messages.json","corruptMarkerFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"6fe284ae87274d9cb2cdffc89b193492.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/tcf.json","_cacheRoot":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn","_resolvedLanguagePackCoreLocation":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/ba90f2f88e4911312761abab9492c42442117cf0","_corruptedFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/corrupted.info"}'), ('BRAIN_SHARED_READONLY', 'false'), ('KUBEBRAIN_PROCESS_ID', 'a339afdf-8e23-41dd-b3c2-ec44dfa27e9d'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'ros'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64'), ('BROWSER', '/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/linjiawei'), ('TMP_SIZE', '16777216K'), ('KUBEBRAIN_RUNTIME', 'ws2'), ('OLDPWD', '/home/linjiawei/load_mcap'), ('VSCODE_IPC_HOOK_CLI', '/run/user/10250/vscode-ipc-a2aff49f-58d2-441e-828d-ced252d61886.sock'), ('BRAIN_DAEMON_JUPYTER_TOKEN', '9c0e8eec-6994-41a4-9f6b-319d33bc630e'), ('ROS_PYTHON_VERSION', '3'), ('BRAIN_DAEMON_JUPYTER_BASE_URL', '/kapi/workspace.kubebrain.io/mach-mp/ws-00018098a82852e6/jupyter'), ('PCIDEVICE_MELLANOX_COM_MLNX_RDMA', ''), ('NO_COLOR', '1'), ('TOPOLOGY_ZONE', 'mach-cn-west-qy-dsxs-cm'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/linjiawei/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.99.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linjiawei'), ('FORCE_COLOR', '0'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('BRAIN_USERNAME', 'linjiawei'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('XDG_SESSION_ID', 'c59'), ('KUBERNETES_PORT_443_TCP_ADDR', '10.68.0.1'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('SHM_SIZE', '16777216K'), ('PATH', '/home/linjiawei/.local/bin:/home/linjiawei/.local/bin:/opt/ros/humble/bin:/opt/conda/bin:/kubebrain:/usr/local/nvidia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VSCODE_AGENT_FOLDER', '/home/linjiawei/.cursor-server'), ('KUBEBRAIN_WORKSPACE_NAME', 'ws-00018098a82852e6'), ('XDG_RUNTIME_DIR', '/run/user/10250'), ('KUBERNETES_PORT_443_TCP_PORT', '443'), ('CURSOR_AGENT', '1'), ('DISPLAY', 'localhost:10.0'), ('KUBERNETES_PORT_443_TCP_PROTO', 'tcp'), ('KUBEBRAIN_RESOURCE_TYPE', 'workspace'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-auth-sock-5947a298-eaf8-4f15-adfc-973d91be4566.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('BRAIN_DAEMON_JUPYTER_PORT', '8888'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_SHUTDOWN_TIMEOUT', '300'), ('TerminationGracePeriodSeconds', '30'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KUBERNETES_SERVICE_PORT_HTTPS', '443'), ('KUBERNETES_PORT_443_TCP', 'tcp://10.68.0.1:443'), ('KUBEBRAIN_QUOTA_GROUP', 'mp_ws'), ('KUBEBRAIN_CLUSTER_ENTRY', 'https://qy.machdrive.cn'), ('PWD', '/home/linjiawei/load_mcap/build/mcap_streamer'), ('BRAIN_SHARED_ROOT', '10.68.17.151:/'), ('KUBEBRAIN_NAMESPACE', 'mach-mp'), ('KUBERNETES_SERVICE_HOST', '10.68.0.1'), ('BRAIN_TOPOLOGY_LEAF_ROCE', ''), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.96.2.80 57616 100.97.82.77 22'), ('KUBEBRAIN_PROCESS_NAME', 'ws-00018098a82852e6-master'), ('KUBEBRAIN_WORKSPACE_NAMESPACE', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.035661] (mcap_streamer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099130] (-) TimerEvent: {}
+[0.157777] (mcap_streamer) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.181655] (mcap_streamer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.184092] (mcap_streamer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.189733] (mcap_streamer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.199207] (-) TimerEvent: {}
+[0.199359] (mcap_streamer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.211346] (mcap_streamer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.242856] (mcap_streamer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.244151] (mcap_streamer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299285] (-) TimerEvent: {}
+[0.322136] (mcap_streamer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.371138] (mcap_streamer) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[0.388514] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_perception_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_perception_msgs/share/deva_perception_msgs/cmake)\n'}
+[0.399389] (-) TimerEvent: {}
+[0.480593] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_control_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_control_msgs/share/deva_control_msgs/cmake)\n'}
+[0.499468] (-) TimerEvent: {}
+[0.567626] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_aeb_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_aeb_msgs/share/deva_aeb_msgs/cmake)\n'}
+[0.583213] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_mdriver_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_mdriver_msgs/share/deva_mdriver_msgs/cmake)\n'}
+[0.599553] (-) TimerEvent: {}
+[0.639723] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_gaode_routing_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/share/deva_gaode_routing_msgs/cmake)\n'}
+[0.656802] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_navi_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/cmake)\n'}
+[0.666058] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_ads_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/cmake)\n'}
+[0.680662] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_function_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_function_msgs/share/deva_function_msgs/cmake)\n'}
+[0.697970] (mcap_streamer) StdoutLine: {'line': b'-- Found rviz_plug_msg: 0.0.0 (/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/cmake)\n'}
+[0.699633] (-) TimerEvent: {}
+[0.709775] (mcap_streamer) StdoutLine: {'line': b'-- Found fault_diagnosis: 0.0.0 (/home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake)\n'}
+[0.725195] (mcap_streamer) StdoutLine: {'line': b'-- Found serialize_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/cmake)\n'}
+[0.737096] (mcap_streamer) StdoutLine: {'line': b'-- Found environment_model_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/environment_model_msgs/share/environment_model_msgs/cmake)\n'}
+[0.755108] (mcap_streamer) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.774777] (mcap_streamer) StdoutLine: {'line': b'-- Found foxglove_msgs: 3.2.1 (/opt/ros/humble/share/foxglove_msgs/cmake)\n'}
+[0.789712] (mcap_streamer) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.799710] (-) TimerEvent: {}
+[0.880156] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.880451] (mcap_streamer) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linjiawei/load_mcap/src/mcap_streamer/include>\n'}
+[0.880565] (mcap_streamer) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.880816] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.881183] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.881484] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.882167] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.882289] (mcap_streamer) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.882476] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.883122] (mcap_streamer) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.899806] (-) TimerEvent: {}
+[0.914974] (mcap_streamer) StdoutLine: {'line': b'-- Generating done\n'}
+[0.924293] (mcap_streamer) StdoutLine: {'line': b'-- Build files have been written to: /home/linjiawei/load_mcap/build/mcap_streamer\n'}
+[0.955176] (mcap_streamer) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target mcap_example\n'}
+[0.968451] (mcap_streamer) StdoutLine: {'line': b'[ 16%] Building CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o\n'}
+[0.991481] (mcap_streamer) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target s3_downloader_lib\n'}
+[0.999890] (-) TimerEvent: {}
+[1.000920] (mcap_streamer) StdoutLine: {'line': b'[ 50%] Built target s3_downloader_lib\n'}
+[1.013713] (mcap_streamer) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target mcap_streamer_node\n'}
+[1.025394] (mcap_streamer) StdoutLine: {'line': b'[ 83%] Built target mcap_streamer_node\n'}
+[1.099992] (-) TimerEvent: {}
+[1.200179] (-) TimerEvent: {}
+[1.300359] (-) TimerEvent: {}
+[1.400490] (-) TimerEvent: {}
+[1.500634] (-) TimerEvent: {}
+[1.600770] (-) TimerEvent: {}
+[1.700886] (-) TimerEvent: {}
+[1.801029] (-) TimerEvent: {}
+[1.901187] (-) TimerEvent: {}
+[2.001321] (-) TimerEvent: {}
+[2.101438] (-) TimerEvent: {}
+[2.201557] (-) TimerEvent: {}
+[2.301697] (-) TimerEvent: {}
+[2.401848] (-) TimerEvent: {}
+[2.501995] (-) TimerEvent: {}
+[2.602190] (-) TimerEvent: {}
+[2.702467] (-) TimerEvent: {}
+[2.802757] (-) TimerEvent: {}
+[2.903023] (-) TimerEvent: {}
+[3.003281] (-) TimerEvent: {}
+[3.103503] (-) TimerEvent: {}
+[3.203686] (-) TimerEvent: {}
+[3.303842] (-) TimerEvent: {}
+[3.403996] (-) TimerEvent: {}
+[3.504151] (-) TimerEvent: {}
+[3.604307] (-) TimerEvent: {}
+[3.704462] (-) TimerEvent: {}
+[3.804616] (-) TimerEvent: {}
+[3.904771] (-) TimerEvent: {}
+[4.004923] (-) TimerEvent: {}
+[4.105074] (-) TimerEvent: {}
+[4.205221] (-) TimerEvent: {}
+[4.305371] (-) TimerEvent: {}
+[4.405545] (-) TimerEvent: {}
+[4.505694] (-) TimerEvent: {}
+[4.605843] (-) TimerEvent: {}
+[4.705999] (-) TimerEvent: {}
+[4.806164] (-) TimerEvent: {}
+[4.906322] (-) TimerEvent: {}
+[5.006559] (-) TimerEvent: {}
+[5.106830] (-) TimerEvent: {}
+[5.207030] (-) TimerEvent: {}
+[5.307194] (-) TimerEvent: {}
+[5.407363] (-) TimerEvent: {}
+[5.507523] (-) TimerEvent: {}
+[5.607700] (-) TimerEvent: {}
+[5.707929] (-) TimerEvent: {}
+[5.808105] (-) TimerEvent: {}
+[5.908213] (-) TimerEvent: {}
+[6.008310] (-) TimerEvent: {}
+[6.108410] (-) TimerEvent: {}
+[6.208511] (-) TimerEvent: {}
+[6.308612] (-) TimerEvent: {}
+[6.408709] (-) TimerEvent: {}
+[6.508802] (-) TimerEvent: {}
+[6.608899] (-) TimerEvent: {}
+[6.709003] (-) TimerEvent: {}
+[6.809100] (-) TimerEvent: {}
+[6.909213] (-) TimerEvent: {}
+[7.009378] (-) TimerEvent: {}
+[7.079398] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp: In lambda function:\n'}
+[7.079637] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:469:77: error: \xe2\x80\x98VehicleReportCommon\xe2\x80\x99 is not a member of \xe2\x80\x98deva_control_msgs::msg\xe2\x80\x99\n'}
+[7.079708] (mcap_streamer) StderrLine: {'line': b'  469 |                         self->deserialize_and_print<deva_control_msgs::msg::VehicleReportCommon>(msg, topic);\n'}
+[7.079793] (mcap_streamer) StderrLine: {'line': b'      |                                                                             ^~~~~~~~~~~~~~~~~~~\n'}
+[7.080086] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp: In instantiation of \xe2\x80\x98MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)> [with auto:116 = std::shared_ptr<rclcpp::SerializedMessage>; auto:117 = std::__cxx11::basic_string<char>]\xe2\x80\x99:\n'}
+[7.080153] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/type_traits:2536:26:   required by substitution of \xe2\x80\x98template<class _Fn, class ... _Args> static std::__result_of_success<decltype (declval<_Fn>()((declval<_Args>)()...)), std::__invoke_other> std::__result_of_other_impl::_S_test(int) [with _Fn = MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>&; _Args = {std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}]\xe2\x80\x99\n'}
+[7.080221] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/type_traits:2547:55:   required from \xe2\x80\x98struct std::__result_of_impl<false, false, MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>&, std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>\xe2\x80\x99\n'}
+[7.080277] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/std_function.h:348:9:   recursively required by substitution of \xe2\x80\x98template<class _Result, class _Ret> struct std::__is_invocable_impl<_Result, _Ret, true, std::__void_t<typename _CTp::type> > [with _Result = std::__invoke_result<MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>&, std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>; _Ret = void]\xe2\x80\x99\n'}
+[7.080337] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/std_function.h:348:9:   required from \xe2\x80\x98struct std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>::_Callable<MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>, MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>, std::__invoke_result<MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>&, std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> >\xe2\x80\x99\n'}
+[7.080396] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/std_function.h:353:8:   required by substitution of \xe2\x80\x98template<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>::_Callable<MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>, MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>, std::__invoke_result<MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>&, std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> >; _Tp = void; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}]\xe2\x80\x99\n'}
+[7.080464] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/std_function.h:434:9:   required by substitution of \xe2\x80\x98template<class _Functor, class _Constraints> std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>::function(_Functor&&) [with _Functor = MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>; _Constraints = <missing>]\xe2\x80\x99\n'}
+[7.080522] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:470:21:   required from here\n'}
+[7.080577] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:469:97: error: no matching function for call to \xe2\x80\x98MCapExample::<expression error>(std::shared_ptr<rclcpp::SerializedMessage>&, std::__cxx11::basic_string<char>&)\xe2\x80\x99\n'}
+[7.080636] (mcap_streamer) StderrLine: {'line': b'  469 |                         self->deserialize_and_print<deva_control_msgs::msg::VehicleReportCommon>(msg, topic);\n'}
+[7.080692] (mcap_streamer) StderrLine: {'line': b'      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~\n'}
+[7.080746] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:574:10: note: candidate: \xe2\x80\x98template<class T> void MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&)\xe2\x80\x99\n'}
+[7.080802] (mcap_streamer) StderrLine: {'line': b'  574 |     void deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage> serialized_msg,\n'}
+[7.080855] (mcap_streamer) StderrLine: {'line': b'      |          ^~~~~~~~~~~~~~~~~~~~~\n'}
+[7.080908] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:574:10: note:   template argument deduction/substitution failed:\n'}
+[7.109456] (-) TimerEvent: {}
+[7.209575] (-) TimerEvent: {}
+[7.309760] (-) TimerEvent: {}
+[7.409983] (-) TimerEvent: {}
+[7.510146] (-) TimerEvent: {}
+[7.610262] (-) TimerEvent: {}
+[7.710428] (-) TimerEvent: {}
+[7.810654] (-) TimerEvent: {}
+[7.910831] (-) TimerEvent: {}
+[8.010960] (-) TimerEvent: {}
+[8.111077] (-) TimerEvent: {}
+[8.211193] (-) TimerEvent: {}
+[8.311305] (-) TimerEvent: {}
+[8.411440] (-) TimerEvent: {}
+[8.511579] (-) TimerEvent: {}
+[8.611696] (-) TimerEvent: {}
+[8.711828] (-) TimerEvent: {}
+[8.811946] (-) TimerEvent: {}
+[8.912051] (-) TimerEvent: {}
+[9.012166] (-) TimerEvent: {}
+[9.112307] (-) TimerEvent: {}
+[9.212450] (-) TimerEvent: {}
+[9.312565] (-) TimerEvent: {}
+[9.352015] (mcap_streamer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/mcap_example.dir/build.make:76: CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o] Error 1\n'}
+[9.352463] (mcap_streamer) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_example.dir/all] Error 2\n'}
+[9.352550] (mcap_streamer) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.354793] (mcap_streamer) CommandEnded: {'returncode': 2}
+[9.367948] (mcap_streamer) JobEnded: {'identifier': 'mcap_streamer', 'rc': 2}
+[9.378260] (-) EventReactorShutdown: {}

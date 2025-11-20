@@ -1,0 +1,68 @@
+[0.009s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.035s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.157s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.181s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.183s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.189s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.198s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.210s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.242s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.243s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.321s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.370s] -- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.388s] -- Found deva_perception_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_perception_msgs/share/deva_perception_msgs/cmake)
+[0.480s] -- Found deva_control_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_control_msgs/share/deva_control_msgs/cmake)
+[0.567s] -- Found deva_aeb_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_aeb_msgs/share/deva_aeb_msgs/cmake)
+[0.582s] -- Found deva_mdriver_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_mdriver_msgs/share/deva_mdriver_msgs/cmake)
+[0.639s] -- Found deva_gaode_routing_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/share/deva_gaode_routing_msgs/cmake)
+[0.656s] -- Found deva_navi_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/cmake)
+[0.665s] -- Found deva_ads_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/cmake)
+[0.680s] -- Found deva_function_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_function_msgs/share/deva_function_msgs/cmake)
+[0.697s] -- Found rviz_plug_msg: 0.0.0 (/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/cmake)
+[0.709s] -- Found fault_diagnosis: 0.0.0 (/home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake)
+[0.724s] -- Found serialize_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/cmake)
+[0.736s] -- Found environment_model_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/environment_model_msgs/share/environment_model_msgs/cmake)
+[0.754s] -- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.774s] -- Found foxglove_msgs: 3.2.1 (/opt/ros/humble/share/foxglove_msgs/cmake)
+[0.789s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.879s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.880s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linjiawei/load_mcap/src/mcap_streamer/include>
+[0.880s] -- Configured cppcheck exclude dirs and/or files: 
+[0.880s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.880s] -- Added test 'lint_cmake' to check CMake code style
+[0.881s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.881s] -- Added test 'uncrustify' to check C / C++ code style
+[0.881s] -- Configured uncrustify additional arguments: 
+[0.882s] -- Added test 'xmllint' to check XML markup files
+[0.882s] -- Configuring done
+[0.914s] -- Generating done
+[0.923s] -- Build files have been written to: /home/linjiawei/load_mcap/build/mcap_streamer
+[0.954s] Consolidate compiler generated dependencies of target mcap_example
+[0.968s] [ 16%] Building CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o
+[0.991s] Consolidate compiler generated dependencies of target s3_downloader_lib
+[1.000s] [ 50%] Built target s3_downloader_lib
+[1.013s] Consolidate compiler generated dependencies of target mcap_streamer_node
+[1.025s] [ 83%] Built target mcap_streamer_node
+[7.079s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp: In lambda function:
+[7.079s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:469:77: error: ‘VehicleReportCommon’ is not a member of ‘deva_control_msgs::msg’
+[7.079s]   469 |                         self->deserialize_and_print<deva_control_msgs::msg::VehicleReportCommon>(msg, topic);
+[7.079s]       |                                                                             ^~~~~~~~~~~~~~~~~~~
+[7.079s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp: In instantiation of ‘MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)> [with auto:116 = std::shared_ptr<rclcpp::SerializedMessage>; auto:117 = std::__cxx11::basic_string<char>]’:
+[7.079s] /usr/include/c++/11/type_traits:2536:26:   required by substitution of ‘template<class _Fn, class ... _Args> static std::__result_of_success<decltype (declval<_Fn>()((declval<_Args>)()...)), std::__invoke_other> std::__result_of_other_impl::_S_test(int) [with _Fn = MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>&; _Args = {std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}]’
+[7.079s] /usr/include/c++/11/type_traits:2547:55:   required from ‘struct std::__result_of_impl<false, false, MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>&, std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>’
+[7.079s] /usr/include/c++/11/bits/std_function.h:348:9:   recursively required by substitution of ‘template<class _Result, class _Ret> struct std::__is_invocable_impl<_Result, _Ret, true, std::__void_t<typename _CTp::type> > [with _Result = std::__invoke_result<MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>&, std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&>; _Ret = void]’
+[7.079s] /usr/include/c++/11/bits/std_function.h:348:9:   required from ‘struct std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>::_Callable<MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>, MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>, std::__invoke_result<MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>&, std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> >’
+[7.079s] /usr/include/c++/11/bits/std_function.h:353:8:   required by substitution of ‘template<class _Res, class ... _ArgTypes> template<class _Cond, class _Tp> using _Requires = std::__enable_if_t<_Cond::value, _Tp> [with _Cond = std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>::_Callable<MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>, MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>, std::__invoke_result<MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>&, std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&> >; _Tp = void; _Res = void; _ArgTypes = {std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}]’
+[7.080s] /usr/include/c++/11/bits/std_function.h:434:9:   required by substitution of ‘template<class _Functor, class _Constraints> std::function<void(std::shared_ptr<rclcpp::SerializedMessage>, const std::__cxx11::basic_string<char>&)>::function(_Functor&&) [with _Functor = MCapExample::init_deserialize_handlers(const std::set<std::__cxx11::basic_string<char> >&)::<lambda(MCapExample*)>::<lambda(auto:116, auto:117)>; _Constraints = <missing>]’
+[7.080s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:470:21:   required from here
+[7.080s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:469:97: error: no matching function for call to ‘MCapExample::<expression error>(std::shared_ptr<rclcpp::SerializedMessage>&, std::__cxx11::basic_string<char>&)’
+[7.080s]   469 |                         self->deserialize_and_print<deva_control_msgs::msg::VehicleReportCommon>(msg, topic);
+[7.080s]       |                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~
+[7.080s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:574:10: note: candidate: ‘template<class T> void MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&)’
+[7.080s]   574 |     void deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage> serialized_msg,
+[7.080s]       |          ^~~~~~~~~~~~~~~~~~~~~
+[7.080s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:574:10: note:   template argument deduction/substitution failed:
+[9.351s] gmake[2]: *** [CMakeFiles/mcap_example.dir/build.make:76: CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o] Error 1
+[9.352s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_example.dir/all] Error 2
+[9.352s] gmake: *** [Makefile:146: all] Error 2
+[9.354s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17

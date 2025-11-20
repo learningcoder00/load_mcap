@@ -17,6 +17,28 @@ find_package(rosbag2_cpp REQUIRED)
 find_package(rosbag2_storage REQUIRED)
 find_package(rcl_interfaces REQUIRED)
 find_package(rosidl_typesupport_introspection_cpp REQUIRED)
+# Message packages used by mcap_example
+find_package(deva_perception_msgs REQUIRED)
+find_package(deva_control_msgs REQUIRED)
+find_package(deva_common_msgs REQUIRED)
+find_package(deva_localization_msgs REQUIRED)
+find_package(deva_aeb_msgs REQUIRED)
+find_package(deva_map_msgs REQUIRED)
+find_package(deva_mdriver_msgs REQUIRED)
+find_package(deva_gaode_routing_msgs REQUIRED)
+find_package(deva_navi_msgs REQUIRED)
+find_package(deva_ads_msgs REQUIRED)
+find_package(deva_planning_msgs REQUIRED)
+find_package(deva_planning_msgs2 REQUIRED)
+find_package(deva_function_msgs REQUIRED)
+find_package(rviz_plug_msg REQUIRED)
+find_package(fault_diagnosis REQUIRED)
+find_package(serialize_msgs REQUIRED)
+find_package(environment_model_msgs REQUIRED)
+find_package(visualization_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(foxglove_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
@@ -51,21 +73,42 @@ ament_target_dependencies(mcap_streamer_node
   rcl_interfaces
 )
 
-# Add executable for reader
-add_executable(mcap_reader_node src/mcap_reader_node.cpp)
-ament_target_dependencies(mcap_reader_node
+# Add executable for example
+add_executable(mcap_example src/mcap_example.cpp)
+ament_target_dependencies(mcap_example
   rclcpp
   std_msgs
   rosbag2_cpp
   rosbag2_storage
   rcl_interfaces
   rosidl_typesupport_introspection_cpp
+  deva_perception_msgs
+  deva_control_msgs
+  deva_common_msgs
+  deva_localization_msgs
+  deva_aeb_msgs
+  deva_map_msgs
+  deva_mdriver_msgs
+  deva_gaode_routing_msgs
+  deva_navi_msgs
+  deva_ads_msgs
+  deva_planning_msgs
+  deva_planning_msgs2
+  deva_function_msgs
+  rviz_plug_msg
+  fault_diagnosis
+  serialize_msgs
+  environment_model_msgs
+  visualization_msgs
+  geometry_msgs
+  foxglove_msgs
+  sensor_msgs
 )
 
 # Install executables
 install(TARGETS
   mcap_streamer_node
-  mcap_reader_node
+  mcap_example
   DESTINATION lib/${PROJECT_NAME}
 )
 

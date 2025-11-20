@@ -1,0 +1,10 @@
+[ 33%] Built target s3_downloader_lib
+[ 50%] [32mBuilding CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o[0m
+[ 83%] Built target mcap_streamer_node
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:21:9:[m[K [01;31m[Kfatal error: [m[Kdeva_mdriver_msgs/msg/mdriver_version.hpp: No such file or directory
+   21 | #include[01;31m[K<deva_mdriver_msgs/msg/mdriver_version.hpp>[m[K
+      |         [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/mcap_example.dir/build.make:76: CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

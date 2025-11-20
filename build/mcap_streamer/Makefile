@@ -224,41 +224,41 @@ mcap_streamer_node/fast:
 .PHONY : mcap_streamer_node/fast
 
 #=============================================================================
-# Target rules for targets named mcap_reader_node
+# Target rules for targets named mcap_example
 
 # Build rule for target.
-mcap_reader_node: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mcap_reader_node
-.PHONY : mcap_reader_node
+mcap_example: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 mcap_example
+.PHONY : mcap_example
 
 # fast build rule for target.
-mcap_reader_node/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mcap_reader_node.dir/build.make CMakeFiles/mcap_reader_node.dir/build
-.PHONY : mcap_reader_node/fast
+mcap_example/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mcap_example.dir/build.make CMakeFiles/mcap_example.dir/build
+.PHONY : mcap_example/fast
 
-src/mcap_reader_node.o: src/mcap_reader_node.cpp.o
-.PHONY : src/mcap_reader_node.o
+src/mcap_example.o: src/mcap_example.cpp.o
+.PHONY : src/mcap_example.o
 
 # target to build an object file
-src/mcap_reader_node.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mcap_reader_node.dir/build.make CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o
-.PHONY : src/mcap_reader_node.cpp.o
+src/mcap_example.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mcap_example.dir/build.make CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o
+.PHONY : src/mcap_example.cpp.o
 
-src/mcap_reader_node.i: src/mcap_reader_node.cpp.i
-.PHONY : src/mcap_reader_node.i
+src/mcap_example.i: src/mcap_example.cpp.i
+.PHONY : src/mcap_example.i
 
 # target to preprocess a source file
-src/mcap_reader_node.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mcap_reader_node.dir/build.make CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.i
-.PHONY : src/mcap_reader_node.cpp.i
+src/mcap_example.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mcap_example.dir/build.make CMakeFiles/mcap_example.dir/src/mcap_example.cpp.i
+.PHONY : src/mcap_example.cpp.i
 
-src/mcap_reader_node.s: src/mcap_reader_node.cpp.s
-.PHONY : src/mcap_reader_node.s
+src/mcap_example.s: src/mcap_example.cpp.s
+.PHONY : src/mcap_example.s
 
 # target to generate assembly for a file
-src/mcap_reader_node.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/mcap_reader_node.dir/build.make CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.s
-.PHONY : src/mcap_reader_node.cpp.s
+src/mcap_example.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/mcap_example.dir/build.make CMakeFiles/mcap_example.dir/src/mcap_example.cpp.s
+.PHONY : src/mcap_example.cpp.s
 
 src/mcap_streamer_node.o: src/mcap_streamer_node.cpp.o
 .PHONY : src/mcap_streamer_node.o
@@ -323,12 +323,12 @@ help:
 	@echo "... test"
 	@echo "... mcap_streamer_uninstall"
 	@echo "... uninstall"
-	@echo "... mcap_reader_node"
+	@echo "... mcap_example"
 	@echo "... mcap_streamer_node"
 	@echo "... s3_downloader_lib"
-	@echo "... src/mcap_reader_node.o"
-	@echo "... src/mcap_reader_node.i"
-	@echo "... src/mcap_reader_node.s"
+	@echo "... src/mcap_example.o"
+	@echo "... src/mcap_example.i"
+	@echo "... src/mcap_example.s"
 	@echo "... src/mcap_streamer_node.o"
 	@echo "... src/mcap_streamer_node.i"
 	@echo "... src/mcap_streamer_node.s"

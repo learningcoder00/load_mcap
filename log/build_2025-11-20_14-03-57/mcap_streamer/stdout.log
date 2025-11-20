@@ -1,0 +1,4 @@
+[ 33%] Built target s3_downloader_lib
+[35m[1mConsolidate compiler generated dependencies of target mcap_example[0m
+[ 66%] Built target mcap_streamer_node
+[ 83%] [32mBuilding CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o[0m

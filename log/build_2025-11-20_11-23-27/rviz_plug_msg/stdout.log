@@ -1,0 +1,22 @@
+[ 11%] Built target rviz_plug_msg__rosidl_generator_c
+[ 12%] Built target rviz_plug_msg__cpp
+[ 12%] Built target ament_cmake_python_copy_rviz_plug_msg
+[ 24%] Built target rviz_plug_msg__rosidl_typesupport_introspection_c
+[ 35%] Built target rviz_plug_msg__rosidl_typesupport_fastrtps_c
+[ 47%] Built target rviz_plug_msg__rosidl_typesupport_c
+[ 58%] Built target rviz_plug_msg__rosidl_typesupport_cpp
+[ 70%] Built target rviz_plug_msg__rosidl_typesupport_fastrtps_cpp
+[ 81%] Built target rviz_plug_msg__rosidl_typesupport_introspection_cpp
+[ 81%] Built target rviz_plug_msg
+[ 82%] Built target rviz_plug_msg__py
+[ 93%] Built target rviz_plug_msg__rosidl_generator_py
+[ 95%] Built target rviz_plug_msg__rosidl_typesupport_fastrtps_c__pyext
+[ 98%] Built target rviz_plug_msg__rosidl_typesupport_c__pyext
+[100%] Built target rviz_plug_msg__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing rviz_plug_msg.egg-info/PKG-INFO
+writing dependency_links to rviz_plug_msg.egg-info/dependency_links.txt
+writing top-level names to rviz_plug_msg.egg-info/top_level.txt
+reading manifest file 'rviz_plug_msg.egg-info/SOURCES.txt'
+writing manifest file 'rviz_plug_msg.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_rviz_plug_msg_egg

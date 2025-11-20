@@ -1,0 +1,12 @@
+[0.009s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.059s] [ 33%] Built target s3_downloader_lib
+[0.064s] [ 50%] Building CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o
+[0.082s] [ 83%] Built target mcap_streamer_node
+[0.387s] /home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:21:9: fatal error: deva_mdriver_msgs/msg/mdriver_version.hpp: No such file or directory
+[0.387s]    21 | #include<deva_mdriver_msgs/msg/mdriver_version.hpp>
+[0.387s]       |         ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+[0.387s] compilation terminated.
+[0.390s] gmake[2]: *** [CMakeFiles/mcap_example.dir/build.make:76: CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o] Error 1
+[0.390s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_example.dir/all] Error 2
+[0.391s] gmake: *** [Makefile:146: all] Error 2
+[0.393s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17

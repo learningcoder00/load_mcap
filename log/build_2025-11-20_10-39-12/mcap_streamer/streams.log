@@ -1,0 +1,42 @@
+[0.027s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.053s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.214s] -- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)
+[0.239s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.242s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.248s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.258s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.271s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.304s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.305s] -- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.393s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.443s] -- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.466s] -- Found deva_perception_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_perception_msgs/share/deva_perception_msgs/cmake)
+[0.605s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.655s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.655s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linjiawei/load_mcap/src/mcap_streamer/include>
+[0.655s] -- Configured cppcheck exclude dirs and/or files: 
+[0.655s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.656s] -- Added test 'lint_cmake' to check CMake code style
+[0.656s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.657s] -- Added test 'uncrustify' to check C / C++ code style
+[0.657s] -- Configured uncrustify additional arguments: 
+[0.657s] -- Added test 'xmllint' to check XML markup files
+[0.658s] -- Configuring done
+[0.678s] -- Generating done
+[0.685s] -- Build files have been written to: /home/linjiawei/load_mcap/build/mcap_streamer
+[0.714s] [35m[1mConsolidate compiler generated dependencies of target s3_downloader_lib[0m
+[0.714s] [35m[1mConsolidate compiler generated dependencies of target mcap_reader_node[0m
+[0.715s] [35m[1mConsolidate compiler generated dependencies of target mcap_example[0m
+[0.727s] [ 25%] Built target s3_downloader_lib
+[0.732s] [ 37%] [32mBuilding CXX object CMakeFiles/mcap_reader_node.dir/src/mcap_reader_node.cpp.o[0m
+[0.733s] [ 62%] Built target mcap_example
+[0.739s] [35m[1mConsolidate compiler generated dependencies of target mcap_streamer_node[0m
+[0.755s] [ 75%] [32m[1mLinking CXX executable mcap_reader_node[0m
+[0.757s] [100%] Built target mcap_streamer_node
+[0.814s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.814s] (.text+0x1b): undefined reference to `main'
+[0.815s] collect2: error: ld returned 1 exit status
+[0.816s] gmake[2]: *** [CMakeFiles/mcap_reader_node.dir/build.make:165: mcap_reader_node] Error 1
+[0.817s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/mcap_reader_node.dir/all] Error 2
+[0.817s] gmake: *** [Makefile:146: all] Error 2
+[1.179s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
