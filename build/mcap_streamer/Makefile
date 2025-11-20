@@ -211,6 +211,19 @@ s3_downloader_lib/fast:
 .PHONY : s3_downloader_lib/fast
 
 #=============================================================================
+# Target rules for targets named ros_message_converter_lib
+
+# Build rule for target.
+ros_message_converter_lib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ros_message_converter_lib
+.PHONY : ros_message_converter_lib
+
+# fast build rule for target.
+ros_message_converter_lib/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_message_converter_lib.dir/build.make CMakeFiles/ros_message_converter_lib.dir/build
+.PHONY : ros_message_converter_lib/fast
+
+#=============================================================================
 # Target rules for targets named mcap_streamer_node
 
 # Build rule for target.
@@ -284,6 +297,30 @@ src/mcap_streamer_node.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mcap_streamer_node.dir/build.make CMakeFiles/mcap_streamer_node.dir/src/mcap_streamer_node.cpp.s
 .PHONY : src/mcap_streamer_node.cpp.s
 
+src/ros_message_converter.o: src/ros_message_converter.cpp.o
+.PHONY : src/ros_message_converter.o
+
+# target to build an object file
+src/ros_message_converter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_message_converter_lib.dir/build.make CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.o
+.PHONY : src/ros_message_converter.cpp.o
+
+src/ros_message_converter.i: src/ros_message_converter.cpp.i
+.PHONY : src/ros_message_converter.i
+
+# target to preprocess a source file
+src/ros_message_converter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_message_converter_lib.dir/build.make CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.i
+.PHONY : src/ros_message_converter.cpp.i
+
+src/ros_message_converter.s: src/ros_message_converter.cpp.s
+.PHONY : src/ros_message_converter.s
+
+# target to generate assembly for a file
+src/ros_message_converter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ros_message_converter_lib.dir/build.make CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.s
+.PHONY : src/ros_message_converter.cpp.s
+
 src/s3_downloader.o: src/s3_downloader.cpp.o
 .PHONY : src/s3_downloader.o
 
@@ -325,6 +362,7 @@ help:
 	@echo "... uninstall"
 	@echo "... mcap_example"
 	@echo "... mcap_streamer_node"
+	@echo "... ros_message_converter_lib"
 	@echo "... s3_downloader_lib"
 	@echo "... src/mcap_example.o"
 	@echo "... src/mcap_example.i"
@@ -332,6 +370,9 @@ help:
 	@echo "... src/mcap_streamer_node.o"
 	@echo "... src/mcap_streamer_node.i"
 	@echo "... src/mcap_streamer_node.s"
+	@echo "... src/ros_message_converter.o"
+	@echo "... src/ros_message_converter.i"
+	@echo "... src/ros_message_converter.s"
 	@echo "... src/s3_downloader.o"
 	@echo "... src/s3_downloader.i"
 	@echo "... src/s3_downloader.s"

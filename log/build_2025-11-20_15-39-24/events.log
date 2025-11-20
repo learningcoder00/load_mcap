@@ -1,0 +1,224 @@
+[0.000000] (-) TimerEvent: {}
+[0.000164] (-) JobUnselected: {'identifier': 'deva_ads_msgs'}
+[0.000435] (-) JobUnselected: {'identifier': 'deva_aeb_msgs'}
+[0.000552] (-) JobUnselected: {'identifier': 'deva_common_msgs'}
+[0.000577] (-) JobUnselected: {'identifier': 'deva_control_msgs'}
+[0.000596] (-) JobUnselected: {'identifier': 'deva_function_msgs'}
+[0.000614] (-) JobUnselected: {'identifier': 'deva_gaode_routing_msgs'}
+[0.000632] (-) JobUnselected: {'identifier': 'deva_localization_msgs'}
+[0.000649] (-) JobUnselected: {'identifier': 'deva_map_msgs'}
+[0.000666] (-) JobUnselected: {'identifier': 'deva_mdriver_msgs'}
+[0.000683] (-) JobUnselected: {'identifier': 'deva_navi_msgs'}
+[0.000700] (-) JobUnselected: {'identifier': 'deva_perception_msgs'}
+[0.000716] (-) JobUnselected: {'identifier': 'deva_planning_msgs'}
+[0.000733] (-) JobUnselected: {'identifier': 'deva_planning_msgs2'}
+[0.000750] (-) JobUnselected: {'identifier': 'environment_model_msgs'}
+[0.000767] (-) JobUnselected: {'identifier': 'fault_diagnosis'}
+[0.000783] (-) JobUnselected: {'identifier': 'rviz_plug_msg'}
+[0.000800] (-) JobUnselected: {'identifier': 'serialize_msgs'}
+[0.000820] (mcap_streamer) JobQueued: {'identifier': 'mcap_streamer', 'dependencies': OrderedDict()}
+[0.000842] (mcap_streamer) JobStarted: {'identifier': 'mcap_streamer'}
+[0.007064] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'cmake'}
+[0.007680] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'build'}
+[0.008382] (mcap_streamer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linjiawei/load_mcap/build/mcap_streamer', '--', '-j17', '-l17'], 'cwd': '/home/linjiawei/load_mcap/build/mcap_streamer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/linjiawei'), ('KUBERNETES_SERVICE_PORT', '443'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('KUBEBRAIN_SITE', 'mach'), ('KUBERNETES_PORT', 'tcp://10.68.0.1:443'), ('BRAIN_DAEMON_JUPYTER_DIR', '/data/jupyter'), ('USER', 'linjiawei'), ('SSH_CLIENT', '100.96.2.80 57616 22'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/tcf.json","messagesFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/ba90f2f88e4911312761abab9492c42442117cf0/nls.messages.json","corruptMarkerFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"6fe284ae87274d9cb2cdffc89b193492.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/tcf.json","_cacheRoot":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn","_resolvedLanguagePackCoreLocation":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/ba90f2f88e4911312761abab9492c42442117cf0","_corruptedFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/corrupted.info"}'), ('BRAIN_SHARED_READONLY', 'false'), ('KUBEBRAIN_PROCESS_ID', 'a339afdf-8e23-41dd-b3c2-ec44dfa27e9d'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'ros'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64'), ('BROWSER', '/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/linjiawei'), ('TMP_SIZE', '16777216K'), ('KUBEBRAIN_RUNTIME', 'ws2'), ('OLDPWD', '/home/linjiawei/load_mcap'), ('VSCODE_IPC_HOOK_CLI', '/run/user/10250/vscode-ipc-a2aff49f-58d2-441e-828d-ced252d61886.sock'), ('BRAIN_DAEMON_JUPYTER_TOKEN', '9c0e8eec-6994-41a4-9f6b-319d33bc630e'), ('ROS_PYTHON_VERSION', '3'), ('BRAIN_DAEMON_JUPYTER_BASE_URL', '/kapi/workspace.kubebrain.io/mach-mp/ws-00018098a82852e6/jupyter'), ('PCIDEVICE_MELLANOX_COM_MLNX_RDMA', ''), ('NO_COLOR', '1'), ('TOPOLOGY_ZONE', 'mach-cn-west-qy-dsxs-cm'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/linjiawei/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.99.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linjiawei'), ('FORCE_COLOR', '0'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('BRAIN_USERNAME', 'linjiawei'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('XDG_SESSION_ID', 'c59'), ('KUBERNETES_PORT_443_TCP_ADDR', '10.68.0.1'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('SHM_SIZE', '16777216K'), ('PATH', '/home/linjiawei/.local/bin:/home/linjiawei/.local/bin:/opt/ros/humble/bin:/opt/conda/bin:/kubebrain:/usr/local/nvidia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VSCODE_AGENT_FOLDER', '/home/linjiawei/.cursor-server'), ('KUBEBRAIN_WORKSPACE_NAME', 'ws-00018098a82852e6'), ('XDG_RUNTIME_DIR', '/run/user/10250'), ('KUBERNETES_PORT_443_TCP_PORT', '443'), ('CURSOR_AGENT', '1'), ('DISPLAY', 'localhost:10.0'), ('KUBERNETES_PORT_443_TCP_PROTO', 'tcp'), ('KUBEBRAIN_RESOURCE_TYPE', 'workspace'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-auth-sock-5947a298-eaf8-4f15-adfc-973d91be4566.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('BRAIN_DAEMON_JUPYTER_PORT', '8888'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_SHUTDOWN_TIMEOUT', '300'), ('TerminationGracePeriodSeconds', '30'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KUBERNETES_SERVICE_PORT_HTTPS', '443'), ('KUBERNETES_PORT_443_TCP', 'tcp://10.68.0.1:443'), ('KUBEBRAIN_QUOTA_GROUP', 'mp_ws'), ('KUBEBRAIN_CLUSTER_ENTRY', 'https://qy.machdrive.cn'), ('PWD', '/home/linjiawei/load_mcap/build/mcap_streamer'), ('BRAIN_SHARED_ROOT', '10.68.17.151:/'), ('KUBEBRAIN_NAMESPACE', 'mach-mp'), ('KUBERNETES_SERVICE_HOST', '10.68.0.1'), ('BRAIN_TOPOLOGY_LEAF_ROCE', ''), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.96.2.80 57616 100.97.82.77 22'), ('KUBEBRAIN_PROCESS_NAME', 'ws-00018098a82852e6-master'), ('KUBEBRAIN_WORKSPACE_NAMESPACE', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.035247] (mcap_streamer) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099377] (-) TimerEvent: {}
+[0.163047] (mcap_streamer) StdoutLine: {'line': b'-- Found rclcpp: 16.0.15 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.187212] (mcap_streamer) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.189640] (mcap_streamer) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.195325] (mcap_streamer) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.199456] (-) TimerEvent: {}
+[0.204751] (mcap_streamer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.216848] (mcap_streamer) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.248654] (mcap_streamer) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.249920] (mcap_streamer) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.9 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.299533] (-) TimerEvent: {}
+[0.328915] (mcap_streamer) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.378191] (mcap_streamer) StdoutLine: {'line': b'-- Found rosbag2_cpp: 0.15.15 (/opt/ros/humble/share/rosbag2_cpp/cmake)\n'}
+[0.395736] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_perception_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_perception_msgs/share/deva_perception_msgs/cmake)\n'}
+[0.399609] (-) TimerEvent: {}
+[0.488410] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_control_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_control_msgs/share/deva_control_msgs/cmake)\n'}
+[0.499690] (-) TimerEvent: {}
+[0.575590] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_aeb_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_aeb_msgs/share/deva_aeb_msgs/cmake)\n'}
+[0.591070] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_mdriver_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_mdriver_msgs/share/deva_mdriver_msgs/cmake)\n'}
+[0.599767] (-) TimerEvent: {}
+[0.648453] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_gaode_routing_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_gaode_routing_msgs/share/deva_gaode_routing_msgs/cmake)\n'}
+[0.665866] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_navi_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_navi_msgs/share/deva_navi_msgs/cmake)\n'}
+[0.675155] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_ads_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_ads_msgs/share/deva_ads_msgs/cmake)\n'}
+[0.689712] (mcap_streamer) StdoutLine: {'line': b'-- Found deva_function_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/deva_function_msgs/share/deva_function_msgs/cmake)\n'}
+[0.699843] (-) TimerEvent: {}
+[0.707065] (mcap_streamer) StdoutLine: {'line': b'-- Found rviz_plug_msg: 0.0.0 (/home/linjiawei/load_mcap/install/rviz_plug_msg/share/rviz_plug_msg/cmake)\n'}
+[0.718923] (mcap_streamer) StdoutLine: {'line': b'-- Found fault_diagnosis: 0.0.0 (/home/linjiawei/load_mcap/install/fault_diagnosis/share/fault_diagnosis/cmake)\n'}
+[0.734503] (mcap_streamer) StdoutLine: {'line': b'-- Found serialize_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/serialize_msgs/share/serialize_msgs/cmake)\n'}
+[0.746448] (mcap_streamer) StdoutLine: {'line': b'-- Found environment_model_msgs: 0.0.0 (/home/linjiawei/load_mcap/install/environment_model_msgs/share/environment_model_msgs/cmake)\n'}
+[0.764560] (mcap_streamer) StdoutLine: {'line': b'-- Found visualization_msgs: 4.9.0 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[0.784216] (mcap_streamer) StdoutLine: {'line': b'-- Found foxglove_msgs: 3.2.1 (/opt/ros/humble/share/foxglove_msgs/cmake)\n'}
+[0.799241] (mcap_streamer) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.799925] (-) TimerEvent: {}
+[0.892612] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.893111] (mcap_streamer) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/linjiawei/load_mcap/src/mcap_streamer/include>\n'}
+[0.893185] (mcap_streamer) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.893860] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.893925] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.894606] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.894994] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.895056] (mcap_streamer) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.897136] (mcap_streamer) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.897206] (mcap_streamer) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.900004] (-) TimerEvent: {}
+[0.947759] (mcap_streamer) StdoutLine: {'line': b'-- Generating done\n'}
+[0.958583] (mcap_streamer) StdoutLine: {'line': b'-- Build files have been written to: /home/linjiawei/load_mcap/build/mcap_streamer\n'}
+[0.988314] (mcap_streamer) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target s3_downloader_lib\n'}
+[0.995649] (mcap_streamer) StdoutLine: {'line': b'[ 12%] Building CXX object CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.o\n'}
+[0.998710] (mcap_streamer) StdoutLine: {'line': b'[ 37%] Built target s3_downloader_lib\n'}
+[1.000084] (-) TimerEvent: {}
+[1.011659] (mcap_streamer) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target mcap_streamer_node\n'}
+[1.027083] (mcap_streamer) StdoutLine: {'line': b'[ 62%] Built target mcap_streamer_node\n'}
+[1.100215] (-) TimerEvent: {}
+[1.200404] (-) TimerEvent: {}
+[1.300585] (-) TimerEvent: {}
+[1.400736] (-) TimerEvent: {}
+[1.500875] (-) TimerEvent: {}
+[1.600999] (-) TimerEvent: {}
+[1.610461] (mcap_streamer) StderrLine: {'line': b'In file included from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.610758] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp: In function \xe2\x80\x98mcap_streamer::MessageMap mcap_streamer::message_to_map(const T&) [with T = deva_perception_msgs::msg::RVDynObstacleResult_<std::allocator<void> >; mcap_streamer::MessageMap = std::map<std::__cxx11::basic_string<char>, std::any>]\xe2\x80\x99:\n'}
+[1.610855] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:66:70: error: no matching function for call to \xe2\x80\x98std::__cxx11::basic_string<char>::basic_string(const _frame_id_type&)\xe2\x80\x99\n'}
+[1.610963] (mcap_streamer) StderrLine: {'line': b'   66 |     header_map["frame_id"] = std::any(std::string(msg.header.frame_id));\n'}
+[1.611037] (mcap_streamer) StderrLine: {'line': b'      |                                                                      ^\n'}
+[1.611102] (mcap_streamer) StderrLine: {'line': b'In file included from /usr/include/c++/11/string:55,\n'}
+[1.611170] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:5,\n'}
+[1.611239] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.611304] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:664:9: note: candidate: \xe2\x80\x98template<class _Tp, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Tp&, const _Alloc&) [with _Tp = _Tp; <template-parameter-2-2> = <template-parameter-1-2>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.611375] (mcap_streamer) StderrLine: {'line': b'  664 |         basic_string(const _Tp& __t, const _Alloc& __a = _Alloc())\n'}
+[1.611440] (mcap_streamer) StderrLine: {'line': b'      |         ^~~~~~~~~~~~\n'}
+[1.611504] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:664:9: note:   template argument deduction/substitution failed:\n'}
+[1.612094] (mcap_streamer) StderrLine: {'line': b'In file included from /usr/include/c++/11/bits/move.h:57,\n'}
+[1.612159] (mcap_streamer) StderrLine: {'line': b'                 from /usr/include/c++/11/bits/stl_pair.h:59,\n'}
+[1.612212] (mcap_streamer) StderrLine: {'line': b'                 from /usr/include/c++/11/bits/stl_algobase.h:64,\n'}
+[1.612265] (mcap_streamer) StderrLine: {'line': b'                 from /usr/include/c++/11/bits/stl_tree.h:63,\n'}
+[1.612317] (mcap_streamer) StderrLine: {'line': b'                 from /usr/include/c++/11/map:60,\n'}
+[1.612371] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:4,\n'}
+[1.612423] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.612488] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/type_traits: In substitution of \xe2\x80\x98template<bool _Cond, class _Tp> using enable_if_t = typename std::enable_if::type [with bool _Cond = false; _Tp = void]\xe2\x80\x99:\n'}
+[1.612549] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:125:8:   required by substitution of \xe2\x80\x98template<class _CharT, class _Traits, class _Alloc> template<class _Tp, class _Res> using _If_sv = std::enable_if_t<std::__and_<std::is_convertible<const _Tp&, std::basic_string_view<_CharT, _Traits> >, std::__not_<std::is_convertible<const _Tp*, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>*> >, std::__not_<std::is_convertible<const _Tp&, const _CharT*> > >::value, _Res> [with _Tp = deva_common_msgs::msg::String_<std::allocator<void> >; _Res = void; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.612608] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:662:30:   required from here\n'}
+[1.612660] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/type_traits:2585:11: error: no type named \xe2\x80\x98type\xe2\x80\x99 in \xe2\x80\x98struct std::enable_if<false, void>\xe2\x80\x99\n'}
+[1.612714] (mcap_streamer) StderrLine: {'line': b' 2585 |     using enable_if_t = typename enable_if<_Cond, _Tp>::type;\n'}
+[1.612764] (mcap_streamer) StderrLine: {'line': b'      |           ^~~~~~~~~~~\n'}
+[1.612814] (mcap_streamer) StderrLine: {'line': b'In file included from /usr/include/c++/11/string:55,\n'}
+[1.612866] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:5,\n'}
+[1.612919] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.612969] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:653:9: note: candidate: \xe2\x80\x98template<class _Tp, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Tp&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _Tp = _Tp; <template-parameter-2-2> = <template-parameter-1-2>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.613030] (mcap_streamer) StderrLine: {'line': b'  653 |         basic_string(const _Tp& __t, size_type __pos, size_type __n,\n'}
+[1.613083] (mcap_streamer) StderrLine: {'line': b'      |         ^~~~~~~~~~~~\n'}
+[1.613137] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:653:9: note:   template argument deduction/substitution failed:\n'}
+[1.613195] (mcap_streamer) StderrLine: {'line': b'In file included from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.613247] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:66:70: note:   candidate expects 4 arguments, 1 provided\n'}
+[1.613299] (mcap_streamer) StderrLine: {'line': b'   66 |     header_map["frame_id"] = std::any(std::string(msg.header.frame_id));\n'}
+[1.613350] (mcap_streamer) StderrLine: {'line': b'      |                                                                      ^\n'}
+[1.613403] (mcap_streamer) StderrLine: {'line': b'In file included from /usr/include/c++/11/string:55,\n'}
+[1.613454] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:5,\n'}
+[1.613505] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.613556] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:638:9: note: candidate: \xe2\x80\x98template<class _InputIterator, class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(_InputIterator, _InputIterator, const _Alloc&) [with _InputIterator = _InputIterator; <template-parameter-2-2> = <template-parameter-1-2>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.613612] (mcap_streamer) StderrLine: {'line': b'  638 |         basic_string(_InputIterator __beg, _InputIterator __end,\n'}
+[1.613664] (mcap_streamer) StderrLine: {'line': b'      |         ^~~~~~~~~~~~\n'}
+[1.613717] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:638:9: note:   template argument deduction/substitution failed:\n'}
+[1.613769] (mcap_streamer) StderrLine: {'line': b'In file included from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.613820] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:66:70: note:   candidate expects 3 arguments, 1 provided\n'}
+[1.613872] (mcap_streamer) StderrLine: {'line': b'   66 |     header_map["frame_id"] = std::any(std::string(msg.header.frame_id));\n'}
+[1.613923] (mcap_streamer) StderrLine: {'line': b'      |                                                                      ^\n'}
+[1.613973] (mcap_streamer) StderrLine: {'line': b'In file included from /usr/include/c++/11/string:55,\n'}
+[1.614025] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:5,\n'}
+[1.614076] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.614127] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:553:7: note: candidate: \xe2\x80\x98template<class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, _CharT, const _Alloc&) [with <template-parameter-2-1> = <template-parameter-1-1>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.614181] (mcap_streamer) StderrLine: {'line': b'  553 |       basic_string(size_type __n, _CharT __c, const _Alloc& __a = _Alloc())\n'}
+[1.614270] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.614324] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:553:7: note:   template argument deduction/substitution failed:\n'}
+[1.614376] (mcap_streamer) StderrLine: {'line': b'In file included from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.614428] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:66:70: note:   candidate expects 3 arguments, 1 provided\n'}
+[1.614479] (mcap_streamer) StderrLine: {'line': b'   66 |     header_map["frame_id"] = std::any(std::string(msg.header.frame_id));\n'}
+[1.614531] (mcap_streamer) StderrLine: {'line': b'      |                                                                      ^\n'}
+[1.614583] (mcap_streamer) StderrLine: {'line': b'In file included from /usr/include/c++/11/string:55,\n'}
+[1.614634] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:5,\n'}
+[1.614686] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.614737] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:533:7: note: candidate: \xe2\x80\x98template<class> std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, const _Alloc&) [with <template-parameter-2-1> = <template-parameter-1-1>; _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.614793] (mcap_streamer) StderrLine: {'line': b'  533 |       basic_string(const _CharT* __s, const _Alloc& __a = _Alloc())\n'}
+[1.614846] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.614900] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:533:7: note:   template argument deduction/substitution failed:\n'}
+[1.614951] (mcap_streamer) StderrLine: {'line': b'In file included from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.615000] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:66:62: note:   cannot convert \xe2\x80\x98msg.deva_perception_msgs::msg::RVDynObstacleResult_<std::allocator<void> >::header.deva_common_msgs::msg::Header_<std::allocator<void> >::frame_id\xe2\x80\x99 (type \xe2\x80\x98const _frame_id_type\xe2\x80\x99 {aka \xe2\x80\x98const deva_common_msgs::msg::String_<std::allocator<void> >\xe2\x80\x99}) to type \xe2\x80\x98const char*\xe2\x80\x99\n'}
+[1.615060] (mcap_streamer) StderrLine: {'line': b'   66 |     header_map["frame_id"] = std::any(std::string(msg.header.frame_id));\n'}
+[1.615111] (mcap_streamer) StderrLine: {'line': b'      |                                                   ~~~~~~~~~~~^~~~~~~~\n'}
+[1.615162] (mcap_streamer) StderrLine: {'line': b'In file included from /usr/include/c++/11/string:55,\n'}
+[1.615212] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:5,\n'}
+[1.615264] (mcap_streamer) StderrLine: {'line': b'                 from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.615316] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:600:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.615370] (mcap_streamer) StderrLine: {'line': b'  600 |       basic_string(basic_string&& __str, const _Alloc& __a)\n'}
+[1.615424] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.615474] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:600:7: note:   candidate expects 2 arguments, 1 provided\n'}
+[1.615525] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:596:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.615581] (mcap_streamer) StderrLine: {'line': b'  596 |       basic_string(const basic_string& __str, const _Alloc& __a)\n'}
+[1.615633] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.615684] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:596:7: note:   candidate expects 2 arguments, 1 provided\n'}
+[1.615735] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:592:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::initializer_list<_Tp>, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.615788] (mcap_streamer) StderrLine: {'line': b'  592 |       basic_string(initializer_list<_CharT> __l, const _Alloc& __a = _Alloc())\n'}
+[1.615839] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.615889] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:592:45: note:   no known conversion for argument 1 from \xe2\x80\x98const _frame_id_type\xe2\x80\x99 {aka \xe2\x80\x98const deva_common_msgs::msg::String_<std::allocator<void> >\xe2\x80\x99} to \xe2\x80\x98std::initializer_list<char>\xe2\x80\x99\n'}
+[1.615942] (mcap_streamer) StderrLine: {'line': b'  592 |       basic_string(initializer_list<_CharT> __l, const _Alloc& __a = _Alloc())\n'}
+[1.615993] (mcap_streamer) StderrLine: {'line': b'      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~^~~\n'}
+[1.616047] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:565:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.616100] (mcap_streamer) StderrLine: {'line': b'  565 |       basic_string(basic_string&& __str) noexcept\n'}
+[1.616150] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.616202] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:565:35: note:   no known conversion for argument 1 from \xe2\x80\x98const _frame_id_type\xe2\x80\x99 {aka \xe2\x80\x98const deva_common_msgs::msg::String_<std::allocator<void> >\xe2\x80\x99} to \xe2\x80\x98std::__cxx11::basic_string<char>&&\xe2\x80\x99\n'}
+[1.616255] (mcap_streamer) StderrLine: {'line': b'  565 |       basic_string(basic_string&& __str) noexcept\n'}
+[1.616306] (mcap_streamer) StderrLine: {'line': b'      |                    ~~~~~~~~~~~~~~~^~~~~\n'}
+[1.616356] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:518:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _CharT*, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\xe2\x80\x99\n'}
+[1.616411] (mcap_streamer) StderrLine: {'line': b'  518 |       basic_string(const _CharT* __s, size_type __n,\n'}
+[1.616471] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.616524] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:518:7: note:   candidate expects 3 arguments, 1 provided\n'}
+[1.616576] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:500:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\xe2\x80\x99\n'}
+[1.616635] (mcap_streamer) StderrLine: {'line': b'  500 |       basic_string(const basic_string& __str, size_type __pos,\n'}
+[1.616685] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.616736] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:500:7: note:   candidate expects 4 arguments, 1 provided\n'}
+[1.616785] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:484:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\xe2\x80\x99\n'}
+[1.616842] (mcap_streamer) StderrLine: {'line': b'  484 |       basic_string(const basic_string& __str, size_type __pos,\n'}
+[1.616893] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.616944] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:484:7: note:   candidate expects 3 arguments, 1 provided\n'}
+[1.616996] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:469:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&, std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>; std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::size_type = long unsigned int]\xe2\x80\x99\n'}
+[1.617052] (mcap_streamer) StderrLine: {'line': b'  469 |       basic_string(const basic_string& __str, size_type __pos,\n'}
+[1.617106] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.617158] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:469:7: note:   candidate expects 3 arguments, 1 provided\n'}
+[1.617210] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:456:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.617261] (mcap_streamer) StderrLine: {'line': b'  456 |       basic_string(const basic_string& __str)\n'}
+[1.617312] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.617361] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:456:40: note:   no known conversion for argument 1 from \xe2\x80\x98const _frame_id_type\xe2\x80\x99 {aka \xe2\x80\x98const deva_common_msgs::msg::String_<std::allocator<void> >\xe2\x80\x99} to \xe2\x80\x98const std::__cxx11::basic_string<char>&\xe2\x80\x99\n'}
+[1.617415] (mcap_streamer) StderrLine: {'line': b'  456 |       basic_string(const basic_string& __str)\n'}
+[1.617467] (mcap_streamer) StderrLine: {'line': b'      |                    ~~~~~~~~~~~~~~~~~~~~^~~~~\n'}
+[1.617518] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:448:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.617569] (mcap_streamer) StderrLine: {'line': b'  448 |       basic_string(const _Alloc& __a) _GLIBCXX_NOEXCEPT\n'}
+[1.617620] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.617671] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:448:34: note:   no known conversion for argument 1 from \xe2\x80\x98const _frame_id_type\xe2\x80\x99 {aka \xe2\x80\x98const deva_common_msgs::msg::String_<std::allocator<void> >\xe2\x80\x99} to \xe2\x80\x98const std::allocator<char>&\xe2\x80\x99\n'}
+[1.617723] (mcap_streamer) StderrLine: {'line': b'  448 |       basic_string(const _Alloc& __a) _GLIBCXX_NOEXCEPT\n'}
+[1.617777] (mcap_streamer) StderrLine: {'line': b'      |                    ~~~~~~~~~~~~~~^~~\n'}
+[1.617828] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:439:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string() [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.617880] (mcap_streamer) StderrLine: {'line': b'  439 |       basic_string()\n'}
+[1.617932] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.617983] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:439:7: note:   candidate expects 0 arguments, 1 provided\n'}
+[1.618034] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:153:7: note: candidate: \xe2\x80\x98std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::basic_string(std::__cxx11::basic_string<_CharT, _Traits, _Alloc>::__sv_wrapper, const _Alloc&) [with _CharT = char; _Traits = std::char_traits<char>; _Alloc = std::allocator<char>]\xe2\x80\x99\n'}
+[1.618086] (mcap_streamer) StderrLine: {'line': b'  153 |       basic_string(__sv_wrapper __svw, const _Alloc& __a)\n'}
+[1.618138] (mcap_streamer) StderrLine: {'line': b'      |       ^~~~~~~~~~~~\n'}
+[1.618189] (mcap_streamer) StderrLine: {'line': b'/usr/include/c++/11/bits/basic_string.h:153:7: note:   candidate expects 2 arguments, 1 provided\n'}
+[1.618691] (mcap_streamer) StderrLine: {'line': b'In file included from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[1.618757] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:86:22: warning: unused variable \xe2\x80\x98obs\xe2\x80\x99 [-Wunused-variable]\n'}
+[1.618818] (mcap_streamer) StderrLine: {'line': b'   86 |     for (const auto& obs : msg.dynamic_obs_list) {\n'}
+[1.618871] (mcap_streamer) StderrLine: {'line': b'      |                      ^~~\n'}
+[1.620813] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:98:22: warning: unused variable \xe2\x80\x98info\xe2\x80\x99 [-Wunused-variable]\n'}
+[1.620875] (mcap_streamer) StderrLine: {'line': b'   98 |     for (const auto& info : msg.extra_infos) {\n'}
+[1.620929] (mcap_streamer) StderrLine: {'line': b'      |                      ^~~~\n'}
+[1.701093] (-) TimerEvent: {}
+[1.772674] (mcap_streamer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros_message_converter_lib.dir/build.make:76: CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.o] Error 1\n'}
+[1.772891] (mcap_streamer) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/ros_message_converter_lib.dir/all] Error 2\n'}
+[1.773117] (mcap_streamer) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[1.775337] (mcap_streamer) CommandEnded: {'returncode': 2}
+[1.787491] (mcap_streamer) JobEnded: {'identifier': 'mcap_streamer', 'rc': 2}
+[1.797817] (-) EventReactorShutdown: {}

@@ -1,0 +1,12 @@
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:723:30:[m[K [01;31m[Kerror: [m[Kspecialization of ‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&) [with T = deva_perception_msgs::msg::RVDynObstacleResult_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’ after instantiation
+  723 |     const std::string & topic[01;31m[K)[m[K
+      |                              [01;31m[K^[m[K
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:748:30:[m[K [01;31m[Kerror: [m[Kspecialization of ‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&) [with T = deva_control_msgs::msg::VehicleReportCommon_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’ after instantiation
+  748 |     const std::string & topic[01;31m[K)[m[K
+      |                              [01;31m[K^[m[K
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:763:30:[m[K [01;31m[Kerror: [m[Kspecialization of ‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&) [with T = deva_localization_msgs::msg::Ins_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’ after instantiation
+  763 |     const std::string & topic[01;31m[K)[m[K
+      |                              [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/mcap_example.dir/build.make:76: CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

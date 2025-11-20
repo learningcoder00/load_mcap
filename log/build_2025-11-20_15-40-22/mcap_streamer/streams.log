@@ -1,0 +1,17 @@
+[0.010s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.049s] Consolidate compiler generated dependencies of target ros_message_converter_lib
+[0.057s] [ 25%] Built target s3_downloader_lib
+[0.059s] [ 37%] Building CXX object CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.o
+[0.080s] [ 62%] Built target mcap_streamer_node
+[0.665s] In file included from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:
+[0.665s] /home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp: In function ‘mcap_streamer::MessageMap mcap_streamer::message_to_map(const T&) [with T = deva_perception_msgs::msg::RVDynObstacleResult_<std::allocator<void> >; mcap_streamer::MessageMap = std::map<std::__cxx11::basic_string<char>, std::any>]’:
+[0.665s] /home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:89:32: error: expected unqualified-id before ‘:’ token
+[0.665s]    89 |     for (const auto& /* obs */ : msg.dynamic_obs_list) {
+[0.665s]       |                                ^
+[0.667s] /home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:101:33: error: expected unqualified-id before ‘:’ token
+[0.667s]   101 |     for (const auto& /* info */ : msg.extra_infos) {
+[0.667s]       |                                 ^
+[0.813s] gmake[2]: *** [CMakeFiles/ros_message_converter_lib.dir/build.make:76: CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.o] Error 1
+[0.813s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/ros_message_converter_lib.dir/all] Error 2
+[0.813s] gmake: *** [Makefile:146: all] Error 2
+[0.816s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17

@@ -1,0 +1,49 @@
+[0.000000] (-) TimerEvent: {}
+[0.000346] (-) JobUnselected: {'identifier': 'deva_ads_msgs'}
+[0.000382] (-) JobUnselected: {'identifier': 'deva_aeb_msgs'}
+[0.000405] (-) JobUnselected: {'identifier': 'deva_common_msgs'}
+[0.000425] (-) JobUnselected: {'identifier': 'deva_control_msgs'}
+[0.000445] (-) JobUnselected: {'identifier': 'deva_function_msgs'}
+[0.000464] (-) JobUnselected: {'identifier': 'deva_gaode_routing_msgs'}
+[0.000483] (-) JobUnselected: {'identifier': 'deva_localization_msgs'}
+[0.000503] (-) JobUnselected: {'identifier': 'deva_map_msgs'}
+[0.000521] (-) JobUnselected: {'identifier': 'deva_mdriver_msgs'}
+[0.000539] (-) JobUnselected: {'identifier': 'deva_navi_msgs'}
+[0.000558] (-) JobUnselected: {'identifier': 'deva_perception_msgs'}
+[0.000576] (-) JobUnselected: {'identifier': 'deva_planning_msgs'}
+[0.000595] (-) JobUnselected: {'identifier': 'deva_planning_msgs2'}
+[0.000614] (-) JobUnselected: {'identifier': 'environment_model_msgs'}
+[0.000632] (-) JobUnselected: {'identifier': 'fault_diagnosis'}
+[0.000651] (-) JobUnselected: {'identifier': 'rviz_plug_msg'}
+[0.000670] (-) JobUnselected: {'identifier': 'serialize_msgs'}
+[0.000693] (mcap_streamer) JobQueued: {'identifier': 'mcap_streamer', 'dependencies': OrderedDict()}
+[0.000719] (mcap_streamer) JobStarted: {'identifier': 'mcap_streamer'}
+[0.007851] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'cmake'}
+[0.008524] (mcap_streamer) JobProgress: {'identifier': 'mcap_streamer', 'progress': 'build'}
+[0.009732] (mcap_streamer) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/linjiawei/load_mcap/build/mcap_streamer', '--', '-j17', '-l17'], 'cwd': '/home/linjiawei/load_mcap/build/mcap_streamer', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('VSCODE_CWD', '/home/linjiawei'), ('KUBERNETES_SERVICE_PORT', '443'), ('VSCODE_ESM_ENTRYPOINT', 'vs/workbench/api/node/extensionHostProcess'), ('KUBEBRAIN_SITE', 'mach'), ('KUBERNETES_PORT', 'tcp://10.68.0.1:443'), ('BRAIN_DAEMON_JUPYTER_DIR', '/data/jupyter'), ('USER', 'linjiawei'), ('SSH_CLIENT', '100.96.2.80 57616 22'), ('VSCODE_NLS_CONFIG', '{"userLocale":"zh-cn","osLocale":"zh-cn","resolvedLanguage":"zh-cn","defaultMessagesFile":"/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/out/nls.messages.json","languagePack":{"translationsConfigFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/tcf.json","messagesFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/ba90f2f88e4911312761abab9492c42442117cf0/nls.messages.json","corruptMarkerFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/corrupted.info"},"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"6fe284ae87274d9cb2cdffc89b193492.zh-cn","_languagePackSupport":true,"_translationsConfigFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/tcf.json","_cacheRoot":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn","_resolvedLanguagePackCoreLocation":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/ba90f2f88e4911312761abab9492c42442117cf0","_corruptedFile":"/home/linjiawei/.cursor-server/data/clp/6fe284ae87274d9cb2cdffc89b193492.zh-cn/corrupted.info"}'), ('BRAIN_SHARED_READONLY', 'false'), ('KUBEBRAIN_PROCESS_ID', 'a339afdf-8e23-41dd-b3c2-ec44dfa27e9d'), ('VSCODE_HANDLES_UNCAUGHT_ERRORS', 'true'), ('HOSTNAME', 'ros'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/nvidia/lib64'), ('BROWSER', '/home/linjiawei/.cursor-server/bin/ba90f2f88e4911312761abab9492c42442117cf0/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/linjiawei'), ('TMP_SIZE', '16777216K'), ('KUBEBRAIN_RUNTIME', 'ws2'), ('OLDPWD', '/home/linjiawei/load_mcap'), ('VSCODE_IPC_HOOK_CLI', '/run/user/10250/vscode-ipc-a2aff49f-58d2-441e-828d-ced252d61886.sock'), ('BRAIN_DAEMON_JUPYTER_TOKEN', '9c0e8eec-6994-41a4-9f6b-319d33bc630e'), ('ROS_PYTHON_VERSION', '3'), ('BRAIN_DAEMON_JUPYTER_BASE_URL', '/kapi/workspace.kubebrain.io/mach-mp/ws-00018098a82852e6/jupyter'), ('PCIDEVICE_MELLANOX_COM_MLNX_RDMA', ''), ('NO_COLOR', '1'), ('TOPOLOGY_ZONE', 'mach-cn-west-qy-dsxs-cm'), ('VSCODE_L10N_BUNDLE_LOCATION', 'vscode-local:/home/linjiawei/.cursor/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.99.0-universal/translations/extensions/vscode.json-language-features.i18n.json'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'linjiawei'), ('FORCE_COLOR', '0'), ('VSCODE_HANDLES_SIGPIPE', 'true'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('BRAIN_USERNAME', 'linjiawei'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'dumb'), ('XDG_SESSION_ID', 'c59'), ('KUBERNETES_PORT_443_TCP_ADDR', '10.68.0.1'), ('ROS_LOCALHOST_ONLY', '0'), ('COMPOSER_NO_INTERACTION', '1'), ('SHM_SIZE', '16777216K'), ('PATH', '/home/linjiawei/.local/bin:/home/linjiawei/.local/bin:/opt/ros/humble/bin:/opt/conda/bin:/kubebrain:/usr/local/nvidia/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('VSCODE_AGENT_FOLDER', '/home/linjiawei/.cursor-server'), ('KUBEBRAIN_WORKSPACE_NAME', 'ws-00018098a82852e6'), ('XDG_RUNTIME_DIR', '/run/user/10250'), ('KUBERNETES_PORT_443_TCP_PORT', '443'), ('CURSOR_AGENT', '1'), ('DISPLAY', 'localhost:10.0'), ('KUBERNETES_PORT_443_TCP_PROTO', 'tcp'), ('KUBEBRAIN_RESOURCE_TYPE', 'workspace'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', ''), ('SSH_AUTH_SOCK', '/tmp/cursor-remote-ssh-auth-sock-5947a298-eaf8-4f15-adfc-973d91be4566.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('BRAIN_DAEMON_JUPYTER_PORT', '8888'), ('SHELL', '/bin/bash'), ('VSCODE_SERVER_SHUTDOWN_TIMEOUT', '300'), ('TerminationGracePeriodSeconds', '30'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('KUBERNETES_SERVICE_PORT_HTTPS', '443'), ('KUBERNETES_PORT_443_TCP', 'tcp://10.68.0.1:443'), ('KUBEBRAIN_QUOTA_GROUP', 'mp_ws'), ('KUBEBRAIN_CLUSTER_ENTRY', 'https://qy.machdrive.cn'), ('PWD', '/home/linjiawei/load_mcap/build/mcap_streamer'), ('BRAIN_SHARED_ROOT', '10.68.17.151:/'), ('KUBEBRAIN_NAMESPACE', 'mach-mp'), ('KUBERNETES_SERVICE_HOST', '10.68.0.1'), ('BRAIN_TOPOLOGY_LEAF_ROCE', ''), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '100.96.2.80 57616 100.97.82.77 22'), ('KUBEBRAIN_PROCESS_NAME', 'ws-00018098a82852e6-master'), ('KUBEBRAIN_WORKSPACE_NAMESPACE', ''), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('NVIDIA_VISIBLE_DEVICES', ''), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.049981] (mcap_streamer) StdoutLine: {'line': b'Consolidate compiler generated dependencies of target ros_message_converter_lib\n'}
+[0.057368] (mcap_streamer) StdoutLine: {'line': b'[ 25%] Built target s3_downloader_lib\n'}
+[0.060076] (mcap_streamer) StdoutLine: {'line': b'[ 37%] Building CXX object CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.o\n'}
+[0.080203] (mcap_streamer) StdoutLine: {'line': b'[ 62%] Built target mcap_streamer_node\n'}
+[0.099356] (-) TimerEvent: {}
+[0.199468] (-) TimerEvent: {}
+[0.299595] (-) TimerEvent: {}
+[0.399745] (-) TimerEvent: {}
+[0.499886] (-) TimerEvent: {}
+[0.600007] (-) TimerEvent: {}
+[0.665597] (mcap_streamer) StderrLine: {'line': b'In file included from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:\n'}
+[0.665781] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp: In function \xe2\x80\x98mcap_streamer::MessageMap mcap_streamer::message_to_map(const T&) [with T = deva_perception_msgs::msg::RVDynObstacleResult_<std::allocator<void> >; mcap_streamer::MessageMap = std::map<std::__cxx11::basic_string<char>, std::any>]\xe2\x80\x99:\n'}
+[0.665856] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:89:32: error: expected unqualified-id before \xe2\x80\x98:\xe2\x80\x99 token\n'}
+[0.665918] (mcap_streamer) StderrLine: {'line': b'   89 |     for (const auto& /* obs */ : msg.dynamic_obs_list) {\n'}
+[0.665980] (mcap_streamer) StderrLine: {'line': b'      |                                ^\n'}
+[0.667498] (mcap_streamer) StderrLine: {'line': b'/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:101:33: error: expected unqualified-id before \xe2\x80\x98:\xe2\x80\x99 token\n'}
+[0.667581] (mcap_streamer) StderrLine: {'line': b'  101 |     for (const auto& /* info */ : msg.extra_infos) {\n'}
+[0.667638] (mcap_streamer) StderrLine: {'line': b'      |                                 ^\n'}
+[0.700088] (-) TimerEvent: {}
+[0.800204] (-) TimerEvent: {}
+[0.813540] (mcap_streamer) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/ros_message_converter_lib.dir/build.make:76: CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.o] Error 1\n'}
+[0.813852] (mcap_streamer) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/ros_message_converter_lib.dir/all] Error 2\n'}
+[0.814148] (mcap_streamer) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[0.816300] (mcap_streamer) CommandEnded: {'returncode': 2}
+[0.828934] (mcap_streamer) JobEnded: {'identifier': 'mcap_streamer', 'rc': 2}
+[0.839289] (-) EventReactorShutdown: {}

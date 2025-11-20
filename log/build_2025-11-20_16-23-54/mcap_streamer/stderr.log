@@ -1,0 +1,4 @@
+/home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp: In function ‘void mcap_streamer::print_message_map_yaml(const MessageMap&, const string&, bool, int, int)’:
+/home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:322:12: warning: unused variable ‘total_items’ [-Wunused-variable]
+  322 |     size_t total_items = msg_map.size();
+      |            ^~~~~~~~~~~

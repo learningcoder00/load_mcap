@@ -1,0 +1,4 @@
+Consolidate compiler generated dependencies of target ros_message_converter_lib
+[ 25%] Built target s3_downloader_lib
+[ 37%] Building CXX object CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.o
+[ 62%] Built target mcap_streamer_node

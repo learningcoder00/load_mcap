@@ -1,0 +1,18 @@
+[0.026s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.086s] [ 33%] Built target s3_downloader_lib
+[0.087s] [35m[1mConsolidate compiler generated dependencies of target mcap_example[0m
+[0.139s] [ 50%] [32mBuilding CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o[0m
+[0.139s] [ 83%] Built target mcap_streamer_node
+[6.651s] [01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:723:30:[m[K [01;31m[Kerror: [m[Kspecialization of ‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&) [with T = deva_perception_msgs::msg::RVDynObstacleResult_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’ after instantiation
+[6.651s]   723 |     const std::string & topic[01;31m[K)[m[K
+[6.651s]       |                              [01;31m[K^[m[K
+[6.651s] [01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:748:30:[m[K [01;31m[Kerror: [m[Kspecialization of ‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&) [with T = deva_control_msgs::msg::VehicleReportCommon_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’ after instantiation
+[6.651s]   748 |     const std::string & topic[01;31m[K)[m[K
+[6.651s]       |                              [01;31m[K^[m[K
+[6.651s] [01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:763:30:[m[K [01;31m[Kerror: [m[Kspecialization of ‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&) [with T = deva_localization_msgs::msg::Ins_<std::allocator<void> >; std::string = std::__cxx11::basic_string<char>][m[K’ after instantiation
+[6.651s]   763 |     const std::string & topic[01;31m[K)[m[K
+[6.651s]       |                              [01;31m[K^[m[K
+[9.731s] gmake[2]: *** [CMakeFiles/mcap_example.dir/build.make:76: CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o] Error 1
+[9.731s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_example.dir/all] Error 2
+[9.731s] gmake: *** [Makefile:146: all] Error 2
+[9.734s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17

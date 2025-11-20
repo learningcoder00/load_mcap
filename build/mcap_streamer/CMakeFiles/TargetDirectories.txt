@@ -1,6 +1,7 @@
 /home/linjiawei/load_mcap/build/mcap_streamer/CMakeFiles/uninstall.dir
 /home/linjiawei/load_mcap/build/mcap_streamer/CMakeFiles/mcap_streamer_uninstall.dir
 /home/linjiawei/load_mcap/build/mcap_streamer/CMakeFiles/s3_downloader_lib.dir
+/home/linjiawei/load_mcap/build/mcap_streamer/CMakeFiles/ros_message_converter_lib.dir
 /home/linjiawei/load_mcap/build/mcap_streamer/CMakeFiles/mcap_streamer_node.dir
 /home/linjiawei/load_mcap/build/mcap_streamer/CMakeFiles/mcap_example.dir
 /home/linjiawei/load_mcap/build/mcap_streamer/CMakeFiles/test.dir

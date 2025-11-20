@@ -62,6 +62,17 @@ ament_target_dependencies(s3_downloader_lib
   rclcpp
 )
 
+# Add library for ROS message converter
+add_library(ros_message_converter_lib src/ros_message_converter.cpp)
+target_include_directories(ros_message_converter_lib PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>
+)
+ament_target_dependencies(ros_message_converter_lib
+  rclcpp
+  deva_perception_msgs
+)
+
 # Add executable for streamer
 add_executable(mcap_streamer_node src/mcap_streamer_node.cpp)
 target_link_libraries(mcap_streamer_node s3_downloader_lib)
@@ -75,6 +86,7 @@ ament_target_dependencies(mcap_streamer_node
 
 # Add executable for example
 add_executable(mcap_example src/mcap_example.cpp)
+target_link_libraries(mcap_example ros_message_converter_lib)
 ament_target_dependencies(mcap_example
   rclcpp
   std_msgs
@@ -109,7 +121,14 @@ ament_target_dependencies(mcap_example
 install(TARGETS
   mcap_streamer_node
   mcap_example
+  s3_downloader_lib
+  ros_message_converter_lib
   DESTINATION lib/${PROJECT_NAME}
+)
+
+# Install header files
+install(DIRECTORY include/
+  DESTINATION include
 )
 
 # Install config files

@@ -1,0 +1,15 @@
+Consolidate compiler generated dependencies of target ros_message_converter_lib
+[ 25%] Built target s3_downloader_lib
+[ 37%] Building CXX object CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.o
+[ 62%] Built target mcap_streamer_node
+In file included from /home/linjiawei/load_mcap/src/mcap_streamer/src/ros_message_converter.cpp:1:
+/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp: In function ‘mcap_streamer::MessageMap mcap_streamer::message_to_map(const T&) [with T = deva_perception_msgs::msg::RVDynObstacleResult_<std::allocator<void> >; mcap_streamer::MessageMap = std::map<std::__cxx11::basic_string<char>, std::any>]’:
+/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:89:32: error: expected unqualified-id before ‘:’ token
+   89 |     for (const auto& /* obs */ : msg.dynamic_obs_list) {
+      |                                ^
+/home/linjiawei/load_mcap/src/mcap_streamer/include/mcap_streamer/ros_message_converter.hpp:101:33: error: expected unqualified-id before ‘:’ token
+  101 |     for (const auto& /* info */ : msg.extra_infos) {
+      |                                 ^
+gmake[2]: *** [CMakeFiles/ros_message_converter_lib.dir/build.make:76: CMakeFiles/ros_message_converter_lib.dir/src/ros_message_converter.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/ros_message_converter_lib.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -517,6 +517,9 @@ rmw_implementation_DIR:PATH=/opt/ros/humble/share/rmw_implementation/cmake
 //The directory containing a CMake configuration file for rmw_implementation_cmake.
 rmw_implementation_cmake_DIR:PATH=/opt/ros/humble/share/rmw_implementation_cmake/cmake
 
+//Dependencies for the target
+ros_message_converter_lib_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;deva_perception_msgs::deva_perception_msgs__rosidl_generator_c;general;deva_perception_msgs::deva_perception_msgs__rosidl_typesupport_fastrtps_c;general;deva_perception_msgs::deva_perception_msgs__rosidl_typesupport_introspection_c;general;deva_perception_msgs::deva_perception_msgs__rosidl_typesupport_c;general;deva_perception_msgs::deva_perception_msgs__rosidl_typesupport_fastrtps_cpp;general;deva_perception_msgs::deva_perception_msgs__rosidl_typesupport_introspection_cpp;general;deva_perception_msgs::deva_perception_msgs__rosidl_typesupport_cpp;general;deva_perception_msgs::deva_perception_msgs__rosidl_generator_py;
+
 //The directory containing a CMake configuration file for rosbag2_cpp.
 rosbag2_cpp_DIR:PATH=/opt/ros/humble/share/rosbag2_cpp/cmake
 

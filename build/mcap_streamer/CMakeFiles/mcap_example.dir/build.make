@@ -92,6 +92,7 @@ mcap_example_EXTERNAL_OBJECTS =
 
 mcap_example: CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o
 mcap_example: CMakeFiles/mcap_example.dir/build.make
+mcap_example: libros_message_converter_lib.a
 mcap_example: /opt/ros/humble/lib/librosbag2_cpp.so
 mcap_example: /opt/ros/humble/lib/librosbag2_storage.so
 mcap_example: /home/linjiawei/load_mcap/install/deva_control_msgs/lib/libdeva_control_msgs__rosidl_typesupport_fastrtps_c.so

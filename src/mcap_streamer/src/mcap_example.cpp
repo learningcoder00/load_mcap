@@ -57,6 +57,9 @@
 #include <functional>
 #include <set>
 #include <chrono>
+#include <type_traits>
+#include <iostream>
+#include "mcap_streamer/ros_message_converter.hpp"
 
 // Topic 名称到消息类型的映射
 static std::map<std::string, std::string> topic_types_ = {
@@ -637,9 +640,43 @@ private:
     {
         rclcpp::Serialization<T> serializer;
         T msg;
-
         serializer.deserialize_message(serialized_msg.get(), &msg);
-        std::cout<<msg<<std::endl;
+        
+        // 使用类型检查确保只有RVDynObstacleResult类型才转换为map
+        if constexpr (std::is_same_v<T, deva_perception_msgs::msg::RVDynObstacleResult>)
+        {
+            // 将ROS消息转换为嵌套map结构
+            mcap_streamer::MessageMap msg_map = mcap_streamer::message_to_map(msg);
+            
+            // 现在您可以使用msg_map进行后续处理
+            // 例如：打印、存储、序列化等
+            
+            // 示例：打印转换后的map结构
+            // 方式1：使用YAML格式输出（推荐，更易读）
+            std::cout << "=== 消息转换为Map结构 (YAML格式) ===" << std::endl;
+            std::cout << "Topic: " << topic << std::endl;
+            mcap_streamer::print_message_map_yaml_full(msg_map);
+            std::cout << "=====================================" << std::endl;
+            
+            // 方式2：使用树状格式输出（带层级标识）
+            // std::cout << "=== 消息转换为Map结构 (树状格式) ===" << std::endl;
+            // std::cout << "Topic: " << topic << std::endl;
+            // mcap_streamer::print_message_map_full(msg_map);
+            // std::cout << "=====================================" << std::endl;
+            
+            // 示例：访问特定字段
+            // 注意：访问std::any需要使用std::any_cast
+            try {
+                const auto& header_any = msg_map.at("header");
+                const mcap_streamer::MessageMap& header_map = 
+                    std::any_cast<const mcap_streamer::MessageMap&>(header_any);
+                const auto& index_any = header_map.at("index");
+                uint32_t index = std::any_cast<uint32_t>(index_any);
+                std::cout << "Header index (从map获取): " << index << std::endl;
+            } catch (const std::exception& e) {
+                std::cerr << "访问map字段时出错: " << e.what() << std::endl;
+            }
+        }
         (void)topic;
         (void)msg;
     }

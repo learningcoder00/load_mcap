@@ -1,0 +1,37 @@
+[0.025s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[0.081s] [35m[1mConsolidate compiler generated dependencies of target mcap_example[0m
+[0.090s] [ 33%] Built target s3_downloader_lib
+[0.138s] [ 50%] [32mBuilding CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o[0m
+[0.152s] [ 83%] Built target mcap_streamer_node
+[18.253s] [100%] [32m[1mLinking CXX executable mcap_example[0m
+[19.058s] [100%] Built target mcap_example
+[19.070s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/linjiawei/load_mcap/build/mcap_streamer -- -j17 -l17
+[19.072s] Invoking command in '/home/linjiawei/load_mcap/build/mcap_streamer': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/mcap_streamer
+[19.080s] -- Install configuration: ""
+[19.080s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_streamer_node
+[19.080s] -- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_example
+[19.085s] -- Set runtime path of "/home/linjiawei/load_mcap/install/mcap_streamer/lib/mcap_streamer/mcap_example" to ""
+[19.085s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config
+[19.085s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config/mcap_streamer_params.yaml
+[19.085s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/config/mcap_reader_params.yaml
+[19.085s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch
+[19.085s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_streamer.launch.py
+[19.085s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_reader.launch.py
+[19.085s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_streamer_with_reader.launch.py
+[19.085s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/launch/mcap_example.launch.py
+[19.085s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/package_run_dependencies/mcap_streamer
+[19.085s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/parent_prefix_path/mcap_streamer
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/ament_prefix_path.sh
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/ament_prefix_path.dsv
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/path.sh
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/environment/path.dsv
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.bash
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.sh
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.zsh
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/local_setup.dsv
+[19.086s] -- Installing: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.dsv
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/ament_index/resource_index/packages/mcap_streamer
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/cmake/mcap_streamerConfig.cmake
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/cmake/mcap_streamerConfig-version.cmake
+[19.086s] -- Up-to-date: /home/linjiawei/load_mcap/install/mcap_streamer/share/mcap_streamer/package.xml
+[19.088s] Invoked command in '/home/linjiawei/load_mcap/build/mcap_streamer' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/linjiawei/load_mcap/build/mcap_streamer

@@ -1275,6 +1275,7 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/uninstall.dir/DependInfo.cmake"
   "CMakeFiles/mcap_streamer_uninstall.dir/DependInfo.cmake"
   "CMakeFiles/s3_downloader_lib.dir/DependInfo.cmake"
+  "CMakeFiles/ros_message_converter_lib.dir/DependInfo.cmake"
   "CMakeFiles/mcap_streamer_node.dir/DependInfo.cmake"
   "CMakeFiles/mcap_example.dir/DependInfo.cmake"
   )

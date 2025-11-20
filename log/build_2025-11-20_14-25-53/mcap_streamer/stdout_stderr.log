@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target mcap_example[0m
+[ 33%] Built target s3_downloader_lib
+[ 50%] [32mBuilding CXX object CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o[0m
+[ 83%] Built target mcap_streamer_node
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:717:14:[m[K [01;31m[Kerror: [m[Kexplicit specialization in non-namespace scope ‘[01m[Kclass MCapExample[m[K’
+  717 |     template<[01;31m[K>[m[K
+      |              [01;31m[K^[m[K
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:718:10:[m[K [01;31m[Kerror: [m[Ktemplate-id ‘[01m[Kdeserialize_and_print<deva_perception_msgs::msg::RVDynObstacleResult>[m[K’ in declaration of primary template
+  718 |     void [01;31m[Kdeserialize_and_print<deva_perception_msgs::msg::RVDynObstacleResult>[m[K(
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:729:14:[m[K [01;31m[Kerror: [m[Kexplicit specialization in non-namespace scope ‘[01m[Kclass MCapExample[m[K’
+  729 |     template<[01;31m[K>[m[K
+      |              [01;31m[K^[m[K
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:730:10:[m[K [01;31m[Kerror: [m[Ktemplate-id ‘[01m[Kdeserialize_and_print<deva_control_msgs::msg::VehicleReportCommon>[m[K’ in declaration of primary template
+  730 |     void [01;31m[Kdeserialize_and_print<deva_control_msgs::msg::VehicleReportCommon>[m[K(
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:730:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&)[m[K’ cannot be overloaded with ‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&)[m[K’
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:718:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&)[m[K’
+  718 |     void [01;36m[Kdeserialize_and_print<deva_perception_msgs::msg::RVDynObstacleResult>[m[K(
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:741:14:[m[K [01;31m[Kerror: [m[Kexplicit specialization in non-namespace scope ‘[01m[Kclass MCapExample[m[K’
+  741 |     template<[01;31m[K>[m[K
+      |              [01;31m[K^[m[K
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:742:10:[m[K [01;31m[Kerror: [m[Ktemplate-id ‘[01m[Kdeserialize_and_print<deva_localization_msgs::msg::Ins>[m[K’ in declaration of primary template
+  742 |     void [01;31m[Kdeserialize_and_print<deva_localization_msgs::msg::Ins>[m[K(
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:742:10:[m[K [01;31m[Kerror: [m[K‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&)[m[K’ cannot be overloaded with ‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&)[m[K’
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:718:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid MCapExample::deserialize_and_print(std::shared_ptr<rclcpp::SerializedMessage>, const string&)[m[K’
+  718 |     void [01;36m[Kdeserialize_and_print<deva_perception_msgs::msg::RVDynObstacleResult>[m[K(
+      |          [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:[m[K In member function ‘[01m[Kvoid MCapExample::process_rv_dyn_obstacle_result(const RVDynObstacleResult&, const string&)[m[K’:
+[01m[K/home/linjiawei/load_mcap/src/mcap_streamer/src/mcap_example.cpp:675:81:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct deva_perception_msgs::msg::RVDynObstacleList_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kobstacles[m[K’
+  675 |             std::cout << "  Obstacle list " << i << ": obstacles count=" << obs.[01;31m[Kobstacles[m[K.size() << std::endl;
+      |                                                                                 [01;31m[K^~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/mcap_example.dir/build.make:76: CMakeFiles/mcap_example.dir/src/mcap_example.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/mcap_example.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
